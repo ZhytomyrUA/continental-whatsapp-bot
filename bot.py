@@ -15,7 +15,7 @@ import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse, parse_qs, unquote
 
 import feedparser
 
@@ -35,6 +35,22 @@ BOOTSTRAP = BOOTSTRAP_ENV or not BOOTSTRAP_MARKER.exists()
 SEEN_FILE = Path("whatsapp_seen.json")
 POSTS_JSON = Path("whatsapp_posts.json")
 POSTS_TXT = Path("whatsapp_posts.txt")
+PLANT_QUERIES = [
+    "Continental Korbach Werk Produktion",
+    "Continental Korbach Reifenwerk Windpark",
+    "Continental Hannover Reifenwerk Produktion",
+    "Continental Aachen Reifenwerk Produktion",
+    "Continental Roding Reifenwerk Produktion",
+    "Continental Regensburg Reifenwerk Produktion",
+    "Continental Fürstenwalde Reifenwerk Produktion",
+    "Continental Stöcken Werk Produktion",
+    "Continental Deutschland Reifenwerk Mitarbeiter",
+    "Continental Deutschland Werk Stellenabbau",
+    "Continental Deutschland Werk Investition",
+    "Continental Deutschland Werk Verlagerung",
+    "Continental Deutschland Werk Schließung",
+]
+
 QUERIES = [
     "Continental Korbach Reifen Werk",
     "Continental Korbach Reifen Produktion",
@@ -153,8 +169,25 @@ def source(url: str) -> str:
     return m.group(1).lower() if m else "unknown"
 
 
-def google_rss(query: str) -> str:
-    return "https://news.google.com/rss/search?q=" + quote_plus(query) + "&hl=de&gl=DE&ceid=DE:de"
+def google_rss(query: str, after: str | None = None, before: str | None = None) -> str:
+    q = query
+    if after:
+        q += f" after:{after}"
+    if before:
+        q += f" before:{before}"
+    return "https://news.google.com/rss/search?q=" + quote_plus(q) + "&hl=de&gl=DE&ceid=DE:de"
+
+def original_url(url: str) -> str:
+    # Google News RSS often wraps the publisher URL. Keep the publisher URL
+    # when it is exposed in the RSS entry; otherwise retain the RSS link.
+    parsed = urlparse(url or "")
+    qs = parse_qs(parsed.query)
+    for key in ("url", "u", "target"):
+        if qs.get(key):
+            candidate = unquote(qs[key][0])
+            if candidate.startswith("http") and "news.google.com" not in urlparse(candidate).netloc:
+                return candidate
+    return url
 
 
 def entry_date(entry) -> datetime | None:
@@ -337,48 +370,60 @@ def fetch_candidates() -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback)
     found: dict[str, dict] = {}
 
-    for query in QUERIES:
-        print(f"SEARCH: {query}")
-        try:
-            feed = feedparser.parse(google_rss(query))
-            entries = feed.entries[:60]
-        except Exception as exc:
-            print(f"RSS ERROR: {exc}")
-            continue
+    queries = QUERIES + (PLANT_QUERIES if BOOTSTRAP else [])
+    now = datetime.now(timezone.utc)
+    windows = [(None, None)]
+    if BOOTSTRAP:
+        windows = []
+        for days_ago_start, days_ago_end in [(0,7),(7,14),(14,21),(21,30),(30,45),(45,60)]:
+            before_dt = now - timedelta(days=days_ago_start)
+            after_dt = now - timedelta(days=days_ago_end)
+            windows.append((after_dt.strftime("%Y-%m-%d"), before_dt.strftime("%Y-%m-%d")))
 
-        print(f"  -> {len(entries)} items")
-        for entry in entries:
-            dt = entry_date(entry)
-            if not dt or dt < cutoff:
+    for query in queries:
+        for after, before in windows:
+            label = f"{query} [{after or 'all'}..{before or 'all'}]" if BOOTSTRAP else query
+            print(f"SEARCH: {label}")
+            try:
+                feed = feedparser.parse(google_rss(query, after, before))
+                entries = feed.entries[:60]
+            except Exception as exc:
+                print(f"RSS ERROR: {exc}")
                 continue
 
-            title = clean(getattr(entry, "title", ""))
-            url = getattr(entry, "link", "") or ""
-            summary = clean(getattr(entry, "summary", ""))
-            if not title or not url:
-                continue
+            print(f"  -> {len(entries)} items")
+            for entry in entries:
+                dt = entry_date(entry)
+                if not dt or dt < cutoff:
+                    continue
 
-            item = {
-                "title": title,
-                "summary": summary,
-                "url": url,
-                "source": source(url),
-                "published_at": dt.isoformat(),
-            }
-            item["score"], item["category"] = score(item)
-            # Do not discard factory/production stories merely because their
-            # numeric score is low. Classification is handled after collection.
-            # Only reject results that are clearly not Continental-related.
-            t = text_of(item)
-            if "continental" not in t:
-                continue
-            item["event_family"] = event_family(item)
+                title = clean(getattr(entry, "title", ""))
+                url = original_url(getattr(entry, "link", "") or "")
+                summary = clean(getattr(entry, "summary", ""))
+                if not title or not url:
+                    continue
 
-            # Exact article deduplication.
-            key = hashlib.sha1((norm(title) + "|" + url.split("?")[0]).encode()).hexdigest()
-            old = found.get(key)
-            if old is None or item["score"] > old["score"]:
-                found[key] = item
+                item = {
+                    "title": title,
+                    "summary": summary,
+                    "url": url,
+                    "source": source(url),
+                    "published_at": dt.isoformat(),
+                }
+                item["score"], item["category"] = score(item)
+                # Do not discard factory/production stories merely because their
+                # numeric score is low. Classification is handled after collection.
+                # Only reject results that are clearly not Continental-related.
+                t = text_of(item)
+                if "continental" not in t:
+                    continue
+                item["event_family"] = event_family(item)
+
+                # Exact article deduplication.
+                key = hashlib.sha1((norm(title) + "|" + url.split("?")[0]).encode()).hexdigest()
+                old = found.get(key)
+                if old is None or item["score"] > old["score"]:
+                    found[key] = item
 
     return list(found.values())
 
@@ -454,14 +499,19 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
         item["alternate_sources"] = []
         groups.append(item)
 
+    priority = {
+        "KORBACH_FACTORY": 6,
+        "FACTORY_PRODUCTION": 5,
+        "FACTORY": 4,
+        "EMPLOYEES_FACTORY": 3,
+        "PRODUCTION": 2,
+        "CONTINENTAL_TECHNOLOGY": 1,
+        "CONTINENTAL_TIRE": 0,
+        "TIRE_TEST": 0,
+        "COMPANY": 0,
+    }
     groups.sort(
-        key=lambda x: (
-            x["category"] == "KORBACH_FACTORY",
-            x["category"] == "FACTORY",
-            x["category"] == "PRODUCTION",
-            x["score"],
-            x["published_at"],
-        ),
+        key=lambda x: (priority.get(x["category"], 0), x["score"], x["published_at"]),
         reverse=True,
     )
     return groups[:(BOOTSTRAP_MAX_EVENTS if BOOTSTRAP else MAX_EVENTS)]
