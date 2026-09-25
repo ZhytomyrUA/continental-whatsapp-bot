@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-Prepares up to 12 DIFFERENT news events. Factory/production stories are
-prioritized. Multiple articles about the same event are grouped together.
+Normal mode prepares up to 12 DIFFERENT news events. Factory/production stories
+are prioritized. Multiple articles about the same event are grouped together.
+Bootstrap mode scans the previous 60 days and builds a backlog so the channel
+can be populated before switching to the normal rolling search.
 The script does not publish to WhatsApp.
 """
 from __future__ import annotations
@@ -19,7 +21,13 @@ import feedparser
 
 MAX_EVENTS = 12
 LOOKBACK_HOURS = 72
-SEEN_DAYS = 30
+BOOTSTRAP_LOOKBACK_HOURS = 60 * 24
+BOOTSTRAP_MAX_EVENTS = 250
+SEEN_DAYS = 90
+
+# Set BOOTSTRAP=1 for the first run. It scans 60 days and writes a backlog.
+# After that, remove BOOTSTRAP or set it to 0 for the normal 72-hour / 12-event mode.
+BOOTSTRAP = str(__import__("os").environ.get("BOOTSTRAP", "0")).lower() in {"1", "true", "yes"}
 
 SEEN_FILE = Path("whatsapp_seen.json")
 POSTS_JSON = Path("whatsapp_posts.json")
@@ -66,6 +74,9 @@ FACTORY_WORDS = (
     "werk", "reifenwerk", "fabrik", "produktion", "produktions", "fertigung",
     "plant", "factory", "manufacturing", "production", "reifenproduktion",
     "reifenerzeugung", "production site", "produktionsstandort",
+    "werkstandort", "standort", "produktionsanlage", "produktionslinie",
+    "fertigungsanlage", "werkserweiterung", "produktionskapazität",
+    "produktionskapazitaet", "neubau", "arbeitsplätze", "arbeitsplaetze",
 )
 PRODUCTION_WORDS = (
     "produktion", "produziert", "produced", "production", "fertigung",
@@ -73,6 +84,9 @@ PRODUCTION_WORDS = (
     "investition", "investitionen", "investment", "ausbau", "expansion",
     "erweiterung", "anlage", "modernisierung", "umbau", "verlagerung",
     "relocation", "schließung", "schliessung", "shutdown",
+    "produktionsanlage", "produktionslinie", "fertigungsanlage",
+    "werkserweiterung", "produktionskapazität", "produktionskapazitaet",
+    "neubau", "standort", "werkstandort",
 )
 TIRE_WORDS = ("reifen", "tire", "tyre", "pkw-reifen", "lkw-reifen", "truckreifen")
 HIGH_VALUE = (
@@ -281,14 +295,28 @@ def score(item: dict) -> tuple[int, str]:
         s -= 200
 
     if has_any(t, KORBACH_WORDS):
-        s += 1200
+        s += 1400
         category = "KORBACH_FACTORY"
     elif has_any(t, FACTORY_WORDS):
-        s += 650
-        category = "FACTORY"
+        s += 850
+        # Distinguish actual production/plant stories from generic mentions.
+        if has_any(t, PRODUCTION_WORDS):
+            category = "FACTORY_PRODUCTION"
+        elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "betriebsrat")):
+            category = "EMPLOYEES_FACTORY"
+        else:
+            category = "FACTORY"
     elif has_any(t, PRODUCTION_WORDS):
-        s += 300
+        s += 350
         category = "PRODUCTION"
+    elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "jobs")):
+        category = "EMPLOYEES_FACTORY"
+    elif has_any(t, ("test", "vergleich", "reifentest", "ganzjahresreifen-test")):
+        category = "TIRE_TEST"
+    elif has_any(t, ("technologie", "innovation", "konzeptreifen", "recycel", "nachhaltigkeit")):
+        category = "CONTINENTAL_TECHNOLOGY"
+    elif has_any(t, TIRE_WORDS):
+        category = "CONTINENTAL_TIRE"
     else:
         category = "COMPANY"
 
@@ -303,7 +331,8 @@ def score(item: dict) -> tuple[int, str]:
 
 
 def fetch_candidates() -> list[dict]:
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+    lookback = BOOTSTRAP_LOOKBACK_HOURS if BOOTSTRAP else LOOKBACK_HOURS
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback)
     found: dict[str, dict] = {}
 
     for query in QUERIES:
@@ -335,7 +364,11 @@ def fetch_candidates() -> list[dict]:
                 "published_at": dt.isoformat(),
             }
             item["score"], item["category"] = score(item)
-            if item["score"] < 100:
+            # Do not discard factory/production stories merely because their
+            # numeric score is low. Classification is handled after collection.
+            # Only reject results that are clearly not Continental-related.
+            t = text_of(item)
+            if "continental" not in t:
                 continue
             item["event_family"] = event_family(item)
 
@@ -429,7 +462,7 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
         ),
         reverse=True,
     )
-    return groups[:MAX_EVENTS]
+    return groups[:(BOOTSTRAP_MAX_EVENTS if BOOTSTRAP else MAX_EVENTS)]
 
 
 def post_text(item: dict, number: int) -> str:
@@ -446,8 +479,11 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v3 ===")
-    print(f"Lookback: {LOOKBACK_HOURS}h | Max DIFFERENT EVENTS: {MAX_EVENTS}")
+    print("=== Continental WhatsApp Channel News v4 ===")
+    if BOOTSTRAP:
+        print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
+    else:
+        print(f"MODE: NORMAL | Lookback: {LOOKBACK_HOURS}h | Max DIFFERENT EVENTS: {MAX_EVENTS}")
 
     candidates = fetch_candidates()
     print(f"Unique article candidates: {len(candidates)}")
@@ -455,6 +491,10 @@ def main() -> None:
     seen = load_seen()
     selected = choose_events(candidates, seen)
 
+    counts = {}
+    for x in selected:
+        counts[x["category"]] = counts.get(x["category"], 0) + 1
+    print("Category counts:", ", ".join(f"{k}={v}" for k, v in sorted(counts.items())))
     print(f"Selected {len(selected)} DIFFERENT events.")
     for i, item in enumerate(selected, 1):
         print(f"{i:02d}. [{item['category']}] {item['title']} - {item['source']}")
@@ -462,6 +502,12 @@ def main() -> None:
             print(f"    grouped alternative sources: {len(item['alternate_sources'])}")
 
     POSTS_JSON.write_text(json.dumps(selected, ensure_ascii=False, indent=2), encoding="utf-8")
+    if BOOTSTRAP:
+        Path("whatsapp_backlog.json").write_text(json.dumps(selected, ensure_ascii=False, indent=2), encoding="utf-8")
+        Path("whatsapp_backlog.txt").write_text(
+            "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
+            encoding="utf-8",
+        )
     POSTS_TXT.write_text(
         "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
         encoding="utf-8",
@@ -473,6 +519,9 @@ def main() -> None:
     save_seen(seen)
 
     print("Created: whatsapp_posts.json")
+    if BOOTSTRAP:
+        print("Created: whatsapp_backlog.json")
+        print("Created: whatsapp_backlog.txt")
     print("Created: whatsapp_posts.txt")
     print("Updated: whatsapp_seen.json")
 
