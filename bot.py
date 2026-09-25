@@ -29,13 +29,12 @@ SEEN_DAYS = 90
 # After that, remove BOOTSTRAP or set it to 0 for the normal 72-hour / 12-event mode.
 BOOTSTRAP_ENV = str(__import__("os").environ.get("BOOTSTRAP", "")).lower() in {"1", "true", "yes"}
 # First run is automatically a 60-day bootstrap; later runs are normal.
+BOOTSTRAP_MARKER = Path("whatsapp_bootstrap_complete.json")
 BOOTSTRAP = BOOTSTRAP_ENV or not BOOTSTRAP_MARKER.exists()
 
 SEEN_FILE = Path("whatsapp_seen.json")
 POSTS_JSON = Path("whatsapp_posts.json")
 POSTS_TXT = Path("whatsapp_posts.txt")
-BOOTSTRAP_MARKER = Path("whatsapp_bootstrap_complete.json")
-
 QUERIES = [
     "Continental Korbach Reifen Werk",
     "Continental Korbach Reifen Produktion",
