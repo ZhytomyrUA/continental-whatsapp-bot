@@ -27,11 +27,14 @@ SEEN_DAYS = 90
 
 # Set BOOTSTRAP=1 for the first run. It scans 60 days and writes a backlog.
 # After that, remove BOOTSTRAP or set it to 0 for the normal 72-hour / 12-event mode.
-BOOTSTRAP = str(__import__("os").environ.get("BOOTSTRAP", "0")).lower() in {"1", "true", "yes"}
+BOOTSTRAP_ENV = str(__import__("os").environ.get("BOOTSTRAP", "")).lower() in {"1", "true", "yes"}
+# First run is automatically a 60-day bootstrap; later runs are normal.
+BOOTSTRAP = BOOTSTRAP_ENV or not BOOTSTRAP_MARKER.exists()
 
 SEEN_FILE = Path("whatsapp_seen.json")
 POSTS_JSON = Path("whatsapp_posts.json")
 POSTS_TXT = Path("whatsapp_posts.txt")
+BOOTSTRAP_MARKER = Path("whatsapp_bootstrap_complete.json")
 
 QUERIES = [
     "Continental Korbach Reifen Werk",
@@ -508,6 +511,10 @@ def main() -> None:
             "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
             encoding="utf-8",
         )
+        BOOTSTRAP_MARKER.write_text(
+            json.dumps({"completed_at": datetime.now(timezone.utc).isoformat(), "events": len(selected)}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
     POSTS_TXT.write_text(
         "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
         encoding="utf-8",
@@ -522,6 +529,7 @@ def main() -> None:
     if BOOTSTRAP:
         print("Created: whatsapp_backlog.json")
         print("Created: whatsapp_backlog.txt")
+        print("Created: whatsapp_bootstrap_complete.json")
     print("Created: whatsapp_posts.txt")
     print("Updated: whatsapp_seen.json")
 
