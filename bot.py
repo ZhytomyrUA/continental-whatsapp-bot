@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-The script does NOT publish to WhatsApp. It prepares up to 12 DIFFERENT news
-EVENTS, with factory/production stories first, and writes ready-to-post output.
+Prepares up to 12 DIFFERENT news events. Factory/production stories are
+prioritized. Multiple articles about the same event are grouped together.
+The script does not publish to WhatsApp.
 """
 from __future__ import annotations
 
 import hashlib
-import html
 import json
 import re
 import unicodedata
@@ -26,7 +26,6 @@ POSTS_JSON = Path("whatsapp_posts.json")
 POSTS_TXT = Path("whatsapp_posts.txt")
 
 QUERIES = [
-    # Korbach / factories
     "Continental Korbach Reifen Werk",
     "Continental Korbach Reifen Produktion",
     "Continental Korbach Reifenwerk",
@@ -39,7 +38,6 @@ QUERIES = [
     "Continental plant Germany tire production",
     "Continental factory production tires Germany",
     "Continental plant investment Germany",
-    # employees / company
     "Continental Mitarbeiter Werk",
     "Continental Belegschaft Werk",
     "Continental workers jobs restructuring",
@@ -60,30 +58,38 @@ STOPWORDS = {
     "am","an","zu","zum","zur","ist","sind","wird","werden","wurde",
     "the","a","an","of","to","for","and","in","on","at","with","from",
     "by","new","news","about","this","that","its","has","have","into",
-    "continental","reuters","dpa","press","release",
+    "continental","reuters","dpa","press","release","worldwide","weltweit",
 }
 
-KORBACH = ("korbach", "reifenwerk korbach", "werk korbach")
-FACTORY = (
+KORBACH_WORDS = ("korbach", "reifenwerk korbach", "werk korbach")
+FACTORY_WORDS = (
     "werk", "reifenwerk", "fabrik", "produktion", "produktions", "fertigung",
     "plant", "factory", "manufacturing", "production", "reifenproduktion",
-    "reifenerzeugung", "production site",
+    "reifenerzeugung", "production site", "produktionsstandort",
 )
-PRODUCTION = (
+PRODUCTION_WORDS = (
     "produktion", "produziert", "produced", "production", "fertigung",
-    "manufacturing", "manufactures", "capacity", "kapazität", "investition",
-    "investitionen", "investment", "ausbau", "expansion", "erweiterung",
-    "anlage", "modernisierung", "umbau", "verlagerung", "relocation",
-    "schließung", "schliessung", "shutdown",
+    "manufacturing", "manufactures", "kapazität", "kapazitaet", "capacity",
+    "investition", "investitionen", "investment", "ausbau", "expansion",
+    "erweiterung", "anlage", "modernisierung", "umbau", "verlagerung",
+    "relocation", "schließung", "schliessung", "shutdown",
 )
-TIRE = ("reifen", "tire", "tyre", "pkw-reifen", "lkw-reifen", "truckreifen")
-COMPANY = ("continental", "continental reifen", "continental tires", "continental tyre")
+TIRE_WORDS = ("reifen", "tire", "tyre", "pkw-reifen", "lkw-reifen", "truckreifen")
 HIGH_VALUE = (
     "stellenabbau", "arbeitsplätze", "arbeitsplaetze", "entlassung", "verlagerung",
     "schließung", "schliessung", "werksschließung", "werksschliessung",
     "investition", "investitionen", "ausbau", "erweiterung", "restrukturierung",
     "reorganisation", "betriebsrat", "ig metall", "tarifvertrag", "jobs",
     "quartalszahlen", "umsatz", "gewinn", "verlust", "vorstand", "aufsichtsrat",
+)
+
+# Terms that make two articles much more likely to describe the same event.
+EVENT_ANCHORS = (
+    "windpark", "windkraft", "reifenwerk", "reifenfabrik", "produktionsstandort",
+    "produktion", "fertigung", "investition", "investitionen", "verlagerung",
+    "schliessung", "schließung", "stellenabbau", "restrukturierung", "erweiterung",
+    "ausbau", "neuer reifen", "neue reifen", "konzeptreifen", "ganzjahresreifen",
+    "allseasoncontact", "ecogeneration", "trailer-reifen", "trailerreifen",
 )
 
 SOURCE_BONUS = {
@@ -93,11 +99,14 @@ SOURCE_BONUS = {
     "tagesschau.de": 50,
     "hessenschau.de": 45,
     "hna.de": 50,
+    "ffh.de": 35,
     "reifenpresse.de": 55,
     "automobilwoche.de": 45,
     "handelsblatt.com": 40,
     "faz.net": 35,
     "sueddeutsche.de": 35,
+    "heise.de": 30,
+    "logistra.de": 30,
 }
 
 
@@ -114,9 +123,13 @@ def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9äöüß ]+", " ", value)
 
 
+def text_of(item: dict) -> str:
+    return norm(f"{item.get('title','')} {item.get('summary','')}")
+
+
 def tokens(item: dict) -> set[str]:
-    text = norm(f"{item.get('title','')} {item.get('summary','')}")
-    return {w for w in text.split() if len(w) >= 5 and w not in STOPWORDS}
+    text = text_of(item)
+    return {w for w in text.split() if len(w) >= 4 and w not in STOPWORDS}
 
 
 def source(url: str) -> str:
@@ -139,38 +152,90 @@ def entry_date(entry) -> datetime | None:
     return None
 
 
-def event_family(item: dict) -> str:
-    text = norm(f"{item['title']} {item.get('summary','')}")
+def has_any(text: str, words: tuple[str, ...]) -> bool:
+    return any(w in text for w in words)
 
-    # High-confidence known event: the three wind-farm articles in the test
-    # must become ONE event, not three posts.
-    if "continental" in text and "windpark" in text and any(
-        x in text for x in ("korbach", "twistetal", "nordhessen")
+
+def article_fingerprint(item: dict) -> set[str]:
+    """Keep meaningful words but remove generic words that cause false merges."""
+    generic = {
+        "continental", "reifen", "tire", "tyre", "werk", "factory", "plant",
+        "produktion", "production", "fertigung", "company", "unternehmen",
+        "neuer", "neue", "neuen", "neuem", "setzt", "startet", "entwickelt",
+        "erhalt", "erhaltet", "erhalten", "bekannt", "meldet", "berichtet",
+        "jetzt", "heute", "jahr", "jahre", "million", "millionen",
+    }
+    return {w for w in tokens(item) if w not in generic and len(w) >= 5}
+
+
+def special_family(item: dict) -> str | None:
+    t = text_of(item)
+
+    # One event: Continental wind farm serving the Korbach tire plant.
+    if "continental" in t and "windpark" in t and has_any(t, ("korbach", "twistetal", "nordhessen")):
+        return "windpark|korbach|continental"
+
+    # One event: the same trailer-tire launch, including a photo gallery.
+    if has_any(t, ("trailer-reifen", "trailerreifen")) and has_any(
+        t, ("rollwiderstand", "laufleistung", "eco generation", "ecogeneration")
     ):
-        return "continental|windpark|korbach|twistetal|nordhessen"
+        return "trailerreifen|ecogeneration|continental"
 
-    # Strong plant/event families.
-    family = []
-    if "continental" in text:
-        family.append("continental")
-    if any(x in text for x in KORBACH):
-        family.append("korbach")
-    if any(x in text for x in FACTORY):
-        family.append("factory")
-    if any(x in text for x in PRODUCTION):
-        family.append("production")
-    if any(x in text for x in HIGH_VALUE):
-        family.append("highvalue")
+    # Same product family even if one headline says "new trailer tire".
+    if "eco generation 5" in t or "ecogeneration 5" in t:
+        return "ecogeneration5|trailerreifen|continental"
 
-    meaningful = sorted(tokens(item))
-    # Do not make every generic Continental factory article one family.
-    # The first 6 meaningful tokens form only a fallback fingerprint.
-    fingerprint = meaningful[:6]
-    return "|".join(sorted(set(family)) + fingerprint)
+    if "allseasoncontact 2" in t and has_any(t, ("test", "testet", "empfehlenswert")):
+        return "allseasoncontact2|test|continental"
+
+    if "konzeptreifen" in t and has_any(t, ("recycel", "recycelt", "recycling", "rohstoffen")):
+        return "konzeptreifen|recycling|continental"
+
+    return None
+
+
+def event_family(item: dict) -> str:
+    special = special_family(item)
+    if special:
+        return special
+
+    t = text_of(item)
+    parts = []
+    if "continental" in t:
+        parts.append("continental")
+    if has_any(t, KORBACH_WORDS):
+        parts.append("korbach")
+    if has_any(t, HIGH_VALUE):
+        # Use the concrete issue rather than a generic highvalue bucket.
+        for key in ("schließung", "schliessung", "verlagerung", "stellenabbau", "investition", "erweiterung", "ausbau", "restrukturierung"):
+            if key in t:
+                parts.append(key)
+                break
+
+    # For product stories use distinctive product names when available.
+    product_keys = [
+        "allseasoncontact 2", "ecogeneration 5", "contiecontact", "ultracontact",
+        "premiumcontact", "sportcontact", "vancontact", "contihybrid", "contitrailer",
+    ]
+    for key in product_keys:
+        if key in t:
+            parts.append(key.replace(" ", "-"))
+            break
+
+    # Use the strongest anchor plus a compact fingerprint. This avoids putting
+    # unrelated generic Continental tire articles into one family.
+    anchor = next((a for a in EVENT_ANCHORS if a in t), None)
+    if anchor:
+        parts.append(anchor.replace(" ", "-"))
+
+    fp = sorted(article_fingerprint(item))[:5]
+    parts.extend(fp)
+    return "|".join(dict.fromkeys(parts)) or "continental|unknown"
 
 
 def event_similarity(a: dict, b: dict) -> float:
-    aa, bb = tokens(a), tokens(b)
+    aa = article_fingerprint(a)
+    bb = article_fingerprint(b)
     if not aa or not bb:
         return 0.0
     return len(aa & bb) / max(1, min(len(aa), len(bb)))
@@ -180,43 +245,58 @@ def same_event(a: dict, b: dict) -> bool:
     if a.get("event_family") == b.get("event_family"):
         return True
 
-    ta, tb = tokens(a), tokens(b)
-    shared = ta & tb
+    # Explicit special families always merge.
+    sa, sb = special_family(a), special_family(b)
+    if sa and sa == sb:
+        return True
+
+    ta, tb = text_of(a), text_of(b)
+    shared = article_fingerprint(a) & article_fingerprint(b)
     if not shared:
         return False
 
-    # Explicit strong anchors prevent accidental merging of unrelated stories.
-    strong = {"windpark", "reifenwerk", "produktion", "produktions", "investition",
-              "verlagerung", "schliessung", "schließung", "korbach", "twistetal"}
-    strong_shared = shared & strong
+    # Photo gallery vs article: usually same story if the distinctive words match.
+    if ("fotostrecke" in ta or "fotostrecke" in tb) and len(shared) >= 3:
+        return event_similarity(a, b) >= 0.60
 
-    sim = event_similarity(a, b)
-    return sim >= 0.70 and bool(strong_shared)
+    # Product/event title overlap. Require at least two distinctive words so
+    # generic "Continental Reifen" stories do not collapse together.
+    if len(shared) >= 3 and event_similarity(a, b) >= 0.60:
+        strong = set(EVENT_ANCHORS)
+        return bool(shared & strong) or any(x in ta and x in tb for x in (
+            "allseasoncontact", "ecogeneration", "konzeptreifen", "trailerreifen",
+            "windpark", "korbach",
+        ))
+
+    return False
 
 
 def score(item: dict) -> tuple[int, str]:
-    text = norm(f"{item['title']} {item.get('summary','')}")
+    t = text_of(item)
     s = SOURCE_BONUS.get(source(item["url"]), 0)
 
-    if "continental" in text:
+    if "continental" in t:
         s += 150
     else:
         s -= 200
 
-    if any(x in text for x in KORBACH):
-        s += 1000
+    if has_any(t, KORBACH_WORDS):
+        s += 1200
         category = "KORBACH_FACTORY"
-    elif any(x in text for x in FACTORY):
-        s += 500
+    elif has_any(t, FACTORY_WORDS):
+        s += 650
         category = "FACTORY"
+    elif has_any(t, PRODUCTION_WORDS):
+        s += 300
+        category = "PRODUCTION"
     else:
         category = "COMPANY"
 
-    if any(x in text for x in PRODUCTION):
+    if has_any(t, PRODUCTION_WORDS):
         s += 250
-    if any(x in text for x in TIRE):
+    if has_any(t, TIRE_WORDS):
         s += 50
-    if any(x in text for x in HIGH_VALUE):
+    if has_any(t, HIGH_VALUE):
         s += 80
 
     return s, category
@@ -275,7 +355,6 @@ def load_seen() -> dict[str, str]:
         data = json.loads(SEEN_FILE.read_text(encoding="utf-8"))
         if isinstance(data, dict):
             return {str(k): str(v) for k, v in data.items()}
-        # Backward compatibility with the old list format.
         if isinstance(data, list):
             return {str(x): "" for x in data}
     except Exception as exc:
@@ -297,28 +376,25 @@ def save_seen(seen: dict[str, str]) -> None:
 
 
 def event_id(item: dict) -> str:
-    # Event ID deliberately ignores publisher/source so the same story from
-    # HNA, FFH and Hessenschau receives the same ID.
     canonical = item.get("event_family") or norm(item["title"])
     return hashlib.sha1(canonical.encode("utf-8")).hexdigest()
 
 
 def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
-    # Sort so the best representative of each event is encountered first.
     candidates.sort(
         key=lambda x: (
             x["category"] == "KORBACH_FACTORY",
             x["category"] == "FACTORY",
+            x["category"] == "PRODUCTION",
             x["score"],
             x["published_at"],
         ),
         reverse=True,
     )
 
-    selected: list[dict] = []
     groups: list[dict] = []
-
     for item in candidates:
+        # First use canonical family IDs where available.
         eid = event_id(item)
         if eid in seen:
             continue
@@ -329,25 +405,31 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
                 "source": item["source"],
                 "title": item["title"],
                 "url": item["url"],
+                "published_at": item["published_at"],
             })
+            # If this article is newer or from a stronger source, keep it as
+            # the representative while preserving the old representative too.
+            if (item["score"], item["published_at"]) > (matched["score"], matched["published_at"]):
+                old_rep = {k: matched[k] for k in ("source", "title", "url", "published_at")}
+                matched.update({k: item[k] for k in ("source", "title", "url", "published_at", "summary", "score", "category", "event_family")})
+                matched["alternate_sources"].append(old_rep)
             continue
 
         item["event_id"] = eid
         item["alternate_sources"] = []
         groups.append(item)
 
-    # Editorial priority: ALL factory/production stories first.
     groups.sort(
         key=lambda x: (
             x["category"] == "KORBACH_FACTORY",
             x["category"] == "FACTORY",
+            x["category"] == "PRODUCTION",
             x["score"],
             x["published_at"],
         ),
         reverse=True,
     )
-    selected = groups[:MAX_EVENTS]
-    return selected
+    return groups[:MAX_EVENTS]
 
 
 def post_text(item: dict, number: int) -> str:
@@ -364,7 +446,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v2 ===")
+    print("=== Continental WhatsApp Channel News v3 ===")
     print(f"Lookback: {LOOKBACK_HOURS}h | Max DIFFERENT EVENTS: {MAX_EVENTS}")
 
     candidates = fetch_candidates()
@@ -380,7 +462,10 @@ def main() -> None:
             print(f"    grouped alternative sources: {len(item['alternate_sources'])}")
 
     POSTS_JSON.write_text(json.dumps(selected, ensure_ascii=False, indent=2), encoding="utf-8")
-    POSTS_TXT.write_text("\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""), encoding="utf-8")
+    POSTS_TXT.write_text(
+        "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
+        encoding="utf-8",
+    )
 
     now = datetime.now(timezone.utc).isoformat()
     for item in selected:
