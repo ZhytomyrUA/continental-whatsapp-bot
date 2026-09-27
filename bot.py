@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-v5.7 FACTORY-FIRST: Korbach and real factory/production events are selected first.
-Normal mode prepares up to 12 DIFFERENT news events. v5.7 uses article evidence first, requires article-side local evidence for Korbach fallback, and uses explicit event families to merge the same news event across publishers. Multiple articles about the same
+v5.8 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+Normal mode prepares up to 12 DIFFERENT news events. v5.8 uses article evidence first, requires article-side local evidence for Korbach fallback, and uses explicit event families to merge the same news event across publishers. Multiple articles about the same
 event are grouped together, but distinct factory events are never collapsed merely
 because they share a broad factory family.
 Bootstrap mode scans the previous 60 days and builds a backlog so the channel
@@ -38,8 +38,17 @@ SEEN_FILE = Path("whatsapp_seen.json")
 POSTS_JSON = Path("whatsapp_posts.json")
 POSTS_TXT = Path("whatsapp_posts.txt")
 PLANT_QUERIES = [
+    # Korbach-specific discovery queries: article evidence still decides
+    # classification, but these increase recall for headlines that omit the
+    # plant name from the RSS title/summary.
     "Continental Korbach Werk Produktion",
     "Continental Korbach Reifenwerk Windpark",
+    "Continental Korbach Reifenwerk",
+    "Continental Korbach Produktion",
+    "Continental Korbach Mitarbeiter",
+    "Continental Korbach Standort",
+    "Continental Korbach Investition",
+    "Continental Korbach Energie",
     "Continental Hannover Reifenwerk Produktion",
     "Continental Aachen Reifenwerk Produktion",
     "Continental Roding Reifenwerk Produktion",
@@ -284,7 +293,10 @@ def special_family(item: dict) -> str | None:
     # Same Gravity MTB launch can appear under slightly different headlines
     # (e.g. Continental vs. Velomotion). Match on the product-family names too,
     # because one publisher may omit the literal "Gravity-MTB" phrase.
-    if has_any(t, ("gravity-mtb", "gravity mtb", "argotal", "kryptotal", "xynotal")) and has_any(t, ("argotal", "kryptotal", "xynotal")):
+    if has_any(t, ("gravity-mtb", "gravity mtb")) and (
+        has_any(t, ("argotal", "kryptotal", "xynotal"))
+        or "13 neue reifenkombinationen" in t
+    ):
         return "gravity-mtb|argotal-kryptotal-xynotal|continental"
 
     # Same ADAC WinterContact TS 870 result can be repeated with different
@@ -506,8 +518,24 @@ def is_korbach_factory(item: dict) -> bool:
         "stellenabbau", "mitarbeiter", "beschäftigte", "spatenstich", "bau eines",
     ))
     generic_product = has_any(title, GENERIC_PRODUCT_SIGNALS)
+    non_local = has_any(t, (
+        "asien-pazifik", "asia-pacific", "china", "indien", "india", "usa",
+        "vereinigte staaten", "mexiko", "mexico", "brasilien", "brazilien",
+        "thailand", "malaysia", "indonesien", "japan", "südkorea", "suedkorea",
+        "australien", "australia", "europa", "polen", "tschechien", "ungarn",
+    ))
 
     if query_local and article_local and article_factory_action and article_factory_subject and not generic_product:
+        return True
+
+    # Narrow recall path: a very specific Korbach factory query may recover a
+    # strong plant-action headline whose RSS text omits the place. Never use it
+    # when the article explicitly points to another region/country.
+    query_very_specific = (
+        "korbach" in q
+        and has_any(q, ("reifenwerk", "werk produktion", "reifen produktion"))
+    )
+    if query_very_specific and article_factory_action and article_factory_subject and not generic_product and not non_local:
         return True
 
     return False
@@ -891,7 +919,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.7 FACTORY-FIRST ===")
+    print("=== Continental WhatsApp Channel News v5.8 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
