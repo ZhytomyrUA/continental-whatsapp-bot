@@ -89,39 +89,34 @@ STOPWORDS = {
 
 KORBACH_WORDS = ("korbach", "reifenwerk korbach", "werk korbach")
 
-KORBACH_FACTORY_WORDS = (
-    "reifenwerk", "werk", "produktion", "produktions", "fertigung",
-    "reifenproduktion", "produktionslinie", "produktionsanlage",
-    "fertigungsanlage", "produktionskapazität", "produktionskapazitaet",
-    "investition", "investitionen", "investment", "modernisierung",
-    "ausbau", "erweiterung", "werkserweiterung", "windpark", "windkraft",
-    "energie", "strom", "produktionstechnik", "fertigungsstandort",
-    "verlagerung", "schließung", "schliessung", "stellenabbau",
+KORBACH_FACTORY_CONTEXT_WORDS = (
+    "reifenwerk", "reifenfabrik", "produktionsstandort", "produktionsanlage",
+    "produktionslinie", "fertigungsanlage", "fertigungsstandort", "werkserweiterung",
+    "werksschließung", "werksschliessung", "werkschließung", "werkschliessung",
+    "werksschliessung", "werksschließung", "werk in ", "werk korbach",
+    "werk hannover", "werk stöcken", "werk stoecken", "werk aachen",
+    "werk roding", "werk regensburg", "werk fürstenwalde",
+    "werk produktion", "werk fertigung", "werk mitarbeiter", "werk beschäftigte",
+    "werk beschaeftigte", "werk investition", "werk modernisierung",
+    "werk erweiterung", "werk verlag", "werk schließung", "werk schliessung",
+    "werk stellenabbau", "werk betriebsrat",
 )
 
-def is_korbach_factory(item: dict) -> bool:
-    t = text_of(item)
-    return "korbach" in t and has_any(t, KORBACH_FACTORY_WORDS)
+FACTORY_ACTION_WORDS = (
+    "produktion", "produktions", "fertigung", "fertigungs", "produktionslinie",
+    "produktionsanlage", "investition", "investitionen", "modernisierung",
+    "ausbau", "erweiterung", "werkserweiterung", "verlagerung",
+    "schließung", "schliessung", "stellenabbau", "mitarbeiter",
+    "beschäftigte", "beschaeftigte", "betriebsrat", "kapazität", "kapazitaet",
+    "windpark", "windkraft", "energieversorgung", "stromversorgung",
+)
 
-CATEGORY_PRIORITY = {
-    "KORBACH_FACTORY": 100,
-    "FACTORY_PRODUCTION": 80,
-    "FACTORY": 75,
-    "EMPLOYEES_FACTORY": 65,
-    "PRODUCTION": 60,
-    "CONTINENTAL_TECHNOLOGY": 40,
-    "CONTINENTAL_TIRE": 30,
-    "TIRE_TEST": 20,
-    "COMPANY": 10,
-}
 FACTORY_WORDS = (
-    "werk", "reifenwerk", "fabrik", "produktion", "produktions", "fertigung",
-    "plant", "factory", "manufacturing", "production", "reifenproduktion",
-    "reifenerzeugung", "production site", "produktionsstandort",
-    "werkstandort", "standort", "produktionsanlage", "produktionslinie",
-    "fertigungsanlage", "werkserweiterung", "produktionskapazität",
-    "produktionskapazitaet", "neubau", "arbeitsplätze", "arbeitsplaetze",
+    "reifenwerk", "reifenfabrik", "produktionsstandort", "produktionsanlage",
+    "produktionslinie", "fertigungsanlage", "fertigungsstandort", "werkserweiterung",
+    "werksschließung", "werksschliessung", "werkschließung", "werkschliessung",
 )
+
 PRODUCTION_WORDS = (
     "produktion", "produziert", "produced", "production", "fertigung",
     "manufacturing", "manufactures", "kapazität", "kapazitaet", "capacity",
@@ -354,6 +349,43 @@ def same_event(a: dict, b: dict) -> bool:
     return False
 
 
+CATEGORY_PRIORITY = {
+    "KORBACH_FACTORY": 100, "FACTORY_PRODUCTION": 85, "FACTORY": 80,
+    "EMPLOYEES_FACTORY": 70, "PRODUCTION": 60, "CONTINENTAL_TECHNOLOGY": 40,
+    "CONTINENTAL_TIRE": 30, "TIRE_TEST": 20, "COMPANY": 10,
+}
+
+def is_korbach_factory(item: dict) -> bool:
+    t = text_of(item)
+    if "korbach" not in t or "continental" not in t: return False
+    if has_any(t, ("reifenwerk", "reifenfabrik", "produktionsstandort", "produktionsanlage", "produktionslinie", "fertigungsanlage")): return True
+    if has_any(t, FACTORY_ACTION_WORDS): return True
+    return bool(re.search(r"continental.{0,80}werk.{0,80}(korbach|produktion|fertigung|investition|mitarbeiter|beschäftigte|beschaeftigte|modernisierung|ausbau|erweiterung|schließung|schliessung)", t))
+
+def is_factory_story(item: dict) -> bool:
+    t=text_of(item)
+    if "continental" not in t: return False
+    if has_any(t, KORBACH_FACTORY_CONTEXT_WORDS): return True
+    action=has_any(t, FACTORY_ACTION_WORDS)
+    plant=has_any(t,("reifenwerk","reifenfabrik","produktionsstandort","produktionsanlage","produktionslinie","fertigungsanlage","fertigungsstandort"))
+    explicit=bool(re.search(r"continental.{0,100}werk.{0,100}(produktion|fertigung|investition|mitarbeiter|beschäftigte|beschaeftigte|modernisierung|ausbau|erweiterung|verlagerung|schließung|schliessung|stellenabbau)",t))
+    return plant or explicit or (action and has_any(t,("standort","werk","fabrik")))
+
+def is_real_production_story(item: dict) -> bool:
+    t = text_of(item)
+    title = norm(item.get("title", ""))
+    if "continental" not in t:
+        return False
+    if is_factory_story(item):
+        return True
+    if has_any(t, ("reifenproduktion", "reifenerzeugung", "produktionskapazität", "produktionskapazitaet", "fertigungsstandort")):
+        return True
+    # Verb-based production is accepted only when Continental is the subject in
+    # the headline; this prevents "in China produzierten Fahrzeuge auf Continental-Reifen".
+    if re.search(r"continental.{0,80}(produziert|produzieren|fertigt|fertigen).{0,80}(reifen|werk|fabrik|anlage|kapazität|kapazitaet)", title):
+        return True
+    return bool(re.search(r"continental.{0,80}(produktion|fertigung|manufacturing|production).{0,80}(reifen|werk|fabrik|anlage|kapazität|kapazitaet|standort)", title))
+
 def score(item: dict) -> tuple[int, str]:
     t = text_of(item)
     s = SOURCE_BONUS.get(source(item["url"]), 0)
@@ -363,19 +395,24 @@ def score(item: dict) -> tuple[int, str]:
     else:
         s -= 200
 
-    if is_korbach_factory(item):
-        s += 1800
+    korbach = is_korbach_factory(item)
+    factory = is_factory_story(item)
+    production = is_real_production_story(item)
+
+    if korbach:
+        s += 2200
         category = "KORBACH_FACTORY"
-    elif has_any(t, FACTORY_WORDS):
-        s += 850
-        if has_any(t, PRODUCTION_WORDS):
-            category = "FACTORY_PRODUCTION"
-        elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "betriebsrat")):
+    elif factory and production:
+        s += 1000
+        category = "FACTORY_PRODUCTION"
+    elif factory:
+        s += 900
+        if has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "betriebsrat", "stellenabbau")):
             category = "EMPLOYEES_FACTORY"
         else:
             category = "FACTORY"
-    elif has_any(t, PRODUCTION_WORDS):
-        s += 350
+    elif production:
+        s += 500
         category = "PRODUCTION"
     elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "jobs")):
         category = "EMPLOYEES_FACTORY"
@@ -388,8 +425,10 @@ def score(item: dict) -> tuple[int, str]:
     else:
         category = "COMPANY"
 
-    if has_any(t, PRODUCTION_WORDS):
-        s += 250
+    if factory:
+        s += 300
+    if production:
+        s += 200
     if has_any(t, TIRE_WORDS):
         s += 50
     if has_any(t, HIGH_VALUE):
@@ -443,6 +482,7 @@ def fetch_candidates() -> list[dict]:
                     "published_at": dt.isoformat(),
                 }
                 item["score"], item["category"] = score(item)
+                item["korbach_priority"] = is_korbach_factory(item)
                 # Do not discard factory/production stories merely because their
                 # numeric score is low. Classification is handled after collection.
                 # Only reject results that are clearly not Continental-related.
@@ -569,7 +609,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.1 ===")
+    print("=== Continental WhatsApp Channel News v5.2 FINAL ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
