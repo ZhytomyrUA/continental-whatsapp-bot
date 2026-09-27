@@ -1,378 +1,624 @@
+#!/usr/bin/env python3
+"""Continental News collector for a normal WhatsApp Channel.
+
+Normal mode prepares up to 12 DIFFERENT news events. Factory/production stories
+are prioritized. Multiple articles about the same event are grouped together.
+Bootstrap mode scans the previous 60 days and builds a backlog so the channel
+can be populated before switching to the normal rolling search.
+The script does not publish to WhatsApp.
+"""
+from __future__ import annotations
+
 import hashlib
 import json
 import re
+import unicodedata
 from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
-from urllib.parse import quote_plus
+from pathlib import Path
+from urllib.parse import quote_plus, urlparse, parse_qs, unquote
 
 import feedparser
-import requests
 
-MAX_POSTS = 12
+MAX_EVENTS = 12
 LOOKBACK_HOURS = 72
-TIMEOUT = 20
+BOOTSTRAP_LOOKBACK_HOURS = 60 * 24
+BOOTSTRAP_MAX_EVENTS = 250
+SEEN_DAYS = 90
 
-SEARCH_QUERIES = [
-    "Continental Korbach Reifen Werk",
-    "Continental Korbach Reifen Produktion",
-    "Continental Werk Deutschland Reifen Produktion",
-    "Continental Reifen Fabrik Deutschland",
-    "Continental Reifen Investition Werk",
-    "Continental Reifen neue Produktion",
-    "Continental Reifen Werk news",
-    "Continental factory production tires Germany",
-    "Continental plant Germany tire production",
-    "Continental tires news",
+# Set BOOTSTRAP=1 for the first run. It scans 60 days and writes a backlog.
+# After that, remove BOOTSTRAP or set it to 0 for the normal 72-hour / 12-event mode.
+BOOTSTRAP_ENV = str(__import__("os").environ.get("BOOTSTRAP", "")).lower() in {"1", "true", "yes"}
+# First run is automatically a 60-day bootstrap; later runs are normal.
+BOOTSTRAP_MARKER = Path("whatsapp_bootstrap_complete.json")
+BOOTSTRAP = BOOTSTRAP_ENV or not BOOTSTRAP_MARKER.exists()
+
+SEEN_FILE = Path("whatsapp_seen.json")
+POSTS_JSON = Path("whatsapp_posts.json")
+POSTS_TXT = Path("whatsapp_posts.txt")
+PLANT_QUERIES = [
+    "Continental Korbach Werk Produktion",
+    "Continental Korbach Reifenwerk Windpark",
+    "Continental Hannover Reifenwerk Produktion",
+    "Continental Aachen Reifenwerk Produktion",
+    "Continental Roding Reifenwerk Produktion",
+    "Continental Regensburg Reifenwerk Produktion",
+    "Continental Fürstenwalde Reifenwerk Produktion",
+    "Continental Stöcken Werk Produktion",
+    "Continental Deutschland Reifenwerk Mitarbeiter",
+    "Continental Deutschland Werk Stellenabbau",
+    "Continental Deutschland Werk Investition",
+    "Continental Deutschland Werk Verlagerung",
+    "Continental Deutschland Werk Schließung",
 ]
 
-KORBACH_TERMS = (
-    "korbach",
-    "korbachs",
-    "reifenwerk korbach",
-    "werk korbach",
-)
-FACTORY_TERMS = (
-    "werk",
-    "fabrik",
-    "produktion",
-    "produktions",
-    "fertigung",
-    "plant",
-    "factory",
-    "manufacturing",
-    "production",
-    "reifenerzeugung",
-    "reifenproduktion",
-    "production site",
-)
-PRODUCTION_TERMS = (
-    "produziert",
-    "produktion",
-    "fertigt",
-    "fertigung",
-    "produced",
-    "production",
-    "manufacturing",
-    "manufactures",
-    "capacity",
-    "kapazität",
-    "anlage",
-    "investment",
-    "investition",
-)
-TIRE_TERMS = (
-    "reifen",
-    "reifenwerk",
-    "tire",
-    "tires",
-    "tyre",
-    "tyres",
-)
+QUERIES = [
+    "Continental Korbach Reifen Werk",
+    "Continental Korbach Reifen Produktion",
+    "Continental Korbach Reifenwerk",
+    "Continental Werk Deutschland Reifen Produktion",
+    "Continental Reifen Fabrik Deutschland",
+    "Continental Reifen Werk Investition",
+    "Continental Reifen Werk Schließung",
+    "Continental Reifen Werk Verlagerung",
+    "Continental Reifen neue Produktion",
+    "Continental plant Germany tire production",
+    "Continental factory production tires Germany",
+    "Continental plant investment Germany",
+    "Continental Mitarbeiter Werk",
+    "Continental Belegschaft Werk",
+    "Continental workers jobs restructuring",
+    "Continental Reifen Technologie",
+    "Continental Reifen Neuheit",
+    "Continental Reifen Test",
+    "Continental Reifen Innovation",
+    "Continental Nutzfahrzeugreifen",
+    "Continental Lkw Reifen",
+    "Continental Pkw Reifen",
+    "Continental Motorsport Reifen",
+    "Continental Nachhaltigkeit",
+]
 
-GENERIC_WORDS = {
-    "continental", "reuters", "dpa", "press", "release", "news",
-    "für", "den", "die", "das", "der", "und", "von", "mit", "ein",
-    "eine", "einen", "in", "im", "auf", "am", "an", "zu", "ist",
-    "wird", "werden", "the", "a", "an", "and", "of", "to", "in",
-    "on", "for", "with", "new", "news",
+STOPWORDS = {
+    "der","die","das","den","dem","des","ein","eine","einer","eines",
+    "und","oder","für","von","mit","auf","aus","bei","nach","in","im",
+    "am","an","zu","zum","zur","ist","sind","wird","werden","wurde",
+    "the","a","an","of","to","for","and","in","on","at","with","from",
+    "by","new","news","about","this","that","its","has","have","into",
+    "continental","reuters","dpa","press","release","worldwide","weltweit",
 }
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; ContinentalNewsBot/1.1)"
+KORBACH_WORDS = ("korbach", "reifenwerk korbach", "werk korbach")
+
+KORBACH_FACTORY_WORDS = (
+    "reifenwerk", "werk", "produktion", "produktions", "fertigung",
+    "reifenproduktion", "produktionslinie", "produktionsanlage",
+    "fertigungsanlage", "produktionskapazität", "produktionskapazitaet",
+    "investition", "investitionen", "investment", "modernisierung",
+    "ausbau", "erweiterung", "werkserweiterung", "windpark", "windkraft",
+    "energie", "strom", "produktionstechnik", "fertigungsstandort",
+    "verlagerung", "schließung", "schliessung", "stellenabbau",
+)
+
+def is_korbach_factory(item: dict) -> bool:
+    t = text_of(item)
+    return "korbach" in t and has_any(t, KORBACH_FACTORY_WORDS)
+
+CATEGORY_PRIORITY = {
+    "KORBACH_FACTORY": 100,
+    "FACTORY_PRODUCTION": 80,
+    "FACTORY": 75,
+    "EMPLOYEES_FACTORY": 65,
+    "PRODUCTION": 60,
+    "CONTINENTAL_TECHNOLOGY": 40,
+    "CONTINENTAL_TIRE": 30,
+    "TIRE_TEST": 20,
+    "COMPANY": 10,
+}
+FACTORY_WORDS = (
+    "werk", "reifenwerk", "fabrik", "produktion", "produktions", "fertigung",
+    "plant", "factory", "manufacturing", "production", "reifenproduktion",
+    "reifenerzeugung", "production site", "produktionsstandort",
+    "werkstandort", "standort", "produktionsanlage", "produktionslinie",
+    "fertigungsanlage", "werkserweiterung", "produktionskapazität",
+    "produktionskapazitaet", "neubau", "arbeitsplätze", "arbeitsplaetze",
+)
+PRODUCTION_WORDS = (
+    "produktion", "produziert", "produced", "production", "fertigung",
+    "manufacturing", "manufactures", "kapazität", "kapazitaet", "capacity",
+    "investition", "investitionen", "investment", "ausbau", "expansion",
+    "erweiterung", "anlage", "modernisierung", "umbau", "verlagerung",
+    "relocation", "schließung", "schliessung", "shutdown",
+    "produktionsanlage", "produktionslinie", "fertigungsanlage",
+    "werkserweiterung", "produktionskapazität", "produktionskapazitaet",
+    "neubau", "standort", "werkstandort",
+)
+TIRE_WORDS = ("reifen", "tire", "tyre", "pkw-reifen", "lkw-reifen", "truckreifen")
+HIGH_VALUE = (
+    "stellenabbau", "arbeitsplätze", "arbeitsplaetze", "entlassung", "verlagerung",
+    "schließung", "schliessung", "werksschließung", "werksschliessung",
+    "investition", "investitionen", "ausbau", "erweiterung", "restrukturierung",
+    "reorganisation", "betriebsrat", "ig metall", "tarifvertrag", "jobs",
+    "quartalszahlen", "umsatz", "gewinn", "verlust", "vorstand", "aufsichtsrat",
+)
+
+# Terms that make two articles much more likely to describe the same event.
+EVENT_ANCHORS = (
+    "windpark", "windkraft", "reifenwerk", "reifenfabrik", "produktionsstandort",
+    "produktion", "fertigung", "investition", "investitionen", "verlagerung",
+    "schliessung", "schließung", "stellenabbau", "restrukturierung", "erweiterung",
+    "ausbau", "neuer reifen", "neue reifen", "konzeptreifen", "ganzjahresreifen",
+    "allseasoncontact", "ecogeneration", "trailer-reifen", "trailerreifen",
+)
+
+SOURCE_BONUS = {
+    "continental.com": 120,
+    "continental-reifen.de": 100,
+    "reuters.com": 55,
+    "tagesschau.de": 50,
+    "hessenschau.de": 45,
+    "hna.de": 50,
+    "ffh.de": 35,
+    "reifenpresse.de": 55,
+    "automobilwoche.de": 45,
+    "handelsblatt.com": 40,
+    "faz.net": 35,
+    "sueddeutsche.de": 35,
+    "heise.de": 30,
+    "logistra.de": 30,
 }
 
 
-def normalize(text):
-    text = (text or "").lower()
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"[^\wäöüß-]+", " ", text, flags=re.UNICODE)
-    return re.sub(r"\s+", " ", text).strip()
+def clean(value: str) -> str:
+    value = unicodedata.normalize("NFKC", value or "")
+    value = re.sub(r"<[^>]+>", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
 
 
-def parse_date(entry):
-    for field in ("published", "updated", "created"):
-        value = entry.get(field)
-        if not value:
-            continue
-        try:
-            dt = parsedate_to_datetime(value)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc)
-        except Exception:
-            pass
+def norm(value: str) -> str:
+    value = clean(value).lower()
+    value = unicodedata.normalize("NFKD", value)
+    value = "".join(c for c in value if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9äöüß ]+", " ", value)
 
-    for field in ("published_parsed", "updated_parsed"):
-        value = entry.get(field)
+
+def text_of(item: dict) -> str:
+    return norm(f"{item.get('title','')} {item.get('summary','')}")
+
+
+def tokens(item: dict) -> set[str]:
+    text = text_of(item)
+    return {w for w in text.split() if len(w) >= 4 and w not in STOPWORDS}
+
+
+def source(url: str) -> str:
+    m = re.search(r"https?://(?:www\.)?([^/]+)", url or "")
+    return m.group(1).lower() if m else "unknown"
+
+
+def google_rss(query: str, after: str | None = None, before: str | None = None) -> str:
+    q = query
+    if after:
+        q += f" after:{after}"
+    if before:
+        q += f" before:{before}"
+    return "https://news.google.com/rss/search?q=" + quote_plus(q) + "&hl=de&gl=DE&ceid=DE:de"
+
+def original_url(url: str) -> str:
+    # Google News RSS often wraps the publisher URL. Keep the publisher URL
+    # when it is exposed in the RSS entry; otherwise retain the RSS link.
+    parsed = urlparse(url or "")
+    qs = parse_qs(parsed.query)
+    for key in ("url", "u", "target"):
+        if qs.get(key):
+            candidate = unquote(qs[key][0])
+            if candidate.startswith("http") and "news.google.com" not in urlparse(candidate).netloc:
+                return candidate
+    return url
+
+
+def entry_date(entry) -> datetime | None:
+    for attr in ("published_parsed", "updated_parsed"):
+        value = getattr(entry, attr, None)
         if value:
             try:
                 return datetime(*value[:6], tzinfo=timezone.utc)
             except Exception:
                 pass
-
-    return datetime.now(timezone.utc)
-
-
-def fetch_feed(query):
-    url = (
-        "https://news.google.com/rss/search?q="
-        + quote_plus(query)
-        + "&hl=de&gl=DE&ceid=DE:de"
-    )
-    response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    response.raise_for_status()
-    return feedparser.parse(response.content)
+    return None
 
 
-def score_item(title, summary):
-    text = normalize(title + " " + summary)
-
-    score = 0
-    category = "COMPANY"
-
-    if "continental" in text:
-        score += 150
-    else:
-        score -= 200
-
-    if any(term in text for term in KORBACH_TERMS):
-        score += 1000
-        category = "KORBACH_FACTORY"
-    elif any(term in text for term in FACTORY_TERMS):
-        score += 500
-        category = "FACTORY"
-
-    score += sum(250 for term in PRODUCTION_TERMS if term in text)
-    score += sum(50 for term in TIRE_TERMS if term in text)
-
-    return score, category
+def has_any(text: str, words: tuple[str, ...]) -> bool:
+    return any(w in text for w in words)
 
 
-def event_tokens(title, summary):
-    text = normalize(title + " " + summary)
-    words = []
-    for word in text.split():
-        if word in GENERIC_WORDS or len(word) < 3:
-            continue
-        words.append(word)
-    return set(words)
+def article_fingerprint(item: dict) -> set[str]:
+    """Keep meaningful words but remove generic words that cause false merges."""
+    generic = {
+        "continental", "reifen", "tire", "tyre", "werk", "factory", "plant",
+        "produktion", "production", "fertigung", "company", "unternehmen",
+        "neuer", "neue", "neuen", "neuem", "setzt", "startet", "entwickelt",
+        "erhalt", "erhaltet", "erhalten", "bekannt", "meldet", "berichtet",
+        "jetzt", "heute", "jahr", "jahre", "million", "millionen",
+    }
+    return {w for w in tokens(item) if w not in generic and len(w) >= 5}
 
 
-def canonical_event_family(title, summary):
-    text = normalize(title + " " + summary)
+def special_family(item: dict) -> str | None:
+    t = text_of(item)
 
-    # The first test exposed three articles about exactly the same
-    # Continental wind-park event around Korbach/Twistetal/North Hesse.
-    if (
-        "continental" in text
-        and "windpark" in text
-        and any(place in text for place in ("korbach", "twistetal", "nordhessen"))
+    # One event: Continental wind farm serving the Korbach tire plant.
+    if "continental" in t and "windpark" in t and has_any(t, ("korbach", "twistetal", "nordhessen")):
+        return "windpark|korbach|continental"
+
+    # One event: the same trailer-tire launch, including a photo gallery.
+    if has_any(t, ("trailer-reifen", "trailerreifen")) and has_any(
+        t, ("rollwiderstand", "laufleistung", "eco generation", "ecogeneration")
     ):
-        return "continental_windpark_korbach_nordhessen"
+        return "trailerreifen|ecogeneration|continental"
 
-    return ""
+    # Same product family even if one headline says "new trailer tire".
+    if "eco generation 5" in t or "ecogeneration 5" in t:
+        return "ecogeneration5|trailerreifen|continental"
+
+    if "allseasoncontact 2" in t and has_any(t, ("test", "testet", "empfehlenswert")):
+        return "allseasoncontact2|test|continental"
+
+    if "konzeptreifen" in t and has_any(t, ("recycel", "recycelt", "recycling", "rohstoffen")):
+        return "konzeptreifen|recycling|continental"
+
+    return None
 
 
-def same_event(a, b):
-    family_a = canonical_event_family(a["title"], a["summary"])
-    family_b = canonical_event_family(b["title"], b["summary"])
+def event_family(item: dict) -> str:
+    special = special_family(item)
+    if special:
+        return special
 
-    if family_a or family_b:
-        return bool(family_a and family_a == family_b)
+    t = text_of(item)
+    if is_korbach_factory(item):
+        if has_any(t, ("windpark", "windkraft")):
+            return "korbach|windpark"
+        if has_any(t, ("schließung", "schliessung")):
+            return "korbach|closure"
+        if "verlagerung" in t:
+            return "korbach|relocation"
+        if has_any(t, ("stellenabbau", "arbeitsplätze", "arbeitsplaetze", "mitarbeiter", "beschäftigte", "beschaeftigte", "betriebsrat", "ig metall")):
+            return "korbach|employment"
+        if has_any(t, ("investition", "investitionen", "investment")):
+            return "korbach|investment"
+        if has_any(t, ("modernisierung", "umbau", "ausbau", "erweiterung")):
+            return "korbach|modernization"
+        if has_any(t, ("produktion", "fertigung", "produktionslinie", "produktionsanlage")):
+            return "korbach|production"
+        return "korbach|general"
 
-    ta = event_tokens(a["title"], a["summary"])
-    tb = event_tokens(b["title"], b["summary"])
+    parts = []
+    if "continental" in t:
+        parts.append("continental")
+    if has_any(t, HIGH_VALUE):
+        for key in ("schließung", "schliessung", "verlagerung", "stellenabbau", "investition", "erweiterung", "ausbau", "restrukturierung"):
+            if key in t:
+                parts.append(key)
+                break
+    product_keys = [
+        "allseasoncontact 2", "ecogeneration 5", "contiecontact", "ultracontact",
+        "premiumcontact", "sportcontact", "vancontact", "contihybrid", "contitrailer",
+    ]
+    for key in product_keys:
+        if key in t:
+            parts.append(key.replace(" ", "-"))
+            break
+    anchor = next((a for a in EVENT_ANCHORS if a in t), None)
+    if anchor:
+        parts.append(anchor.replace(" ", "-"))
+    fp = sorted(article_fingerprint(item))[:5]
+    parts.extend(fp)
+    return "|".join(dict.fromkeys(parts)) or "continental|unknown"
 
-    if not ta or not tb:
+
+def event_similarity(a: dict, b: dict) -> float:
+    aa = article_fingerprint(a)
+    bb = article_fingerprint(b)
+    if not aa or not bb:
+        return 0.0
+    return len(aa & bb) / max(1, min(len(aa), len(bb)))
+
+
+def same_event(a: dict, b: dict) -> bool:
+    if a.get("event_family") == b.get("event_family"):
+        return True
+
+    # Explicit special families always merge.
+    sa, sb = special_family(a), special_family(b)
+    if sa and sa == sb:
+        return True
+
+    ta, tb = text_of(a), text_of(b)
+    shared = article_fingerprint(a) & article_fingerprint(b)
+    if not shared:
         return False
 
-    shared = ta & tb
-    union = ta | tb
-    jaccard = len(shared) / len(union)
+    # Photo gallery vs article: usually same story if the distinctive words match.
+    if ("fotostrecke" in ta or "fotostrecke" in tb) and len(shared) >= 3:
+        return event_similarity(a, b) >= 0.60
 
-    # Conservative generic grouping: require several meaningful shared
-    # terms plus either a strong overlap or the same factory/place anchor.
-    strong_anchors = {
-        "korbach", "werk", "reifenwerk", "fabrik", "factory",
-        "plant", "windpark", "produktion", "production",
-        "investition", "investment", "anlage",
-    }
-    shared_strong = shared & strong_anchors
+    # Product/event title overlap. Require at least two distinctive words so
+    # generic "Continental Reifen" stories do not collapse together.
+    if len(shared) >= 3 and event_similarity(a, b) >= 0.60:
+        strong = set(EVENT_ANCHORS)
+        return bool(shared & strong) or any(x in ta and x in tb for x in (
+            "allseasoncontact", "ecogeneration", "konzeptreifen", "trailerreifen",
+            "windpark", "korbach",
+        ))
 
-    return (
-        len(shared) >= 4
-        and jaccard >= 0.38
-    ) or (
-        len(shared) >= 3
-        and len(shared_strong) >= 2
-        and jaccard >= 0.25
-    )
+    return False
 
 
-def event_key(title, summary):
-    family = canonical_event_family(title, summary)
-    if family:
-        return family
+def score(item: dict) -> tuple[int, str]:
+    t = text_of(item)
+    s = SOURCE_BONUS.get(source(item["url"]), 0)
 
-    tokens = sorted(event_tokens(title, summary))
-    return hashlib.sha1(" ".join(tokens[:32]).encode("utf-8")).hexdigest()
+    if "continental" in t:
+        s += 150
+    else:
+        s -= 200
+
+    if is_korbach_factory(item):
+        s += 1800
+        category = "KORBACH_FACTORY"
+    elif has_any(t, FACTORY_WORDS):
+        s += 850
+        if has_any(t, PRODUCTION_WORDS):
+            category = "FACTORY_PRODUCTION"
+        elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "betriebsrat")):
+            category = "EMPLOYEES_FACTORY"
+        else:
+            category = "FACTORY"
+    elif has_any(t, PRODUCTION_WORDS):
+        s += 350
+        category = "PRODUCTION"
+    elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "jobs")):
+        category = "EMPLOYEES_FACTORY"
+    elif has_any(t, ("test", "vergleich", "reifentest", "ganzjahresreifen-test")):
+        category = "TIRE_TEST"
+    elif has_any(t, ("technologie", "innovation", "konzeptreifen", "recycel", "nachhaltigkeit")):
+        category = "CONTINENTAL_TECHNOLOGY"
+    elif has_any(t, TIRE_WORDS):
+        category = "CONTINENTAL_TIRE"
+    else:
+        category = "COMPANY"
+
+    if has_any(t, PRODUCTION_WORDS):
+        s += 250
+    if has_any(t, TIRE_WORDS):
+        s += 50
+    if has_any(t, HIGH_VALUE):
+        s += 80
+    return s, category
 
 
-def clean_summary(summary):
-    text = re.sub(r"<[^>]+>", " ", summary or "")
-    text = re.sub(r"\s+", " ", text).strip()
-    return text[:700]
+def fetch_candidates() -> list[dict]:
+    lookback = BOOTSTRAP_LOOKBACK_HOURS if BOOTSTRAP else LOOKBACK_HOURS
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback)
+    found: dict[str, dict] = {}
+
+    queries = QUERIES + (PLANT_QUERIES if BOOTSTRAP else [])
+    now = datetime.now(timezone.utc)
+    windows = [(None, None)]
+    if BOOTSTRAP:
+        windows = []
+        for days_ago_start, days_ago_end in [(0,7),(7,14),(14,21),(21,30),(30,45),(45,60)]:
+            before_dt = now - timedelta(days=days_ago_start)
+            after_dt = now - timedelta(days=days_ago_end)
+            windows.append((after_dt.strftime("%Y-%m-%d"), before_dt.strftime("%Y-%m-%d")))
+
+    for query in queries:
+        for after, before in windows:
+            label = f"{query} [{after or 'all'}..{before or 'all'}]" if BOOTSTRAP else query
+            print(f"SEARCH: {label}")
+            try:
+                feed = feedparser.parse(google_rss(query, after, before))
+                entries = feed.entries[:60]
+            except Exception as exc:
+                print(f"RSS ERROR: {exc}")
+                continue
+
+            print(f"  -> {len(entries)} items")
+            for entry in entries:
+                dt = entry_date(entry)
+                if not dt or dt < cutoff:
+                    continue
+
+                title = clean(getattr(entry, "title", ""))
+                url = original_url(getattr(entry, "link", "") or "")
+                summary = clean(getattr(entry, "summary", ""))
+                if not title or not url:
+                    continue
+
+                item = {
+                    "title": title,
+                    "summary": summary,
+                    "url": url,
+                    "source": source(url),
+                    "published_at": dt.isoformat(),
+                }
+                item["score"], item["category"] = score(item)
+                # Do not discard factory/production stories merely because their
+                # numeric score is low. Classification is handled after collection.
+                # Only reject results that are clearly not Continental-related.
+                t = text_of(item)
+                if "continental" not in t:
+                    continue
+                item["event_family"] = event_family(item)
+
+                # Exact article deduplication.
+                key = hashlib.sha1((norm(title) + "|" + url.split("?")[0]).encode()).hexdigest()
+                old = found.get(key)
+                if old is None or item["score"] > old["score"]:
+                    found[key] = item
+
+    return list(found.values())
 
 
-def collect_items():
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-    items = []
-    seen_urls = set()
+def load_seen() -> dict[str, str]:
+    if not SEEN_FILE.exists():
+        return {}
+    try:
+        data = json.loads(SEEN_FILE.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            return {str(k): str(v) for k, v in data.items()}
+        if isinstance(data, list):
+            return {str(x): "" for x in data}
+    except Exception as exc:
+        print(f"SEEN WARNING: {exc}")
+    return {}
 
-    for query in SEARCH_QUERIES:
+
+def save_seen(seen: dict[str, str]) -> None:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_DAYS)
+    out = {}
+    for key, value in seen.items():
         try:
-            feed = fetch_feed(query)
-            print(f"OK: {query} -> {len(feed.entries)} items")
-        except Exception as exc:
-            print(f"ERROR: {query} -> {exc}")
-            continue
-
-        for entry in feed.entries:
-            title = (entry.get("title") or "").strip()
-            link = (entry.get("link") or "").strip()
-            if not title or not link or link in seen_urls:
-                continue
-
-            published_at = parse_date(entry)
-            if published_at < cutoff:
-                continue
-
-            summary = clean_summary(entry.get("summary") or entry.get("description") or "")
-            score, category = score_item(title, summary)
-
-            if "continental" not in normalize(title + " " + summary):
-                continue
-
-            seen_urls.add(link)
-            items.append({
-                "title": title,
-                "summary": summary,
-                "url": link,
-                "published_at": published_at.isoformat(),
-                "score": score,
-                "category": category,
-                "event_key": event_key(title, summary),
-            })
-
-    return items
+            dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            if dt >= cutoff:
+                out[key] = value
+        except Exception:
+            out[key] = value
+    SEEN_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def choose_items(items):
-    # First collapse exact event families / semantically identical stories.
-    groups = []
-    for item in sorted(
-        items,
-        key=lambda x: (x["score"], x["published_at"]),
-        reverse=True,
-    ):
-        placed = False
-        for group in groups:
-            if same_event(item, group[0]):
-                group.append(item)
-                placed = True
-                break
-        if not placed:
-            groups.append([item])
+def event_id(item: dict) -> str:
+    canonical = item.get("event_family") or norm(item["title"])
+    return hashlib.sha1(canonical.encode("utf-8")).hexdigest()
 
-    representatives = []
-    for group in groups:
-        best = max(group, key=lambda x: (x["score"], x["published_at"]))
-        best["source_count"] = len(group)
-        best["sources"] = [
-            {
-                "title": x["title"],
-                "url": x["url"],
-            }
-            for x in group[:5]
-        ]
-        representatives.append(best)
 
-    # Factory/Korbach events are always selected before other Continental news.
-    representatives.sort(
+def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
+    # Bootstrap is an archive-building run: do not let an old seen file hide
+    # important stories from the 60-day backlog. Normal mode respects seen.
+    respect_seen = not BOOTSTRAP
+    candidates.sort(
         key=lambda x: (
-            2 if x["category"] == "KORBACH_FACTORY"
-            else 1 if x["category"] == "FACTORY"
-            else 0,
-            x["score"],
-            x["published_at"],
+            CATEGORY_PRIORITY.get(x.get("category", "COMPANY"), 0),
+            bool(x.get("korbach_priority")),
+            x.get("score", 0),
+            x.get("published_at", ""),
         ),
         reverse=True,
     )
 
-    return representatives[:MAX_POSTS]
+    groups: list[dict] = []
+    for item in candidates:
+        eid = event_id(item)
+        if respect_seen and eid in seen:
+            continue
+
+        matched = None
+        for g in groups:
+            # Korbach factory stories are only grouped when they are genuinely
+            # the same local event; never collapse unrelated Korbach reports.
+            if item.get("korbach_priority") or g.get("korbach_priority"):
+                if not (item.get("korbach_priority") and g.get("korbach_priority")):
+                    continue
+                if "korbach" not in text_of(item) or "korbach" not in text_of(g):
+                    continue
+                shared = article_fingerprint(item) & article_fingerprint(g)
+                if len(shared) < 3 or event_similarity(item, g) < 0.60:
+                    continue
+            if same_event(item, g):
+                matched = g
+                break
+
+        if matched is not None:
+            matched.setdefault("alternate_sources", []).append({
+                "source": item["source"], "title": item["title"],
+                "url": item["url"], "published_at": item["published_at"],
+            })
+            if (item["score"], item["published_at"]) > (matched["score"], matched["published_at"]):
+                old_rep = {k: matched[k] for k in ("source", "title", "url", "published_at")}
+                matched.update({k: item[k] for k in ("source", "title", "url", "published_at", "summary", "score", "category", "event_family")})
+                matched["alternate_sources"].append(old_rep)
+            continue
+
+        item["event_id"] = eid
+        item["alternate_sources"] = []
+        groups.append(item)
+
+    groups.sort(
+        key=lambda x: (
+            CATEGORY_PRIORITY.get(x.get("category", "COMPANY"), 0),
+            bool(x.get("korbach_priority")),
+            x.get("score", 0),
+            x.get("published_at", ""),
+        ),
+        reverse=True,
+    )
+    return groups[:(BOOTSTRAP_MAX_EVENTS if BOOTSTRAP else MAX_EVENTS)]
 
 
-def load_seen():
-    try:
-        with open("whatsapp_seen.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return set(data if isinstance(data, list) else [])
-    except (FileNotFoundError, json.JSONDecodeError):
-        return set()
-
-
-def save_seen(seen):
-    with open("whatsapp_seen.json", "w", encoding="utf-8") as f:
-        json.dump(sorted(seen), f, ensure_ascii=False, indent=2)
-
-
-def format_post(item):
-    published = item["published_at"].replace("T", " ").replace("+00:00", " UTC")
-    source_note = ""
-    if item.get("source_count", 1) > 1:
-        source_note = f"\n\n📰 Sources: {item['source_count']}"
-
+def post_text(item: dict, number: int) -> str:
+    summary = item.get("summary", "")
+    if len(summary) > 700:
+        summary = summary[:697].rstrip(" .,!?:;—-") + "…"
     return (
-        f"🟡 {item['category']}\n\n"
-        f"**{item['title']}**\n\n"
-        f"{item['summary']}\n\n"
+        f"{number}. [{item['category']}] {item['title']}\n\n"
+        f"{summary}\n\n"
+        f"📰 Quelle: {item['source']}\n"
         f"🔗 {item['url']}\n"
-        f"🕒 {published}"
-        f"{source_note}"
+        f"📅 {item['published_at']}"
     )
 
 
-def main():
-    items = collect_items()
-    selected = choose_items(items)
+def main() -> None:
+    print("=== Continental WhatsApp Channel News v5.1 ===")
+    if BOOTSTRAP:
+        print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
+    else:
+        print(f"MODE: NORMAL | Lookback: {LOOKBACK_HOURS}h | Max DIFFERENT EVENTS: {MAX_EVENTS}")
+
+    candidates = fetch_candidates()
+    print(f"Unique article candidates: {len(candidates)}")
 
     seen = load_seen()
-    new_items = []
+    selected = choose_events(candidates, seen)
 
-    for item in selected:
-        key = item["event_key"]
-        if key in seen:
-            continue
-        new_items.append(item)
-        seen.add(key)
+    counts = {}
+    for x in selected:
+        counts[x["category"]] = counts.get(x["category"], 0) + 1
+    print("Category counts:", ", ".join(f"{k}={v}" for k, v in sorted(counts.items())))
+    print(f"Selected {len(selected)} DIFFERENT events.")
+    for i, item in enumerate(selected, 1):
+        print(f"{i:02d}. [{item['category']}] {item['title']} - {item['source']}")
+        if item.get("alternate_sources"):
+            print(f"    grouped alternative sources: {len(item['alternate_sources'])}")
 
-    print(f"Selected {len(new_items)} new posts.")
-
-    posts = []
-    for index, item in enumerate(new_items, 1):
-        print(
-            f"{index:02d}. [{item['category']}] "
-            f"{item['title']}"
+    POSTS_JSON.write_text(json.dumps(selected, ensure_ascii=False, indent=2), encoding="utf-8")
+    if BOOTSTRAP:
+        Path("whatsapp_backlog.json").write_text(json.dumps(selected, ensure_ascii=False, indent=2), encoding="utf-8")
+        Path("whatsapp_backlog.txt").write_text(
+            "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
+            encoding="utf-8",
         )
-        posts.append(format_post(item))
+        BOOTSTRAP_MARKER.write_text(
+            json.dumps({"completed_at": datetime.now(timezone.utc).isoformat(), "events": len(selected)}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+    POSTS_TXT.write_text(
+        "\n\n".join(post_text(x, i) for i, x in enumerate(selected, 1)) + ("\n" if selected else ""),
+        encoding="utf-8",
+    )
 
-    with open("whatsapp_posts.json", "w", encoding="utf-8") as f:
-        json.dump(new_items, f, ensure_ascii=False, indent=2)
-
-    with open("whatsapp_posts.txt", "w", encoding="utf-8") as f:
-        f.write("\n\n" + ("\n\n" + ("-" * 72) + "\n\n").join(posts))
-
+    now = datetime.now(timezone.utc).isoformat()
+    for item in selected:
+        seen[item["event_id"]] = now
     save_seen(seen)
+
+    print("Created: whatsapp_posts.json")
+    if BOOTSTRAP:
+        print("Created: whatsapp_backlog.json")
+        print("Created: whatsapp_backlog.txt")
+        print("Created: whatsapp_bootstrap_complete.json")
+    print("Created: whatsapp_posts.txt")
+    print("Updated: whatsapp_seen.json")
 
 
 if __name__ == "__main__":
