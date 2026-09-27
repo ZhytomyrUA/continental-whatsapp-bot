@@ -155,8 +155,8 @@
     ]
   },
   {
-    "title": "Reifenhersteller Continental macht Gewinn - ndr.de",
-    "summary": "Reifenhersteller Continental macht Gewinn &nbsp;&nbsp; ndr.de",
+    "title": "Reifenhersteller Continental macht Gewinn - NDR.de",
+    "summary": "Reifenhersteller Continental macht Gewinn &nbsp;&nbsp; NDR.de",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWGtKc2Rra2t6cXZWUnU1Q1RmeV9oOUdiNHVfZlZIbnBGZnpRT0xKYl9KUU9wcllzR2pvWjdhOFNwVGZ4dC1WV096c28ycS1sdUtxcGc4aHV6WWM5T3FYUVR1OUY0MGVPdDB1bmVFdHdBVUY0a0lDbDdsa2hGVFAtR1dRQmVzNUdWUTFSUXlFT21HenU3U0l4Z0t6MXpfMUZiSnNzSDF3YzB0YnUxenZSei1INHppNlU?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-04T07:00:00+00:00",
@@ -496,7 +496,6 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Korbach Reifenwerk",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Produktion",
@@ -517,6 +516,31 @@
     },
     "event_family": "continental|bundeswehr|businessinsider|profitieren|rustungsboom",
     "event_id": "4147b31d841f560bdcc7d9c400d9c8ab597b9c8a",
+    "alternate_sources": []
+  },
+  {
+    "title": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will - Business Insider Deutschland",
+    "summary": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will &nbsp;&nbsp; Business Insider Deutschland",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdEhFUXkwbkFlTjdiMVI3VGJlZkE0eVBVUmItNVJWWk1NTVdzYkN0bm00QWJlazhiaDhOVXFPQWhoWTRPWFVST0hubTdtWnZSM1I0TkNYZDljWmlodUFXaWZmTGlNZmtXeEdET2tjcTY5Sy10X1JwRHlEMEZqR3dyZDlPVExnSHJERjcwbTRzWGNKbEJHYVYyUld3ZmlfUzE5RkV5a0ZrNA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-18T07:13:44+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bundeswehr|business|deutschland|insider|profitieren",
+    "event_id": "2b677f8f0a41211d24ae9a39494459ed089105bf",
     "alternate_sources": []
   },
   {
