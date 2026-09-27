@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-Normal mode prepares up to 12 DIFFERENT news events. Factory/production stories
-are prioritized. Multiple articles about the same event are grouped together.
+v5.3 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+Normal mode prepares up to 12 DIFFERENT news events. Multiple articles about the same
+event are grouped together, but distinct factory events are never collapsed merely
+because they share a broad factory family.
 Bootstrap mode scans the previous 60 days and builds a backlog so the channel
 can be populated before switching to the normal rolling search.
 The script does not publish to WhatsApp.
@@ -378,11 +380,11 @@ def is_real_production_story(item: dict) -> bool:
         return False
     if is_factory_story(item):
         return True
-    if has_any(t, ("reifenproduktion", "reifenerzeugung", "produktionskapazität", "produktionskapazitaet", "fertigungsstandort")):
+    if has_any(t, ("reifenproduktion", "reifenerzeugung", "industriereifen", "industriereifen-produktion", "produktionskapazität", "produktionskapazitaet", "fertigungsstandort")):
         return True
     # Verb-based production is accepted only when Continental is the subject in
     # the headline; this prevents "in China produzierten Fahrzeuge auf Continental-Reifen".
-    if re.search(r"continental.{0,80}(produziert|produzieren|fertigt|fertigen).{0,80}(reifen|werk|fabrik|anlage|kapazität|kapazitaet)", title):
+    if re.search(r"continental.{0,100}(produziert|produzieren|fertigt|fertigen|verlagert|verlagern).{0,100}(reifen|reifenproduktion|industriereifen|werk|fabrik|anlage|kapazität|kapazitaet)", title):
         return True
     return bool(re.search(r"continental.{0,80}(produktion|fertigung|manufacturing|production).{0,80}(reifen|werk|fabrik|anlage|kapazität|kapazitaet|standort)", title))
 
@@ -528,23 +530,62 @@ def save_seen(seen: dict[str, str]) -> None:
 
 
 def event_id(item: dict) -> str:
-    canonical = item.get("event_family") or norm(item["title"])
+    # Do not use the broad event_family alone: e.g. several different
+    # Korbach production stories must remain separate across runs.
+    special = special_family(item)
+    if special:
+        canonical = special
+    else:
+        fp = sorted(article_fingerprint(item))
+        # Keep a compact but distinctive fingerprint for seen-state stability.
+        canonical = (item.get("event_family") or "continental|unknown") + "|" + "|".join(fp[:8])
     return hashlib.sha1(canonical.encode("utf-8")).hexdigest()
 
 
+FACTORY_CATEGORIES = {"KORBACH_FACTORY", "FACTORY_PRODUCTION", "FACTORY", "EMPLOYEES_FACTORY", "PRODUCTION"}
+
+EXCLUDED_LOW_VALUE = (
+    "aktie", "aktien", "analyst", "kursziel", "börsen", "boerse", "dax", "mdax",
+    "aktienkurs", "deal", "angebot", "rabatt", "sale", "preisvergleich",
+)
+
+def is_low_value_company_story(item: dict) -> bool:
+    t = text_of(item)
+    # Corporate market/stock coverage should not displace factory or product news.
+    if item.get("category") != "COMPANY":
+        return False
+    return has_any(t, EXCLUDED_LOW_VALUE)
+
+def selection_bucket(item: dict) -> int:
+    cat = item.get("category", "COMPANY")
+    if cat == "KORBACH_FACTORY": return 0
+    if cat in {"FACTORY_PRODUCTION", "FACTORY", "EMPLOYEES_FACTORY", "PRODUCTION"}: return 1
+    if cat == "CONTINENTAL_TECHNOLOGY": return 2
+    if cat == "CONTINENTAL_TIRE": return 3
+    if cat == "TIRE_TEST": return 4
+    return 5
+
+def factory_priority(item: dict) -> tuple:
+    # Within the factory tiers, prefer Korbach, then concrete production/
+    # investment/closure/relocation events, then employment/general plant news.
+    t = text_of(item)
+    action = 0
+    for n, words in enumerate((
+        ("produktion", "fertigung", "produktionslinie", "produktionsanlage"),
+        ("investition", "ausbau", "erweiterung", "modernisierung"),
+        ("schließung", "schliessung", "verlagerung", "stellenabbau"),
+        ("mitarbeiter", "beschäftigte", "beschaeftigte", "betriebsrat"),
+    ), start=4):
+        if has_any(t, words):
+            action = max(action, n)
+    return (bool(item.get("korbach_priority")), action, item.get("score", 0), item.get("published_at", ""))
+
 def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
-    # Bootstrap is an archive-building run: do not let an old seen file hide
-    # important stories from the 60-day backlog. Normal mode respects seen.
+    # Bootstrap builds the full archive; normal mode produces the editorial top 12.
     respect_seen = not BOOTSTRAP
-    candidates.sort(
-        key=lambda x: (
-            CATEGORY_PRIORITY.get(x.get("category", "COMPANY"), 0),
-            bool(x.get("korbach_priority")),
-            x.get("score", 0),
-            x.get("published_at", ""),
-        ),
-        reverse=True,
-    )
+
+    candidates = [x for x in candidates if not is_low_value_company_story(x)]
+    candidates.sort(key=lambda x: (selection_bucket(x), not bool(x.get("korbach_priority")), -x.get("score", 0), x.get("published_at", "")), reverse=False)
 
     groups: list[dict] = []
     for item in candidates:
@@ -554,8 +595,7 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
 
         matched = None
         for g in groups:
-            # Korbach factory stories are only grouped when they are genuinely
-            # the same local event; never collapse unrelated Korbach reports.
+            # Never let a Korbach factory story merge with a non-Korbach story.
             if item.get("korbach_priority") or g.get("korbach_priority"):
                 if not (item.get("korbach_priority") and g.get("korbach_priority")):
                     continue
@@ -583,16 +623,48 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
         item["alternate_sources"] = []
         groups.append(item)
 
-    groups.sort(
-        key=lambda x: (
-            CATEGORY_PRIORITY.get(x.get("category", "COMPANY"), 0),
-            bool(x.get("korbach_priority")),
-            x.get("score", 0),
-            x.get("published_at", ""),
-        ),
-        reverse=True,
-    )
-    return groups[:(BOOTSTRAP_MAX_EVENTS if BOOTSTRAP else MAX_EVENTS)]
+    if BOOTSTRAP:
+        # Archive: keep up to 250 genuinely different events, factory-first.
+        groups.sort(key=lambda x: (selection_bucket(x), not bool(x.get("korbach_priority")), -x.get("score", 0), x.get("published_at", "")), reverse=False)
+        return groups[:BOOTSTRAP_MAX_EVENTS]
+
+    # Normal editorial mix: quotas prevent generic tire/company news from
+    # crowding out factories. Quotas are ceilings, not requirements.
+    korbach = sorted((g for g in groups if g.get("category") == "KORBACH_FACTORY"), key=factory_priority, reverse=True)
+    factory = sorted((g for g in groups if g.get("category") in FACTORY_CATEGORIES and g.get("category") != "KORBACH_FACTORY"), key=factory_priority, reverse=True)
+    tech = sorted((g for g in groups if g.get("category") == "CONTINENTAL_TECHNOLOGY"), key=lambda x: (x.get("score",0), x.get("published_at","")), reverse=True)
+    tire = sorted((g for g in groups if g.get("category") == "CONTINENTAL_TIRE"), key=lambda x: (x.get("score",0), x.get("published_at","")), reverse=True)
+    tests = sorted((g for g in groups if g.get("category") == "TIRE_TEST"), key=lambda x: (x.get("score",0), x.get("published_at","")), reverse=True)
+    company = sorted((g for g in groups if g.get("category") == "COMPANY"), key=lambda x: (x.get("score",0), x.get("published_at","")), reverse=True)
+
+    selected: list[dict] = []
+    def take(pool, n):
+        for x in pool:
+            if x not in selected and len(selected) < MAX_EVENTS and n > 0:
+                selected.append(x); n -= 1
+
+    take(korbach, 4)
+    take(factory, 3)
+    take(tech, 2)
+    take(tire, 1)
+    take(tests, 1)
+    take(company, 1)
+
+    # If the preferred mix has fewer than 12 events, fill remaining slots from
+    # all remaining non-low-value events, still respecting the factory-first order.
+    if len(selected) < MAX_EVENTS:
+        remaining = [g for g in groups if g not in selected]
+        remaining.sort(key=lambda x: (selection_bucket(x), not bool(x.get("korbach_priority")), -x.get("score",0), x.get("published_at","")))
+        for x in remaining:
+            if len(selected) >= MAX_EVENTS:
+                break
+            selected.append(x)
+
+    # Final presentation order is editorial: Korbach -> other factories -> tech -> tire -> test -> company.
+    selected.sort(key=lambda x: (selection_bucket(x), not bool(x.get("korbach_priority")), -x.get("score",0), x.get("published_at","")))
+    return selected[:MAX_EVENTS]
+
+
 
 
 def post_text(item: dict, number: int) -> str:
@@ -609,7 +681,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.2 FINAL ===")
+    print("=== Continental WhatsApp Channel News v5.3 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
