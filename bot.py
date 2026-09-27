@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-v5.3 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+v5.4 FACTORY-FIRST: Korbach and real factory/production events are selected first.
 Normal mode prepares up to 12 DIFFERENT news events. Multiple articles about the same
 event are grouped together, but distinct factory events are never collapsed merely
 because they share a broad factory family.
@@ -182,6 +182,24 @@ def text_of(item: dict) -> str:
     return norm(f"{item.get('title','')} {item.get('summary','')}")
 
 
+def search_context(item: dict) -> str:
+    return norm(" ".join(item.get("matched_queries", []) or []))
+
+
+def title_tokens(item: dict) -> set[str]:
+    generic = {"continental","reifen","reifenhersteller","tire","tyre","news","aktuell",
+               "neue","neuer","neuen","macht","setzt","startet","entwickelt",
+               "profitiert","hersteller"}
+    return {w for w in norm(item.get("title","")).split() if len(w) >= 5 and w not in generic}
+
+
+def title_similarity(a: dict, b: dict) -> float:
+    aa, bb = title_tokens(a), title_tokens(b)
+    if not aa or not bb:
+        return 0.0
+    return len(aa & bb) / max(1, min(len(aa), len(bb)))
+
+
 def tokens(item: dict) -> set[str]:
     text = text_of(item)
     return {w for w in text.split() if len(w) >= 4 and w not in STOPWORDS}
@@ -323,6 +341,14 @@ def event_similarity(a: dict, b: dict) -> float:
 
 def same_event(a: dict, b: dict) -> bool:
     if a.get("event_family") == b.get("event_family"):
+        family = a.get("event_family") or ""
+        if family.startswith("korbach|"):
+            if special_family(a) and special_family(a) == special_family(b):
+                return True
+            return title_similarity(a, b) >= 0.75 or (
+                len(article_fingerprint(a) & article_fingerprint(b)) >= 4
+                and event_similarity(a, b) >= 0.70
+            )
         return True
 
     # Explicit special families always merge.
@@ -339,8 +365,12 @@ def same_event(a: dict, b: dict) -> bool:
     if ("fotostrecke" in ta or "fotostrecke" in tb) and len(shared) >= 3:
         return event_similarity(a, b) >= 0.60
 
-    # Product/event title overlap. Require at least two distinctive words so
-    # generic "Continental Reifen" stories do not collapse together.
+    # Near-identical headlines from different publishers are one event.
+    if title_similarity(a, b) >= 0.78:
+        return True
+
+    # Product/event title overlap. Require distinctive words so generic
+    # "Continental Reifen" stories do not collapse together.
     if len(shared) >= 3 and event_similarity(a, b) >= 0.60:
         strong = set(EVENT_ANCHORS)
         return bool(shared & strong) or any(x in ta and x in tb for x in (
@@ -359,19 +389,54 @@ CATEGORY_PRIORITY = {
 
 def is_korbach_factory(item: dict) -> bool:
     t = text_of(item)
-    if "korbach" not in t or "continental" not in t: return False
-    if has_any(t, ("reifenwerk", "reifenfabrik", "produktionsstandort", "produktionsanlage", "produktionslinie", "fertigungsanlage")): return True
-    if has_any(t, FACTORY_ACTION_WORDS): return True
-    return bool(re.search(r"continental.{0,80}werk.{0,80}(korbach|produktion|fertigung|investition|mitarbeiter|beschäftigte|beschaeftigte|modernisierung|ausbau|erweiterung|schließung|schliessung)", t))
+    q = search_context(item)
+    if "continental" not in t and "continental" not in q:
+        return False
+
+    if "korbach" in t and (
+        has_any(t, ("reifenwerk","reifenfabrik","produktionsstandort","produktionsanlage",
+                    "produktionslinie","fertigungsanlage","fertigungsstandort","windpark","windkraft"))
+        or has_any(t, FACTORY_ACTION_WORDS)
+    ):
+        return True
+
+    # Search-query context can recover headlines that refer to "Nordhessen",
+    # "the plant", or "the wind farm" without naming Korbach.
+    if "korbach" in q and has_any(q, ("werk","reifenwerk","produktion","windpark","investition")):
+        return has_any(t, ("continental","windpark","windkraft","reifenwerk","reifenfabrik",
+                            "produktion","fertigung","investition","modernisierung","ausbau",
+                            "erweiterung","verlagerung","schließung","schliessung",
+                            "mitarbeiter","beschäftigte","beschaeftigte","energie","strom"))
+    return False
+
 
 def is_factory_story(item: dict) -> bool:
-    t=text_of(item)
-    if "continental" not in t: return False
-    if has_any(t, KORBACH_FACTORY_CONTEXT_WORDS): return True
-    action=has_any(t, FACTORY_ACTION_WORDS)
-    plant=has_any(t,("reifenwerk","reifenfabrik","produktionsstandort","produktionsanlage","produktionslinie","fertigungsanlage","fertigungsstandort"))
-    explicit=bool(re.search(r"continental.{0,100}werk.{0,100}(produktion|fertigung|investition|mitarbeiter|beschäftigte|beschaeftigte|modernisierung|ausbau|erweiterung|verlagerung|schließung|schliessung|stellenabbau)",t))
-    return plant or explicit or (action and has_any(t,("standort","werk","fabrik")))
+    t = text_of(item)
+    q = search_context(item)
+    if "continental" not in t and "continental" not in q:
+        return False
+    if has_any(t, KORBACH_FACTORY_CONTEXT_WORDS):
+        return True
+    action = has_any(t, FACTORY_ACTION_WORDS)
+    plant = has_any(t, ("reifenwerk","reifenfabrik","produktionsstandort","produktionsanlage",
+                        "produktionslinie","fertigungsanlage","fertigungsstandort"))
+    explicit = bool(re.search(r"continental.{0,100}werk.{0,100}(produktion|fertigung|investition|mitarbeiter|beschäftigte|beschaeftigte|modernisierung|ausbau|erweiterung|verlagerung|schließung|schliessung|stellenabbau)",t))
+    if plant or explicit or (action and has_any(t,("standort","werk","fabrik"))):
+        return True
+
+    # Plant-query context is a secondary signal.
+    plant_query = any(x in q for x in (
+        "continental korbach werk", "continental werk deutschland",
+        "continental reifen fabrik deutschland", "continental reifen werk",
+        "continental hannover reifenwerk", "continental aachen reifenwerk",
+        "continental roding reifenwerk", "continental regensburg reifenwerk",
+        "continental fürstenwalde reifenwerk", "continental stöcken werk",
+    ))
+    return plant_query and has_any(t, ("produktion","fertigung","investition","modernisierung",
+                                       "ausbau","erweiterung","verlagerung","schließung",
+                                       "schliessung","stellenabbau","mitarbeiter","beschäftigte",
+                                       "beschaeftigte","werk","fabrik","anlage","kapazität","kapazitaet"))
+
 
 def is_real_production_story(item: dict) -> bool:
     t = text_of(item)
@@ -422,6 +487,11 @@ def score(item: dict) -> tuple[int, str]:
         category = "TIRE_TEST"
     elif has_any(t, ("technologie", "innovation", "konzeptreifen", "recycel", "nachhaltigkeit")):
         category = "CONTINENTAL_TECHNOLOGY"
+    elif has_any(t, ("aktie", "aktien", "börse", "boerse", "dax", "mdax", "aumovio",
+                     "contitech", "strategische partnerschaft", "verkauft", "verkauf",
+                     "retail", "ausbildungsbetrieb", "werkstatt-marke", "übernimmt",
+                     "uebernimmt", "übernahme", "uebernahme")):
+        category = "COMPANY"
     elif has_any(t, TIRE_WORDS):
         category = "CONTINENTAL_TIRE"
     else:
@@ -482,6 +552,7 @@ def fetch_candidates() -> list[dict]:
                     "url": url,
                     "source": source(url),
                     "published_at": dt.isoformat(),
+                    "matched_queries": [query],
                 }
                 item["score"], item["category"] = score(item)
                 item["korbach_priority"] = is_korbach_factory(item)
@@ -496,8 +567,16 @@ def fetch_candidates() -> list[dict]:
                 # Exact article deduplication.
                 key = hashlib.sha1((norm(title) + "|" + url.split("?")[0]).encode()).hexdigest()
                 old = found.get(key)
-                if old is None or item["score"] > old["score"]:
+                if old is None:
                     found[key] = item
+                else:
+                    old.setdefault("matched_queries", [])
+                    for mq in item.get("matched_queries", []):
+                        if mq not in old["matched_queries"]:
+                            old["matched_queries"].append(mq)
+                    if item["score"] > old["score"]:
+                        item["matched_queries"] = old["matched_queries"]
+                        found[key] = item
 
     return list(found.values())
 
@@ -551,10 +630,18 @@ EXCLUDED_LOW_VALUE = (
 
 def is_low_value_company_story(item: dict) -> bool:
     t = text_of(item)
-    # Corporate market/stock coverage should not displace factory or product news.
-    if item.get("category") != "COMPANY":
+    title = norm(item.get("title", ""))
+    factory = item.get("category") in FACTORY_CATEGORIES
+    if factory:
         return False
-    return has_any(t, EXCLUDED_LOW_VALUE)
+    if has_any(title, ("aktie","aktien","kursziel","analyst","börse","boerse","dax","mdax","aktienkurs")):
+        return True
+    if has_any(title, ("deal","rabatt","preisvergleich","angebot","sale")):
+        return True
+    if item.get("category") == "COMPANY" and has_any(t, EXCLUDED_LOW_VALUE):
+        return True
+    return False
+
 
 def selection_bucket(item: dict) -> int:
     cat = item.get("category", "COMPANY")
@@ -681,7 +768,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.3 FACTORY-FIRST ===")
+    print("=== Continental WhatsApp Channel News v5.4 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
