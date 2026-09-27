@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-v5.9 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+v5.10 FACTORY-FIRST: Korbach and real factory/production events are selected first.
 Normal mode prepares up to 12 DIFFERENT news events. v5.9 uses article evidence first, requires article-side local evidence for Korbach fallback, and uses explicit event families to merge the same news event across publishers. Multiple articles about the same
 event are grouped together, but distinct factory events are never collapsed merely
 because they share a broad factory family.
@@ -299,6 +299,11 @@ def special_family(item: dict) -> str | None:
     ):
         return "gravity-mtb|argotal-kryptotal-xynotal|continental"
 
+    # One event: the Continental Bundeswehr/defense-tire story, even when
+    # published by different outlets with slightly different headlines.
+    if has_any(t, ("bundeswehr", "wehrmacht", "militär", "militaer")) and has_any(t, ("continental", "conti")) and has_any(t, ("reifen", "reif")):
+        return "bundeswehr|continental|reifen"
+
     # Same ADAC WinterContact TS 870 result can be repeated with different
     # verbs/headlines by Continental and media outlets.
     if "wintercontact ts 870" in t and has_any(t, ("adac", "winterreifentest")) and has_any(t, ("test", "überzeugt", "gewinnt", "empfehlung")):
@@ -487,7 +492,7 @@ def is_korbach_factory(item: dict) -> bool:
     # headline must carry the local anchor when the headline itself names another
     # country/region.
     non_local = has_any(title, (
-        "asien-pazifik", "asia-pacific", "china", "indien", "india", "usa",
+        "asien pazifik", "asia pacific", "china", "indien", "india", "usa",
         "vereinigte staaten", "mexiko", "mexico", "brasilien", "brazilien",
         "thailand", "malaysia", "indonesien", "japan", "südkorea", "suedkorea",
         "australien", "australia", "polen", "tschechien", "ungarn",
@@ -534,7 +539,7 @@ def is_korbach_factory(item: dict) -> bool:
     ))
     generic_product = has_any(title, GENERIC_PRODUCT_SIGNALS)
     non_local_article = has_any(t, (
-        "asien-pazifik", "asia-pacific", "china", "indien", "india", "usa",
+        "asien pazifik", "asia pacific", "china", "indien", "india", "usa",
         "vereinigte staaten", "mexiko", "mexico", "brasilien", "brazilien",
         "thailand", "malaysia", "indonesien", "japan", "südkorea", "suedkorea",
         "australien", "australia", "europa", "polen", "tschechien", "ungarn",
@@ -934,7 +939,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.9 FACTORY-FIRST ===")
+    print("=== Continental WhatsApp Channel News v5.10 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
