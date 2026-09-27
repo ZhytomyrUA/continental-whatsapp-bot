@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-v5.6 FACTORY-FIRST: Korbach and real factory/production events are selected first.
-Normal mode prepares up to 12 DIFFERENT news events. v5.6 uses article evidence first, with narrowly-scoped search-query context only as a secondary confirmation for highly specific factory searches. Multiple articles about the same
+v5.7 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+Normal mode prepares up to 12 DIFFERENT news events. v5.7 uses article evidence first, requires article-side local evidence for Korbach fallback, and uses explicit event families to merge the same news event across publishers. Multiple articles about the same
 event are grouped together, but distinct factory events are never collapsed merely
 because they share a broad factory family.
 Bootstrap mode scans the previous 60 days and builds a backlog so the channel
@@ -282,8 +282,9 @@ def special_family(item: dict) -> str | None:
         return "konzeptreifen|recycling|continental"
 
     # Same Gravity MTB launch can appear under slightly different headlines
-    # (e.g. Continental vs. Velomotion).
-    if has_any(t, ("gravity-mtb", "gravity mtb")) and has_any(t, ("argotal", "kryptotal", "xynotal")):
+    # (e.g. Continental vs. Velomotion). Match on the product-family names too,
+    # because one publisher may omit the literal "Gravity-MTB" phrase.
+    if has_any(t, ("gravity-mtb", "gravity mtb", "argotal", "kryptotal", "xynotal")) and has_any(t, ("argotal", "kryptotal", "xynotal")):
         return "gravity-mtb|argotal-kryptotal-xynotal|continental"
 
     # Same ADAC WinterContact TS 870 result can be repeated with different
@@ -482,13 +483,21 @@ def is_korbach_factory(item: dict) -> bool:
         )):
             return True
 
-    # Secondary confirmation: only use query context when BOTH the query and
-    # the article strongly indicate a local factory event.
+    # Secondary confirmation is deliberately strict: the query may point us
+    # to a Korbach story whose RSS headline omits the place, but the ARTICLE
+    # itself must still contain a local Korbach-area signal. This prevents a
+    # generic Asia-Pacific production story from becoming a Korbach event merely
+    # because it was discovered by a Korbach search.
     q = search_context(item)
     query_local = (
         "korbach" in q
         and has_any(q, ("reifenwerk", "reifen werk", "werk produktion", "reifen produktion", "windpark", "investition", "schließung", "schliessung", "verlagerung", "mitarbeiter"))
     )
+    article_local = has_any(t, (
+        "korbach", "twistetal", "nordhessen", "waldeck-frankenberg",
+        "waldeck frankenberg", "werk in korbach", "werk korbach",
+        "reifenwerk korbach", "standort korbach",
+    ))
     article_factory_action = has_any(title, FACTORY_ACTIONS_STRONG) or _has_nearby(t, FACTORY_NOUNS, FACTORY_ACTIONS_STRONG)
     article_factory_subject = has_any(title, (
         "windpark", "windkraft", "reifenwerk", "reifenfabrik", "produktionsstandort",
@@ -498,7 +507,7 @@ def is_korbach_factory(item: dict) -> bool:
     ))
     generic_product = has_any(title, GENERIC_PRODUCT_SIGNALS)
 
-    if query_local and article_factory_action and article_factory_subject and not generic_product:
+    if query_local and article_local and article_factory_action and article_factory_subject and not generic_product:
         return True
 
     return False
@@ -784,11 +793,23 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
 
         matched = None
         for g in groups:
-            # Never let a Korbach factory story merge with a non-Korbach story.
+            # Explicit event families are stronger than the Korbach safety gate.
+            # This lets Windpark/Twistetal articles merge even when one headline
+            # names only Twistetal or Nordhessen instead of Korbach.
+            si, sg = special_family(item), special_family(g)
+            if si and si == sg:
+                matched = g
+                break
+
+            # Never let an unrelated Korbach factory story merge with a
+            # non-Korbach story. For non-special events require article-side
+            # overlap rather than the discovery query alone.
             if item.get("korbach_priority") or g.get("korbach_priority"):
                 if not (item.get("korbach_priority") and g.get("korbach_priority")):
                     continue
-                if "korbach" not in text_of(item) or "korbach" not in text_of(g):
+                local_i = has_any(text_of(item), ("korbach", "twistetal", "nordhessen", "waldeck-frankenberg"))
+                local_g = has_any(text_of(g), ("korbach", "twistetal", "nordhessen", "waldeck-frankenberg"))
+                if not (local_i and local_g):
                     continue
                 shared = article_fingerprint(item) & article_fingerprint(g)
                 if len(shared) < 3 or event_similarity(item, g) < 0.60:
@@ -870,7 +891,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.6 FACTORY-FIRST ===")
+    print("=== Continental WhatsApp Channel News v5.7 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
