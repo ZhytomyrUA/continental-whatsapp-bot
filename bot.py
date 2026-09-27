@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-v5.4 FACTORY-FIRST: Korbach and real factory/production events are selected first.
-Normal mode prepares up to 12 DIFFERENT news events. Multiple articles about the same
+v5.5 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+Normal mode prepares up to 12 DIFFERENT news events. v5.5 uses article evidence rather than search-query context to classify factories. Multiple articles about the same
 event are grouped together, but distinct factory events are never collapsed merely
 because they share a broad factory family.
 Bootstrap mode scans the previous 60 days and builds a backlog so the channel
@@ -387,55 +387,118 @@ CATEGORY_PRIORITY = {
     "CONTINENTAL_TIRE": 30, "TIRE_TEST": 20, "COMPANY": 10,
 }
 
-def is_korbach_factory(item: dict) -> bool:
+FACTORY_NOUNS = (
+    "reifenwerk", "reifenfabrik", "produktionsstandort", "produktionsanlage",
+    "produktionslinie", "fertigungsanlage", "fertigungsstandort", "werk",
+    "fabrik", "werkstandort", "produktionsstätte", "produktionsstaette",
+)
+
+FACTORY_ACTIONS_STRONG = (
+    "produktion", "produktions", "produziert", "fertigung", "fertigt",
+    "investition", "investitionen", "investment", "modernisierung", "modernisiert",
+    "ausbau", "erweiterung", "werkserweiterung", "verlagerung", "verlagert",
+    "schließung", "schliessung", "stellenabbau", "betriebsrat", "mitarbeiter",
+    "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze",
+    "windpark", "windkraft", "energieversorgung", "stromversorgung",
+    "kapazität", "kapazitaet", "neubau", "bau eines", "spatenstich",
+)
+
+GENERIC_PRODUCT_SIGNALS = (
+    "reifentest", "winterreifentest", "ganzjahresreifentest", "vergleich",
+    "test", "empfehlung", "empfehlenswert", "profi-werkstatt-marke",
+    "deal", "rabatt", "preisvergleich", "angebot", "aktie", "börsen",
+    "boerse", "kursziel", "analyst",
+)
+
+
+def _has_nearby(text: str, left_words: tuple[str, ...], right_words: tuple[str, ...], window: int = 140) -> bool:
+    """True when a factory noun and a factory action occur close to each other."""
+    for left in left_words:
+        for m in re.finditer(re.escape(left), text):
+            chunk = text[max(0, m.start() - window): min(len(text), m.end() + window)]
+            if any(r in chunk for r in right_words):
+                return True
+    return False
+
+
+def _factory_evidence(item: dict, location: str | None = None) -> dict[str, bool]:
+    """Evaluate the article itself. Search-query context is deliberately excluded."""
     t = text_of(item)
-    q = search_context(item)
-    if "continental" not in t and "continental" not in q:
+    title = norm(item.get("title", ""))
+    loc = bool(location and location in t) if location else False
+    factory_noun = has_any(t, FACTORY_NOUNS)
+    action = has_any(t, FACTORY_ACTIONS_STRONG)
+    nearby = _has_nearby(t, FACTORY_NOUNS, FACTORY_ACTIONS_STRONG)
+    title_factory = has_any(title, FACTORY_NOUNS)
+    title_action = has_any(title, FACTORY_ACTIONS_STRONG)
+    generic_product = has_any(title, GENERIC_PRODUCT_SIGNALS)
+    return {
+        "location": loc,
+        "factory_noun": factory_noun,
+        "action": action,
+        "nearby": nearby,
+        "title_factory": title_factory,
+        "title_action": title_action,
+        "generic_product": generic_product,
+    }
+
+
+def is_korbach_factory(item: dict) -> bool:
+    """Classify only when the article itself supports a Korbach factory event.
+
+    v5.5 rule: matched_queries are discovery metadata, never proof. This prevents
+    a tire test/product article found through a Korbach query from becoming a
+    Korbach factory story.
+    """
+    t = text_of(item)
+    if "continental" not in t or "korbach" not in t:
         return False
 
-    if "korbach" in t and (
-        has_any(t, ("reifenwerk","reifenfabrik","produktionsstandort","produktionsanlage",
-                    "produktionslinie","fertigungsanlage","fertigungsstandort","windpark","windkraft"))
-        or has_any(t, FACTORY_ACTION_WORDS)
-    ):
+    e = _factory_evidence(item, "korbach")
+
+    # Strongest case: Korbach + factory noun + concrete factory action.
+    if e["location"] and e["factory_noun"] and e["action"] and e["nearby"]:
         return True
 
-    # Search-query context can recover headlines that refer to "Nordhessen",
-    # "the plant", or "the wind farm" without naming Korbach.
-    if "korbach" in q and has_any(q, ("werk","reifenwerk","produktion","windpark","investition")):
-        return has_any(t, ("continental","windpark","windkraft","reifenwerk","reifenfabrik",
-                            "produktion","fertigung","investition","modernisierung","ausbau",
-                            "erweiterung","verlagerung","schließung","schliessung",
-                            "mitarbeiter","beschäftigte","beschaeftigte","energie","strom"))
+    # Headlines can be concise; allow an explicit factory/action title with Korbach.
+    title = norm(item.get("title", ""))
+    if "korbach" in title and e["title_factory"] and e["title_action"]:
+        return True
+
+    # Some local reports say "Korbach" in the body and put the factory action in
+    # a different paragraph. Location + a strong plant event is sufficient unless
+    # the headline is clearly only a consumer/test/product story.
+    if e["location"] and e["action"] and not e["generic_product"]:
+        if any(x in t for x in ("reifenwerk", "reifenfabrik", "produktionsstandort", "produktionsanlage",
+                                 "werk korbach", "werk in korbach", "werk des", "standort korbach",
+                                 "industriereifen", "reifenproduktion", "reifenfertigung")):
+            return True
+
     return False
 
 
 def is_factory_story(item: dict) -> bool:
+    """Classify a real factory/production story using article evidence only."""
     t = text_of(item)
-    q = search_context(item)
-    if "continental" not in t and "continental" not in q:
+    if "continental" not in t:
         return False
-    if has_any(t, KORBACH_FACTORY_CONTEXT_WORDS):
-        return True
-    action = has_any(t, FACTORY_ACTION_WORDS)
-    plant = has_any(t, ("reifenwerk","reifenfabrik","produktionsstandort","produktionsanlage",
-                        "produktionslinie","fertigungsanlage","fertigungsstandort"))
-    explicit = bool(re.search(r"continental.{0,100}werk.{0,100}(produktion|fertigung|investition|mitarbeiter|beschäftigte|beschaeftigte|modernisierung|ausbau|erweiterung|verlagerung|schließung|schliessung|stellenabbau)",t))
-    if plant or explicit or (action and has_any(t,("standort","werk","fabrik"))):
+
+    e = _factory_evidence(item)
+
+    # A factory noun and a concrete factory action must be connected in the article.
+    if e["nearby"] and e["action"]:
         return True
 
-    # Plant-query context is a secondary signal.
-    plant_query = any(x in q for x in (
-        "continental korbach werk", "continental werk deutschland",
-        "continental reifen fabrik deutschland", "continental reifen werk",
-        "continental hannover reifenwerk", "continental aachen reifenwerk",
-        "continental roding reifenwerk", "continental regensburg reifenwerk",
-        "continental fürstenwalde reifenwerk", "continental stöcken werk",
+    # Explicit Continental + Werk + action constructions are strong evidence.
+    explicit = bool(re.search(
+        r"continental.{0,120}(werk|fabrik|standort).{0,140}(produktion|fertigung|investition|mitarbeiter|beschaeftigte|beschäftigte|modernisierung|ausbau|erweiterung|verlagerung|schliessung|schließung|stellenabbau|windpark|energie)",
+        t,
     ))
-    return plant_query and has_any(t, ("produktion","fertigung","investition","modernisierung",
-                                       "ausbau","erweiterung","verlagerung","schließung",
-                                       "schliessung","stellenabbau","mitarbeiter","beschäftigte",
-                                       "beschaeftigte","werk","fabrik","anlage","kapazität","kapazitaet"))
+    if explicit:
+        return True
+
+    # Do not use the search query as a fallback. It is only discovery metadata.
+    return False
 
 
 def is_real_production_story(item: dict) -> bool:
@@ -445,11 +508,12 @@ def is_real_production_story(item: dict) -> bool:
         return False
     if is_factory_story(item):
         return True
-    if has_any(t, ("reifenproduktion", "reifenerzeugung", "industriereifen", "industriereifen-produktion", "produktionskapazität", "produktionskapazitaet", "fertigungsstandort")):
+    if has_any(t, ("reifenproduktion", "reifenerzeugung", "industriereifen-produktion",
+                   "produktionskapazität", "produktionskapazitaet", "fertigungsstandort")):
         return True
-    # Verb-based production is accepted only when Continental is the subject in
-    # the headline; this prevents "in China produzierten Fahrzeuge auf Continental-Reifen".
-    if re.search(r"continental.{0,100}(produziert|produzieren|fertigt|fertigen|verlagert|verlagern).{0,100}(reifen|reifenproduktion|industriereifen|werk|fabrik|anlage|kapazität|kapazitaet)", title):
+    # "Industriereifen" alone is not enough: it must be tied to an actual
+    # production action in the Continental headline.
+    if re.search(r"continental.{0,100}(produziert|produzieren|fertigt|fertigen|verlagert|verlagern).{0,100}(reifenproduktion|industriereifen|werk|fabrik|anlage|kapazität|kapazitaet)", title):
         return True
     return bool(re.search(r"continental.{0,80}(produktion|fertigung|manufacturing|production).{0,80}(reifen|werk|fabrik|anlage|kapazität|kapazitaet|standort)", title))
 
@@ -481,17 +545,17 @@ def score(item: dict) -> tuple[int, str]:
     elif production:
         s += 500
         category = "PRODUCTION"
-    elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "jobs")):
-        category = "EMPLOYEES_FACTORY"
-    elif has_any(t, ("test", "vergleich", "reifentest", "ganzjahresreifen-test")):
-        category = "TIRE_TEST"
-    elif has_any(t, ("technologie", "innovation", "konzeptreifen", "recycel", "nachhaltigkeit")):
-        category = "CONTINENTAL_TECHNOLOGY"
     elif has_any(t, ("aktie", "aktien", "börse", "boerse", "dax", "mdax", "aumovio",
                      "contitech", "strategische partnerschaft", "verkauft", "verkauf",
                      "retail", "ausbildungsbetrieb", "werkstatt-marke", "übernimmt",
                      "uebernimmt", "übernahme", "uebernahme")):
         category = "COMPANY"
+    elif has_any(t, ("test", "vergleich", "reifentest", "ganzjahresreifen-test")):
+        category = "TIRE_TEST"
+    elif has_any(t, ("technologie", "innovation", "konzeptreifen", "recycel", "nachhaltigkeit")):
+        category = "CONTINENTAL_TECHNOLOGY"
+    elif has_any(t, ("mitarbeiter", "beschäftigte", "beschaeftigte", "arbeitsplätze", "arbeitsplaetze", "jobs")):
+        category = "EMPLOYEES_FACTORY"
     elif has_any(t, TIRE_WORDS):
         category = "CONTINENTAL_TIRE"
     else:
@@ -556,6 +620,7 @@ def fetch_candidates() -> list[dict]:
                 }
                 item["score"], item["category"] = score(item)
                 item["korbach_priority"] = is_korbach_factory(item)
+                item["factory_evidence"] = _factory_evidence(item, "korbach" if item["korbach_priority"] else None)
                 # Do not discard factory/production stories merely because their
                 # numeric score is low. Classification is handled after collection.
                 # Only reject results that are clearly not Continental-related.
@@ -633,6 +698,12 @@ def is_low_value_company_story(item: dict) -> bool:
     title = norm(item.get("title", ""))
     factory = item.get("category") in FACTORY_CATEGORIES
     if factory:
+        # A factory label must survive a second article-evidence check. This is
+        # intentionally redundant: it protects against future classifier changes.
+        if item.get("category") == "KORBACH_FACTORY" and not is_korbach_factory(item):
+            return True
+        if item.get("category") != "KORBACH_FACTORY" and not is_factory_story(item):
+            return True
         return False
     if has_any(title, ("aktie","aktien","kursziel","analyst","börse","boerse","dax","mdax","aktienkurs")):
         return True
@@ -730,9 +801,9 @@ def choose_events(candidates: list[dict], seen: dict[str, str]) -> list[dict]:
             if x not in selected and len(selected) < MAX_EVENTS and n > 0:
                 selected.append(x); n -= 1
 
-    take(korbach, 4)
-    take(factory, 3)
-    take(tech, 2)
+    take(korbach, 6)
+    take(factory, 4)
+    take(tech, 1)
     take(tire, 1)
     take(tests, 1)
     take(company, 1)
@@ -768,7 +839,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.4 FACTORY-FIRST ===")
+    print("=== Continental WhatsApp Channel News v5.5 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
