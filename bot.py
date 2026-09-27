@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Continental News collector for a normal WhatsApp Channel.
 
-v5.8 FACTORY-FIRST: Korbach and real factory/production events are selected first.
-Normal mode prepares up to 12 DIFFERENT news events. v5.8 uses article evidence first, requires article-side local evidence for Korbach fallback, and uses explicit event families to merge the same news event across publishers. Multiple articles about the same
+v5.9 FACTORY-FIRST: Korbach and real factory/production events are selected first.
+Normal mode prepares up to 12 DIFFERENT news events. v5.9 uses article evidence first, requires article-side local evidence for Korbach fallback, and uses explicit event families to merge the same news event across publishers. Multiple articles about the same
 event are grouped together, but distinct factory events are never collapsed merely
 because they share a broad factory family.
 Bootstrap mode scans the previous 60 days and builds a backlog so the channel
@@ -481,8 +481,23 @@ def is_korbach_factory(item: dict) -> bool:
     if "continental" not in t:
         return False
 
+    # Explicit non-local headlines must not be promoted to Korbach merely
+    # because the RSS summary also mentions Korbach or the search query was local.
+    # A true Korbach event can still mention another region in the body, but the
+    # headline must carry the local anchor when the headline itself names another
+    # country/region.
+    non_local = has_any(title, (
+        "asien-pazifik", "asia-pacific", "china", "indien", "india", "usa",
+        "vereinigte staaten", "mexiko", "mexico", "brasilien", "brazilien",
+        "thailand", "malaysia", "indonesien", "japan", "südkorea", "suedkorea",
+        "australien", "australia", "polen", "tschechien", "ungarn",
+    ))
+    explicit_korbach_title = has_any(title, (
+        "korbach", "twistetal", "nordhessen", "waldeck-frankenberg",
+    ))
+
     e = _factory_evidence(item, "korbach")
-    if e["location"]:
+    if e["location"] and not (non_local and not explicit_korbach_title):
         # Strong article-side evidence.
         if e["factory_noun"] and e["action"] and e["nearby"]:
             return True
@@ -518,14 +533,14 @@ def is_korbach_factory(item: dict) -> bool:
         "stellenabbau", "mitarbeiter", "beschäftigte", "spatenstich", "bau eines",
     ))
     generic_product = has_any(title, GENERIC_PRODUCT_SIGNALS)
-    non_local = has_any(t, (
+    non_local_article = has_any(t, (
         "asien-pazifik", "asia-pacific", "china", "indien", "india", "usa",
         "vereinigte staaten", "mexiko", "mexico", "brasilien", "brazilien",
         "thailand", "malaysia", "indonesien", "japan", "südkorea", "suedkorea",
         "australien", "australia", "europa", "polen", "tschechien", "ungarn",
     ))
 
-    if query_local and article_local and article_factory_action and article_factory_subject and not generic_product:
+    if query_local and article_local and article_factory_action and article_factory_subject and not generic_product and not (non_local and not explicit_korbach_title):
         return True
 
     # Narrow recall path: a very specific Korbach factory query may recover a
@@ -535,7 +550,7 @@ def is_korbach_factory(item: dict) -> bool:
         "korbach" in q
         and has_any(q, ("reifenwerk", "werk produktion", "reifen produktion"))
     )
-    if query_very_specific and article_factory_action and article_factory_subject and not generic_product and not non_local:
+    if query_very_specific and article_factory_action and article_factory_subject and not generic_product and not non_local_article and not (non_local and not explicit_korbach_title):
         return True
 
     return False
@@ -919,7 +934,7 @@ def post_text(item: dict, number: int) -> str:
 
 
 def main() -> None:
-    print("=== Continental WhatsApp Channel News v5.8 FACTORY-FIRST ===")
+    print("=== Continental WhatsApp Channel News v5.9 FACTORY-FIRST ===")
     if BOOTSTRAP:
         print(f"MODE: BOOTSTRAP | Lookback: {BOOTSTRAP_LOOKBACK_HOURS // 24} days | Max DIFFERENT EVENTS: {BOOTSTRAP_MAX_EVENTS}")
     else:
