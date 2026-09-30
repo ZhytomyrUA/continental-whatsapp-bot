@@ -329,7 +329,7 @@
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "13 neue Optionen für Argotal, Kryptotal und Xynotal Continental erweitert Gravity-MTB-Reifenserie - Velomotion",
+        "title": "13 neue Optionen für Argotal, Kryptotal und Xynotal Continental erweitert Gravity-MTB-Reifenserie - velomotion.de",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wRVYwTm9HYzQxQjhVWnR0cUc3Vmxadkp1Wm55cWxteFBTN2xkODJ2aFcxU2s1RDZnVWNIOWI2Nko2QnNkU0ZuVVFrVXpDNnZyMFAzTVFVdGVhdTB3amZNcEdFOHI?oc=5",
         "published_at": "2026-08-06T07:00:00+00:00"
       }
@@ -517,6 +517,35 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental: Spedition Vendel nutzt Reifen für Frischelogistik - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Spedition Vendel nutzt Reifen für Frischelogistik &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWpJVTh4alpvcURlRkdudURZR0FDTmMyOEhrRzVmUm1sRm5IYkhEWGUyblk2MXpiOERMYzh4d3ZyeHg3OE1kTVhnUHVFQ1hrSlNSYkxLQkZ4UUE5Q0doTFN5YTZSOURjN1U4UGZtRm9ubFhfdWpfV3BZMzlra2RlVVZfOTNRcVJPckUtOVZzQ3VZMmppQ25yblpaTHZOTXl6OWMwemJqSTFvQUk?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-18T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|frischelogistik|guterverkehr|nutzt|spedition|transport",
+    "event_id": "3f32a06c101cd7c9276d9c887378f85335a32836",
+    "alternate_sources": []
+  },
+  {
     "title": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will - Business Insider Deutschland",
     "summary": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will &nbsp;&nbsp; Business Insider Deutschland",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdEhFUXkwbkFlTjdiMVI3VGJlZkE0eVBVUmItNVJWWk1NTVdzYkN0bm00QWJlazhiaDhOVXFPQWhoWTRPWFVST0hubTdtWnZSM1I0TkNYZDljWmlodUFXaWZmTGlNZmtXeEdET2tjcTY5Sy10X1JwRHlEMEZqR3dyZDlPVExnSHJERjcwbTRzWGNKbEJHYVYyUld3ZmlfUzE5RkV5a0ZrNA?oc=5",
@@ -550,37 +579,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: Spedition Vendel nutzt Reifen für Frischelogistik - TRANSPORT - die Zeitung für den Güterverkehr",
-    "summary": "Continental: Spedition Vendel nutzt Reifen für Frischelogistik &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWpJVTh4alpvcURlRkdudURZR0FDTmMyOEhrRzVmUm1sRm5IYkhEWGUyblk2MXpiOERMYzh4d3ZyeHg3OE1kTVhnUHVFQ1hrSlNSYkxLQkZ4UUE5Q0doTFN5YTZSOURjN1U4UGZtRm9ubFhfdWpfV3BZMzlra2RlVVZfOTNRcVJPckUtOVZzQ3VZMmppQ25yblpaTHZOTXl6OWMwemJqSTFvQUk?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-18T09:17:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Reifen Innovation",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Korbach Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|frischelogistik|guterverkehr|nutzt|spedition|transport",
-    "event_id": "3f32a06c101cd7c9276d9c887378f85335a32836",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - Continental AG",
     "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakthUXZtVWRyQVFhbU5yMVJGN1pMa0pDNGM3X2FscXlFbXhZd1pkYkM3MmNZNFZNYWw1QzR0aFBXcEVwRFNRTjF4Rkt4Y01iNFNQWkZJdEJTV2JHS0FxRE45Sk8tQU1yMzRxVjZHSVFpS0otT1FMcTNUUC0wRV92UU1YM0xSVVBF?oc=5",
@@ -588,9 +586,9 @@
     "published_at": "2026-09-24T05:58:54+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
       "Continental Nachhaltigkeit"
     ],
     "score": 200,
@@ -616,10 +614,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T08:28:04+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Innovation",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen"
+      "Continental Korbach Reifen Produktion"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -634,8 +629,20 @@
       "generic_product": false
     },
     "event_family": "continental|fotostrecke|guterverkehr|hoher|laufleistung|rollwiderstand",
-    "event_id": "f3203e5ac9b6ff962036fc5c0dd54f69132943e0",
+    "event_id": "61bd7888108c95f96fd8132a47ff86d17f16ad71",
     "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Fotostrecke: Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - Logistra.de",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEhwbHFkRlo1Zl9pZldjd2dyakJpckRJbE1ib0NRRkFRVU5BMGhfT09pZUc5d21XeXlpUExxSHY5Q0pMTDVCTzFTWWVPQmtnZVVWcE5VX28tNEY4SlFYeXZHQnNuWjlKM2xPRUlGNlBLR0Ryb2FYUmpCNW1LNWtvQkZfUDV2czVpT3paRnprNE1DZ2NoVzEwaHh3SW9qV3lSc1poWDRacGx3WWVGaTQwT0tGTWo4eUxGTGlSSmpLT2gzbFpKTGxEdnBGX3FTdHRRNDlJeHRR?oc=5",
+        "published_at": "2026-09-24T14:43:49+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - Logistra.de",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmRsUDRYMmlUSHBnU3JFX01vVTB6M0pPMl8wUmIwYWo4SmI4dml3MWdJSmFBT2hYdWpMMFBCZXh4ZzRsT2VKTndnNjc5WDROYU5aTWJXUXVvOTZsaWpXc2dQOTFpWFpsY29veU9OMjBtaEItWmxWTW51Zk5uMFg3YTdnVXgzdnJnU0RTaHJ3Tm5zWlpFLXdoQUtVUTFEc09lZUU0XzYyN1AyRHI3Qi0ySlhSR2FJZU1oWWFsLTJsYnQ?oc=5",
+        "published_at": "2026-09-24T08:26:00+00:00"
+      },
       {
         "source": "news.google.com",
         "title": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung - TRANSPORT - die Zeitung für den Güterverkehr",
@@ -669,9 +676,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:36:08+00:00",
     "matched_queries": [
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
+      "Continental Reifen Technologie",
+      "Continental Nutzfahrzeugreifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -686,21 +692,8 @@
       "generic_product": false
     },
     "event_family": "continental|deutschland|machen|marketscreener|nutzfahrzeuge|straßenverkehr",
-    "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOczQxRDAzblBHaU0ySmxSdDFnLU1mNXVUYVFzS0J3Wm1IdTQyNXM1V045NTMySTcyYlF3MjdrWEZvTnBLTjhWellCbEMxQmtvc0NEc2JZTDJldXYycFdxY21keUZCSTlRQnhxMGN3MDhGVXU1SjRqVkZsR1ZmR1JYZVNpdTZueHJSWXE1SnRJc3d1OHA4alBqWk9la3RWclRJZXVHSWRRZ1EyX3AzcXlOUDZuQzFKLUxzWUYyem9QdUQxZjQ1MWEwRzBVbDlZdmwtX2wya0lKcWpRSFh4WVM5c2RGVjBEYWktV25IYU9qbFphdGwzRlE?oc=5",
-        "published_at": "2026-09-28T07:36:08+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWhOdVFmZmdXN3RvaFk0VGcwNV9pb2NRN3pzemZULXJfSUJNWGpGNUotZ3pEWWNTekVtRjJMYUJQbkxUTTQtNUxUNXRibnZCRDJTdzdoSVRkMGU1U25XUUhGNXY0ZjB2VGdJTmFDZ2JpOG4tM1QxenFoVElibnJIcHF0elhjRXZK?oc=5",
-        "published_at": "2026-09-28T07:33:49+00:00"
-      }
-    ]
+    "event_id": "c7f176c58fa1d3bac286f990364968d265ae2419",
+    "alternate_sources": []
   },
   {
     "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - Finanzen.net",
@@ -735,7 +728,8 @@
     "published_at": "2026-09-28T15:12:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Innovation"
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -785,7 +779,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-29T09:12:19+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Nachhaltigkeit"
     ],
@@ -859,7 +852,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-23T07:31:36+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -880,8 +872,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
-    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
+    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - Heise Online",
+    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; Heise Online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-25T05:30:00+00:00",
@@ -1045,7 +1037,6 @@
     "published_at": "2026-09-24T06:23:59+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
