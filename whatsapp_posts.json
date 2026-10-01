@@ -15,6 +15,7 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -121,8 +122,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T03:09:32+00:00",
     "matched_queries": [
-      "Continental Reifen Innovation",
-      "Continental Pkw Reifen"
+      "Continental Reifen Innovation"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -147,7 +147,7 @@
       },
       {
         "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen - welt.de",
+        "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
@@ -233,8 +233,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental profitiert von starkem Reifengeschäft und verdient mehr als erwartet - t-online.de",
-    "summary": "Continental profitiert von starkem Reifengeschäft und verdient mehr als erwartet &nbsp;&nbsp; t-online.de",
+    "title": "Continental profitiert von starkem Reifengeschäft und verdient mehr als erwartet - T-Online",
+    "summary": "Continental profitiert von starkem Reifengeschäft und verdient mehr als erwartet &nbsp;&nbsp; T-Online",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObjFBZzNrMkNCcjNjRmEzUU1YUldIelI5dWdYMnE1c1AxMDYzTU9ZbHMtVHl1Z0FqTzlXOU12TjR0WDVoZ0tFbjNOWkZ5WmI0cGM0TG83eERxN1Y1Uk9TeVNHLUoyU1JGY0poMlVwLWRwTXcxNlF6bXh1UW92RDBHYkxGc2VGbTN3M1ZvYm55LVJJc0tnVzdDQXkwMktKaHgzcDF0cW43eklFZlFsRW9PYzFvN2JZTExmM1Q2SUJSYXNuRzRiNGxVd2VSU21ldURQQkRJSVFtbUVRRGxQOWlR?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-04T07:00:00+00:00",
@@ -258,8 +258,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental profitiert von Nachfrage nach großen Reifen - welt.de",
-    "summary": "Continental profitiert von Nachfrage nach großen Reifen &nbsp;&nbsp; welt.de",
+    "title": "Continental profitiert von Nachfrage nach großen Reifen - WELT",
+    "summary": "Continental profitiert von Nachfrage nach großen Reifen &nbsp;&nbsp; WELT",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORmNmWE5PMnNpdW1oTEFIdnQ0a0R6cThLZEJha3RxOXFDV0daQnp5VnVTdVJYTWpEdTBOTkRiRlV4ZUhybk1QOWdMdHFhaHZKZmh6ODdTajFIOTFLVjltRnp6QkRodVFZYk84cGxKZnlxbWJxSWdLRWRaS3plSVlXTEZ2WmNhSTRLbmxiZ3N1cExSSTRfdVVSTGdxRWlBalJWdnFiY1NUdzI1NUtNWkczMFlCMmVFVm9jbEF5b1RIMWZDcGtQbXBpVlNkTzlQeEZCUHJUZw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-04T07:00:00+00:00",
@@ -290,8 +290,8 @@
     ]
   },
   {
-    "title": "Continental kann seine Profitabilität im Halbjahr deutlich steigern - reifenpresse.de",
-    "summary": "Continental kann seine Profitabilität im Halbjahr deutlich steigern &nbsp;&nbsp; reifenpresse.de",
+    "title": "Continental kann seine Profitabilität im Halbjahr deutlich steigern - Reifenpresse.de",
+    "summary": "Continental kann seine Profitabilität im Halbjahr deutlich steigern &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHdwWW9Ra3dPMS1id1ZRbm5JVGJXM0JoVmZ2TVh3MWthSVJ3cTFhUGZ6VnpEQmpDcGlHU1dXVHNjX1lzZFpaa3A3dUJVaGwxdGtyUkFPZjUtdmE4aGZHNzVIYkkyV3hwY3NqWmdQNnFQUEtrVEwwVFRneENmQTRFcmlUc1dOeU5YNzNHUkhSWGJQRS1LTmNaMXViLVpPVGI2SlVGdWRfbw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-04T07:00:00+00:00",
@@ -316,8 +316,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental erweitert Gravity-MTB-Reifenserie um 13 neue Reifenkombinationen - continental.com",
-    "summary": "Continental erweitert Gravity-MTB-Reifenserie um 13 neue Reifenkombinationen &nbsp;&nbsp; continental.com",
+    "title": "Continental erweitert Gravity-MTB-Reifenserie um 13 neue Reifenkombinationen - Continental AG",
+    "summary": "Continental erweitert Gravity-MTB-Reifenserie um 13 neue Reifenkombinationen &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFZ1SF9hUUlRRHZITTVQczBUVWFhcnU0STZTVVJqTHVCX0p0Q1lSUFctMWx5TXpwazBUM3Q3RmxTUWt2T2J4N3oyOVA2QTJ0eXFDQmdNakZQNnQ4LWdXc2lVTi1abXZSUmN1bm1OTGlSMW9oZnpXcjcyalVsZmJQWmROWjdaNkJYUlBIeUVn?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-06T07:00:00+00:00",
@@ -375,8 +375,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - Maquinac",
-    "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; Maquinac",
+    "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - maquinac.com",
+    "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; maquinac.com",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1R6MVk5aXZQZEJpLXdEWFRyUDRwd09DVDgxOVJ0M05sR3l2MzhFQ1BoNHZUNGVlcjNFX2tza1c4czRZc3FydldCVWhHRGpKdlZVNktZeUtLODdmLUctM2s0NVBkZDktVWw5LWsyMmtqMzRoTVBsanpUcExNS0JBMlJuUUR1TDBCZ2lsb3RpMlJhRmZGVm9udnpNVkVncF9IME1r?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-22T07:00:00+00:00",
@@ -405,8 +405,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo - continental.com",
-    "summary": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo &nbsp;&nbsp; continental.com",
+    "title": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo - Continental AG",
+    "summary": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV0d5RHNTdk5naFRXN2g2YVY0OVFWaXlTeXFBdXNUSEYwT1FEV1VIczNuS0JFR1VRUlp4dTF1ZjlPeFlTN0VCQUNhYmV4Z20xc1l5SmJxTm94ZXU2cWVNM1VvdkUxQzJuSlUycWJzTHF4MUJlXzJEY2MwSE1nU0tTRF9B?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
@@ -438,8 +438,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA - KLOEPFEL by EPSA",
-    "summary": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA &nbsp;&nbsp; KLOEPFEL by EPSA",
+    "title": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA - kloepfel-consulting.com",
+    "summary": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA &nbsp;&nbsp; kloepfel-consulting.com",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUs4VVpYV0w5Vm1yZ1N2Wi0xNlV3LVVZVG1BV081UzA4Wmd3VU9hTFlvbXFCTVBva0xxbVpmclBYeTJpNkgxdGoyZzg3MkE0LThFMjdvMzFZN2xySUNScnBsWHB0QVhxZXluY2hfS0xzY2pZMDZ0MWVxbTVjMWVoanhSX0ZXOTM3?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-10T06:02:12+00:00",
@@ -462,13 +462,13 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|kloepfel|materialien|nachhaltigen",
-    "event_id": "1a5c637076d3ca7e9c4ce51647502ddc752c69c8",
+    "event_family": "continental|consulting|kloepfel|materialien|nachhaltigen",
+    "event_id": "edc2b214e2fcb0f8fee4a211f63719582faa2c0d",
     "alternate_sources": []
   },
   {
-    "title": "Continental und andere erneut als beste Profi-Werkstatt-Marke ausgezeichnet - reifenpresse.de",
-    "summary": "Continental und andere erneut als beste Profi-Werkstatt-Marke ausgezeichnet &nbsp;&nbsp; reifenpresse.de",
+    "title": "Continental und andere erneut als beste Profi-Werkstatt-Marke ausgezeichnet - Reifenpresse.de",
+    "summary": "Continental und andere erneut als beste Profi-Werkstatt-Marke ausgezeichnet &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRm9iZ3czeTI1ZEZvV2NtWUM1a0l5QkIwVkxzampfOUhFZW1VRFpmd0wyQ2x2a2M2cEVvdmJDdDdxLVk1d1F4T3NuU2ZBS1pxRDd2NGpDX09vT2tfcld3TFNQWl9zRXZlRlV1Q04zMUxWSUNvMWlzVHFrbDJjX2RPQXBZc3diY2NBME9ldmxhb2QyV29KajRRa3BuYWZhUXZkbDJ6Y3NyRzNvQXhqT2NrQw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-15T12:20:11+00:00",
@@ -495,8 +495,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - AD HOC NEWS",
-    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; AD HOC NEWS",
+    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - ad-hoc-news.de",
+    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; ad-hoc-news.de",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1otY0hhV0tjMkx2VzRfcEN2TWQzNmxJMldnSEVDT01ZbEVDam5VRFR5ODVqVlFJTjJ1MEZMb3pqLTFjVl9pb045SkNaUl9ZM01lTXNKemJCaWZMdXFtc2FwV0IwM3l5djNuRy1mcGVKVmRqSGNLVGJRTTF2bzdDZWtLdlBFdllnMlFSOFdBTXY1SXBvWW1IbV9MTXBwMkQ1Nk4xb0NWY3VJUlpoR2NwMDRmQnV4NmRK?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-17T05:05:26+00:00",
@@ -563,9 +563,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-18T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Korbach Mitarbeiter"
     ],
@@ -619,35 +618,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - continental.com",
-    "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; continental.com",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakthUXZtVWRyQVFhbU5yMVJGN1pMa0pDNGM3X2FscXlFbXhZd1pkYkM3MmNZNFZNYWw1QzR0aFBXcEVwRFNRTjF4Rkt4Y01iNFNQWkZJdEJTV2JHS0FxRE45Sk8tQU1yMzRxVjZHSVFpS0otT1FMcTNUUC0wRV92UU1YM0xSVVBF?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-24T05:58:54+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen",
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "ecogeneration5|trailerreifen|continental",
-    "event_id": "8d174464d85577cdc2a1532649c8159caaef5281",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung - Fotostrecke - TRANSPORT - die Zeitung für den Güterverkehr",
     "summary": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung - Fotostrecke &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMnFGSXhvalRrUjlVUnYtUDNCWEdJSlJhVGttd0w1aXdsWUg5MEZtaEx4V3duaTRoN09NSW5hWUlLdm0zd2FaeU5VLXpEVzBKWm5sLV9LaERWYmtGSjRxeUFBOU1uWmxNYXNmMHZGd1lrQjhHYk14UnA2d2p5ekw2bjdUcUJ2SnF5Um1xYTNYQ0N3bzZfMWE0RzVRQmhESVRDeTFSWUlETVRuWEdhdmFzS2dHWEF0bWtuRUNkR3FmSFdXcWJWOFBGV3B6S3lCM3UzUUE4?oc=5",
@@ -673,13 +643,13 @@
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Fotostrecke: Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - logistra.de",
+        "title": "Fotostrecke: Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - Logistra.de",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEhwbHFkRlo1Zl9pZldjd2dyakJpckRJbE1ib0NRRkFRVU5BMGhfT09pZUc5d21XeXlpUExxSHY5Q0pMTDVCTzFTWWVPQmtnZVVWcE5VX28tNEY4SlFYeXZHQnNuWjlKM2xPRUlGNlBLR0Ryb2FYUmpCNW1LNWtvQkZfUDV2czVpT3paRnprNE1DZ2NoVzEwaHh3SW9qV3lSc1poWDRacGx3WWVGaTQwT0tGTWo4eUxGTGlSSmpLT2gzbFpKTGxEdnBGX3FTdHRRNDlJeHRR?oc=5",
         "published_at": "2026-09-24T14:43:49+00:00"
       },
       {
         "source": "news.google.com",
-        "title": "Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - logistra.de",
+        "title": "Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - Logistra.de",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmRsUDRYMmlUSHBnU3JFX01vVTB6M0pPMl8wUmIwYWo4SmI4dml3MWdJSmFBT2hYdWpMMFBCZXh4ZzRsT2VKTndnNjc5WDROYU5aTWJXUXVvOTZsaWpXc2dQOTFpWFpsY29veU9OMjBtaEItWmxWTW51Zk5uMFg3YTdnVXgzdnJnU0RTaHJ3Tm5zWlpFLXdoQUtVUTFEc09lZUU0XzYyN1AyRHI3Qi0ySlhSR2FJZU1oWWFsLTJsYnQ?oc=5",
         "published_at": "2026-09-24T08:26:00+00:00"
       },
@@ -691,7 +661,7 @@
       },
       {
         "source": "news.google.com",
-        "title": "Fotostrecke: Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - logistra.de",
+        "title": "Fotostrecke: Continental setzt beim Trailer-Reifen auf weniger Rollwiderstand und hohe Laufleistung - Logistra.de",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEhwbHFkRlo1Zl9pZldjd2dyakJpckRJbE1ib0NRRkFRVU5BMGhfT09pZUc5d21XeXlpUExxSHY5Q0pMTDVCTzFTWWVPQmtnZVVWcE5VX28tNEY4SlFYeXZHQnNuWjlKM2xPRUlGNlBLR0Ryb2FYUmpCNW1LNWtvQkZfUDV2czVpT3paRnprNE1DZ2NoVzEwaHh3SW9qV3lSc1poWDRacGx3WWVGaTQwT0tGTWo4eUxGTGlSSmpLT2gzbFpKTGxEdnBGX3FTdHRRNDlJeHRR?oc=5",
         "published_at": "2026-09-24T14:43:49+00:00"
       },
@@ -710,8 +680,8 @@
     ]
   },
   {
-    "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - MarketScreener Deutschland",
-    "summary": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; MarketScreener Deutschland",
+    "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - de.marketscreener.com",
+    "summary": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; de.marketscreener.com",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOczQxRDAzblBHaU0ySmxSdDFnLU1mNXVUYVFzS0J3Wm1IdTQyNXM1V045NTMySTcyYlF3MjdrWEZvTnBLTjhWellCbEMxQmtvc0NEc2JZTDJldXYycFdxY21keUZCSTlRQnhxMGN3MDhGVXU1SjRqVkZsR1ZmR1JYZVNpdTZueHJSWXE1SnRJc3d1OHA4alBqWk9la3RWclRJZXVHSWRRZ1EyX3AzcXlOUDZuQzFKLUxzWUYyem9QdUQxZjQ1MWEwRzBVbDlZdmwtX2wya0lKcWpRSFh4WVM5c2RGVjBEYWktV25IYU9qbFphdGwzRlE?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-28T07:36:08+00:00",
@@ -732,13 +702,13 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|deutschland|machen|marketscreener|nutzfahrzeuge|straßenverkehr",
-    "event_id": "c7f176c58fa1d3bac286f990364968d265ae2419",
+    "event_family": "continental|machen|marketscreener|nutzfahrzeuge|straßenverkehr|unterschied",
+    "event_id": "2361c98413131241afd1a79cd0894102eda9a0ec",
     "alternate_sources": []
   },
   {
-    "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - Finanzen.net",
-    "summary": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht &nbsp;&nbsp; Finanzen.net",
+    "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - finanzen.net",
+    "summary": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht &nbsp;&nbsp; finanzen.net",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUzRGb19ERVdFX2tqVVU5U0hEc1RZRTRvWGtHSnJ1ZHFEYzBtSW00eGdSMk92YTYzSG9GNVpFdEdRbVFDS0NWZ0Z6THFJMFBqWUpBNlNwSTJfdk1zSW5heVpnbGlHWWRwYlMxaGt3ekRFRWNORTNSc3NQelR2dUVaTEhSYzQ5VnBzc0RTd0dTbEptQWdlM0FiUTJINHI3d3dMc0kxWEM5dmVjblR0a1hPbXBseXlxUnZ4Wk1kYVJIaGVab0x6dTcwWlVuSTNrcDg0Y0NfeDlhcThPLWMwS2F1bkU0dG5WSlNsYXc?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-28T10:45:00+00:00",
@@ -814,8 +784,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
-    "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; MarketScreener Deutschland",
+    "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - de.marketscreener.com",
+    "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; de.marketscreener.com",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-29T09:12:19+00:00",
@@ -836,18 +806,18 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|neue-reifen|cayenne|deutschland|marketscreener|modelle|panamera",
+    "event_family": "continental|neue-reifen|cayenne|marketscreener|modelle|panamera|porsche",
     "event_id": "a247bc63b7acbdbf76a077e202a4fa7b31520e41",
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
+        "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - de.marketscreener.com",
         "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
         "published_at": "2026-09-29T09:12:19+00:00"
       },
       {
         "source": "news.google.com",
-        "title": "Porsche setzt auf Reifen von Continental - continental.com",
+        "title": "Porsche setzt auf Reifen von Continental - Continental AG",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2el9RSkVVcDBUVHZFUVJNMUI2Ul9PRG5VUjNnSE0xSWVpeXpQZDVuUVNCZVJ3ekRHdjRIcWdUWmNsblV0VGpYV0RmRlJUMU9QcUoyZXpPVEtGLVRhRC01dGpCc0lOZTJnLWNmc3p3aUxWLUJuVWE0?oc=5",
         "published_at": "2026-09-29T07:39:58+00:00"
       }
@@ -910,8 +880,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 - continental.com",
-    "summary": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 &nbsp;&nbsp; continental.com",
+    "title": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 - Continental AG",
+    "summary": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNmdjX0QydUFxNUtxNmxlamNKNmhCN25hVDRnODhBSG1LVWhDdW5uMnpHSXZmdVg0Z2lvbExMVEJpMTBDbWZTSkhIZzNaUE9GU0FkVUxPOGJaYnJKc1lQX0JCd1pjUVRPNUlPMnhDVXhYLUVUYVNlc1BJZWhOaFI3ZUlKa19vZUdpSmUyRDdFMlNHdw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-22T10:25:21+00:00",
@@ -934,34 +904,16 @@
     },
     "event_family": "wintercontact-ts870|adac|test|continental",
     "event_id": "009fd6d2e27c1cb77851917b52d7e434fcdfb782",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 - continental.com",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNmdjX0QydUFxNUtxNmxlamNKNmhCN25hVDRnODhBSG1LVWhDdW5uMnpHSXZmdVg0Z2lvbExMVEJpMTBDbWZTSkhIZzNaUE9GU0FkVUxPOGJaYnJKc1lQX0JCd1pjUVRPNUlPMnhDVXhYLUVUYVNlc1BJZWhOaFI3ZUlKa19vZUdpSmUyRDdFMlNHdw?oc=5",
-        "published_at": "2026-09-22T10:25:21+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "„Überragend“ bewertet: WinterContact TS 870 P gewinnt aktuellen Winterreifentest der sport auto - continental.com",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVJ2UFVINDF2b0J2dEd1dVJ2OHp0WGVHZ3ljY21leEJBXzVQOU9xY3VRM3I0NkNvd1RMRzNuaGlmOVdfWHVCcURyOHlwRWFydUpmZUdFY1dWTkFSWmpmeGJHblZOZnVfZU5nd1lVN3AwanpNVEpidGlEdjVzdHdpUnozcjhsZ2RuVlBVUDJ3?oc=5",
-        "published_at": "2026-09-11T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental WinterContact TS 870 überzeugt im ADAC Winterreifentest 2026 - continental.com",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUDJFdXNBMmFSandBRVpmZzJiQXJJOFhteElDcW1DT3Uxc0xSa1ZZNGRQQ3pRQU0yRVhQVmFSRUVsMi1SZGJNbUJRdDBQQl9fVnhaVmdsRWM0V0RyZTRqVG9rcjJWbVlVdHFobU5nZUx6TjRaWVk1OUFzUEE1by0zZ1ZvZmxYODN3d1B4T3BRZGFVQQ?oc=5",
-        "published_at": "2026-09-22T10:45:23+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
-    "title": "AllSeasonContact 2 erhält „sehr empfehlenswert“ im Ganzjahresreifentest der Auto Zeitung - continental.com",
-    "summary": "AllSeasonContact 2 erhält „sehr empfehlenswert“ im Ganzjahresreifentest der Auto Zeitung &nbsp;&nbsp; continental.com",
+    "title": "AllSeasonContact 2 erhält „sehr empfehlenswert“ im Ganzjahresreifentest der Auto Zeitung - Continental AG",
+    "summary": "AllSeasonContact 2 erhält „sehr empfehlenswert“ im Ganzjahresreifentest der Auto Zeitung &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTjBhZDZmU3hoMWlVOGp0LVUwaUctX3VrQ1BBN2oybzRnTXNyOXNFRk0xNGRYTlVfZXMxNGZlbU5WZHR4Qk9JYXdOOHJFREU4NnplQ2U3N0R4SUxOa2RMeXVpdHdBQ3Z3U0ZxOG1QLU9CaTBzY3JWVFdRQnFpN25NRkNCREN3M3oyYm0w?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-23T07:31:36+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Produktion",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -982,8 +934,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise.de",
-    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise.de",
+    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
+    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-25T05:30:00+00:00",
@@ -1004,34 +956,8 @@
       "title_action": false,
       "generic_product": true
     },
-    "event_family": "continental|ganzjahresreifen|goodyear|heise|pirelli",
-    "event_id": "e5ee66edf1cf165e68fc71e4d2a162defc362284",
-    "alternate_sources": []
-  },
-  {
-    "title": "500.000 Testkilometer vor dem Marktstart: Was Continental, Infineon und FACC über industrielle Qualität zeigen - FinanzNachrichten.de",
-    "summary": "500.000 Testkilometer vor dem Marktstart: Was Continental, Infineon und FACC über industrielle Qualität zeigen &nbsp;&nbsp; FinanzNachrichten.de",
-    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcU9MaTBwakZYOWR1amdHd0lHYjJITDFXMVVGVUwtRWowcnpoOFlFVUlCaHE2QnRTU2kxZTk1NVNxQjNGTkU4V2lIS2w0cUE1MHM4SW1ZVWtxOU00OHRnYnB0QzJDT2FOczM2TnpfSUk1aXBJT05uYm9MQlU1RDJmdms5czduTlJjOXVab1hoa3Z2SGxhUFAzSXZBcUI1a0Z1MVhsV0VOMUl2ckRBSDBuOU5mZ0ZFOUJoQ055ZFRoOWdZWnE1clQ5X3hWLVRGaHF2TnVROTNCemZjS1hxVnAxRUoyOXU0ZWowbldWVDZpS0VYQWRyMVR2UUZPOExWcDZsd1BZQmYzR1lXQ2pW?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-02T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|finanznachrichten|industrielle|infineon|marktstart|qualitat",
-    "event_id": "767f2247237e0c0e7c6e77da4e9aea3e1aabd4a9",
+    "event_family": "continental|ganzjahresreifen|goodyear|heise|online|pirelli",
+    "event_id": "33ee2f61acdc3f18fe6f145a04160e2a5ff9e1f5",
     "alternate_sources": []
   },
   {
@@ -1087,6 +1013,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) - Unisba Media",
+    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) &nbsp;&nbsp; Unisba Media",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRTN3RGJFQW1NU01wM25MRjFlTW1rd0hkMk9GMURJSjBtVkdhM1QwNHR5QnZlQkVIMVFKR3I5QnZkOWk3Yjc1enB6RnVVVl9vM3E1RWVtX21DRWNreld2Y19MNGhaSlNLVzZZ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-30T18:50:29+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|bentley|brest|heckantrieb|ioprnppsm2|laguna",
+    "event_id": "18fcf85f7b911eafe9a8b576c9e4aeccef2eaecf",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental gewinnt an Profil - Börsen-Zeitung",
     "summary": "Continental gewinnt an Profil &nbsp;&nbsp; Börsen-Zeitung",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGliVXNhNzJTUmhxR011RHFXMzIwbnRmSE0wMDc5LXpHVVJfUHp0R2V4MG1SaTRURlBlRk9VZExENGlpdDJsWXhRc0N5MTQ1ZWxlbWw3dVFsa2FRYUZNWUFjRnlKc1Q0VGFGQk5RXzJScngxbTlLRG1icjdPSHFzZnRn?oc=5",
@@ -1114,8 +1065,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Kumho Tire und Continental schließen strategische Partnerschaft – in Südkorea - reifenpresse.de",
-    "summary": "Kumho Tire und Continental schließen strategische Partnerschaft – in Südkorea &nbsp;&nbsp; reifenpresse.de",
+    "title": "Kumho Tire und Continental schließen strategische Partnerschaft – in Südkorea - Reifenpresse.de",
+    "summary": "Kumho Tire und Continental schließen strategische Partnerschaft – in Südkorea &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNHdaaGlfdFZqRW8zX281TWZVbTIzdldTX29USjlOQXdabHUwbWVXeUlua0tmWG9FbnY2eDd1dC01YnlEX0kwdlBPcXBaRDZROEpfWHdOTHNpQmppU21lZFp2Nk1EQ0FYRTkyMnQyZlh2dGVKeEV6Q1k3Ynp1MXA5QzN4VTJ5MS02NFkxVGllRUx0VWI0aUlLZGVscS1wRVVENnZuNk5HSmRFc0I4RmxKeE5hYw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-06T07:00:00+00:00",
@@ -1141,8 +1092,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental verkauft mycar Tyre & Auto an Tuhu - continental.com",
-    "summary": "Continental verkauft mycar Tyre & Auto an Tuhu &nbsp;&nbsp; continental.com",
+    "title": "Continental verkauft mycar Tyre & Auto an Tuhu - Continental AG",
+    "summary": "Continental verkauft mycar Tyre & Auto an Tuhu &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xUlJ0c01RdlVDMU42WXRaZWtUWktiT2hHcEpWVTlmaFc3YmFnclBOZUZyWkJvNE9yOHBKLTN1ZWhma1ZRVndtMW9xSGk4ekNsSDMwamFxa2tCbW1fU1U0bVVxQXF2Y3dPX1BfU0NLSTRtQQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-24T06:23:59+00:00",
@@ -1167,8 +1118,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - reifenpresse.de",
-    "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; reifenpresse.de",
+    "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - Reifenpresse.de",
+    "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlVMaXNIeFI0WGdxVTc2aWM2N0NyUVpGSjJIaHhhWHFWUlp5cWJXV2oxUGtzcEhHMTNGdnprX1NyTllJUjdMMGZpamhyZGpoNEIybzVPcGNlQXI3SGtLR1lJWlVlOFlsR1NGeHZJeVVuNDd0NEQ4LTJicHRiR3FvT2xWa3pqZjk4U2kzT0QxS3R2VUZhNkhxNzRHX0trcVVrMmhGVWZPOUhSdFBrRjAzb2JlT0c?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-24T08:40:31+00:00",
@@ -1192,8 +1143,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental startet mit gutem zweiten Quartal in die finale Phase der Neuaufstellung - continental.com",
-    "summary": "Continental startet mit gutem zweiten Quartal in die finale Phase der Neuaufstellung &nbsp;&nbsp; continental.com",
+    "title": "Continental startet mit gutem zweiten Quartal in die finale Phase der Neuaufstellung - Continental AG",
+    "summary": "Continental startet mit gutem zweiten Quartal in die finale Phase der Neuaufstellung &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSGtROTFTZkJoUzdhb0FkTWxrZm5jbW14R3ZZNTFHVnBDZkR5M3g2ZzIxWV9SS1l1VGlRd2JtMU4tN3loc2pYRTl3RG5hMzcxYmhGNWY0QlpHZHg2V3RSZXpZTzRtTFFIdTk3cDBNY2hicXU5WnAySTBZWXdkR3Jud054dVNZbXliZlFF?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-04T07:00:00+00:00",
@@ -1252,8 +1203,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental erweitert Aero 111 um neue 32-mm-Variante - continental.com",
-    "summary": "Continental erweitert Aero 111 um neue 32-mm-Variante &nbsp;&nbsp; continental.com",
+    "title": "Continental erweitert Aero 111 um neue 32-mm-Variante - Continental AG",
+    "summary": "Continental erweitert Aero 111 um neue 32-mm-Variante &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW1OUm9xcWxPenhadlY2VVp1TFQ0Z0lfTFV5ejVSSHRyN0w1R2IwUGsxYzhUeFhrTS1NRE5NMFlDTmZoME5qeFZwTGxyYTBWRG9WT0VIXzN2YjR4c0VzM1VMZ0xoSWY3WHg1NElxU09tU0pjbnZ4YXZyV3hVV2pxUg?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-18T07:00:00+00:00",
