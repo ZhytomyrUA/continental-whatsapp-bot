@@ -13,7 +13,6 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Korbach Werk Produktion",
@@ -349,8 +348,8 @@
     ]
   },
   {
-    "title": "Video: Dieser Reifen kann mehr Rennstrecke als gedacht ! #continental #contisportattack5 - 1000ps.at",
-    "summary": "Video: Dieser Reifen kann mehr Rennstrecke als gedacht ! #continental #contisportattack5 &nbsp;&nbsp; 1000ps.at",
+    "title": "Video: Dieser Reifen kann mehr Rennstrecke als gedacht ! #continental #contisportattack5 - 1000PS",
+    "summary": "Video: Dieser Reifen kann mehr Rennstrecke als gedacht ! #continental #contisportattack5 &nbsp;&nbsp; 1000PS",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY29jTHlGYlhLTVFjc0JTaVBhdnpuVmF6SG4zWHdsSVpTSWUtMnFQSHlIUmxvbnQwa050dHpzX3UxcHVmWW5iVC1IWjQ5WUwtSVVNSlg0M25taE9jUXFPeUw5THBic0N5TmY0N1FiYUw5SlpLaTc0VDVld2lVYjlCOVBhdC1RY2hlNVNDRkZRWWdYOWt3bFVwd3R2Q0RWV3lYVENqNmljQ1JxY3F1VlIyeS1yLUQwSFBmMDdCVWRtbnpLcGJ0Z3cw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-12T07:00:00+00:00",
@@ -911,7 +910,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-01T10:41:30+00:00",
     "matched_queries": [
-      "Continental Motorsport Reifen"
+      "Continental Motorsport Reifen",
+      "Continental Nachhaltigkeit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -927,31 +927,6 @@
     },
     "event_family": "continental|autoflotte|reifenentwicklung",
     "event_id": "b79ba70cee872b08b86aa80e6a7ed73c8ee3b353",
-    "alternate_sources": []
-  },
-  {
-    "title": "UHP-Reifenentwicklung bei Continental - autohaus.de",
-    "summary": "UHP-Reifenentwicklung bei Continental &nbsp;&nbsp; autohaus.de",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Gd3lVZXdpa215TVE5SnZCRjRwMFZQbm9XSXd6VG9neEU0RFJXWV9PT1E3b2dadVp6R1pVNEYxeDR3Y0dsWEQzZmxZMXZOX3lUbVRTTEJBMlpIbkZuQ19IZHRlVlA?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-01T11:16:21+00:00",
-    "matched_queries": [
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|autohaus|reifenentwicklung",
-    "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
     "alternate_sources": []
   },
   {
@@ -1009,8 +984,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
-    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
+    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise.de",
+    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise.de",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-25T05:30:00+00:00",
@@ -1030,18 +1005,19 @@
       "title_action": false,
       "generic_product": true
     },
-    "event_family": "continental|ganzjahresreifen|goodyear|heise|online|pirelli",
-    "event_id": "33ee2f61acdc3f18fe6f145a04160e2a5ff9e1f5",
+    "event_family": "continental|ganzjahresreifen|goodyear|heise|pirelli",
+    "event_id": "e5ee66edf1cf165e68fc71e4d2a162defc362284",
     "alternate_sources": []
   },
   {
-    "title": "Continental ContiSportAttack 5 im Rennstrecken-Test - 1000ps.at",
-    "summary": "Continental ContiSportAttack 5 im Rennstrecken-Test &nbsp;&nbsp; 1000ps.at",
+    "title": "Continental ContiSportAttack 5 im Rennstrecken-Test - 1000PS",
+    "summary": "Continental ContiSportAttack 5 im Rennstrecken-Test &nbsp;&nbsp; 1000PS",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVVl6MFJSWExTTUJpOG1TZ2l4cmlMY28xaTNuYzhVN0xCNXJSVDgyWTYwSU5FME5RR1V1MmpqbUMxai16a0hodUNwOUpQdjRJNDk0N0VBNjVUQjIxWmljOWxUM1prSkYxTHZoTllfNXR3Y3JmekNXMGFGQWJXUXdsc25qX2xqS1VXbEtOT1E3akRvM2VhbFd0aktrTy3SAaQBQVVfeXFMTnh2S1c3RXJaMkVMeGY4NTdwVHlKQXI0bVJYSzh3TUFuZkFTQ1dHaVZvUWd2UWcwSTc5djN2aXZEZlQ2Q3JSWnRaM0lfRGhZdk1TTmdvV0VCcTd3VEZhTVlzajhibVNISGlqaWJfUUh6TWMybTVGMkdBaU4tTHFGeUNqdjllNDR2LXAtYnNqcnI1Q1VjUWRfa1hDOXk3RFFUZHkzUFA?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-06T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
+      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 150,
@@ -1058,18 +1034,11 @@
     },
     "event_family": "continental|1000ps|contisportattack|rennstrecken",
     "event_id": "4db0bdc8e0a3986d634db640d224d8e6e3439506",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental ContiSportAttack 5 im Rennstrecken-Test - 1000ps.de",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORnpUdEVfR3A3SVZ4M1p4dC1MajhabnViUFdUYXdYLVE4RDZTM0RyN21MYUprNmF3c2o2ZVlNdndEQlpWaUJ0N3RIMHYtZFNTYXpSZGs4ZVR5MkJLWDhfcUlXOEsyNmdhOFhJMUlqSVNKT1phSC0wQW0xekYzVkFlQUlzZnNpUzBSOUZabDZ5dzEwdHlzLVlPbmU5bELSAaQBQVVfeXFMT2luSkVnV0pwZ1VMVmtzSjI3LW1JQk12UE94YzZRRzZQQkRka0VVNWtlOHN4TzhFM1lwaTE2OHB5VXVMVU5RYk5NM2EyUVZyV1k2a0dUQ0Y0Z2lxZ3gxWWJKTGZWZ2daVTZZSTVvMF8xaXdvTWhYTVZZQjlzRjdSNEZodDFITWEyYlppQW9xb1BxcU9TWEU4Tk9nYmtIbjhPR2FScV8?oc=5",
-        "published_at": "2026-08-06T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
-    "title": "Video: Bentley Continental Supersports: Tracktest - autobild.de",
-    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; autobild.de",
+    "title": "Video: Bentley Continental Supersports: Tracktest - AUTOBILD.DE",
+    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; AUTOBILD.DE",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDI4eDYxMHNVTkN3SnlRYjdjYi1pOGpWZ2JtdmViM25xSnJid3BpdDVDVVoyYWRheUwyQzZxU2dVVW9SYTUxb0hyM2FUUndZeXlZbWNuUy1DV3JzdVQyNzZEVV9nX24wMm4zdzAyb25EVDdQZ1p6MFlxR0s5aWZwc2R0SjRseDZiNkhNbjR6VmxjVFIxVUEwb2pDYjdTdFF4?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-01T07:00:00+00:00",
@@ -1093,8 +1062,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) - Unisba Media",
-    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) &nbsp;&nbsp; Unisba Media",
+    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) - media.unisba.ac.id",
+    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) &nbsp;&nbsp; media.unisba.ac.id",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRTN3RGJFQW1NU01wM25MRjFlTW1rd0hkMk9GMURJSjBtVkdhM1QwNHR5QnZlQkVIMVFKR3I5QnZkOWk3Yjc1enB6RnVVVl9vM3E1RWVtX21DRWNreld2Y19MNGhaSlNLVzZZ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-30T18:50:29+00:00",
@@ -1115,33 +1084,6 @@
     },
     "event_family": "continental|bentley|brest|heckantrieb|ioprnppsm2|laguna",
     "event_id": "18fcf85f7b911eafe9a8b576c9e4aeccef2eaecf",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental gewinnt an Profil - Börsen-Zeitung",
-    "summary": "Continental gewinnt an Profil &nbsp;&nbsp; Börsen-Zeitung",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGliVXNhNzJTUmhxR011RHFXMzIwbnRmSE0wMDc5LXpHVVJfUHp0R2V4MG1SaTRURlBlRk9VZExENGlpdDJsWXhRc0N5MTQ1ZWxlbWw3dVFsa2FRYUZNWUFjRnlKc1Q0VGFGQk5RXzJScngxbTlLRG1icjdPSHFzZnRn?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-06T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Pkw Reifen",
-      "Continental Hannover Reifenwerk Produktion",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 230,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|borsen|gewinnt|profil|zeitung",
-    "event_id": "6028e628c45ac97e2d30d2123f0d0755f82562e1",
     "alternate_sources": []
   },
   {
@@ -1342,8 +1284,6 @@
     "source": "news.google.com",
     "published_at": "2026-08-18T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit"
     ],
@@ -1422,7 +1362,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-18T07:19:11+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Motorsport Reifen"
     ],
     "score": 150,
