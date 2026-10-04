@@ -54,7 +54,7 @@
       },
       {
         "source": "news.google.com",
-        "title": "„Weltweit einmalig“: Continental startet Bau eines firmeneigenen Windparks in Nordhessen - HNA",
+        "title": "„Weltweit einmalig“: Continental startet Bau eines firmeneigenen Windparks in Nordhessen - hna.de",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNV3VrNGJva1U1N0ZiTXI4NXd1bWdIUGVjajZCUmY2NTdQdHNKZHFYR0xpN2l5VDFEZENiNVdjNzFEdXhFWG5LQmdPRGYzaG9hY0p4cDBZRXdWSnVORTV5LVkxVUFtSnNGU0NsTE5wRjJza0pXRDFwbDYtRFd3eFBKTTdZRmgwX3VDc3RFVVZVRTN1bV9DTzVsNWZkX1ZzTE9tX2hqM0VxeWNsM2FJLVhBbUxvLV9Vbzh2ZndpbkgxNGpNYnZvUG9NWVpFMW9aaFBBOGVpeFV0S0pTZzVRMEtUOA?oc=5",
         "published_at": "2026-09-25T07:00:00+00:00"
       },
@@ -67,8 +67,8 @@
     ]
   },
   {
-    "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - HNA",
-    "summary": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen &nbsp;&nbsp; HNA",
+    "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - hna.de",
+    "summary": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen &nbsp;&nbsp; hna.de",
     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTkdWSFUwLTROS2lSZEptSVpYbmp5b1RVeUJMNEsyTy1vczIzX1JWWE1MQ2FfMVJrdGo4Slg5TmNDWTNQcWRvS01pdGZkbHB1cFpSXzc1M09OZUdvY21iQ1JrVnNYQTJVUm1NQmFrX091X2RUOXBRMmFaQ0NleG5DWFBOWjJKMEt4cG90WHpFUi1jSWdzdy00RFc1UVJyX1FfM21YSndvbU0wSkw1Mm1vWmxFSGxvdXYxX25IZjNybVdudzlQTENPc1QtWU9wb1QwcmUwcU1EVi1vZkRlTl9FWHRqQ2Q1OUxBTEtrQXoyNzdILTEtUUI2dWNPcjE?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-02T07:00:00+00:00",
@@ -116,7 +116,12 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T03:09:32+00:00",
     "matched_queries": [
-      "Continental Reifen Innovation"
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Pkw Reifen",
+      "Continental Nachhaltigkeit",
+      "Continental Korbach Mitarbeiter",
+      "Continental Korbach Standort"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -135,14 +140,32 @@
     "alternate_sources": [
       {
         "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRHFHY1d5R3dJRS1ybTNxaXh2RkJTOUtWaE05SzQ2ZGF3b2ZNMUtLV2tVSmF0M1N1NnRldXBWUWlhYUw1WWl6clhUNnAwYmM4YnhFR0VWOTM1MHA3eHpITWdOMEIyWmhTVHZQY1p0ejdIWEUzWURIVHZ2eUduSUdNdk5jMENMN1JaOXBSOTNFd2hYcC1uNFRhNHVCclB0RHBzdktrYkVISktDbE5vVUZCTGNHZUtuZmNKOGZFbU9qZmNzQk0?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Neuer Continental-Konzeptreifen enthält allein 43 Prozent recycelter Rohstoffe - Reifenpresse.de",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnRNeXpNOWc4WV9yU2dNeVhvcjJZazRFUFJrZDJSUG5oYjJwdkhQSEZmMmxEMlpRM192cE5kZWZJYXZXM2w5ZGw1VC1qX0d1R25hZkdHQ2RFUHM0azgyM2tUT2FoZXplTEMyR2hpMkYyVjVNbmhZRU4zbjVSVncwbS1JdVcxUlV6bTR2MnUybUp6X0pmUDhRUFVDWmFIaW51eXNVYlZfdDdPZVEzN3I1OVRTamMxQQ?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autohaus.de",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOFBRMkFxUXdlTTV0TnBOX3ZBM2x3a0JHQkYtSUVuN1hGQmp3TEc3eWtabXFkQzFMaFRWSEtsaS1hc1h6ZlNNcjBhdG1hVzA0VlBNWHJZTVRLUzluZFlKTExwRHBWb3doMG1PZjlUQzJZR0RsN016M1VlNVhXc0pidENsaEM0NzlUek5nRGZtNGJ1T244Q2tlalhrLWNGa01OVk95d2VVY3lWd2hRZWZ2YUxxMG9wU25Ud05aZU9Pcw?oc=5",
         "published_at": "2026-08-27T07:00:00+00:00"
       },
       {
         "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
+        "title": "Continental entwickelt für EU-Projekt Konzeptreifen aus mehr als 40 Prozent recycelten Rohstoffen - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45NEhvaWNPbG8ySFk1ZWdUemVia3pJMThpRzZhZWFwWTJlbjRmNFZzRHRkV1E5UnRTZDBEcjhFcjMtOExCREVaSldTWmQ4c2dvTXFfYV9uQ1NQS3NFa1k0T0RtZXE5bWJXQ1dDQ24xUG4zeHZNMGtLRnNxcEVFbTA?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
@@ -333,7 +356,6 @@
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
       "Continental Lkw Reifen",
-      "Continental Pkw Reifen",
       "Continental Hannover Reifenwerk Produktion",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
@@ -354,11 +376,36 @@
     "alternate_sources": []
   },
   {
-    "title": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo - Continental AG",
-    "summary": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV0d5RHNTdk5naFRXN2g2YVY0OVFWaXlTeXFBdXNUSEYwT1FEV1VIczNuS0JFR1VRUlp4dTF1ZjlPeFlTN0VCQUNhYmV4Z20xc1l5SmJxTm94ZXU2cWVNM1VvdkUxQzJuSlUycWJzTHF4MUJlXzJEY2MwSE1nU0tTRF9B?oc=5",
+    "title": "Continental entwickelt Recyclingreifen für E-Autos - electrive.net",
+    "summary": "Continental entwickelt Recyclingreifen für E-Autos &nbsp;&nbsp; electrive.net",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY21iLUlXa3NHWkc2aGFGUFc5cXp6SENVT3MyQ1BzOE81RmM1bEktSTZZWnktZEdrcXhhWUFCZ1JLMW9TMjRYOTduSTMxblRLZ1VVMXMtNHZsMzZmNHh3bmZtM0Q4Ykt0Nl9JZWI1Znp2Zkw5T0NzQ21OQlpodFEzZ3JGd3BNYjFPR29UdWVWaDdGMDg?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|autos|electrive|recyclingreifen",
+    "event_id": "c5a40bea2935c1a726f64b4fe88c6ff6345c3157",
+    "alternate_sources": []
+  },
+  {
+    "title": "Volkswagen ID. Polo startet auf Continental-Reifen - AUTO&Wirtschaft",
+    "summary": "Volkswagen ID. Polo startet auf Continental-Reifen &nbsp;&nbsp; AUTO&amp;Wirtschaft",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQVo4TXctV2txd1BuVmJ3VHpqZmdhNmNTcTZmb0lXN3dFR2xOWjI0cEZLM2p6dFV6b0pGS0FCNlEzbTJEZ2h6UEN0Q0dLdHZ4cmo3eS1SUDZ1WHdlWWZyQjZBVkMxYnFkdFBEZnNnMEJydEFGclkxTDhVSmlURW1FNFk1TEZya3lZY1B3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-27T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
@@ -382,35 +429,22 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|volkswagen",
+    "event_family": "continental|volkswagen|wirtschaft",
     "event_id": "c0181aee172a431e51c2d0693cdc5d5c9ff3ea79",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental entwickelt Recyclingreifen für E-Autos - electrive.net",
-    "summary": "Continental entwickelt Recyclingreifen für E-Autos &nbsp;&nbsp; electrive.net",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY21iLUlXa3NHWkc2aGFGUFc5cXp6SENVT3MyQ1BzOE81RmM1bEktSTZZWnktZEdrcXhhWUFCZ1JLMW9TMjRYOTduSTMxblRLZ1VVMXMtNHZsMzZmNHh3bmZtM0Q4Ykt0Nl9JZWI1Znp2Zkw5T0NzQ21OQlpodFEzZ3JGd3BNYjFPR29UdWVWaDdGMDg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-26T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Pkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|autos|electrive|recyclingreifen",
-    "event_id": "c5a40bea2935c1a726f64b4fe88c6ff6345c3157",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Volkswagen ID. Polo startet auf Continental-Reifen - AUTO&Wirtschaft",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQVo4TXctV2txd1BuVmJ3VHpqZmdhNmNTcTZmb0lXN3dFR2xOWjI0cEZLM2p6dFV6b0pGS0FCNlEzbTJEZ2h6UEN0Q0dLdHZ4cmo3eS1SUDZ1WHdlWWZyQjZBVkMxYnFkdFBEZnNnMEJydEFGclkxTDhVSmlURW1FNFk1TEZya3lZY1B3?oc=5",
+        "published_at": "2026-08-27T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV0d5RHNTdk5naFRXN2g2YVY0OVFWaXlTeXFBdXNUSEYwT1FEV1VIczNuS0JFR1VRUlp4dTF1ZjlPeFlTN0VCQUNhYmV4Z20xc1l5SmJxTm94ZXU2cWVNM1VvdkUxQzJuSlUycWJzTHF4MUJlXzJEY2MwSE1nU0tTRF9B?oc=5",
+        "published_at": "2026-08-26T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA - KLOEPFEL by EPSA",
@@ -536,8 +570,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will - businessinsider.de",
-    "summary": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will &nbsp;&nbsp; businessinsider.de",
+    "title": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will - Business Insider Deutschland",
+    "summary": "Reifen für die Bundeswehr: Wie Continental vom Rüstungsboom profitieren will &nbsp;&nbsp; Business Insider Deutschland",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdEhFUXkwbkFlTjdiMVI3VGJlZkE0eVBVUmItNVJWWk1NTVdzYkN0bm00QWJlazhiaDhOVXFPQWhoWTRPWFVST0hubTdtWnZSM1I0TkNYZDljWmlodUFXaWZmTGlNZmtXeEdET2tjcTY5Sy10X1JwRHlEMEZqR3dyZDlPVExnSHJERjcwbTRzWGNKbEJHYVYyUld3ZmlfUzE5RkV5a0ZrNA?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-18T07:13:44+00:00",
@@ -603,9 +637,10 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:36:08+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
+      "Continental Korbach Reifen Produktion",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen"
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -620,8 +655,21 @@
       "generic_product": false
     },
     "event_family": "continental|deutschland|machen|marketscreener|nutzfahrzeuge|straßenverkehr",
-    "event_id": "c7f176c58fa1d3bac286f990364968d265ae2419",
-    "alternate_sources": []
+    "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOczQxRDAzblBHaU0ySmxSdDFnLU1mNXVUYVFzS0J3Wm1IdTQyNXM1V045NTMySTcyYlF3MjdrWEZvTnBLTjhWellCbEMxQmtvc0NEc2JZTDJldXYycFdxY21keUZCSTlRQnhxMGN3MDhGVXU1SjRqVkZsR1ZmR1JYZVNpdTZueHJSWXE1SnRJc3d1OHA4alBqWk9la3RWclRJZXVHSWRRZ1EyX3AzcXlOUDZuQzFKLUxzWUYyem9QdUQxZjQ1MWEwRzBVbDlZdmwtX2wya0lKcWpRSFh4WVM5c2RGVjBEYWktV25IYU9qbFphdGwzRlE?oc=5",
+        "published_at": "2026-09-28T07:36:08+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWhOdVFmZmdXN3RvaFk0VGcwNV9pb2NRN3pzemZULXJfSUJNWGpGNUotZ3pEWWNTekVtRjJMYUJQbkxUTTQtNUxUNXRibnZCRDJTdzdoSVRkMGU1U25XUUhGNXY0ZjB2VGdJTmFDZ2JpOG4tM1QxenFoVElibnJIcHF0elhjRXZK?oc=5",
+        "published_at": "2026-09-28T07:33:49+00:00"
+      }
+    ]
   },
   {
     "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - finanzen.net",
@@ -820,8 +868,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-01T10:41:30+00:00",
     "matched_queries": [
-      "Continental Motorsport Reifen",
-      "Continental Nachhaltigkeit"
+      "Continental Motorsport Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -840,8 +887,33 @@
     "alternate_sources": []
   },
   {
-    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise.de",
-    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise.de",
+    "title": "UHP-Reifenentwicklung bei Continental - autohaus.de",
+    "summary": "UHP-Reifenentwicklung bei Continental &nbsp;&nbsp; autohaus.de",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Gd3lVZXdpa215TVE5SnZCRjRwMFZQbm9XSXd6VG9neEU0RFJXWV9PT1E3b2dadVp6R1pVNEYxeDR3Y0dsWEQzZmxZMXZOX3lUbVRTTEJBMlpIbkZuQ19IZHRlVlA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-01T11:16:21+00:00",
+    "matched_queries": [
+      "Continental Nachhaltigkeit"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|autohaus|reifenentwicklung",
+    "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
+    "alternate_sources": []
+  },
+  {
+    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
+    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
@@ -861,8 +933,8 @@
       "title_action": false,
       "generic_product": true
     },
-    "event_family": "continental|ganzjahresreifen|goodyear|heise|pirelli",
-    "event_id": "e5ee66edf1cf165e68fc71e4d2a162defc362284",
+    "event_family": "continental|ganzjahresreifen|goodyear|heise|online|pirelli",
+    "event_id": "33ee2f61acdc3f18fe6f145a04160e2a5ff9e1f5",
     "alternate_sources": []
   },
   {
@@ -872,8 +944,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-06T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
+      "Continental Reifen Technologie"
     ],
     "score": 150,
     "category": "TIRE_TEST",
@@ -1008,8 +1079,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T08:40:31+00:00",
     "matched_queries": [
-      "Continental Lkw Reifen",
-      "Continental Motorsport Reifen"
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1102,6 +1172,34 @@
     },
     "event_family": "continental|erweitert|variante",
     "event_id": "55a590d741333f1bd00ca1d008a90a7922ca840a",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - VISION mobility",
+    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; VISION mobility",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNzYzeGwtTGNoTE1RTEZKTllKZTNXVGpuaVZfcG8xaUhaNDI3a3lsTk11LWhTM2xraWNQWFpITlQ2SXpXVS00M3RzRkNtamc5cXlWRjZNbl95X0xWVnZ6UnVoT1h0YXNMTVdyZlgyc0M5X3ZkWVRXOHlKZEJkcjI3SXdxSUxSUWdoRVo5XzFzcnJxNjJLbEpsZDFLR0NiUQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-26T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Neuheit",
+      "Continental Reifen Innovation"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|ecocontact|mobility|rollt|vision",
+    "event_id": "6fd0504640892c53cd074e40cf870f53ee85d6fc",
     "alternate_sources": []
   },
   {
