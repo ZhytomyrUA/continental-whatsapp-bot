@@ -67,6 +67,34 @@
     ]
   },
   {
+    "title": "Spatenstich für neues Continental-Warenlager - Reifenpresse.de",
+    "summary": "Spatenstich für neues Continental-Warenlager &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNExTX2pkenJHM1kwVFV0cnFSTVRQME16RFVBZlN4aGd1czRNUENoYzVSNnEzMXdSNU5XRms4Mnp0WS1YaGVjM2pTQ3NMUm9GSENzY3R3UElSeGlCTFdQQUxFVGpDWmsxZmZOVVVlaDNkZ0lNSGpUay1KclpCQ2tIMXhBYkFGcGxC?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-24T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Reifen Werk Investition",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 1700,
+    "category": "FACTORY_PRODUCTION",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": true,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "continental|neues|reifenpresse|spatenstich|warenlager",
+    "event_id": "a6b0c176d481d5c69dd251de8677139e545cd3fc",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - HNA",
     "summary": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen &nbsp;&nbsp; HNA",
     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTkdWSFUwLTROS2lSZEptSVpYbmp5b1RVeUJMNEsyTy1vczIzX1JWWE1MQ2FfMVJrdGo4Slg5TmNDWTNQcWRvS01pdGZkbHB1cFpSXzc1M09OZUdvY21iQ1JrVnNYQTJVUm1NQmFrX091X2RUOXBRMmFaQ0NleG5DWFBOWjJKMEt4cG90WHpFUi1jSWdzdy00RFc1UVJyX1FfM21YSndvbU0wSkw1Mm1vWmxFSGxvdXYxX25IZjNybVdudzlQTENPc1QtWU9wb1QwcmUwcU1EVi1vZkRlTl9FWHRqQ2Q1OUxBTEtrQXoyNzdILTEtUUI2dWNPcjE?oc=5",
@@ -347,8 +375,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - Maquinac",
-    "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; Maquinac",
+    "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - maquinac.com",
+    "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; maquinac.com",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1R6MVk5aXZQZEJpLXdEWFRyUDRwd09DVDgxOVJ0M05sR3l2MzhFQ1BoNHZUNGVlcjNFX2tza1c4czRZc3FydldCVWhHRGpKdlZVNktZeUtLODdmLUctM2s0NVBkZDktVWw5LWsyMmtqMzRoTVBsanpUcExNS0JBMlJuUUR1TDBCZ2lsb3RpMlJhRmZGVm9udnpNVkVncF9IME1r?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-22T07:00:00+00:00",
@@ -373,31 +401,6 @@
     },
     "event_family": "continental|maquinac|reifenhersteller|reiner|schließt|strategischen",
     "event_id": "5196d258c0a1c00cc7f0265b1519cca48731621f",
-    "alternate_sources": []
-  },
-  {
-    "title": "Spatenstich für neues Continental-Warenlager - Reifenpresse.de",
-    "summary": "Spatenstich für neues Continental-Warenlager &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNExTX2pkenJHM1kwVFV0cnFSTVRQME16RFVBZlN4aGd1czRNUENoYzVSNnEzMXdSNU5XRms4Mnp0WS1YaGVjM2pTQ3NMUm9GSENzY3R3UElSeGlCTFdQQUxFVGpDWmsxZmZOVVVlaDNkZ0lNSGpUay1KclpCQ2tIMXhBYkFGcGxC?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-24T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": true,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|neues|reifenpresse|spatenstich|warenlager",
-    "event_id": "a6b0c176d481d5c69dd251de8677139e545cd3fc",
     "alternate_sources": []
   },
   {
@@ -476,7 +479,7 @@
     "summary": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA &nbsp;&nbsp; KLOEPFEL by EPSA",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUs4VVpYV0w5Vm1yZ1N2Wi0xNlV3LVVZVG1BV081UzA4Wmd3VU9hTFlvbXFCTVBva0xxbVpmclBYeTJpNkgxdGoyZzg3MkE0LThFMjdvMzFZN2xySUNScnBsWHB0QVhxZXluY2hfS0xzY2pZMDZ0MWVxbTVjMWVoanhSX0ZXOTM3?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-10T06:02:12+00:00",
+    "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Pkw Reifen",
@@ -943,7 +946,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
@@ -1096,6 +1098,32 @@
     },
     "event_family": "continental|mycar|verkauft",
     "event_id": "5be69712e841283081e2e1bf89ee9d255c858deb",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - Reifenpresse.de",
+    "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlVMaXNIeFI0WGdxVTc2aWM2N0NyUVpGSjJIaHhhWHFWUlp5cWJXV2oxUGtzcEhHMTNGdnprX1NyTllJUjdMMGZpamhyZGpoNEIybzVPcGNlQXI3SGtLR1lJWlVlOFlsR1NGeHZJeVVuNDd0NEQ4LTJicHRiR3FvT2xWa3pqZjk4U2kzT0QxS3R2VUZhNkhxNzRHX0trcVVrMmhGVWZPOUhSdFBrRjAzb2JlT0c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-24T08:40:31+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|australien|geschaft|reifenpresse|retail|zieht",
+    "event_id": "348744114712ef26c1877acc26b0d9989a4f6603",
     "alternate_sources": []
   },
   {
@@ -1317,6 +1345,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Deutschland Werk Stellenabbau",
       "Continental Deutschland Werk Schließung"
     ],
     "score": 150,
