@@ -195,13 +195,13 @@
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - vision-mobility.de",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRHFHY1d5R3dJRS1ybTNxaXh2RkJTOUtWaE05SzQ2ZGF3b2ZNMUtLV2tVSmF0M1N1NnRldXBWUWlhYUw1WWl6clhUNnAwYmM4YnhFR0VWOTM1MHA3eHpITWdOMEIyWmhTVHZQY1p0ejdIWEUzWURIVHZ2eUduSUdNdk5jMENMN1JaOXBSOTNFd2hYcC1uNFRhNHVCclB0RHBzdktrYkVISktDbE5vVUZCTGNHZUtuZmNKOGZFbU9qZmNzQk0?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
         "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
+        "title": "Continental zeigt Recycling-Konzeptreifen - welt.de",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
@@ -511,8 +511,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA - kloepfel-consulting.com",
-    "summary": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA &nbsp;&nbsp; kloepfel-consulting.com",
+    "title": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA - KLOEPFEL by EPSA",
+    "summary": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA &nbsp;&nbsp; KLOEPFEL by EPSA",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUs4VVpYV0w5Vm1yZ1N2Wi0xNlV3LVVZVG1BV081UzA4Wmd3VU9hTFlvbXFCTVBva0xxbVpmclBYeTJpNkgxdGoyZzg3MkE0LThFMjdvMzFZN2xySUNScnBsWHB0QVhxZXluY2hfS0xzY2pZMDZ0MWVxbTVjMWVoanhSX0ZXOTM3?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
@@ -535,8 +535,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|consulting|kloepfel|materialien|nachhaltigen",
-    "event_id": "edc2b214e2fcb0f8fee4a211f63719582faa2c0d",
+    "event_family": "continental|kloepfel|materialien|nachhaltigen",
+    "event_id": "1a5c637076d3ca7e9c4ce51647502ddc752c69c8",
     "alternate_sources": []
   },
   {
@@ -693,16 +693,15 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - de.marketscreener.com",
-    "summary": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; de.marketscreener.com",
+    "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - MarketScreener Deutschland",
+    "summary": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; MarketScreener Deutschland",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOczQxRDAzblBHaU0ySmxSdDFnLU1mNXVUYVFzS0J3Wm1IdTQyNXM1V045NTMySTcyYlF3MjdrWEZvTnBLTjhWellCbEMxQmtvc0NEc2JZTDJldXYycFdxY21keUZCSTlRQnhxMGN3MDhGVXU1SjRqVkZsR1ZmR1JYZVNpdTZueHJSWXE1SnRJc3d1OHA4alBqWk9la3RWclRJZXVHSWRRZ1EyX3AzcXlOUDZuQzFKLUxzWUYyem9QdUQxZjQ1MWEwRzBVbDlZdmwtX2wya0lKcWpRSFh4WVM5c2RGVjBEYWktV25IYU9qbFphdGwzRlE?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-28T07:36:08+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -716,22 +715,9 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|machen|marketscreener|nutzfahrzeuge|straßenverkehr|unterschied",
-    "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental : veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - de.marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOczQxRDAzblBHaU0ySmxSdDFnLU1mNXVUYVFzS0J3Wm1IdTQyNXM1V045NTMySTcyYlF3MjdrWEZvTnBLTjhWellCbEMxQmtvc0NEc2JZTDJldXYycFdxY21keUZCSTlRQnhxMGN3MDhGVXU1SjRqVkZsR1ZmR1JYZVNpdTZueHJSWXE1SnRJc3d1OHA4alBqWk9la3RWclRJZXVHSWRRZ1EyX3AzcXlOUDZuQzFKLUxzWUYyem9QdUQxZjQ1MWEwRzBVbDlZdmwtX2wya0lKcWpRSFh4WVM5c2RGVjBEYWktV25IYU9qbFphdGwzRlE?oc=5",
-        "published_at": "2026-09-28T07:36:08+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWhOdVFmZmdXN3RvaFk0VGcwNV9pb2NRN3pzemZULXJfSUJNWGpGNUotZ3pEWWNTekVtRjJMYUJQbkxUTTQtNUxUNXRibnZCRDJTdzdoSVRkMGU1U25XUUhGNXY0ZjB2VGdJTmFDZ2JpOG4tM1QxenFoVElibnJIcHF0elhjRXZK?oc=5",
-        "published_at": "2026-09-28T07:33:49+00:00"
-      }
-    ]
+    "event_family": "continental|deutschland|machen|marketscreener|nutzfahrzeuge|straßenverkehr",
+    "event_id": "c7f176c58fa1d3bac286f990364968d265ae2419",
+    "alternate_sources": []
   },
   {
     "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - finanzen.net",
@@ -759,8 +745,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - de.marketscreener.com",
-    "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; de.marketscreener.com",
+    "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
+    "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; MarketScreener Deutschland",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-29T09:12:19+00:00",
@@ -781,12 +767,12 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|neue-reifen|cayenne|marketscreener|modelle|panamera|porsche",
+    "event_family": "continental|neue-reifen|cayenne|deutschland|marketscreener|modelle|panamera",
     "event_id": "a247bc63b7acbdbf76a077e202a4fa7b31520e41",
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - de.marketscreener.com",
+        "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
         "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
         "published_at": "2026-09-29T09:12:19+00:00"
       },
@@ -828,8 +814,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
-    "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; WELT",
+    "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - welt.de",
+    "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; welt.de",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-30T14:55:44+00:00",
@@ -1076,8 +1062,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) - media.unisba.ac.id",
-    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) &nbsp;&nbsp; media.unisba.ac.id",
+    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) - Unisba Media",
+    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) &nbsp;&nbsp; Unisba Media",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRTN3RGJFQW1NU01wM25MRjFlTW1rd0hkMk9GMURJSjBtVkdhM1QwNHR5QnZlQkVIMVFKR3I5QnZkOWk3Yjc1enB6RnVVVl9vM3E1RWVtX21DRWNreld2Y19MNGhaSlNLVzZZ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-30T18:50:29+00:00",
@@ -1255,8 +1241,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - VISION mobility",
-    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; VISION mobility",
+    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - vision-mobility.de",
+    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; vision-mobility.de",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNzYzeGwtTGNoTE1RTEZKTllKZTNXVGpuaVZfcG8xaUhaNDI3a3lsTk11LWhTM2xraWNQWFpITlQ2SXpXVS00M3RzRkNtamc5cXlWRjZNbl95X0xWVnZ6UnVoT1h0YXNMTVdyZlgyc0M5X3ZkWVRXOHlKZEJkcjI3SXdxSUxSUWdoRVo5XzFzcnJxNjJLbEpsZDFLR0NiUQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
@@ -1284,8 +1270,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. - VISION mobility",
-    "summary": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. &nbsp;&nbsp; VISION mobility",
+    "title": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. - vision-mobility.de",
+    "summary": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. &nbsp;&nbsp; vision-mobility.de",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeXd5Z1pSNFNEaF9TdFdrVmN5MEE3LXdUNHNobmcwdVpPdnA2dXNBQTNyM2xRVFdpUXZacWtvd1RrZmVMc3Q5TmhLZEdreWsxZ2Y2U2h2LXpDWXFlMVdGeERZUEs1ajI1U182dXc1d2hzTDlLS1c3Zm5uQUZVUHF1MG1UdFdaZHdpRzBXdHVac2Z0OEtRbnRXUlo3OFllemlBMThTRGhONzVvcjREamlUSVpaVEJJdw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
