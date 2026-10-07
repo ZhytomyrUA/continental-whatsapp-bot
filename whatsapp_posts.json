@@ -171,12 +171,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T03:09:32+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Pkw Reifen",
-      "Continental Nachhaltigkeit",
-      "Continental Korbach Mitarbeiter",
-      "Continental Korbach Standort"
+      "Continental Reifen neue Produktion"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -193,6 +188,18 @@
     "event_family": "konzeptreifen|recycling|continental",
     "event_id": "9cc9a3282db5538305045a671c007c7aa11707a0",
     "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental entwickelt für EU-Projekt Konzeptreifen aus mehr als 40 Prozent recycelten Rohstoffen - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45NEhvaWNPbG8ySFk1ZWdUemVia3pJMThpRzZhZWFwWTJlbjRmNFZzRHRkV1E5UnRTZDBEcjhFcjMtOExCREVaSldTWmQ4c2dvTXFfYV9uQ1NQS3NFa1k0T0RtZXE5bWJXQ1dDQ24xUG4zeHZNMGtLRnNxcEVFbTA?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental entwickelt Konzeptreifen mit 43 Prozent Recyclingmaterial - IAA Mobility",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYUp2Mld6UlZvR3M3dkxPOTVSLWpFcnVTV3RoMGtzV3ExTWpraHNET2ZQYUlxZ3lER3VLV3VhV1JOM3JhVnJfWFZTai1UeE1oc3dEeWtHblJtVFBvaGI5Q3RIcVY5bkt3Ui1hWS1NT2k5RS1PZ1VocjlYaHpORzBQc1hyU25xWldJR2Z6Y0hxOXdmbmlhdzVybzJKcXRYOWNKblQ3MlpxVlV6UzI4VnA1dlFMZ2k5b19fQUl0WE0zeEptZw?oc=5",
+        "published_at": "2026-08-18T07:00:00+00:00"
+      },
       {
         "source": "news.google.com",
         "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
@@ -769,7 +776,7 @@
         "source": "news.google.com",
         "title": "Porsche setzt auf Reifen von Continental - Continental AG",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2el9RSkVVcDBUVHZFUVJNMUI2Ul9PRG5VUjNnSE0xSWVpeXpQZDVuUVNCZVJ3ekRHdjRIcWdUWmNsblV0VGpYV0RmRlJUMU9QcUoyZXpPVEtGLVRhRC01dGpCc0lOZTJnLWNmc3p3aUxWLUJuVWE0?oc=5",
-        "published_at": "2026-09-29T07:39:58+00:00"
+        "published_at": "2026-09-29T07:00:00+00:00"
       }
     ]
   },
@@ -803,11 +810,11 @@
     "alternate_sources": []
   },
   {
-    "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
-    "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; WELT",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
+    "title": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - 24auto.de",
+    "summary": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; 24auto.de",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTnFKcGZXVmwwNUN5aDFmdnJuclRKVUwtX1E2OU5xS0lRenVGajZsMXdkX25nZEtpYlZvTU1ndHM5VjdFLVpJOVFJQjUtbGpxeTZRdnlhTzFxOHRvMS1vdXJ6WGtmVVhqSWtmVGE2dnN6SjY3Y0ZKSlJDWjRqS3N4WENiY18xNUFfcDlqY2E4S1dLQnIyb1ZoZE1lZmdybklFRUdQbmM4dzJveGlFQ0J5Z3NmOFV3VDZVelhfVlEzQ0p5Z3JEUEROMUx4WnQtMV9GOExMUjMwWFA0Y1ZBbVhUa0c3VVhjLUdEa2kxTGRuaEFnQQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-30T14:55:44+00:00",
+    "published_at": "2026-09-30T13:59:52+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
@@ -826,8 +833,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|edwin|entwicklung|forschung|gesprach|goudswaard",
-    "event_id": "82cf43092080f5d939c45e987d774e8d89806003",
+    "event_family": "continental|24auto|edwin|entwicklung|forschung|gesprach",
+    "event_id": "7e197453c4d55ee1e49a54f64f18ab9a9914148f",
     "alternate_sources": []
   },
   {
