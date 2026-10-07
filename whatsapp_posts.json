@@ -201,6 +201,12 @@
       },
       {
         "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -309,7 +315,6 @@
     "published_at": "2026-08-19T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
@@ -456,7 +461,14 @@
     },
     "event_family": "continental|volkswagen",
     "event_id": "c0181aee172a431e51c2d0693cdc5d5c9ff3ea79",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Volkswagen ID. Polo startet mit Continental-Reifen - Gummibereifung",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT00zMXRVdTM4SmdxX05EaUs0cWMxOF9XdHNWcEwzTzFkVWQ2NG56Tmd4ZHVGZk9YSDhNcXNlVjdpNTRYbVZtS1diOEFFNlhLN0szcDVUMHZkUXlLM3pyMGo3SG4waHFkMlJOb01tZjZobG1QaFBsSFlVNGRDYmQySw?oc=5",
+        "published_at": "2026-08-26T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental entwickelt Recyclingreifen für E-Autos - electrive.net",
@@ -1036,31 +1048,6 @@
     },
     "event_family": "continental|bentley|supersports|tracktest|video",
     "event_id": "dd5ab33a7af4e1ceb1e0a8da3eafac19c74684f4",
-    "alternate_sources": []
-  },
-  {
-    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) - Unisba Media",
-    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Psg Vs Brest (IopRnPPsM2) &nbsp;&nbsp; Unisba Media",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRTN3RGJFQW1NU01wM25MRjFlTW1rd0hkMk9GMURJSjBtVkdhM1QwNHR5QnZlQkVIMVFKR3I5QnZkOWk3Yjc1enB6RnVVVl9vM3E1RWVtX21DRWNreld2Y19MNGhaSlNLVzZZ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-30T18:50:29+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|bentley|brest|heckantrieb|ioprnppsm2|laguna",
-    "event_id": "18fcf85f7b911eafe9a8b576c9e4aeccef2eaecf",
     "alternate_sources": []
   },
   {
