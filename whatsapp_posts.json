@@ -171,7 +171,12 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T03:09:32+00:00",
     "matched_queries": [
-      "Continental Reifen neue Produktion"
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Pkw Reifen",
+      "Continental Nachhaltigkeit",
+      "Continental Korbach Mitarbeiter",
+      "Continental Korbach Standort"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -188,18 +193,6 @@
     "event_family": "konzeptreifen|recycling|continental",
     "event_id": "9cc9a3282db5538305045a671c007c7aa11707a0",
     "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental entwickelt für EU-Projekt Konzeptreifen aus mehr als 40 Prozent recycelten Rohstoffen - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45NEhvaWNPbG8ySFk1ZWdUemVia3pJMThpRzZhZWFwWTJlbjRmNFZzRHRkV1E5UnRTZDBEcjhFcjMtOExCREVaSldTWmQ4c2dvTXFfYV9uQ1NQS3NFa1k0T0RtZXE5bWJXQ1dDQ24xUG4zeHZNMGtLRnNxcEVFbTA?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental entwickelt Konzeptreifen mit 43 Prozent Recyclingmaterial - IAA Mobility",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYUp2Mld6UlZvR3M3dkxPOTVSLWpFcnVTV3RoMGtzV3ExTWpraHNET2ZQYUlxZ3lER3VLV3VhV1JOM3JhVnJfWFZTai1UeE1oc3dEeWtHblJtVFBvaGI5Q3RIcVY5bkt3Ui1hWS1NT2k5RS1PZ1VocjlYaHpORzBQc1hyU25xWldJR2Z6Y0hxOXdmbmlhdzVybzJKcXRYOWNKblQ3MlpxVlV6UzI4VnA1dlFMZ2k5b19fQUl0WE0zeEptZw?oc=5",
-        "published_at": "2026-08-18T07:00:00+00:00"
-      },
       {
         "source": "news.google.com",
         "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
@@ -468,14 +461,7 @@
     },
     "event_family": "continental|volkswagen",
     "event_id": "c0181aee172a431e51c2d0693cdc5d5c9ff3ea79",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Volkswagen ID. Polo startet mit Continental-Reifen - Gummibereifung",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT00zMXRVdTM4SmdxX05EaUs0cWMxOF9XdHNWcEwzTzFkVWQ2NG56Tmd4ZHVGZk9YSDhNcXNlVjdpNTRYbVZtS1diOEFFNlhLN0szcDVUMHZkUXlLM3pyMGo3SG4waHFkMlJOb01tZjZobG1QaFBsSFlVNGRDYmQySw?oc=5",
-        "published_at": "2026-08-26T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental entwickelt Recyclingreifen für E-Autos - electrive.net",
@@ -596,14 +582,17 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Werk Schließung",
       "Continental Reifen Technologie",
+      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
       "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
       "Continental Korbach Standort",
-      "Continental Korbach Energie"
+      "Continental Korbach Energie",
+      "Continental Deutschland Werk Schließung"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -714,33 +703,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
-    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T15:12:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Innovation",
-      "Continental Lkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
-    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
     "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; MarketScreener Deutschland",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
@@ -845,6 +807,7 @@
     "published_at": "2026-10-01T08:07:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
@@ -982,6 +945,59 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 - Continental AG",
+    "summary": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNmdjX0QydUFxNUtxNmxlamNKNmhCN25hVDRnODhBSG1LVWhDdW5uMnpHSXZmdVg0Z2lvbExMVEJpMTBDbWZTSkhIZzNaUE9GU0FkVUxPOGJaYnJKc1lQX0JCd1pjUVRPNUlPMnhDVXhYLUVUYVNlc1BJZWhOaFI3ZUlKa19vZUdpSmUyRDdFMlNHdw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-22T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
+    ],
+    "score": 280,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "wintercontact-ts870|adac|test|continental",
+    "event_id": "009fd6d2e27c1cb77851917b52d7e434fcdfb782",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental AllSeasonContact 2 ist Testsieger im Ganzjahresreifentest des AvD - Continental AG",
+    "summary": "Continental AllSeasonContact 2 ist Testsieger im Ganzjahresreifentest des AvD &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNklkWE9GWTZ0aG9ab2hNTDFBTGFXU0dvYUt6TTZ6RUtwTTYtOVdoeklOeEkyMDR4bEVhWHNtOVZHd3ZnZFVvWldwcGRsbWdSb3lPNmNKOEQ3SU0wWU5nOWZzdTlnTEdRdkpFejlDQlQyODk3VEZyeFgzTGNUbk9PQw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-21T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "allseasoncontact2|test|continental",
+    "event_id": "de68777234e5ddb7c2154e0024d679ddbe531123",
+    "alternate_sources": []
+  },
+  {
     "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
     "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
@@ -1005,6 +1021,33 @@
     },
     "event_family": "continental|ganzjahresreifen|goodyear|heise|online|pirelli",
     "event_id": "33ee2f61acdc3f18fe6f145a04160e2a5ff9e1f5",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental TKC 802 Bildergalerie: Test an der BMW R1300 GS Adventure und BMW R 1250 GS Adventure - 1000PS",
+    "summary": "Continental TKC 802 Bildergalerie: Test an der BMW R1300 GS Adventure und BMW R 1250 GS Adventure &nbsp;&nbsp; 1000PS",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONUxBVDhOajR2Z0ZZbk1TN0h5OHNpbXV5cGtzZ2xmSnBRdzRMNTlFSDBFNWFOczJFaWw4c01yUGFuWkpsV1R4ZFZONGllcXhVT2xBWjhja3BKYWhSYnk0OXYySFNjSHNfUDV1SU1pU1BfaWFlWFhsZkhWZ0dpU2N3VVJCNW94dHpXemlVMUhhVzFBclJ3cUxmeFJLYTVoUTlBVjJISlBEcmJkVUJqOEhSMU40UXBQLUZBU3BVWEdyelhyMWoxX19yQ09JWGhKQnA2N1B2LTRkYjhqOGRXSXpv?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-25T15:59:54+00:00",
+    "matched_queries": [
+      "Continental Reifen neue Produktion",
+      "Continental Reifen Test",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 150,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|1000ps|adventure|bildergalerie|r1300",
+    "event_id": "3729aaa3ff25940337056eaa08c69892baffe710",
     "alternate_sources": []
   },
   {
@@ -1092,6 +1135,7 @@
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen neue Produktion",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1108,32 +1152,6 @@
     },
     "event_family": "continental|australien|geschaft|reifenpresse|retail|zieht",
     "event_id": "348744114712ef26c1877acc26b0d9989a4f6603",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental erweitert Aero 111 um neue 32-mm-Variante - Continental AG",
-    "summary": "Continental erweitert Aero 111 um neue 32-mm-Variante &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW1OUm9xcWxPenhadlY2VVp1TFQ0Z0lfTFV5ejVSSHRyN0w1R2IwUGsxYzhUeFhrTS1NRE5NMFlDTmZoME5qeFZwTGxyYTBWRG9WT0VIXzN2YjR4c0VzM1VMZ0xoSWY3WHg1NElxU09tU0pjbnZ4YXZyV3hVV2pxUg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-18T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Neuheit"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|erweitert|variante",
-    "event_id": "55a590d741333f1bd00ca1d008a90a7922ca840a",
     "alternate_sources": []
   },
   {
@@ -1161,6 +1179,31 @@
     },
     "event_family": "continental|breiter|macht|rennrad",
     "event_id": "08356416867c0735221f6f5f69677eba3a2b634f",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental erweitert Aero 111 um neue 32-mm-Variante - Continental AG",
+    "summary": "Continental erweitert Aero 111 um neue 32-mm-Variante &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW1OUm9xcWxPenhadlY2VVp1TFQ0Z0lfTFV5ejVSSHRyN0w1R2IwUGsxYzhUeFhrTS1NRE5NMFlDTmZoME5qeFZwTGxyYTBWRG9WT0VIXzN2YjR4c0VzM1VMZ0xoSWY3WHg1NElxU09tU0pjbnZ4YXZyV3hVV2pxUg?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-18T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Neuheit"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|erweitert|variante",
+    "event_id": "55a590d741333f1bd00ca1d008a90a7922ca840a",
     "alternate_sources": []
   },
   {
