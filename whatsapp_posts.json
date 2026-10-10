@@ -280,7 +280,8 @@
     "published_at": "2026-08-19T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -787,9 +788,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-29T09:12:19+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Nachhaltigkeit"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -804,21 +803,8 @@
       "generic_product": false
     },
     "event_family": "continental|neue-reifen|cayenne|deutschland|marketscreener|modelle|panamera",
-    "event_id": "a247bc63b7acbdbf76a077e202a4fa7b31520e41",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
-        "published_at": "2026-09-29T09:12:19+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Porsche setzt auf Reifen von Continental - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2el9RSkVVcDBUVHZFUVJNMUI2Ul9PRG5VUjNnSE0xSWVpeXpQZDVuUVNCZVJ3ekRHdjRIcWdUWmNsblV0VGpYV0RmRlJUMU9QcUoyZXpPVEtGLVRhRC01dGpCc0lOZTJnLWNmc3p3aUxWLUJuVWE0?oc=5",
-        "published_at": "2026-09-29T07:00:00+00:00"
-      }
-    ]
+    "event_id": "8d543de58165529478b5041540a54310ea6c117e",
+    "alternate_sources": []
   },
   {
     "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
@@ -1255,6 +1241,34 @@
     },
     "event_family": "continental|bentley|supersports|tracktest|video",
     "event_id": "dd5ab33a7af4e1ceb1e0a8da3eafac19c74684f4",
+    "alternate_sources": []
+  },
+  {
+    "title": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental - Aachener Zeitung",
+    "summary": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental &nbsp;&nbsp; Aachener Zeitung",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVkdnVElhaGVJUVBFTmJUSkpScjNGZE8tRUpOUHVBY0xXMUQzR1FJUkl2N2VsREhJTEdaYzBnTF9iZFEybTNkbXg1QU1hVEFPeTJoQllIZ01BaVo3c1UxOVRoQUlWSm1ZYmNlOV8yRVh5d0R6ZnpISmIwMUg4YXk0eXQtRXlVdjBQc2pITlY1UVA0eUQwM1ZuZXFtUy1PZVlCSEJqNFRzRkM2aEJIUHpEUjhLaHRwcHY0ZjBKZzFfaU10N0tLQ2dvUGM2SlVFNTlaX3BPckZQc1ZlallLOS1fSF9PNW9YallZSjVLUkF2WU9KUQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-31T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Werk Schließung",
+      "Continental Mitarbeiter Werk",
+      "Continental Belegschaft Werk",
+      "Continental Deutschland Werk Schließung"
+    ],
+    "score": 230,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|aachener|fachkrafte|gewinnt|julich|neapco",
+    "event_id": "2279a18fcee62fbdfc690a25c1de2e86dc025f8a",
     "alternate_sources": []
   },
   {
