@@ -255,7 +255,7 @@
         "source": "news.google.com",
         "title": "Continental entwickelt Konzeptreifen aus 43 Prozent recycelten Rohstoffen - ecomento.de",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVWZ6dmdNWFZCXzFYT2tUMHp6TjlISHFVX1loYjNxUlkzZDJOcDBud2dFM19RdHE1Skl6d2RNN2dRck5uR19hU1A5S2QxcEF6Z2Q4NWxQNGZfQVJtbThwSzUtSGlQREFfM1JGaVJzUTl5d1pKWFZwRy1LdEFmdVpLR0dQX29hZDdBcjVZVkFIbHJxU0lnckJMMnp1SWhOUjRvN05nUWxybGg?oc=5",
-        "published_at": "2026-09-25T07:17:22+00:00"
+        "published_at": "2026-09-25T07:00:00+00:00"
       },
       {
         "source": "news.google.com",
@@ -273,7 +273,7 @@
         "source": "news.google.com",
         "title": "Continental entwickelt Konzeptreifen aus 43 Prozent recycelten Rohstoffen - ecomento.de",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVWZ6dmdNWFZCXzFYT2tUMHp6TjlISHFVX1loYjNxUlkzZDJOcDBud2dFM19RdHE1Skl6d2RNN2dRck5uR19hU1A5S2QxcEF6Z2Q4NWxQNGZfQVJtbThwSzUtSGlQREFfM1JGaVJzUTl5d1pKWFZwRy1LdEFmdVpLR0dQX29hZDdBcjVZVkFIbHJxU0lnckJMMnp1SWhOUjRvN05nUWxybGg?oc=5",
-        "published_at": "2026-09-25T07:17:22+00:00"
+        "published_at": "2026-09-25T07:00:00+00:00"
       }
     ]
   },
@@ -539,35 +539,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Für jede Jahreszeit gerüstet: Der neue Audi Q3 rollt ab Werk auf Continental-Reifen - Continental AG",
-    "summary": "Für jede Jahreszeit gerüstet: Der neue Audi Q3 rollt ab Werk auf Continental-Reifen &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90WW01Tm9EaE10cWZSMHZCTlB6elM4Vjk3NERfWmM3ZG5XWTYwZHJDMHd2UllocDVaTWw3MUlQUF85bTRvdnpvbzAzN2dGTVNhMXlocDB3SGxBc29mY2k3RFpsTjlwaDVzdHNkVUNTZVpyQ3VUTFFr?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-08T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen Werk Investition",
-      "Continental Mitarbeiter Werk",
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": true,
-      "action": false,
-      "nearby": false,
-      "title_factory": true,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|gerustet|jahreszeit|rollt",
-    "event_id": "e32a303361420dcaeae0410b9b103e1c41e865c8",
-    "alternate_sources": []
-  },
-  {
     "title": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor - Continental AG",
     "summary": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTi05ZVE1bTczbFhxRUdHMzlWaXEzYy16SU5USUlMOVFuMVBYZThQTmliQklLQ21CYnluX2VZeFVhLTdwTWltbDRsVlc3cHdqT0QxdWttc2ZPaXhNNWtNdGUySVNKWUpIUWJmSzV0eWFJQXc1UnlHMlQ1ZVFMdTBQU1lhY0tBN3Bfcnc?oc=5",
@@ -630,8 +601,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - AD HOC NEWS",
-    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; AD HOC NEWS",
+    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - ad-hoc-news.de",
+    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; ad-hoc-news.de",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1otY0hhV0tjMkx2VzRfcEN2TWQzNmxJMldnSEVDT01ZbEVDam5VRFR5ODVqVlFJTjJ1MEZMb3pqLTFjVl9pb045SkNaUl9ZM01lTXNKemJCaWZMdXFtc2FwV0IwM3l5djNuRy1mcGVKVmRqSGNLVGJRTTF2bzdDZWtLdlBFdllnMlFSOFdBTXY1SXBvWW1IbV9MTXBwMkQ1Nk4xb0NWY3VJUlpoR2NwMDRmQnV4NmRK?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-17T05:05:26+00:00",
@@ -666,6 +637,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
@@ -753,33 +725,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - Continental AG",
-    "summary": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWhOdVFmZmdXN3RvaFk0VGcwNV9pb2NRN3pzemZULXJfSUJNWGpGNUotZ3pEWWNTekVtRjJMYUJQbkxUTTQtNUxUNXRibnZCRDJTdzdoSVRkMGU1U25XUUhGNXY0ZjB2VGdJTmFDZ2JpOG4tM1QxenFoVElibnJIcHF0elhjRXZK?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T07:33:49+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|machen|nutzfahrzeuge|straßenverkehr|unterschied|veroffentlicht",
-    "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
     "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; MarketScreener Deutschland",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
@@ -842,7 +787,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -1072,7 +1016,6 @@
     "published_at": "2026-10-08T14:08:00+00:00",
     "matched_queries": [
       "Continental Reifen Neuheit",
-      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1163,31 +1106,6 @@
     },
     "event_family": "continental|vancontact|ganzjahresreifen|4season|ganzjahresreifentest|promobil|testsieger",
     "event_id": "5eae13ad8e1b926693278ec70225853fbec0023a",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental AllSeasonContact 2 ist Testsieger im Ganzjahresreifentest des AvD - Continental AG",
-    "summary": "Continental AllSeasonContact 2 ist Testsieger im Ganzjahresreifentest des AvD &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNklkWE9GWTZ0aG9ab2hNTDFBTGFXU0dvYUt6TTZ6RUtwTTYtOVdoeklOeEkyMDR4bEVhWHNtOVZHd3ZnZFVvWldwcGRsbWdSb3lPNmNKOEQ3SU0wWU5nOWZzdTlnTEdRdkpFejlDQlQyODk3VEZyeFgzTGNUbk9PQw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-21T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 200,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "allseasoncontact2|test|continental",
-    "event_id": "de68777234e5ddb7c2154e0024d679ddbe531123",
     "alternate_sources": []
   },
   {
@@ -1375,14 +1293,15 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - VISION mobility",
-    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; VISION mobility",
+    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - vision-mobility.de",
+    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; vision-mobility.de",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNzYzeGwtTGNoTE1RTEZKTllKZTNXVGpuaVZfcG8xaUhaNDI3a3lsTk11LWhTM2xraWNQWFpITlQ2SXpXVS00M3RzRkNtamc5cXlWRjZNbl95X0xWVnZ6UnVoT1h0YXNMTVdyZlgyc0M5X3ZkWVRXOHlKZEJkcjI3SXdxSUxSUWdoRVo5XzFzcnJxNjJLbEpsZDFLR0NiUQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Innovation"
     ],
@@ -1455,36 +1374,11 @@
     "alternate_sources": []
   },
   {
-    "title": "Spatenstich für Continental Windpark - YouTube",
-    "summary": "Spatenstich für Continental Windpark &nbsp;&nbsp; YouTube",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxbzFfYTVmMzdRam4wTzZsQ040b2plSTlaRzFKTzJLM2k2U0RaMnY5dVhLT3JzWVJVV0xFYW1LNy1hS3Nwd1ZYc0lrc2dTZzR4Q1FnWW9EUDZhUEZU?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-23T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Mitarbeiter Werk"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": true,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|windpark|spatenstich|youtube",
-    "event_id": "70f0612ec924a31fdab23d2761f9b8c73c0dc0ab",
-    "alternate_sources": []
-  },
-  {
     "title": "\"Der Bereich war aufgebläht\": Wie Aumovio nach der Abspaltung von Continental schrumpft - T-Online",
     "summary": "\"Der Bereich war aufgebläht\": Wie Aumovio nach der Abspaltung von Continental schrumpft &nbsp;&nbsp; T-Online",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcDYwTlZob2xUeXFGbWdYakViamF5dno2S1Bsb1NraEdrNzVIOC1MaTRKb2ZLc1pjQXQyMEVoN0pHQUNzZ3dCWXMyMDdTaHdXaVJRVFdJRUprUHFXWnhlczQxT3JSUkVwSjNBLXVYRjliR3NHbmc0VTBxd0VTQlhkZ1gyeG5yT0lpRjZiSGw2Y3cxVm1TNTlFS0tfaDhBZWFUdUFlOVU5dkZrR290RF9BYWhubEZGenYzRUNFTU16aUU3WU0tdHdwc3h4NjQ0LUIyYm43X3hUcnpEUQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-02T13:52:20+00:00",
+    "published_at": "2026-10-03T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
