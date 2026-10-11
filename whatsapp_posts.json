@@ -280,8 +280,7 @@
     "published_at": "2026-08-19T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Pkw Reifen"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -375,6 +374,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-25T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1067,6 +1067,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Günstige Zweitmarken: Hinter diesen Reifen Continental - BILD",
+    "summary": "Günstige Zweitmarken: Hinter diesen Reifen Continental &nbsp;&nbsp; BILD",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc0hOaGN1djRjTWNCQUpURWZjTE9OVTlaSFJvTDl3bFR3bmxUVWQwYVBVZUtJUmQ4UU5lQ3VSZE1VSExtbnJITjBTMUx6TGtQbGNYRjJ0Rmx4cC1DS2lLdlRucW5Vd2I1MEZNbjF5dkFrOGVUSFhQMmg2QjJEbW1Bcmc1TUpHODJkdFdKQ0VOa3FBX1l3cU1lRUtHNlZxRGxnVlVIMWpwR2p5MmdiVmhRUHJpU0gwQQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-08T14:08:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Neuheit",
+      "Continental Reifen Test",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|diesen|gunstige|hinter|zweitmarken",
+    "event_id": "4c46110b9bfed5dd383107443ebaf5209a98e44b",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 - Continental AG",
     "summary": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNmdjX0QydUFxNUtxNmxlamNKNmhCN25hVDRnODhBSG1LVWhDdW5uMnpHSXZmdVg0Z2lvbExMVEJpMTBDbWZTSkhIZzNaUE9GU0FkVUxPOGJaYnJKc1lQX0JCd1pjUVRPNUlPMnhDVXhYLUVUYVNlc1BJZWhOaFI3ZUlKa19vZUdpSmUyRDdFMlNHdw?oc=5",
@@ -1429,31 +1456,6 @@
     },
     "event_family": "continental|aumovio|borsengang|geplant|september",
     "event_id": "5686d8ed1421d5e0353d9dc92b48ac590e664e21",
-    "alternate_sources": []
-  },
-  {
-    "title": "Bentley Continental Supersports trifft auf seinen Urahn Bentley Super Sports - Auto Zeitung",
-    "summary": "Bentley Continental Supersports trifft auf seinen Urahn Bentley Super Sports &nbsp;&nbsp; Auto Zeitung",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOazVIVUozMWY0YS1KVG90NGI5VGYzWUk3cks1TkNDN0I0aVFzRC1OVmtCS21CSDVJUjZCRDZRNnVMS2tMREY4bkdfa1djaXdBaXprTHJ1c3lsMHEwNXlhOWpyNTNHblFIbzRNRkN2ODM0T29KbHVwc0ZWVlludndQS0M1TUJGVkhNM1JjVmZOaHdsNnN3eXU0MUt3bGZGSVd6ZzYxU2Vn?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-26T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|bentley|seinen|sports|super|supersports",
-    "event_id": "81f5077256e000ad425de040ddc41b2ca9c0359c",
     "alternate_sources": []
   },
   {
