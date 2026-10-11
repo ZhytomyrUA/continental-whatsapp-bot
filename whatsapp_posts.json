@@ -21,9 +21,8 @@
       "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
       "Continental Korbach Standort",
-      "Continental Korbach Energie",
-      "Continental Hannover Reifenwerk Produktion",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
+      "Continental Korbach Investition",
+      "Continental Korbach Energie"
     ],
     "score": 2900,
     "category": "KORBACH_FACTORY",
@@ -44,6 +43,12 @@
         "source": "news.google.com",
         "title": "Windpark für Continental: Reifenwerk in Korbach setzt auf eigenen Strom - hessenschau.de",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcWUzM2Vic1hpNTZ2blhzMzBhbEhteUVDY0VYUFJLLXpJZkkwZHdIQ0dQb2NuaHdPYzlBVGxfaVo2cXFMMTIyVEdXUjRQNlA3R2pIWUY2UUdJYThJOTBTYlJ4UjRuTWJTbVZuaUE3aWJ6NWhOSDVwNW1DUlp6clBLa18tVHR4M3lscGxjRTBQZFd5VS1KeVhLQ0RtYzROQk93MGMySTFMaVYzVEFiQmpZcGQ2YnFTdGVYTHRXNE9KQUF6UGRfVDJoNDRELVVYVFJfZEZ2OQ?oc=5",
+        "published_at": "2026-09-23T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Hessen: Für Reifen-Werk: Continental baut eigenen Windpark in Korbach - tagesschau.de",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdk10dzNkZzgyUTdNdk9yVkxZSGVoMXlrNm56REFzQnZIVEpXb1FBcDE1M20xSWdkMjkzQm8zeFZST2ViYUFlN09mSkVtZGZ6RzJUcjJJdElLU3NYZ0g3YXlVYU5hOC1oNWk5bkJYTGdfajBfUldFZWVqcHM4SnZkSEdxQjRoWUxfR3pYZVNpNTJFaWlFMEJNRlZEeHBFQWxaajZRM0hWZEpseUQzYXlVd3p6dy0zalV1R3Zmd3hDQ1hQdl9x?oc=5",
         "published_at": "2026-09-23T07:00:00+00:00"
       },
       {
@@ -339,6 +344,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental steigt mit neuem General Tire Grabber AT3Plus ins Transporter-/Van-Segment ein - Reifenpresse.de",
+    "summary": "Continental steigt mit neuem General Tire Grabber AT3Plus ins Transporter-/Van-Segment ein &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc0RlMjlKcW1wejJ5TVc3NE5ZTkVYQXhLc1BlQWNSdGdUN2laNGRJdXl5V1ZJT1dVY3lGYUVLbTgwMENLUWJNTTlBTXpfUkl6bzQyQktsVXFPWlFKb2Y2MXEzWmlnSHB0QlBwamh4LWk4NXJ5cEZtN1FWM3VMSkd5RUxrdEx3N2FfR0VoUDRXdlVrM19jRkt6T2V0bmhhZTlnVDRjSUppNVMtV05IR0NJZUg1VWx1LXpBSHBfQ1ZtZWtWc1k?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-21T12:56:47+00:00",
+    "matched_queries": [
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|at3plus|general|grabber|reifenpresse|segment",
+    "event_id": "dc09486df05975636c853a909d806547b134444a",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - Maquinac",
     "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; Maquinac",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1R6MVk5aXZQZEJpLXdEWFRyUDRwd09DVDgxOVJ0M05sR3l2MzhFQ1BoNHZUNGVlcjNFX2tza1c4czRZc3FydldCVWhHRGpKdlZVNktZeUtLODdmLUctM2s0NVBkZDktVWw5LWsyMmtqMzRoTVBsanpUcExNS0JBMlJuUUR1TDBCZ2lsb3RpMlJhRmZGVm9udnpNVkVncF9IME1r?oc=5",
@@ -404,6 +434,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
+      "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
@@ -516,10 +547,8 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
     "score": 200,
@@ -570,35 +599,6 @@
         "published_at": "2026-09-18T07:19:11+00:00"
       }
     ]
-  },
-  {
-    "title": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA - KLOEPFEL by EPSA",
-    "summary": "Continental: Reifen aus 80 % nachhaltigen Materialien | KLOEPFEL by EPSA &nbsp;&nbsp; KLOEPFEL by EPSA",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUs4VVpYV0w5Vm1yZ1N2Wi0xNlV3LVVZVG1BV081UzA4Wmd3VU9hTFlvbXFCTVBva0xxbVpmclBYeTJpNkgxdGoyZzg3MkE0LThFMjdvMzFZN2xySUNScnBsWHB0QVhxZXluY2hfS0xzY2pZMDZ0MWVxbTVjMWVoanhSX0ZXOTM3?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-10T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Pkw Reifen",
-      "Continental Korbach Produktion",
-      "Continental Korbach Mitarbeiter",
-      "Continental Korbach Standort"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|kloepfel|materialien|nachhaltigen",
-    "event_id": "1a5c637076d3ca7e9c4ce51647502ddc752c69c8",
-    "alternate_sources": []
   },
   {
     "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
@@ -666,7 +666,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
@@ -761,7 +760,6 @@
     "published_at": "2026-09-28T07:33:49+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
@@ -1069,7 +1067,7 @@
   {
     "title": "Günstige Zweitmarken: Hinter diesen Reifen Continental - BILD",
     "summary": "Günstige Zweitmarken: Hinter diesen Reifen Continental &nbsp;&nbsp; BILD",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc0hOaGN1djRjTWNCQUpURWZjTE9OVTlaSFJvTDl3bFR3bmxUVWQwYVBVZUtJUmQ4UU5lQ3VSZE1VSExtbnJITjBTMUx6TGtQbGNYRjJ0Rmx4cC1DS2lLdlRucW5Vd2I1MEZNbjF5dkFrOGVUSFhQMmg2QjJEbW1Bcmc1TUpHODJkdFdKQ0VOa3FBX1l3cU1lRUtHNlZxRGxnVlVIMWpwR2p5MmdiVmhRUHJpU0gwQQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTZPeFNpU3EzOUZHZjVVRjgzTWYxUGFDSWx0aExSSlNqOE1uZG9Tc0RNM1ZjN1VHQzlzYlNzS04wTFFJMkpaZG8xXzJrVW5uUDJuak5iXzB4WHpWSEJKUEEydEJUbUtxejV5LWJCb3VkODRDZ0oweDZYSDVRMHFkOW5sWTByanJqRDlKYXdMUkRBSFNZTnFfYjB6VGVMRWhzU3l3Tl8wZ2poSmJ5UjdSSzVOR09kSjRh?oc=5",
     "source": "news.google.com",
     "published_at": "2026-10-08T14:08:00+00:00",
     "matched_queries": [
@@ -1174,9 +1172,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-21T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1407,8 +1403,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. - VISION mobility",
-    "summary": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. &nbsp;&nbsp; VISION mobility",
+    "title": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. - vision-mobility.de",
+    "summary": "Continental: VW ID. Polo rolls off the production line on EcoContact 7. &nbsp;&nbsp; vision-mobility.de",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeXd5Z1pSNFNEaF9TdFdrVmN5MEE3LXdUNHNobmcwdVpPdnA2dXNBQTNyM2xRVFdpUXZacWtvd1RrZmVMc3Q5TmhLZEdreWsxZ2Y2U2h2LXpDWXFlMVdGeERZUEs1ajI1U182dXc1d2hzTDlLS1c3Zm5uQUZVUHF1MG1UdFdaZHdpRzBXdHVac2Z0OEtRbnRXUlo3OFllemlBMThTRGhONzVvcjREamlUSVpaVEJJdw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
@@ -1456,6 +1452,31 @@
     },
     "event_family": "continental|aumovio|borsengang|geplant|september",
     "event_id": "5686d8ed1421d5e0353d9dc92b48ac590e664e21",
+    "alternate_sources": []
+  },
+  {
+    "title": "Spatenstich für Continental Windpark - YouTube",
+    "summary": "Spatenstich für Continental Windpark &nbsp;&nbsp; YouTube",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxbzFfYTVmMzdRam4wTzZsQ040b2plSTlaRzFKTzJLM2k2U0RaMnY5dVhLT3JzWVJVV0xFYW1LNy1hS3Nwd1ZYc0lrc2dTZzR4Q1FnWW9EUDZhUEZU?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-23T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Mitarbeiter Werk"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": true,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "continental|windpark|spatenstich|youtube",
+    "event_id": "70f0612ec924a31fdab23d2761f9b8c73c0dc0ab",
     "alternate_sources": []
   },
   {
