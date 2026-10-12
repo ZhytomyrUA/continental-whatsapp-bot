@@ -72,6 +72,36 @@
     ]
   },
   {
+    "title": "Spatenstich für Continental Windpark - YouTube",
+    "summary": "Spatenstich für Continental Windpark &nbsp;&nbsp; YouTube",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxbzFfYTVmMzdRam4wTzZsQ040b2plSTlaRzFKTzJLM2k2U0RaMnY5dVhLT3JzWVJVV0xFYW1LNy1hS3Nwd1ZYc0lrc2dTZzR4Q1FnWW9EUDZhUEZU?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-23T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Mitarbeiter Werk",
+      "Continental Korbach Werk Produktion",
+      "Continental Korbach Produktion",
+      "Continental Korbach Mitarbeiter",
+      "Continental Korbach Standort",
+      "Continental Korbach Energie"
+    ],
+    "score": 2850,
+    "category": "KORBACH_FACTORY",
+    "korbach_priority": true,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": true,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "korbach|windpark",
+    "event_id": "d84fb36b1e7441ca486e3544e30b497bf698ba88",
+    "alternate_sources": []
+  },
+  {
     "title": "Spatenstich für neues Continental-Warenlager - Reifenpresse.de",
     "summary": "Spatenstich für neues Continental-Warenlager &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNExTX2pkenJHM1kwVFV0cnFSTVRQME16RFVBZlN4aGd1czRNUENoYzVSNnEzMXdSNU5XRms4Mnp0WS1YaGVjM2pTQ3NMUm9GSENzY3R3UElSeGlCTFdQQUxFVGpDWmsxZmZOVVVlaDNkZ0lNSGpUay1KclpCQ2tIMXhBYkFGcGxC?oc=5",
@@ -404,7 +434,6 @@
     "source": "news.google.com",
     "published_at": "2026-08-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -601,8 +630,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - ad-hoc-news.de",
-    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; ad-hoc-news.de",
+    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - AD HOC NEWS",
+    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1otY0hhV0tjMkx2VzRfcEN2TWQzNmxJMldnSEVDT01ZbEVDam5VRFR5ODVqVlFJTjJ1MEZMb3pqLTFjVl9pb045SkNaUl9ZM01lTXNKemJCaWZMdXFtc2FwV0IwM3l5djNuRy1mcGVKVmRqSGNLVGJRTTF2bzdDZWtLdlBFdllnMlFSOFdBTXY1SXBvWW1IbV9MTXBwMkQ1Nk4xb0NWY3VJUlpoR2NwMDRmQnV4NmRK?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-17T05:05:26+00:00",
@@ -1042,7 +1071,6 @@
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1080,33 +1108,6 @@
         "published_at": "2026-09-22T07:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "Continental VanContact 4Season ist Testsieger im Ganzjahresreifentest der promobil - Continental AG",
-    "summary": "Continental VanContact 4Season ist Testsieger im Ganzjahresreifentest der promobil &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMUEtdlBrQWZPUi0zYVRjS2pjSVYyQ0RPWUtVcVNzcnVMTUJBTkk2MzhxWmVSRzdWak0wUl9kbjVUY3BGWkZWdFRFTzl1WjlvS3FrV3hoUlpUcDdTbm8zYjVfa1JWb19UME0zMGdDeHdYUDVKSlYwX3VYR0tEbWFjVU5YMGpUQVRqMEVrdHpR?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-16T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Pkw Reifen"
-    ],
-    "score": 200,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|vancontact|ganzjahresreifen|4season|ganzjahresreifentest|promobil|testsieger",
-    "event_id": "5eae13ad8e1b926693278ec70225853fbec0023a",
-    "alternate_sources": []
   },
   {
     "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
