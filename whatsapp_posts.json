@@ -241,6 +241,12 @@
       },
       {
         "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -249,12 +255,6 @@
         "source": "news.google.com",
         "title": "Neuer Continental-Konzeptreifen enthält allein 43 Prozent recycelter Rohstoffe - Reifenpresse.de",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnRNeXpNOWc4WV9yU2dNeVhvcjJZazRFUFJrZDJSUG5oYjJwdkhQSEZmMmxEMlpRM192cE5kZWZJYXZXM2w5ZGw1VC1qX0d1R25hZkdHQ2RFUHM0azgyM2tUT2FoZXplTEMyR2hpMkYyVjVNbmhZRU4zbjVSVncwbS1JdVcxUlV6bTR2MnUybUp6X0pmUDhRUFVDWmFIaW51eXNVYlZfdDdPZVEzN3I1OVRTamMxQQ?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
@@ -754,6 +754,61 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - Continental AG",
+    "summary": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWhOdVFmZmdXN3RvaFk0VGcwNV9pb2NRN3pzemZULXJfSUJNWGpGNUotZ3pEWWNTekVtRjJMYUJQbkxUTTQtNUxUNXRibnZCRDJTdzdoSVRkMGU1U25XUUhGNXY0ZjB2VGdJTmFDZ2JpOG4tM1QxenFoVElibnJIcHF0elhjRXZK?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|machen|nutzfahrzeuge|straßenverkehr|unterschied|veroffentlicht",
+    "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
+    "alternate_sources": []
+  },
+  {
+    "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - Finanzen.net",
+    "summary": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht &nbsp;&nbsp; Finanzen.net",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUzRGb19ERVdFX2tqVVU5U0hEc1RZRTRvWGtHSnJ1ZHFEYzBtSW00eGdSMk92YTYzSG9GNVpFdEdRbVFDS0NWZ0Z6THFJMFBqWUpBNlNwSTJfdk1zSW5heVpnbGlHWWRwYlMxaGt3ekRFRWNORTNSc3NQelR2dUVaTEhSYzQ5VnBzc0RTd0dTbEptQWdlM0FiUTJINHI3d3dMc0kxWEM5dmVjblR0a1hPbXBseXlxUnZ4Wk1kYVJIaGVab0x6dTcwWlVuSTNrcDg0Y0NfeDlhcThPLWMwS2F1bkU0dG5WSlNsYXc?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|ausschuttung|finanzen|milliarden|reifenkonzern|sicht",
+    "event_id": "597878b7ffc721c3fca1159ba5e3fdb98e42f623",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
     "summary": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne &nbsp;&nbsp; MarketScreener Deutschland",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
@@ -1110,6 +1165,34 @@
     ]
   },
   {
+    "title": "Continental AllSeasonContact 2 ist Testsieger im Ganzjahresreifentest des AvD - Continental AG",
+    "summary": "Continental AllSeasonContact 2 ist Testsieger im Ganzjahresreifentest des AvD &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNklkWE9GWTZ0aG9ab2hNTDFBTGFXU0dvYUt6TTZ6RUtwTTYtOVdoeklOeEkyMDR4bEVhWHNtOVZHd3ZnZFVvWldwcGRsbWdSb3lPNmNKOEQ3SU0wWU5nOWZzdTlnTEdRdkpFejlDQlQyODk3VEZyeFgzTGNUbk9PQw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-21T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
+    ],
+    "score": 200,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "allseasoncontact2|test|continental",
+    "event_id": "de68777234e5ddb7c2154e0024d679ddbe531123",
+    "alternate_sources": []
+  },
+  {
     "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
     "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
@@ -1301,8 +1384,8 @@
     "published_at": "2026-08-26T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Innovation"
     ],
@@ -1346,32 +1429,6 @@
     },
     "event_family": "continental|ecocontact|mobility|rolls|vision",
     "event_id": "2173df37dcd7149a07df060ed5598927218bcdd9",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental: Aumovio-Börsengang für 18. September geplant - HAZ",
-    "summary": "Continental: Aumovio-Börsengang für 18. September geplant &nbsp;&nbsp; HAZ",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONHdUVHRvd0RwUE9SZXdDRHJCNTVKeHFjZU1vdUVFaXhIZk9XQ2tYMmhzTWpqcktmVFg3bWdfQ012UVJqMC1ac24yMWpLLVVNLS1DNThRRU9pWU9JeHdLUDktR0xBcXFoaERMbEtXUlNaOUREUVFoRnU4b3RHb0xVbU1PVGpBYmdleVlQek53M1NpS2VZMXNndmhOc1dfVVFVTl9FOHg4U0xBd1k0V3FaM2FXN205bFFrSktabndTV3NiS19sREpj0gHjAUFVX3lxTE90MVVEa1ZUaE5nQWZIYnQyZW95N0kxczJ3eWYtQjZHa2dEMF9pN0l5STd2ejJiUHJZUml2UkQwM3lWUTQ5bUt4dWJUVkNKUUV4S3JTZXUyRFo4Q1Rtb2xyRWYwbjNNdWVOZ1pnQ1JMQ0VKVlpHazRTZ3NDMnMwNnhrSVpBOUxHY3BBWXl6aE85cFlkNy1BWGNDNWEtVVp1aW5nbHpZSTZVSTJ2RDZoQWs2WjFUZnQ4bzQ3VXkzNHJ3ME5tWEt5dzQ0cGNTWjFBdzZodGZael9UV3RUN0dNRFptOEh3?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-18T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Mitarbeiter Werk",
-      "Continental Stöcken Werk Produktion"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aumovio|borsengang|geplant|september",
-    "event_id": "5686d8ed1421d5e0353d9dc92b48ac590e664e21",
     "alternate_sources": []
   },
   {
