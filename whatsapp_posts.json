@@ -241,6 +241,12 @@
       },
       {
         "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -249,12 +255,6 @@
         "source": "news.google.com",
         "title": "Neuer Continental-Konzeptreifen enthält allein 43 Prozent recycelter Rohstoffe - Reifenpresse.de",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnRNeXpNOWc4WV9yU2dNeVhvcjJZazRFUFJrZDJSUG5oYjJwdkhQSEZmMmxEMlpRM192cE5kZWZJYXZXM2w5ZGw1VC1qX0d1R25hZkdHQ2RFUHM0azgyM2tUT2FoZXplTEMyR2hpMkYyVjVNbmhZRU4zbjVSVncwbS1JdVcxUlV6bTR2MnUybUp6X0pmUDhRUFVDWmFIaW51eXNVYlZfdDdPZVEzN3I1OVRTamMxQQ?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
@@ -434,6 +434,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-25T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -698,7 +699,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -763,6 +763,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
@@ -795,6 +796,7 @@
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -901,6 +903,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -971,7 +974,6 @@
     "published_at": "2026-10-01T10:10:00+00:00",
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
-      "Continental Reifen Technologie",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
     "score": 200,
@@ -997,6 +999,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-01T10:41:30+00:00",
     "matched_queries": [
+      "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1227,6 +1230,12 @@
         "title": "Continental WinterContact TS 870 überzeugt im ADAC Winterreifentest 2026 - Continental AG",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUDJFdXNBMmFSandBRVpmZzJiQXJJOFhteElDcW1DT3Uxc0xSa1ZZNGRQQ3pRQU0yRVhQVmFSRUVsMi1SZGJNbUJRdDBQQl9fVnhaVmdsRWM0V0RyZTRqVG9rcjJWbVlVdHFobU5nZUx6TjRaWVk1OUFzUEE1by0zZ1ZvZmxYODN3d1B4T3BRZGFVQQ?oc=5",
         "published_at": "2026-09-22T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental WinterContact TS 870 P überzeugt im Winterreifentest von AUTO BILD sportscars - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGhYSXNiczZ3d0JSR2phLTVzcGRSVkxFNWV3UG80aHpQWlRQM3FxR1ZxY3pLUzV3VHJKb3pyMXFtQzFkdTZzNi1fU2tpcnhKSVYwR0tjMmk0VmxPdm9lYnpYNkdzMENMTGpOZnRHYkJSaGlKdm04UFJ2V2hVQWpGUnZkQnhseFE?oc=5",
+        "published_at": "2026-10-12T09:38:18+00:00"
       }
     ]
   },
@@ -1237,6 +1246,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1498,6 +1508,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Der neue Continental ContiMotion EVO - Tourenfahrer",
+    "summary": "Der neue Continental ContiMotion EVO &nbsp;&nbsp; Tourenfahrer",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkpDN2VvNHJ2dVRKR0dSVG4wd2RadWZIRVJNMVNrYUVqVDhkdmtKeU5fSklIRHZfWjJGbGFzUEM3dklRSEljQVQyWmlBODd1Um1jakN2anMwcHlEMWlwMFNyMloxTGxyQkp4N2M4cTJtNzNrSUI5WkpYVHN2RmFvRjV5Qk1samMxbzVSclRn?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-10T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Reifen neue Produktion"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|contimotion|tourenfahrer",
+    "event_id": "a35224ff81bd29d4ecc4979228a1676f874280fe",
+    "alternate_sources": []
+  },
+  {
     "title": "\"Der Bereich war aufgebläht\": Wie Aumovio nach der Abspaltung von Continental schrumpft - T-Online",
     "summary": "\"Der Bereich war aufgebläht\": Wie Aumovio nach der Abspaltung von Continental schrumpft &nbsp;&nbsp; T-Online",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcDYwTlZob2xUeXFGbWdYakViamF5dno2S1Bsb1NraEdrNzVIOC1MaTRKb2ZLc1pjQXQyMEVoN0pHQUNzZ3dCWXMyMDdTaHdXaVJRVFdJRUprUHFXWnhlczQxT3JSUkVwSjNBLXVYRjliR3NHbmc0VTBxd0VTQlhkZ1gyeG5yT0lpRjZiSGw2Y3cxVm1TNTlFS0tfaDhBZWFUdUFlOVU5dkZrR290RF9BYWhubEZGenYzRUNFTU16aUU3WU0tdHdwc3h4NjQ0LUIyYm43X3hUcnpEUQ?oc=5",
@@ -1548,6 +1585,108 @@
     },
     "event_family": "continental|begrenztes|onvista|potenzial",
     "event_id": "2267b447c2c592b4d39b43c8f9b6b3d82961cc14",
+    "alternate_sources": []
+  },
+  {
+    "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PressNetwork.de",
+    "summary": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ &nbsp;&nbsp; PressNetwork.de",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VoSkp4SnpmNkFmTGs2NEc0aWhmOHVEQUxRQWYxVW5kNWZvSUpzeDUyOVBDc0NybWREV2VCRUZyTUpTZVJtUmFXSHFZM3cxTWJSSTZSV1pySHFyQjZvd0xvN0UzSzBySE1mM3VVZVVxa0ROVDB4NGlXMUZZY2k4dHNOb3NpYjNGcGZETGdQX2c2TWpjdXpPU2ZKM1lBUmlGaUx3LWhXcE4tWW1NWkZfbmliQ3plRzlydzJPd2tENU9pM09k?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T08:57:36+00:00",
+    "matched_queries": [
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Mitarbeiter Werk"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|aumovio|brain|cloud|fabrik|german",
+    "event_id": "6a374d81782554a34b7bb610ea162d90d7269c4f",
+    "alternate_sources": []
+  },
+  {
+    "title": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot - Automobil Revue",
+    "summary": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot &nbsp;&nbsp; Automobil Revue",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYWdyeWRfZDdBTlM1TWkzQWR3VGVFQWVQNHlyMTM1V2FSUk1la25Hc3l3MGpQQUd2UDdWWHBjYW5BaGNlc1h3bWh4dUF0REs1Rk9vd1dmMUh1Y0tma2lvWk5PX0tfTFZOeFcyLTYtOEdnVk4tVGJlRFRRU0tZdTNiMlFvUzZNMzJkRU9hdDQwcw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T12:05:22+00:00",
+    "matched_queries": [
+      "Continental Mitarbeiter Werk"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|automobil|bentley|macht|revue|sweet",
+    "event_id": "f6ae2554cd2ef234b9bc599b951465a38d27325e",
+    "alternate_sources": []
+  },
+  {
+    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
+    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T14:38:54+00:00",
+    "matched_queries": [
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
+    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental MPT91 für Straße und Gelände - Baublatt.at",
+    "summary": "Continental MPT91 für Straße und Gelände &nbsp;&nbsp; Baublatt.at",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Mc3llM1lDYXpXVjcxOEszVjBsU2NGSlRwZW9VMmt5NlJiYVR0ZHY3OUtRd2RZZVZoc1pmNGctRnduQ3pFWjNfQktxbnVfLVVBdjFLSEIyMFlZWGp0OFFna3c2end3bmVFLVA1bm5YcUFmdw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T17:21:47+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|baublatt|gelande|mpt91|straße",
+    "event_id": "93eaa93bb59cb0454ac29f41cb74d3060542b75b",
     "alternate_sources": []
   }
 ]
