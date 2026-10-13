@@ -241,12 +241,6 @@
       },
       {
         "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -255,6 +249,12 @@
         "source": "news.google.com",
         "title": "Neuer Continental-Konzeptreifen enthält allein 43 Prozent recycelter Rohstoffe - Reifenpresse.de",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnRNeXpNOWc4WV9yU2dNeVhvcjJZazRFUFJrZDJSUG5oYjJwdkhQSEZmMmxEMlpRM192cE5kZWZJYXZXM2w5ZGw1VC1qX0d1R25hZkdHQ2RFUHM0azgyM2tUT2FoZXplTEMyR2hpMkYyVjVNbmhZRU4zbjVSVncwbS1JdVcxUlV6bTR2MnUybUp6X0pmUDhRUFVDWmFIaW51eXNVYlZfdDdPZVEzN3I1OVRTamMxQQ?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
@@ -434,7 +434,6 @@
     "source": "news.google.com",
     "published_at": "2026-08-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -600,6 +599,65 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental rüstet neuen Audi Q3 mit Reifen ab Werk aus - Gummibereifung",
+    "summary": "Continental rüstet neuen Audi Q3 mit Reifen ab Werk aus &nbsp;&nbsp; Gummibereifung",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHVrM19sQVlYQ0FYOUJ6LXM3cHlUV3J5Y3FJcDFVbXNYNXV6X05sb2V2VWMzTmhna2UxLTdrdU5NdW5XZjduOXcxNTJhejNSRS1ob3o3TDZuLXBwNGpOSms0ckNDNGZVN2xkSWxIUE8wV09heHZuQXBENnJVUjh3N2Z0eWlqdkNiSlE?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-08T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Werk Schließung",
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Test",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|gummibereifung|rustet",
+    "event_id": "0f4e161fe029671c3a488dd91003596e33e7ab35",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus - Reifenpresse.de",
+    "summary": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGtFbEVmZkFyUW41LWhib3hJOVEtN2RsRzdLMENxM0gzSzFvMzBLUmt2N1BwVV9BeXIzSWluRDZTSjFyQ1dzblpNeGJjR2xYZEh4THBlY0xNaFVmZG5EZHBKZkJkSUtnelRidUtuZ0t3S0VxNjV4THRJUEFOV2M4ZThHcUR0MThOeWt6cDdhaXdlNmpFamdPbkYtRUxsSExoTS1kMlhrTQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-08T07:43:34+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|kompakt|reifenpresse|rustet",
+    "event_id": "e923dc2e29654a063fbdb4d33ccd5a8de429469f",
+    "alternate_sources": []
+  },
+  {
     "title": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor - Continental AG",
     "summary": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTi05ZVE1bTczbFhxRUdHMzlWaXEzYy16SU5USUlMOVFuMVBYZThQTmliQklLQ21CYnluX2VZeFVhLTdwTWltbDRsVlc3cHdqT0QxdWttc2ZPaXhNNWtNdGUySVNKWUpIUWJmSzV0eWFJQXc1UnlHMlQ1ZVFMdTBQU1lhY0tBN3Bfcnc?oc=5",
@@ -631,6 +689,31 @@
         "published_at": "2026-09-18T07:19:11+00:00"
       }
     ]
+  },
+  {
+    "title": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen - 1000PS",
+    "summary": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen &nbsp;&nbsp; 1000PS",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1JKVHpSbUpQdUpHdm5PclBXVkZOZG9FNkNfRHZ4Y1FIeWJqb05naW5uT09WNi1Gd3NQcEo3c1Z1RmxWTWFCYmxUUXpKUElzbFlsOGtWNEExNEpNdlRta09jRzlUcWVDRFFNTDlqaGhUcTF0X2dMdHpNcDhydnF1aVh1bHROU2VHSDdyWWpFdFJ2RGNpVHpBZzM4MWJYa2pmOWfSAaoBQVVfeXFMTk5lcUg3cVc4UTE3WTdjVW9Bd0I5MVFkVVRuUEczU3BsbFYzNXhQUkh6TzVqRWJvdmxoNUxQLVNYdkU1WU1MZzQwMVpncW9oSGZNR0JxSWlxVlB1T2VvRHZuM2EySmVNanZhUkZKa0VZMnpJLS1BUXNaTWRBUlVSc21VUGRoRUswWng0ZlVpVlpWZjFQSnN0bFk3d1B0UDVIZ09fNmdrTS15enc?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-10T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|1000ps|contimotion|sport|touring",
+    "event_id": "4abbcf49f660de92d4faa531b51a61b495345671",
+    "alternate_sources": []
   },
   {
     "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
@@ -847,7 +930,9 @@
     "source": "news.google.com",
     "published_at": "2026-09-29T09:12:19+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Nachhaltigkeit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -862,8 +947,21 @@
       "generic_product": false
     },
     "event_family": "continental|neue-reifen|cayenne|deutschland|marketscreener|modelle|panamera",
-    "event_id": "8d543de58165529478b5041540a54310ea6c117e",
-    "alternate_sources": []
+    "event_id": "a247bc63b7acbdbf76a077e202a4fa7b31520e41",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental erhält neue Reifenfreigaben von Porsche für die Modelle Panamera und Cayenne - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZkp3YTlzNXNDWEZHZDJUcEc3RVZXMEhZVE40czBYZlh5RzJmeGFmNFg3THJxX0JVd1pkbjR4U2o3Y2dFRWtaZVllaUw0cXExRThfWkZFTkJ3Sngtaks3clZaWEwxbFhRVS1qcTduUmJabTFQZEF1UGF1bDktczNBRkJNRC1ic2l2dTY4OFQxVHpGR2FCc2dHU2E0N3g2RXJiSmpKeU1KalZWeFhFVHZtRjJSQ2phb2s5bUtWWlg0aWlLS3d3NVp2XzVFeFV3QWJlQVNSWElVRWlLNVIxZ2R6THNlbHFpVHJjQ3ZLaQ?oc=5",
+        "published_at": "2026-09-29T09:12:19+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Porsche setzt auf Reifen von Continental - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2el9RSkVVcDBUVHZFUVJNMUI2Ul9PRG5VUjNnSE0xSWVpeXpQZDVuUVNCZVJ3ekRHdjRIcWdUWmNsblV0VGpYV0RmRlJUMU9QcUoyZXpPVEtGLVRhRC01dGpCc0lOZTJnLWNmc3p3aUxWLUJuVWE0?oc=5",
+        "published_at": "2026-09-29T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
@@ -1462,8 +1560,7 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Innovation",
-      "Continental Motorsport Reifen"
+      "Continental Reifen Innovation"
     ],
     "score": 150,
     "category": "COMPANY",
