@@ -434,6 +434,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-25T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -633,9 +634,8 @@
     "summary": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGtFbEVmZkFyUW41LWhib3hJOVEtN2RsRzdLMENxM0gzSzFvMzBLUmt2N1BwVV9BeXIzSWluRDZTSjFyQ1dzblpNeGJjR2xYZEh4THBlY0xNaFVmZG5EZHBKZkJkSUtnelRidUtuZ0t3S0VxNjV4THRJUEFOV2M4ZThHcUR0MThOeWt6cDdhaXdlNmpFamdPbkYtRUxsSExoTS1kMlhrTQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-08T07:43:34+00:00",
+    "published_at": "2026-09-08T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Lkw Reifen",
@@ -697,7 +697,9 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -722,7 +724,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -781,7 +782,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -996,12 +996,11 @@
     "summary": "Porsche setzt auf Reifen von Continental &nbsp;&nbsp; Gummibereifung",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SY0MtbExDRmgyU2VkQ0ZFZUpheWVHWDExMzItTlZIVGJmenpLQkV4WXF1Uk45eHRTS3k2Uzl3QmtEa095VEF3YTQ0SzVQMEE0bUNVSlNFdHBuVTY0NzhDNHhDaXVqV2VpZlRJT1R6X2kwNFg0?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-30T08:58:24+00:00",
+    "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -1742,6 +1741,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T14:38:54+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
