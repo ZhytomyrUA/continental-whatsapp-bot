@@ -241,12 +241,6 @@
       },
       {
         "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - vision-mobility.de",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -255,6 +249,12 @@
         "source": "news.google.com",
         "title": "Neuer Continental-Konzeptreifen enthält allein 43 Prozent recycelter Rohstoffe - Reifenpresse.de",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnRNeXpNOWc4WV9yU2dNeVhvcjJZazRFUFJrZDJSUG5oYjJwdkhQSEZmMmxEMlpRM192cE5kZWZJYXZXM2w5ZGw1VC1qX0d1R25hZkdHQ2RFUHM0azgyM2tUT2FoZXplTEMyR2hpMkYyVjVNbmhZRU4zbjVSVncwbS1JdVcxUlV6bTR2MnUybUp6X0pmUDhRUFVDWmFIaW51eXNVYlZfdDdPZVEzN3I1OVRTamMxQQ?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
@@ -553,7 +553,14 @@
     },
     "event_family": "continental|botschafter|daniel|performance|reifenpresse",
     "event_id": "3b37f37a24990b1d4442c10d4ae454c99d67bcb6",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Daniel Abt ist neuer Performance-Botschafter von Continental - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcXpodE9JaHZLWWtZeXZjamhaZXNpUVp6V012NEpZLXNkckxjSDZNSFNBck5aV0E2UnZvRDJxTFhfbjJrakh1Q3JzMzI4WGxYdU12eXpib3paRmRLNTZyVllBSVMzREpPcFRreWhuekh4MktfQmZobHdwLTQ1SnlNZVZfRQ?oc=5",
+        "published_at": "2026-09-02T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Für jede Jahreszeit gerüstet: Der neue Audi Q3 rollt ab Werk auf Continental-Reifen - Continental AG",
@@ -651,8 +658,10 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -711,12 +720,41 @@
     ]
   },
   {
+    "title": "Continental ContiMotion EVO - myNETmoto.com/Motorradreifen",
+    "summary": "Continental ContiMotion EVO &nbsp;&nbsp; myNETmoto.com/Motorradreifen",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmlhY3Flcm1jbDh1YXhOTTFVYXVONXJMbFVFOGVwZXJiQU05ckhUbXdqSXVvMzJxU2lnczc5TEd2NWlVaW9hVkZKYmdnLTU4OVFXMWE4a0dKajFIYXhHajNtTnBOX25PTkxYUUtaNUNSYi1zNlRvM1N1UXRpWUVaSjB0bk9Sa1FlNWJj?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-12T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Reifen Test",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|contimotion|motorradreifen|mynetmoto",
+    "event_id": "758de999651e11a7c303c7da9f571f1a3cf718e8",
+    "alternate_sources": []
+  },
+  {
     "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
     "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -736,6 +774,43 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
+    "summary": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTnZ5REZ4QjhUUFBGbThpYUhmdEpaa01hTUhrc3BGT0Y3Z0dxeUc4V3NOZ0dzd1poZE85OFpPbzNVdzRnLWxmbTRCdmNPRkpuMDFMVVNqR1RUS3hJdzgyckhKUDc2bEtKOUxSaldVZFZOb3o2X2M5QUFyYW1La2pLc0xmNDFxUDl1cG5BUDJiT3c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-16T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen neue Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
+      "Continental Pkw Reifen",
+      "Continental Motorsport Reifen",
+      "Continental Nachhaltigkeit",
+      "Continental Korbach Werk Produktion",
+      "Continental Korbach Produktion",
+      "Continental Korbach Mitarbeiter",
+      "Continental Korbach Standort"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|großen|leistungsstarken|portfolio",
+    "event_id": "8cc579f8d3333f2d05ad9b69eaf0dff6cb50a55d",
     "alternate_sources": []
   },
   {
@@ -1198,7 +1273,9 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
@@ -1234,6 +1311,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1501,7 +1579,8 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Innovation"
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1628,8 +1707,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: Ich sehe nur begrenztes Potenzial - onvista",
-    "summary": "Continental: Ich sehe nur begrenztes Potenzial &nbsp;&nbsp; onvista",
+    "title": "Continental: Ich sehe nur begrenztes Potenzial - Onvista",
+    "summary": "Continental: Ich sehe nur begrenztes Potenzial &nbsp;&nbsp; Onvista",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWF2b0dGWU1jbVJXNlVrdjl5UmRDLTRoZ2phTWNFeUNpZjV1QzBaRjNhcFBPT2JNbHljQm9FZkxwQTRFeTV0UEpoRUdxeWgxd2JyeWU3R212Rnp6QW1NYWVzY2c0NzgzdzdmTmVIUGlOd0hkcTF1UDRZZ1Y4dnNkUS1RNkRwSkFCMmNHY21EZjhHcXR3Y2NzczhNMWdjUWpQbEkxV2R3?oc=5",
     "source": "news.google.com",
     "published_at": "2026-10-05T15:01:15+00:00",
