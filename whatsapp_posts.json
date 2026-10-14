@@ -241,6 +241,12 @@
       },
       {
         "source": "news.google.com",
+        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - vision-mobility.de",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
+        "published_at": "2026-08-25T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen - WELT",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmFZSlViSUZWaHRrbmJFeUJ2dG8xMEl1OTIteDFFVzIxRXc4NEowd1k5Sm5DYlk1N2E2TzkzcjVxWEpCcHIxd3ZaTWF4Q05XOXVtNFdsN3dZZTRRNkUtSzVsYWFLUXJVTU1iQlhyZG9XTFBCWkxaVmJTWTRHR2tLQnpKV3BRVVNuT1ZiUmdBTEVyOENZcEhmeU1DbDhxcFl3QndyS05ieDRZOFFlbEE?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -249,12 +255,6 @@
         "source": "news.google.com",
         "title": "Neuer Continental-Konzeptreifen enthält allein 43 Prozent recycelter Rohstoffe - Reifenpresse.de",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnRNeXpNOWc4WV9yU2dNeVhvcjJZazRFUFJrZDJSUG5oYjJwdkhQSEZmMmxEMlpRM192cE5kZWZJYXZXM2w5ZGw1VC1qX0d1R25hZkdHQ2RFUHM0azgyM2tUT2FoZXplTEMyR2hpMkYyVjVNbmhZRU4zbjVSVncwbS1JdVcxUlV6bTR2MnUybUp6X0pmUDhRUFVDWmFIaW51eXNVYlZfdDdPZVEzN3I1OVRTamMxQQ?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
       },
       {
@@ -685,8 +685,7 @@
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -702,7 +701,14 @@
     },
     "event_family": "continental|1000ps|contimotion|sport|touring",
     "event_id": "4abbcf49f660de92d4faa531b51a61b495345671",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen - 1000PS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTWRxUVNXYU5LOUlWMThtdm1GVVFVcmN4YUxGenRfMWhrTjNGN2dUUUxIandvV0ozWlVseUZkX3lFelhiMk9UdDNUa3pVeUF6cTZfdjNWVW5pbmszVjkxa3NIdTVXZWk0Z2MwSnl4Wk91YVgzdS1GT0hfSzRQdTRSMGtnRTFvLUF4Y0FxNXNIeldYajlHS3dwcHVhTU5TSkRWc0HSAaoBQVVfeXFMTWNuZVhoMWI5Z0RnT0Z6WjMwWEtvNkVpc1prOWdtU0kwcTBCZDNiMlhTek01YzFDYlpyZ2tGMGlseU9qU2hRaU5EM21NVzdFUVFMT0JSVnBHUnZScktUU2VyU3JxNGNHc2V1OTJwNzNQVVQ4bXEtWDJmMDRHZ2hHRXdrTWtqNFhtdlJGZUdQdzZYVy1MNEYwV01JVERRSTJYU0Zvci1UUUFSQUE?oc=5",
+        "published_at": "2026-09-10T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
@@ -800,7 +806,13 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
-      "Continental Nutzfahrzeugreifen"
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
+      "Continental Nachhaltigkeit",
+      "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -829,6 +841,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Produktion",
@@ -1131,8 +1144,10 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Fabrik Deutschland",
+      "Continental Reifen Werk Investition",
       "Continental Mitarbeiter Werk",
-      "Continental Stöcken Werk Produktion"
+      "Continental Stöcken Werk Produktion",
+      "Continental Deutschland Werk Investition"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1148,58 +1163,6 @@
     },
     "event_family": "continental|entstehen|ganze|stocken",
     "event_id": "c0064a6d922177205af6e6e712bde7cf7274a1ce",
-    "alternate_sources": []
-  },
-  {
-    "title": "Günstige Zweitmarken: Hinter diesen Reifen Continental - BILD",
-    "summary": "Günstige Zweitmarken: Hinter diesen Reifen Continental &nbsp;&nbsp; BILD",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTZPeFNpU3EzOUZHZjVVRjgzTWYxUGFDSWx0aExSSlNqOE1uZG9Tc0RNM1ZjN1VHQzlzYlNzS04wTFFJMkpaZG8xXzJrVW5uUDJuak5iXzB4WHpWSEJKUEEydEJUbUtxejV5LWJCb3VkODRDZ0oweDZYSDVRMHFkOW5sWTByanJqRDlKYXdMUkRBSFNZTnFfYjB6VGVMRWhzU3l3Tl8wZ2poSmJ5UjdSSzVOR09kSjRh?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-08T14:08:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|diesen|gunstige|hinter|zweitmarken",
-    "event_id": "4c46110b9bfed5dd383107443ebaf5209a98e44b",
-    "alternate_sources": []
-  },
-  {
-    "title": "Überraschung beim Reifenkauf: Diese Günstigmarken verbergen sich hinter Continental und Michelin - Joyn",
-    "summary": "Überraschung beim Reifenkauf: Diese Günstigmarken verbergen sich hinter Continental und Michelin &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVVROb2J2TG12SGY0NV8zSmRjR0txZ29LZWhSRmVCZDM4U2dnWlotZ3h4MVhZZUxFb0wtUUVZRklzckhCX2VaaUIyaXZySHFCM3pwRk41Vk9mel9rQkF6VDltM0l0YXJEYUdFMUdFNkl5SXFRSFVCRDZHRUFsdXZyZUVwRS0yVjQ0OUpqbW5mdFd6UmttUms5OVFHZm9pYUxJZlNWdkN0TTRMcDkyVHFmNw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-13T11:35:51+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|diese|gunstigmarken|hinter|michelin|reifenkauf",
-    "event_id": "77ca2a56ca2d2f0583d08823523623c7a36c09a1",
     "alternate_sources": []
   },
   {
@@ -1616,7 +1579,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Nutzfahrzeugreifen"
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1721,7 +1685,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T12:05:22+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk"
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Test"
     ],
     "score": 150,
     "category": "COMPANY",
