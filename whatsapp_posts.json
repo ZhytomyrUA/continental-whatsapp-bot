@@ -234,12 +234,6 @@
       },
       {
         "source": "news.google.com",
-        "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - VISION mobility",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRHFHY1d5R3dJRS1ybTNxaXh2RkJTOUtWaE05SzQ2ZGF3b2ZNMUtLV2tVSmF0M1N1NnRldXBWUWlhYUw1WWl6clhUNnAwYmM4YnhFR0VWOTM1MHA3eHpITWdOMEIyWmhTVHZQY1p0ejdIWEUzWURIVHZ2eUduSUdNdk5jMENMN1JaOXBSOTNFd2hYcC1uNFRhNHVCclB0RHBzdktrYkVISktDbE5vVUZCTGNHZUtuZmNKOGZFbU9qZmNzQk0?oc=5",
-        "published_at": "2026-08-25T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
         "title": "Continental: Konzeptreifen kommt auf 43 Prozent Recyclingmaterial - vision-mobility.de",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT21sV0lhbjZDV2tRR2RXM25WLUFtMkwtWVdIOFIwam5hMnJzLVFSeEhjVk5LQXFySGdHRjdSV210ZVdNNDNlc1l5elVNMllwREM1NmdsLVZXOXVYRERCZnJsaGxnbUVoQ1ozMXpjM1JDWk1DdmZDN1pxOTBoZzhLVXJGQWs1cFIzbEhXM2xqUkxKZjhZUS1jYjdqLUdqY0czRUNYRjd2TV9aMUJK?oc=5",
         "published_at": "2026-08-25T07:00:00+00:00"
@@ -673,6 +667,12 @@
     "alternate_sources": [
       {
         "source": "news.google.com",
+        "title": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor - myNETmoto",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaDBpT0tmaTRNc0pab3cyVHU3Q3k2Z2hSS3F0WXU4YjFtSjZ1dmxCeDZTNm5EclREaGZ3V3JLY3JmV05YLW9oMUhmS3FtMmJlSGNhaEZHX3hCZFVtT3FVMjY2enAzcUFBQ21FTGlOTUVxblFWWjFkMGJ2eVQwdUQxR0Z6ZHltMUtLbkE0eEhnR1NaRVBEY1hyaHVxWjRkMW54ZUwxRVBvWmdWYVJkTXBtQ3QzN0lyb1piVVNDd21Ra0VnZkNIbGJNY1dYR05mNGVuaklucWgyX1rSAeABQVVfeXFMTUdDMjVDNmxTVnQtbXdSWWdXSEduUldiS1E3S2tsSndfSzNYTkEzY0gySVFwbTdwcjFrakNZR1BDV1g2d2hWbk0yZVE4UWZwVGNac3ZJaFVTeDZKMDNWbUF5WG42OUNnblZGNnpKWEZBYjA0MEt2UWdmallJclFpSXllMkdjUDA0endrN2o1RmFIMERNWTJHbjJpYkI4bUFSLXlqM1dKYVpzdEpxSmQwTE5IWnZZYXlNMGcxV1dXVkJFQWQ0RVpNNU9QVVhzTG14VHQtczI3N0R4cE8wejc4YVU?oc=5",
+        "published_at": "2026-09-10T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
         "title": "Continental ContiMotion EVO - moto.ch",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZTVBDbUo4bWhtbWU1T010OFVHUWdIRGxUYW1OR21qTWd5V3NCakItRzRoYUhzYW5aejhLM3dfSk52T2xJNE4yNVRYWWtjSXRpTnBCdk5RLWFkS3lP?oc=5",
         "published_at": "2026-09-18T07:00:00+00:00"
@@ -740,7 +740,6 @@
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -768,6 +767,31 @@
         "published_at": "2026-09-15T07:00:00+00:00"
       }
     ]
+  },
+  {
+    "title": "Transense erhält Auftrag zum Bau eines maßgeschneiderten digitalen Reifenmanagement-Tools für Continental AG - MarketScreener Deutschland",
+    "summary": "Transense erhält Auftrag zum Bau eines maßgeschneiderten digitalen Reifenmanagement-Tools für Continental AG &nbsp;&nbsp; MarketScreener Deutschland",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQnBGWU1RMW5WejQwZjhfcjQ1WDIzM0VaZVNnTDN1X3JQOElfTDJEZlh6czBwZ1pPd2x1R0VIcnFpVTRFeEt1WUVRYXZGSlNCOFl4dEE2bl8taXYxQzJldEdteXg1cHg4cmlBRmd0SzFiSmlmLU5NNWgtel9kOHBZNkMxQ2tscTRUNkl4SDBRS2RCb0luV1NKNkpFX19LcE1ydHQ3X2hqNDBhNnAwSThkU0dST0ROaEl6MVpjYnQxY1lOSGI4QTNCckdWOTdldXZHZjQxZXZDeThtT3lyMmNnZms3ZV8wYXBxRTJoNmRxMGhTRmlKQVFTd2hBOWNrdw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-15T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": true,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "continental|auftrag|deutschland|digitalen|marketscreener|maßgeschneiderten",
+    "event_id": "b977fb422b9b8a6dd613dbec387dadfbe2c5558d",
+    "alternate_sources": []
   },
   {
     "title": "Continental WinterContact TS 870 P - Winterreifen für PKW und SUV mit 71 dB Rollgeräusch - ad-hoc-news.de",
@@ -900,7 +924,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
@@ -1357,7 +1380,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-14T08:55:23+00:00",
     "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Technologie"
     ],
     "score": 200,
@@ -1764,7 +1786,8 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Innovation"
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1895,6 +1918,7 @@
     "published_at": "2026-10-03T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Lkw Reifen",
