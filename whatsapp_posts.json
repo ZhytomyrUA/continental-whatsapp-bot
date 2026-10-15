@@ -442,22 +442,14 @@
     "alternate_sources": []
   },
   {
-    "title": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo - Continental AG",
-    "summary": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV0d5RHNTdk5naFRXN2g2YVY0OVFWaXlTeXFBdXNUSEYwT1FEV1VIczNuS0JFR1VRUlp4dTF1ZjlPeFlTN0VCQUNhYmV4Z20xc1l5SmJxTm94ZXU2cWVNM1VvdkUxQzJuSlUycWJzTHF4MUJlXzJEY2MwSE1nU0tTRF9B?oc=5",
+    "title": "43 percent recycled material in the concept tire: Continental shows pathways to a circular economy - PROFI Werkstatt",
+    "summary": "43 percent recycled material in the concept tire: Continental shows pathways to a circular economy &nbsp;&nbsp; PROFI Werkstatt",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcXY2VnhJZjl5Y2cwMHRjUHRUak03WVNWMVc5Y1ZQUDNDQk1wSzlUY0VpeE5HbTN2ZUFVaEstNWlUM0VkbUZLUWRuRUppU1BHbTlzZ2VSNW0zZlpHcVUxNnNlNWU0SFFsQko4VFdzblh0eHhSWmo5RENWN3VwSFR1N2FTQzNwWEtsazZnVVRMdzRFVlM1dkpiR2N2Y3V2YXNSdTJuOUJZU0dqaGRmZnBKMi1wN1VGQWRnZE9lVVhnUEhXOGdHdkhCOWF3WHNfaHpUdURJ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Werk Investition",
-      "Continental Reifen neue Produktion",
-      "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Nachhaltigkeit",
-      "Continental Deutschland Werk Investition"
+      "Continental plant Germany tire production",
+      "Continental factory production tires Germany"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -471,8 +463,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|volkswagen",
-    "event_id": "c0181aee172a431e51c2d0693cdc5d5c9ff3ea79",
+    "event_family": "continental|circular|concept|economy|material|pathways",
+    "event_id": "c358dcc376c8c93276d974a39461925165820b68",
     "alternate_sources": []
   },
   {
@@ -683,7 +675,7 @@
         "source": "news.google.com",
         "title": "Continental ContiMotion EVO - moto.ch",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZTVBDbUo4bWhtbWU1T010OFVHUWdIRGxUYW1OR21qTWd5V3NCakItRzRoYUhzYW5aejhLM3dfSk52T2xJNE4yNVRYWWtjSXRpTnBCdk5RLWFkS3lP?oc=5",
-        "published_at": "2026-09-18T07:19:11+00:00"
+        "published_at": "2026-09-18T07:00:00+00:00"
       }
     ]
   },
@@ -768,7 +760,14 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
+        "published_at": "2026-09-15T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental WinterContact TS 870 P - Winterreifen für PKW und SUV mit 71 dB Rollgeräusch - ad-hoc-news.de",
@@ -901,7 +900,10 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
@@ -1402,6 +1404,53 @@
     "alternate_sources": []
   },
   {
+    "title": "Volkswagen Konzeptfahrzeug Mission Efficiency fährt auf Continental-Reifen zum Weltrekord - Continental AG",
+    "summary": "Volkswagen Konzeptfahrzeug Mission Efficiency fährt auf Continental-Reifen zum Weltrekord &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLUFFYWZlVnZCb2w3N1c0SGFyUVBKMkRWem5qZ29RX1prNVd3eS15ckJOcXFRb2s5eWVVeGVKN2ppM05DdFFIa1BEZFV6V2RmOFFNU1JFd3YtdV9fTjNOSHUzZU00cnZwZ2NmcXFoRVB2R0hSMHhaakFRMTVrdWd3azFGUmcyUXhZeTJaZjdfV1hPbXlLenlQQQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-15T06:31:43+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Werk Investition",
+      "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
+      "Continental Nachhaltigkeit",
+      "Continental Deutschland Werk Investition"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|efficiency|fahrt|konzeptfahrzeug|mission|volkswagen",
+    "event_id": "c0181aee172a431e51c2d0693cdc5d5c9ff3ea79",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Volkswagen Konzeptfahrzeug Mission Efficiency fährt auf Continental-Reifen zum Weltrekord - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLUFFYWZlVnZCb2w3N1c0SGFyUVBKMkRWem5qZ29RX1prNVd3eS15ckJOcXFRb2s5eWVVeGVKN2ppM05DdFFIa1BEZFV6V2RmOFFNU1JFd3YtdV9fTjNOSHUzZU00cnZwZ2NmcXFoRVB2R0hSMHhaakFRMTVrdWd3azFGUmcyUXhZeTJaZjdfV1hPbXlLenlQQQ?oc=5",
+        "published_at": "2026-10-15T06:31:43+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Ab Werk auf Continental-Reifen: der neue Volkswagen ID. Polo - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV0d5RHNTdk5naFRXN2g2YVY0OVFWaXlTeXFBdXNUSEYwT1FEV1VIczNuS0JFR1VRUlp4dTF1ZjlPeFlTN0VCQUNhYmV4Z20xc1l5SmJxTm94ZXU2cWVNM1VvdkUxQzJuSlUycWJzTHF4MUJlXzJEY2MwSE1nU0tTRF9B?oc=5",
+        "published_at": "2026-08-26T07:00:00+00:00"
+      }
+    ]
+  },
+  {
     "title": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport - Continental AG",
     "summary": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMlo3SWNUdGdYeVAwMlF3V21DdUQ4Zno2Q3N3R3V4VzFHQ2EzU2tKdjhBN254aUhLaEFXdG5YUXBoNThjWFNId2VpRjRRX0J4WElPTllKdTNmczlnalpPcThyQXBDQ0dLX1dGWVlqWDhTNUtaVmJ6aExaNXpXRWg1Rg?oc=5",
@@ -1784,6 +1833,32 @@
     },
     "event_family": "continental|contimotion|tourenfahrer",
     "event_id": "a35224ff81bd29d4ecc4979228a1676f874280fe",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental zieht den Schlussstrich unter den Mischkonzern - NTG24",
+    "summary": "Continental zieht den Schlussstrich unter den Mischkonzern &nbsp;&nbsp; NTG24",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcGRCendPbFJTRXkybTh5alMtVlkzY2toazQ5SGRic3RrOHUzbTJIYllocjVCVE1JNzM5QXhjTE54WWRoRzlzN0wxWTFRam5sRzQ3N1E5eXVtUjZnY0k1N1NYRDlSMk5BTjNBN1J1NVhidXVrV2lwVjZSRy1LY3FPSTBqSWlUdkszN2F3QmZSdHRPd2hpYXc?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-10T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|mischkonzern|ntg24|schlussstrich|unter|zieht",
+    "event_id": "d9f92ccdfcd3c6c311592b1125b290d14cc0572c",
     "alternate_sources": []
   },
   {
