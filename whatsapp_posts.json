@@ -264,15 +264,27 @@
       },
       {
         "source": "news.google.com",
-        "title": "Continental entwickelt Konzeptreifen mit über 40 Prozent Recyclinganteil - Elektroauto-News",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNTVaT2FsaTVVRVJjcGRhbHVEX1JPdWcwdmt3SWdFU2VSUk13a0tBdm1NME1xOWpvTl9VMV83bmUxc0tLRWhuTDNGWEUtdnFhSWEyeUxZQTF2ek8tdTBudG1abnFySGxFZWpybkdMenFBeTRuNHVqWG53?oc=5",
-        "published_at": "2026-09-30T07:00:00+00:00"
+        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autoservicepraxis.de",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemRLWUltTmVPUkNnMm5GWF9VT2w1dEt1NWxUVjB5cHQ2ck1JOWRQQzdUTmtwQU1hMkh4YUowYkZQTmFMWGwwUXRPQzgzRWhHQm1NVTNnaGN6MGpVb281Q2txUGg3SDB6Z25BMWYzSFNsTDdHbmhySmVweExmSzd4bkF1alhWTjR5djh2NUpEUGxaZnJ6RF8yTkhEaDlJdHl1dmpxWDNtUmZZZnRPRUwtY0NqSW9kcmdGbXJEV3dhVG5HT2Noaml3b3BwQVFKdw?oc=5",
+        "published_at": "2026-08-28T07:00:00+00:00"
       },
       {
         "source": "news.google.com",
         "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autohaus.de",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOFBRMkFxUXdlTTV0TnBOX3ZBM2x3a0JHQkYtSUVuN1hGQmp3TEc3eWtabXFkQzFMaFRWSEtsaS1hc1h6ZlNNcjBhdG1hVzA0VlBNWHJZTVRLUzluZFlKTExwRHBWb3doMG1PZjlUQzJZR0RsN016M1VlNVhXc0pidENsaEM0NzlUek5nRGZtNGJ1T244Q2tlalhrLWNGa01OVk95d2VVY3lWd2hRZWZ2YUxxMG9wU25Ud05aZU9Pcw?oc=5",
         "published_at": "2026-08-27T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental entwickelt Konzeptreifen mit über 40 Prozent Recyclinganteil - Elektroauto-News",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNTVaT2FsaTVVRVJjcGRhbHVEX1JPdWcwdmt3SWdFU2VSUk13a0tBdm1NME1xOWpvTl9VMV83bmUxc0tLRWhuTDNGWEUtdnFhSWEyeUxZQTF2ek8tdTBudG1abnFySGxFZWpybkdMenFBeTRuNHVqWG53?oc=5",
+        "published_at": "2026-09-30T07:00:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autoservicepraxis.de",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemRLWUltTmVPUkNnMm5GWF9VT2w1dEt1NWxUVjB5cHQ2ck1JOWRQQzdUTmtwQU1hMkh4YUowYkZQTmFMWGwwUXRPQzgzRWhHQm1NVTNnaGN6MGpVb281Q2txUGg3SDB6Z25BMWYzSFNsTDdHbmhySmVweExmSzd4bkF1alhWTjR5djh2NUpEUGxaZnJ6RF8yTkhEaDlJdHl1dmpxWDNtUmZZZnRPRUwtY0NqSW9kcmdGbXJEV3dhVG5HT2Noaml3b3BwQVFKdw?oc=5",
+        "published_at": "2026-08-28T07:00:00+00:00"
       }
     ]
   },
@@ -326,7 +338,8 @@
     "published_at": "2026-08-19T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Neuheit"
+      "Continental Reifen Neuheit",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1034,6 +1047,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
+    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
+    "alternate_sources": []
+  },
+  {
     "title": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht - Finanzen.net",
     "summary": "Trading Idee: Continental — Reifenkonzern mit 2,5 Milliarden Euro Ausschüttung in Sicht &nbsp;&nbsp; Finanzen.net",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUzRGb19ERVdFX2tqVVU5U0hEc1RZRTRvWGtHSnJ1ZHFEYzBtSW00eGdSMk92YTYzSG9GNVpFdEdRbVFDS0NWZ0Z6THFJMFBqWUpBNlNwSTJfdk1zSW5heVpnbGlHWWRwYlMxaGt3ekRFRWNORTNSc3NQelR2dUVaTEhSYzQ5VnBzc0RTd0dTbEptQWdlM0FiUTJINHI3d3dMc0kxWEM5dmVjblR0a1hPbXBseXlxUnZ4Wk1kYVJIaGVab0x6dTcwWlVuSTNrcDg0Y0NfeDlhcThPLWMwS2F1bkU0dG5WSlNsYXc?oc=5",
@@ -1056,33 +1096,6 @@
     },
     "event_family": "continental|ausschuttung|finanzen|milliarden|reifenkonzern|sicht",
     "event_id": "597878b7ffc721c3fca1159ba5e3fdb98e42f623",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
-    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T15:12:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Innovation",
-      "Continental Lkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
-    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
     "alternate_sources": []
   },
   {
