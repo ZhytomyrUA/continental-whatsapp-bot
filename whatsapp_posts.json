@@ -264,27 +264,15 @@
       },
       {
         "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autoservicepraxis.de",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemRLWUltTmVPUkNnMm5GWF9VT2w1dEt1NWxUVjB5cHQ2ck1JOWRQQzdUTmtwQU1hMkh4YUowYkZQTmFMWGwwUXRPQzgzRWhHQm1NVTNnaGN6MGpVb281Q2txUGg3SDB6Z25BMWYzSFNsTDdHbmhySmVweExmSzd4bkF1alhWTjR5djh2NUpEUGxaZnJ6RF8yTkhEaDlJdHl1dmpxWDNtUmZZZnRPRUwtY0NqSW9kcmdGbXJEV3dhVG5HT2Noaml3b3BwQVFKdw?oc=5",
-        "published_at": "2026-08-28T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autohaus.de",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOFBRMkFxUXdlTTV0TnBOX3ZBM2x3a0JHQkYtSUVuN1hGQmp3TEc3eWtabXFkQzFMaFRWSEtsaS1hc1h6ZlNNcjBhdG1hVzA0VlBNWHJZTVRLUzluZFlKTExwRHBWb3doMG1PZjlUQzJZR0RsN016M1VlNVhXc0pidENsaEM0NzlUek5nRGZtNGJ1T244Q2tlalhrLWNGa01OVk95d2VVY3lWd2hRZWZ2YUxxMG9wU25Ud05aZU9Pcw?oc=5",
-        "published_at": "2026-08-27T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
         "title": "Continental entwickelt Konzeptreifen mit über 40 Prozent Recyclinganteil - Elektroauto-News",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNTVaT2FsaTVVRVJjcGRhbHVEX1JPdWcwdmt3SWdFU2VSUk13a0tBdm1NME1xOWpvTl9VMV83bmUxc0tLRWhuTDNGWEUtdnFhSWEyeUxZQTF2ek8tdTBudG1abnFySGxFZWpybkdMenFBeTRuNHVqWG53?oc=5",
         "published_at": "2026-09-30T07:00:00+00:00"
       },
       {
         "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autoservicepraxis.de",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemRLWUltTmVPUkNnMm5GWF9VT2w1dEt1NWxUVjB5cHQ2ck1JOWRQQzdUTmtwQU1hMkh4YUowYkZQTmFMWGwwUXRPQzgzRWhHQm1NVTNnaGN6MGpVb281Q2txUGg3SDB6Z25BMWYzSFNsTDdHbmhySmVweExmSzd4bkF1alhWTjR5djh2NUpEUGxaZnJ6RF8yTkhEaDlJdHl1dmpxWDNtUmZZZnRPRUwtY0NqSW9kcmdGbXJEV3dhVG5HT2Noaml3b3BwQVFKdw?oc=5",
-        "published_at": "2026-08-28T07:00:00+00:00"
+        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autohaus.de",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOFBRMkFxUXdlTTV0TnBOX3ZBM2x3a0JHQkYtSUVuN1hGQmp3TEc3eWtabXFkQzFMaFRWSEtsaS1hc1h6ZlNNcjBhdG1hVzA0VlBNWHJZTVRLUzluZFlKTExwRHBWb3doMG1PZjlUQzJZR0RsN016M1VlNVhXc0pidENsaEM0NzlUek5nRGZtNGJ1T244Q2tlalhrLWNGa01OVk95d2VVY3lWd2hRZWZ2YUxxMG9wU25Ud05aZU9Pcw?oc=5",
+        "published_at": "2026-08-27T07:00:00+00:00"
       }
     ]
   },
@@ -297,6 +285,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit"
     ],
@@ -695,7 +684,14 @@
     },
     "event_family": "continental|1000ps|contimotion|sport|touring",
     "event_id": "4abbcf49f660de92d4faa531b51a61b495345671",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen - 1000PS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTWRxUVNXYU5LOUlWMThtdm1GVVFVcmN4YUxGenRfMWhrTjNGN2dUUUxIandvV0ozWlVseUZkX3lFelhiMk9UdDNUa3pVeUF6cTZfdjNWVW5pbmszVjkxa3NIdTVXZWk0Z2MwSnl4Wk91YVgzdS1GT0hfSzRQdTRSMGtnRTFvLUF4Y0FxNXNIeldYajlHS3dwcHVhTU5TSkRWc0HSAaoBQVVfeXFMTWNuZVhoMWI5Z0RnT0Z6WjMwWEtvNkVpc1prOWdtU0kwcTBCZDNiMlhTek01YzFDYlpyZ2tGMGlseU9qU2hRaU5EM21NVzdFUVFMT0JSVnBHUnZScktUU2VyU3JxNGNHc2V1OTJwNzNQVVQ4bXEtWDJmMDRHZ2hHRXdrTWtqNFhtdlJGZUdQdzZYVy1MNEYwV01JVERRSTJYU0Zvci1UUUFSQUE?oc=5",
+        "published_at": "2026-09-10T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental ContiMotion EVO - myNETmoto.com/Motorradreifen",
@@ -1063,6 +1059,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-28T15:12:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
+    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
+    "alternate_sources": []
+  },
+  {
     "title": "Porsche setzt auf Reifen von Continental - Gummibereifung",
     "summary": "Porsche setzt auf Reifen von Continental &nbsp;&nbsp; Gummibereifung",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SY0MtbExDRmgyU2VkQ0ZFZUpheWVHWDExMzItTlZIVGJmenpLQkV4WXF1Uk45eHRTS3k2Uzl3QmtEa095VEF3YTQ0SzVQMEE0bUNVSlNFdHBuVTY0NzhDNHhDaXVqV2VpZlRJT1R6X2kwNFg0?oc=5",
@@ -1103,15 +1126,14 @@
     ]
   },
   {
-    "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
-    "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; WELT",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
+    "title": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - 24auto.de",
+    "summary": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; 24auto.de",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTnFKcGZXVmwwNUN5aDFmdnJuclRKVUwtX1E2OU5xS0lRenVGajZsMXdkX25nZEtpYlZvTU1ndHM5VjdFLVpJOVFJQjUtbGpxeTZRdnlhTzFxOHRvMS1vdXJ6WGtmVVhqSWtmVGE2dnN6SjY3Y0ZKSlJDWjRqS3N4WENiY18xNUFfcDlqY2E4S1dLQnIyb1ZoZE1lZmdybklFRUdQbmM4dzJveGlFQ0J5Z3NmOFV3VDZVelhfVlEzQ0p5Z3JEUEROMUx4WnQtMV9GOExMUjMwWFA0Y1ZBbVhUa0c3VVhjLUdEa2kxTGRuaEFnQQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-30T07:00:00+00:00",
+    "published_at": "2026-09-30T13:59:52+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -1126,9 +1148,22 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|edwin|entwicklung|forschung|gesprach|goudswaard",
+    "event_family": "continental|24auto|edwin|entwicklung|forschung|gesprach",
     "event_id": "82cf43092080f5d939c45e987d774e8d89806003",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - 24auto.de",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTnFKcGZXVmwwNUN5aDFmdnJuclRKVUwtX1E2OU5xS0lRenVGajZsMXdkX25nZEtpYlZvTU1ndHM5VjdFLVpJOVFJQjUtbGpxeTZRdnlhTzFxOHRvMS1vdXJ6WGtmVVhqSWtmVGE2dnN6SjY3Y0ZKSlJDWjRqS3N4WENiY18xNUFfcDlqY2E4S1dLQnIyb1ZoZE1lZmdybklFRUdQbmM4dzJveGlFQ0J5Z3NmOFV3VDZVelhfVlEzQ0p5Z3JEUEROMUx4WnQtMV9GOExMUjMwWFA0Y1ZBbVhUa0c3VVhjLUdEa2kxTGRuaEFnQQ?oc=5",
+        "published_at": "2026-09-30T13:59:52+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
+        "published_at": "2026-09-30T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
@@ -1180,7 +1215,6 @@
     "published_at": "2026-10-01T10:10:00+00:00",
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
-      "Continental Reifen Technologie",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
     "score": 200,
@@ -1248,32 +1282,6 @@
     },
     "event_family": "continental|autohaus|reifenentwicklung",
     "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental erfindet sich als Reifenhersteller neu - NTG24",
-    "summary": "Continental erfindet sich als Reifenhersteller neu &nbsp;&nbsp; NTG24",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdllwMGxoVnIzelhZUEVqSGFWaXktVDVLdFhnYkVZb3JwNlJaaHdQUTF4eWNFQ2RGR1BGSDlseHJQMjAwTzFSLUk1NmdKRzRzUldfeHJOOVN3SDMwbzdhcnY3Z2xqaTFaZlRUdGxhTlNoMlBXWFpJLVhjSEE2U0djOV91UVI3c1VwUXZXUFBHR0U5bTBxQnJWUW1mTQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-13T11:38:15+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|erfindet|ntg24|reifenhersteller",
-    "event_id": "f9c842c5e1701940ffea0df87f48140c4a3daef8",
     "alternate_sources": []
   },
   {
@@ -1467,7 +1475,6 @@
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1912,11 +1919,11 @@
     "alternate_sources": []
   },
   {
-    "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PressNetwork.de",
-    "summary": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ &nbsp;&nbsp; PressNetwork.de",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VoSkp4SnpmNkFmTGs2NEc0aWhmOHVEQUxRQWYxVW5kNWZvSUpzeDUyOVBDc0NybWREV2VCRUZyTUpTZVJtUmFXSHFZM3cxTWJSSTZSV1pySHFyQjZvd0xvN0UzSzBySE1mM3VVZVVxa0ROVDB4NGlXMUZZY2k4dHNOb3NpYjNGcGZETGdQX2c2TWpjdXpPU2ZKM1lBUmlGaUx3LWhXcE4tWW1NWkZfbmliQ3plRzlydzJPd2tENU9pM09k?oc=5",
+    "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PresseBox",
+    "summary": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ &nbsp;&nbsp; PresseBox",
+    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZHlOeUlYckVVNDk2RnNYR2lOcENVRl9fQ0hFenBtSjNkdFVaZDRpOVdDTzFybHZZQ0FxMENfMWtWaU9FZkpNdU9FNXlLOVdOaUIyV21VOXJMU2xLQVB4N1poVXBtdm9EWFQxUkVSX1RiR1FtQkY5dFVEVGctbWVETXNCVHBzOGI0ckxXdjhyX1hrWF9iNzE3V0ZXeXNvLUNMbEdfUzRTS2NkSU5PdjlsbnNKeXBkMUI4V0l5VFM0WkU3VHlDaWpHVFlQbWlEX0UxcE94MFlKbnhjN0F0VENBOXpFTy0wcEJhV1VFNG5mbUsxN2hjSm0zZkdwYWs1ZWh5WnltZHJ0VFJVbWdFWkh4bEJoeFA?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-12T08:57:36+00:00",
+    "published_at": "2026-10-12T08:31:00+00:00",
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
       "Continental Mitarbeiter Werk"
@@ -1934,7 +1941,7 @@
       "generic_product": false
     },
     "event_family": "continental|aumovio|brain|cloud|fabrik|german",
-    "event_id": "6a374d81782554a34b7bb610ea162d90d7269c4f",
+    "event_id": "c9f2f76b318003378ab84bdb6f0554ee490b3df6",
     "alternate_sources": []
   },
   {
