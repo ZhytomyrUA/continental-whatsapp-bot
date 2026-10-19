@@ -15,7 +15,6 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Lkw Reifen",
-      "Continental Pkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -477,7 +476,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -545,8 +543,7 @@
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -764,7 +761,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Test",
-      "Continental Reifen Innovation",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -1026,6 +1022,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental rechnet mit starkem Reifengeschäft - trend.at",
+    "summary": "Continental rechnet mit starkem Reifengeschäft &nbsp;&nbsp; trend.at",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yY1dscEVXb0hlRVZPUGZJMnFoRGNDNmpuQ29sdXNIT2xjRVRBUXRjRzR0dGp4V0xQd0k0WlRVMTdUcmMtSk5kMW80bGdWUjdiTVo3LUJTeDBrV1k0OEJ6Y1JqUjM1UEtqZVg5MWt1NkpHbFVudXowcVBIZi15VVE?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-01T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|rechnet|reifengeschaft|starkem|trend",
+    "event_id": "400084d669c0e0400bb3112c1245e8805700400c",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
     "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; LECTURA Press",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlFPVlVKQXpaa2lwRnJha3F4NnNHRUFkMWJpa2FNbUpmM3I5UjFZQXRnWWdteExWcXUwWmxDc3FyS2M1OXFsZWxCdXpfS09kMHA5Q0JSYVBBcnRMdWhHNlVyS3NoOTJ4VnVCZTVJNm9JMkp1cXdpZ3NGMGFFQXFiZG5WdERJXzlEOHhUSFVTNWRpZVJ6NUljZTZZc2tFVXpvVUtZRl9yQ3lKY3A4d05ya0xlZUozZUZvVmJIYklqQ01KekIyWExn?oc=5",
@@ -1069,32 +1090,6 @@
         "published_at": "2026-09-24T07:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "Continental rechnet mit starkem Reifengeschäft - trend.at",
-    "summary": "Continental rechnet mit starkem Reifengeschäft &nbsp;&nbsp; trend.at",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yY1dscEVXb0hlRVZPUGZJMnFoRGNDNmpuQ29sdXNIT2xjRVRBUXRjRzR0dGp4V0xQd0k0WlRVMTdUcmMtSk5kMW80bGdWUjdiTVo3LUJTeDBrV1k0OEJ6Y1JqUjM1UEtqZVg5MWt1NkpHbFVudXowcVBIZi15VVE?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-01T10:10:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|rechnet|reifengeschaft|starkem|trend",
-    "event_id": "400084d669c0e0400bb3112c1245e8805700400c",
-    "alternate_sources": []
   },
   {
     "title": "UHP-Reifenentwicklung bei Continental - autoflotte.de",
@@ -1198,6 +1193,32 @@
     },
     "event_family": "continental|autoservicepraxis|goudswaard|jeder|kompromiss|manager",
     "event_id": "065165a7b08d489498e9a346095f9333e70275cb",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental erfindet sich als Reifenhersteller neu - NTG24",
+    "summary": "Continental erfindet sich als Reifenhersteller neu &nbsp;&nbsp; NTG24",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdllwMGxoVnIzelhZUEVqSGFWaXktVDVLdFhnYkVZb3JwNlJaaHdQUTF4eWNFQ2RGR1BGSDlseHJQMjAwTzFSLUk1NmdKRzRzUldfeHJOOVN3SDMwbzdhcnY3Z2xqaTFaZlRUdGxhTlNoMlBXWFpJLVhjSEE2U0djOV91UVI3c1VwUXZXUFBHR0U5bTBxQnJWUW1mTQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-13T11:38:15+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|erfindet|ntg24|reifenhersteller",
+    "event_id": "f9c842c5e1701940ffea0df87f48140c4a3daef8",
     "alternate_sources": []
   },
   {
@@ -1396,6 +1417,7 @@
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -2038,7 +2060,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
