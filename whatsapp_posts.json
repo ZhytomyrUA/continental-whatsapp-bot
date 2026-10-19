@@ -149,6 +149,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-24T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -275,6 +276,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-21T12:56:47+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -475,7 +477,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Lkw Reifen",
+      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1075,7 +1077,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-01T10:10:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
+      "Continental Reifen Fabrik Deutschland",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
     "score": 200,
@@ -1439,6 +1441,35 @@
     ]
   },
   {
+    "title": "ams-Ganzjahresreifentest: Continental vor Vredestein und Pirelli - amz.de",
+    "summary": "ams-Ganzjahresreifentest: Continental vor Vredestein und Pirelli &nbsp;&nbsp; amz.de",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWlfRGtFdi16RG1jWkpPb21GbU1JVWNBRTFvUE5kTXFnLXV5R1hIOW1INU9KTEpHYXhzUGtXSHVFNW1yV2VZUGc5aVVWQUdKcVVHY3Nkam5fWGR1WW1iRF9ERm9GdXRWbU92NUxuZ1EtMDQ1V25vOUo2OHBFd19sODFQWmM?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-14T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Reifen Test",
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|ganzjahresreifen|ganzjahresreifentest|pirelli|vredestein",
+    "event_id": "4ad17f768f0a3c64ff40825cc449f7e394639fff",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental VanContact 4Season ist Testsieger im Ganzjahresreifentest der promobil - Continental AG",
     "summary": "Continental VanContact 4Season ist Testsieger im Ganzjahresreifentest der promobil &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMUEtdlBrQWZPUi0zYVRjS2pjSVYyQ0RPWUtVcVNzcnVMTUJBTkk2MzhxWmVSRzdWak0wUl9kbjVUY3BGWkZWdFRFTzl1WjlvS3FrV3hoUlpUcDdTbm8zYjVfa1JWb19UME0zMGdDeHdYUDVKSlYwX3VYR0tEbWFjVU5YMGpUQVRqMEVrdHpR?oc=5",
@@ -1446,8 +1477,7 @@
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1657,13 +1687,11 @@
     "published_at": "2026-08-26T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Werk Investition",
-      "Continental Reifen Werk Verlagerung",
+      "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Innovation",
-      "Continental Lkw Reifen"
+      "Continental Reifen Innovation"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -2010,6 +2038,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
