@@ -80,6 +80,7 @@
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Investition",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 1700,
@@ -99,11 +100,11 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - OP Online",
-    "summary": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen &nbsp;&nbsp; OP Online",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSjhhMUNCV0pwQ2ZQUWVkbmlHbVdrdHJIdi1GcF9zN0Z3ZmF1VF81WFFaQnJtZE5EVDYtQWpUVl9TaXptQUhxRElSZGhTVmJaWFRHOENVQl9YXzlveHV1Yl9yQTZSMi1uS2lUWGF1RnM4NUN6MTNjRFhLdWlTSE5TNjRIYk5GcnFRel9nYXZhR2F2ZFNaZGJDNTdSTUljTUpZSV9PVU9FQk42UjU2bXQzajFKalBicFhfZUNlNFRQX2RKSDBUazk1dk1PZnIxTVVWTkprWkFpOWR3Wnhz?oc=5",
+    "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - HNA",
+    "summary": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen &nbsp;&nbsp; HNA",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTkdWSFUwLTROS2lSZEptSVpYbmp5b1RVeUJMNEsyTy1vczIzX1JWWE1MQ2FfMVJrdGo4Slg5TmNDWTNQcWRvS01pdGZkbHB1cFpSXzc1M09OZUdvY21iQ1JrVnNYQTJVUm1NQmFrX091X2RUOXBRMmFaQ0NleG5DWFBOWjJKMEt4cG90WHpFUi1jSWdzdy00RFc1UVJyX1FfM21YSndvbU0wSkw1Mm1vWmxFSGxvdXYxX25IZjNybVdudzlQTENPc1QtWU9wb1QwcmUwcU1EVi1vZkRlTl9FWHRqQ2Q1OUxBTEtrQXoyNzdILTEtUUI2dWNPcjE?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-03T07:00:00+00:00",
+    "published_at": "2026-09-02T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
@@ -137,22 +138,9 @@
       "title_action": true,
       "generic_product": false
     },
-    "event_family": "continental|produktion|asien|betroffen|industriereifen|mitarbeiter|online",
+    "event_family": "continental|produktion|asien|betroffen|industriereifen|mitarbeiter|pazifik",
     "event_id": "d0a8fdc63a61d50cb69c05b07d8fe21408fd17c6",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - OP Online",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSjhhMUNCV0pwQ2ZQUWVkbmlHbVdrdHJIdi1GcF9zN0Z3ZmF1VF81WFFaQnJtZE5EVDYtQWpUVl9TaXptQUhxRElSZGhTVmJaWFRHOENVQl9YXzlveHV1Yl9yQTZSMi1uS2lUWGF1RnM4NUN6MTNjRFhLdWlTSE5TNjRIYk5GcnFRel9nYXZhR2F2ZFNaZGJDNTdSTUljTUpZSV9PVU9FQk42UjU2bXQzajFKalBicFhfZUNlNFRQX2RKSDBUazk1dk1PZnIxTVVWTkprWkFpOWR3Wnhz?oc=5",
-        "published_at": "2026-09-03T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - HNA",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTkdWSFUwLTROS2lSZEptSVpYbmp5b1RVeUJMNEsyTy1vczIzX1JWWE1MQ2FfMVJrdGo4Slg5TmNDWTNQcWRvS01pdGZkbHB1cFpSXzc1M09OZUdvY21iQ1JrVnNYQTJVUm1NQmFrX091X2RUOXBRMmFaQ0NleG5DWFBOWjJKMEt4cG90WHpFUi1jSWdzdy00RFc1UVJyX1FfM21YSndvbU0wSkw1Mm1vWmxFSGxvdXYxX25IZjNybVdudzlQTENPc1QtWU9wb1QwcmUwcU1EVi1vZkRlTl9FWHRqQ2Q1OUxBTEtrQXoyNzdILTEtUUI2dWNPcjE?oc=5",
-        "published_at": "2026-09-02T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "DUH-Klage: Continental muss Aussagen zu Nachhaltigkeitszielen unterlassen - Reifenpresse.de",
@@ -487,7 +475,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -556,7 +543,8 @@
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit"
+      "Continental Reifen Neuheit",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -609,13 +597,16 @@
     "alternate_sources": []
   },
   {
-    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
-    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; LECTURA Press",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
+    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
+    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Korbach Reifen Werk",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -629,13 +620,13 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|durch|erweitert|lectura|reifenfamilie|scandinavia",
-    "event_id": "038736c526248ea88942a509cb8035119a2c3bf8",
+    "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
+    "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
         "published_at": "2026-09-15T07:00:00+00:00"
       }
     ]
@@ -738,6 +729,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
@@ -909,7 +901,9 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -1081,7 +1075,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-01T10:10:00+00:00",
     "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Technologie",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
@@ -1183,8 +1176,10 @@
     "source": "news.google.com",
     "published_at": "2026-10-08T07:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1398,6 +1393,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1450,7 +1446,8 @@
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Reifen Test"
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1634,7 +1631,6 @@
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen neue Produktion",
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1799,6 +1795,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie"
     ],
     "score": 150,
@@ -1932,7 +1929,9 @@
     "published_at": "2026-10-05T21:13:02+00:00",
     "matched_queries": [
       "Continental Reifen Werk Schließung",
-      "Continental Deutschland Werk Stellenabbau"
+      "Continental Deutschland Werk Stellenabbau",
+      "Continental Deutschland Werk Verlagerung",
+      "Continental Deutschland Werk Schließung"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -2011,7 +2010,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
