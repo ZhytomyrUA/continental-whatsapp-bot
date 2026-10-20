@@ -269,32 +269,6 @@
     ]
   },
   {
-    "title": "Continental steigt mit neuem General Tire Grabber AT3Plus ins Transporter-/Van-Segment ein - Reifenpresse.de",
-    "summary": "Continental steigt mit neuem General Tire Grabber AT3Plus ins Transporter-/Van-Segment ein &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc0RlMjlKcW1wejJ5TVc3NE5ZTkVYQXhLc1BlQWNSdGdUN2laNGRJdXl5V1ZJT1dVY3lGYUVLbTgwMENLUWJNTTlBTXpfUkl6bzQyQktsVXFPWlFKb2Y2MXEzWmlnSHB0QlBwamh4LWk4NXJ5cEZtN1FWM3VMSkd5RUxrdEx3N2FfR0VoUDRXdlVrM19jRkt6T2V0bmhhZTlnVDRjSUppNVMtV05IR0NJZUg1VWx1LXpBSHBfQ1ZtZWtWc1k?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-21T12:56:47+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|at3plus|general|grabber|reifenpresse|segment",
-    "event_id": "dc09486df05975636c853a909d806547b134444a",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - Maquinac",
     "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; Maquinac",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1R6MVk5aXZQZEJpLXdEWFRyUDRwd09DVDgxOVJ0M05sR3l2MzhFQ1BoNHZUNGVlcjNFX2tza1c4czRZc3FydldCVWhHRGpKdlZVNktZeUtLODdmLUctM2s0NVBkZDktVWw5LWsyMmtqMzRoTVBsanpUcExNS0JBMlJuUUR1TDBCZ2lsb3RpMlJhRmZGVm9udnpNVkVncF9IME1r?oc=5",
@@ -330,8 +304,7 @@
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
     "matched_queries": [
-      "Continental plant Germany tire production",
-      "Continental factory production tires Germany"
+      "Continental plant Germany tire production"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -447,6 +420,7 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -475,6 +449,8 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Test",
+      "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -627,31 +603,6 @@
         "published_at": "2026-09-15T07:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "Continental WinterContact TS 870 P - Winterreifen für PKW und SUV mit 71 dB Rollgeräusch - ad-hoc-news.de",
-    "summary": "Continental WinterContact TS 870 P - Winterreifen für PKW und SUV mit 71 dB Rollgeräusch &nbsp;&nbsp; ad-hoc-news.de",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR3JHYWRHYUo5alZxYnpINENKTEc5WmdpRXFucFJCQUtwZGJtbzItQVVKYTQ3dGNONnhyS0NwMWh2ajVxMHdmSWFYbkF5RS1PREJLTjNqMHkzN29Gc0J2dFFIWmVkWEVMSzhKQUp4R2pEY2VhWU5HSGt3NTNZYWRoQXdxX1NsX1d0d3JQekhzMG5NdlZoSWxvMXJfSmtodFVaUUstczlXQjd6YmUxUnB3d1hqQ0l0U2E4Y3J4NEs5REdFQjNuNlE?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-15T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Pkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|rollgerausch|wintercontact|winterreifen",
-    "event_id": "4a44307a14c3d62c5d8b65021f208db309ef6f83",
-    "alternate_sources": []
   },
   {
     "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
@@ -1365,6 +1316,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Gute Reifen müssen nicht teuer sein: Diese günstigen Marken gehören zu Continental und Co. - Joyn",
+    "summary": "Gute Reifen müssen nicht teuer sein: Diese günstigen Marken gehören zu Continental und Co. &nbsp;&nbsp; Joyn",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmk2Y2s4UjR1dWk1UjE5MXJHN0x4el90ODlOaDBkN1N5dl9Bem5QWW5WSUtjMWllMy1ZdXN5ZWlLUjd0a2FRWk51RlF2T2c2STctdHNkemRIZGFCbnc1NkdQREFMV05falNwU0VYbXVMUUt2M24yRWNoWFRJMXJyd0tkRUpabEp0SGFuTFdJSkVjS2ZnejR1aDZmcjhYMGwtRnRQeUliTVZTc0RNY21Z?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-19T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|diese|gehoren|gunstigen|marken|mussen",
+    "event_id": "455ff1798a99cd43c484517915b43f3b22fcbd4b",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport - Continental AG",
     "summary": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMlo3SWNUdGdYeVAwMlF3V21DdUQ4Zno2Q3N3R3V4VzFHQ2EzU2tKdjhBN254aUhLaEFXdG5YUXBoNThjWFNId2VpRjRRX0J4WElPTllKdTNmczlnalpPcThyQXBDQ0dLX1dGWVlqWDhTNUtaVmJ6aExaNXpXRWg1Rg?oc=5",
@@ -1497,7 +1475,8 @@
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Reifen Test"
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1924,6 +1903,7 @@
     "published_at": "2026-10-03T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Lkw Reifen",
@@ -1999,6 +1979,34 @@
     "alternate_sources": []
   },
   {
+    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
+    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
+    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
+    "alternate_sources": []
+  },
+  {
     "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PressNetwork.de",
     "summary": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ &nbsp;&nbsp; PressNetwork.de",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VoSkp4SnpmNkFmTGs2NEc0aWhmOHVEQUxRQWYxVW5kNWZvSUpzeDUyOVBDc0NybWREV2VCRUZyTUpTZVJtUmFXSHFZM3cxTWJSSTZSV1pySHFyQjZvd0xvN0UzSzBySE1mM3VVZVVxa0ROVDB4NGlXMUZZY2k4dHNOb3NpYjNGcGZETGdQX2c2TWpjdXpPU2ZKM1lBUmlGaUx3LWhXcE4tWW1NWkZfbmliQ3plRzlydzJPd2tENU9pM09k?oc=5",
@@ -2047,34 +2055,6 @@
     },
     "event_family": "continental|automobil|bentley|macht|revue|sweet",
     "event_id": "f6ae2554cd2ef234b9bc599b951465a38d27325e",
-    "alternate_sources": []
-  },
-  {
-    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
-    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-12T14:38:54+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
-    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
     "alternate_sources": []
   },
   {
