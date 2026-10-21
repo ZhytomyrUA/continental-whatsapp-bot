@@ -22,7 +22,8 @@
       "Continental Korbach Standort",
       "Continental Korbach Investition",
       "Continental Korbach Energie",
-      "Continental Hannover Reifenwerk Produktion"
+      "Continental Hannover Reifenwerk Produktion",
+      "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
     "score": 2900,
     "category": "KORBACH_FACTORY",
@@ -47,12 +48,6 @@
       },
       {
         "source": "news.google.com",
-        "title": "Hessen: Für Reifen-Werk: Continental baut eigenen Windpark in Korbach - tagesschau.de",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdk10dzNkZzgyUTdNdk9yVkxZSGVoMXlrNm56REFzQnZIVEpXb1FBcDE1M20xSWdkMjkzQm8zeFZST2ViYUFlN09mSkVtZGZ6RzJUcjJJdElLU3NYZ0g3YXlVYU5hOC1oNWk5bkJYTGdfajBfUldFZWVqcHM4SnZkSEdxQjRoWUxfR3pYZVNpNTJFaWlFMEJNRlZEeHBFQWxaajZRM0hWZEpseUQzYXlVd3p6dy0zalV1R3Zmd3hDQ1hQdl9x?oc=5",
-        "published_at": "2026-09-23T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
         "title": "Spatenstich in Twistetal Bau von Continental-Windpark gestartet - Hit Radio FFH",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTBzU01haW1PRTVLTjBkb3NUWkJLV0U3SjRCR1hZMlNUTEd4alc1YmszRXV5OUxCRklkLVNOZmZxM21VTVhIX21BTTNEam9DQ3g4aHctOS1yYVFUdGZGSWljWHQ3RXRyU1dvSEtjYjFUS2FJd1lfR0V3NmZ2dm9LcVV1WFN5VHpiRTdqa3R2Z01McXRuQzV2SFJRQmdqZEc0QWZSclkwc3plQQ?oc=5",
         "published_at": "2026-09-23T07:00:00+00:00"
@@ -70,34 +65,6 @@
         "published_at": "2026-09-23T07:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "Spatenstich für neues Continental-Warenlager - Reifenpresse.de",
-    "summary": "Spatenstich für neues Continental-Warenlager &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNExTX2pkenJHM1kwVFV0cnFSTVRQME16RFVBZlN4aGd1czRNUENoYzVSNnEzMXdSNU5XRms4Mnp0WS1YaGVjM2pTQ3NMUm9GSENzY3R3UElSeGlCTFdQQUxFVGpDWmsxZmZOVVVlaDNkZ0lNSGpUay1KclpCQ2tIMXhBYkFGcGxC?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-24T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Reifen Werk Investition",
-      "Continental Lkw Reifen",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 1700,
-    "category": "FACTORY_PRODUCTION",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": true,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|neues|reifenpresse|spatenstich|warenlager",
-    "event_id": "a6b0c176d481d5c69dd251de8677139e545cd3fc",
-    "alternate_sources": []
   },
   {
     "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - HNA",
@@ -271,6 +238,31 @@
     ]
   },
   {
+    "title": "Spatenstich für neues Continental-Warenlager - Reifenpresse.de",
+    "summary": "Spatenstich für neues Continental-Warenlager &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNExTX2pkenJHM1kwVFV0cnFSTVRQME16RFVBZlN4aGd1czRNUENoYzVSNnEzMXdSNU5XRms4Mnp0WS1YaGVjM2pTQ3NMUm9GSENzY3R3UElSeGlCTFdQQUxFVGpDWmsxZmZOVVVlaDNkZ0lNSGpUay1KclpCQ2tIMXhBYkFGcGxC?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-24T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": true,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "continental|neues|reifenpresse|spatenstich|warenlager",
+    "event_id": "a6b0c176d481d5c69dd251de8677139e545cd3fc",
+    "alternate_sources": []
+  },
+  {
     "title": "43 percent recycled material in the concept tire: Continental shows pathways to a circular economy - PROFI Werkstatt",
     "summary": "43 percent recycled material in the concept tire: Continental shows pathways to a circular economy &nbsp;&nbsp; PROFI Werkstatt",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcXY2VnhJZjl5Y2cwMHRjUHRUak03WVNWMVc5Y1ZQUDNDQk1wSzlUY0VpeE5HbTN2ZUFVaEstNWlUM0VkbUZLUWRuRUppU1BHbTlzZ2VSNW0zZlpHcVUxNnNlNWU0SFFsQko4VFdzblh0eHhSWmo5RENWN3VwSFR1N2FTQzNwWEtsazZnVVRMdzRFVlM1dkpiR2N2Y3V2YXNSdTJuOUJZU0dqaGRmZnBKMi1wN1VGQWRnZE9lVVhnUEhXOGdHdkhCOWF3WHNfaHpUdURJ?oc=5",
@@ -425,6 +417,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -619,62 +612,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe - ad-hoc-news.de",
-    "summary": "Continental setzt nach Aufspaltung auf Milliarden für Reifen-Zukäufe &nbsp;&nbsp; ad-hoc-news.de",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1otY0hhV0tjMkx2VzRfcEN2TWQzNmxJMldnSEVDT01ZbEVDam5VRFR5ODVqVlFJTjJ1MEZMb3pqLTFjVl9pb045SkNaUl9ZM01lTXNKemJCaWZMdXFtc2FwV0IwM3l5djNuRy1mcGVKVmRqSGNLVGJRTTF2bzdDZWtLdlBFdllnMlFSOFdBTXY1SXBvWW1IbV9MTXBwMkQ1Nk4xb0NWY3VJUlpoR2NwMDRmQnV4NmRK?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-17T05:05:26+00:00",
-    "matched_queries": [
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aufspaltung|milliarden|zukaufe",
-    "event_id": "361b111ba39bb6e1643bd6a3db0dd47d2a6160ab",
-    "alternate_sources": []
-  },
-  {
-    "title": "Eine Partnerschaft, die bewegt: Spedition Franz-Peter Vendel vertraut auf Reifen von Continental für maximale Zuverlässigkeit und Effizienz - Continental AG",
-    "summary": "Eine Partnerschaft, die bewegt: Spedition Franz-Peter Vendel vertraut auf Reifen von Continental für maximale Zuverlässigkeit und Effizienz &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHlOeGlPOV9PcHZZS3Q5RnVTR2M4RDBfU1ZaTmVKSFZMTU9vTUxKTGplSXFQdFJuZlIta21hdWx2S2ktc0Z3c0JaamJiRkhHMmtVZzBqQXNJYjBDc1ZGQVY1MGJoMS0zVXV0N0dyN0JSWTJWZmtiV0QzSEJubTdaMEFNU0N6S19XU1NJ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-17T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Lkw Reifen",
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|bewegt|effizienz|franz|maximale|partnerschaft",
-    "event_id": "992b5c1bb55b7b23483cefeea9a125cae0603110",
-    "alternate_sources": []
-  },
-  {
     "title": "„Viele der in China produzierten Fahrzeuge fahren auf Continental-Reifen“ - FAZ",
     "summary": "„Viele der in China produzierten Fahrzeuge fahren auf Continental-Reifen“ &nbsp;&nbsp; FAZ",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSk1tQnZlT0NXdkc2aDl5RGoyM2lXYlNsZEFvMkdIRnpxU3k5UkVnM1ByN0ctNmJyMEhpc283WnZBdk5YWEE0amhESl9DRHg3bndKclZXTHFWTm1ydGJKbW83YzB1NzJNMFY2eEdOTEpEZkZuNTVqWm0wZHQzMXYtNl8xaHlNZXBMVHFYT3pfWjJBNWJVQXRzR2t0a2FMRFYxSllDWlMwSWU3RHF6OEVsTGh4Ul9SdTNMRWdDTGhjcDU4VzhlUEJYUmFmZTBUT3I5cG52RHBVTkRFZw?oc=5",
@@ -684,6 +621,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
@@ -707,6 +645,35 @@
     },
     "event_family": "continental|china|fahren|fahrzeuge|produzierten|viele",
     "event_id": "85112a93fa1b3e6022fd2f3c5516eab5a15efad7",
+    "alternate_sources": []
+  },
+  {
+    "title": "Eine Partnerschaft, die bewegt: Spedition Franz-Peter Vendel vertraut auf Reifen von Continental für maximale Zuverlässigkeit und Effizienz - Continental AG",
+    "summary": "Eine Partnerschaft, die bewegt: Spedition Franz-Peter Vendel vertraut auf Reifen von Continental für maximale Zuverlässigkeit und Effizienz &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHlOeGlPOV9PcHZZS3Q5RnVTR2M4RDBfU1ZaTmVKSFZMTU9vTUxKTGplSXFQdFJuZlIta21hdWx2S2ktc0Z3c0JaamJiRkhHMmtVZzBqQXNJYjBDc1ZGQVY1MGJoMS0zVXV0N0dyN0JSWTJWZmtiV0QzSEJubTdaMEFNU0N6S19XU1NJ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-17T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
+      "Continental Lkw Reifen",
+      "Continental Nachhaltigkeit"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bewegt|effizienz|franz|maximale|partnerschaft",
+    "event_id": "992b5c1bb55b7b23483cefeea9a125cae0603110",
     "alternate_sources": []
   },
   {
@@ -782,7 +749,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
@@ -976,6 +942,7 @@
     "published_at": "2026-10-01T08:07:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
@@ -1429,7 +1396,7 @@
         "source": "news.google.com",
         "title": "Continental WinterContact TS 870 P überzeugt im Winterreifentest von AUTO BILD sportscars - Continental AG",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGhYSXNiczZ3d0JSR2phLTVzcGRSVkxFNWV3UG80aHpQWlRQM3FxR1ZxY3pLUzV3VHJKb3pyMXFtQzFkdTZzNi1fU2tpcnhKSVYwR0tjMmk0VmxPdm9lYnpYNkdzMENMTGpOZnRHYkJSaGlKdm04UFJ2V2hVQWpGUnZkQnhseFE?oc=5",
-        "published_at": "2026-10-12T09:38:18+00:00"
+        "published_at": "2026-10-12T07:00:00+00:00"
       }
     ]
   },
@@ -1487,8 +1454,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
-    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
+    "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - Heise Online",
+    "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; Heise Online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
@@ -1707,7 +1674,9 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Innovation"
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1919,7 +1888,6 @@
     "published_at": "2026-10-03T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
