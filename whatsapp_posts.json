@@ -13,6 +13,7 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
@@ -20,7 +21,8 @@
       "Continental Korbach Mitarbeiter",
       "Continental Korbach Standort",
       "Continental Korbach Investition",
-      "Continental Korbach Energie"
+      "Continental Korbach Energie",
+      "Continental Hannover Reifenwerk Produktion"
     ],
     "score": 2900,
     "category": "KORBACH_FACTORY",
@@ -113,6 +115,7 @@
       "Continental Reifen Werk Verlagerung",
       "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
+      "Continental Belegschaft Werk",
       "Continental Pkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
@@ -268,35 +271,6 @@
     ]
   },
   {
-    "title": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller - Maquinac",
-    "summary": "Continental schließt strategischen Umbau ab und wird reiner Reifenhersteller &nbsp;&nbsp; Maquinac",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1R6MVk5aXZQZEJpLXdEWFRyUDRwd09DVDgxOVJ0M05sR3l2MzhFQ1BoNHZUNGVlcjNFX2tza1c4czRZc3FydldCVWhHRGpKdlZVNktZeUtLODdmLUctM2s0NVBkZDktVWw5LWsyMmtqMzRoTVBsanpUcExNS0JBMlJuUUR1TDBCZ2lsb3RpMlJhRmZGVm9udnpNVkVncF9IME1r?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-22T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
-      "Continental Hannover Reifenwerk Produktion",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|maquinac|reifenhersteller|reiner|schließt|strategischen",
-    "event_id": "5196d258c0a1c00cc7f0265b1519cca48731621f",
-    "alternate_sources": []
-  },
-  {
     "title": "43 percent recycled material in the concept tire: Continental shows pathways to a circular economy - PROFI Werkstatt",
     "summary": "43 percent recycled material in the concept tire: Continental shows pathways to a circular economy &nbsp;&nbsp; PROFI Werkstatt",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcXY2VnhJZjl5Y2cwMHRjUHRUak03WVNWMVc5Y1ZQUDNDQk1wSzlUY0VpeE5HbTN2ZUFVaEstNWlUM0VkbUZLUWRuRUppU1BHbTlzZ2VSNW0zZlpHcVUxNnNlNWU0SFFsQko4VFdzblh0eHhSWmo5RENWN3VwSFR1N2FTQzNwWEtsazZnVVRMdzRFVlM1dkpiR2N2Y3V2YXNSdTJuOUJZU0dqaGRmZnBKMi1wN1VGQWRnZE9lVVhnUEhXOGdHdkhCOWF3WHNfaHpUdURJ?oc=5",
@@ -393,6 +367,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
@@ -450,7 +425,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -616,6 +590,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
@@ -650,7 +625,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T05:05:26+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Nachhaltigkeit"
     ],
     "score": 200,
@@ -1210,6 +1184,7 @@
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit",
+      "Continental Korbach Werk Produktion",
       "Continental Deutschland Werk Investition"
     ],
     "score": 200,
@@ -1538,6 +1513,32 @@
     "alternate_sources": []
   },
   {
+    "title": "15 Winterreifen im Test: Warum Pirelli Michelin, Goodyear und Continental hinter sich lässt - Netzwelt",
+    "summary": "15 Winterreifen im Test: Warum Pirelli Michelin, Goodyear und Continental hinter sich lässt &nbsp;&nbsp; Netzwelt",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWTRwdFNkN09hWXYzTWJVY3V0UWoyQWNGSVlQYl9aa25QWXZlaHBqeW96QnFsMUZqN1RKQmlpSGktajdyM3JWZU5xRmhjU2FfczFNd0t3UU1DYXltcExzYnhYaURJWDV5bGY2YjBCSVJkNC1ET21QLWtwRUpIRW9ET2VxRmZhZTA4Z01aY2FwdlJ2Z2VqdzhGcy1GNmxURlc1VktYbWpQbDF5UQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-21T03:15:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test",
+      "Continental Nachhaltigkeit"
+    ],
+    "score": 200,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|goodyear|hinter|lasst|michelin|netzwelt",
+    "event_id": "0de23758a6d8b724b35500f2931f74a74ec86cfc",
+    "alternate_sources": []
+  },
+  {
     "title": "Bentley Continental GTC S [test] - autorevue.at",
     "summary": "Bentley Continental GTC S [test] &nbsp;&nbsp; autorevue.at",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZWkJCVTRvU1ctbWN2cldhbzRYcWE1dnJMVThUR3lCX3JueTdYT0dPTmhuSFl4OWRjY1VLOXNDdTVVWlU0aGpCOGgzeHZORlNQT1NOMnoyQlUtZWRwOXpmZGYwOVdEdjNDeG9KTGxR?oc=5",
@@ -1810,7 +1811,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
@@ -1891,7 +1891,7 @@
     "summary": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden &nbsp;&nbsp; AUTO&amp;Wirtschaft",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm4za0pVUmVXOUl4anBBWHBjOGE3cTVKS3dXVW1pZDh5SElBeF9GaVpwN1p3Y25HV290TklGSkIxci1yRkIxak5naE1fbXhnMTZPUHpGdWJnRmU0MHFpQzJmZmJudmJCY1pROS0tWUZQT2RITVYxVW5JZmdPcWJNdXJPS2IzNl9xM2hlanJjcklaa3AzdHFtMTNTQURaTUs3WU1vdFgwdVdUUmZSQmgtaVVVcVF0dw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-28T09:38:28+00:00",
+    "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
       "Continental Mitarbeiter Werk"
     ],
@@ -1922,6 +1922,7 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Innovation",
       "Continental Lkw Reifen",
       "Continental Deutschland Werk Schließung"
     ],
