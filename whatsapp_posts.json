@@ -13,7 +13,6 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
@@ -304,7 +303,8 @@
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
     "matched_queries": [
-      "Continental plant Germany tire production"
+      "Continental plant Germany tire production",
+      "Continental factory production tires Germany"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -354,6 +354,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-03T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -449,7 +450,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Test",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -853,8 +854,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -908,7 +908,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
@@ -1003,7 +1002,6 @@
     "published_at": "2026-10-01T08:07:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
@@ -1320,11 +1318,9 @@
     "summary": "Gute Reifen müssen nicht teuer sein: Diese günstigen Marken gehören zu Continental und Co. &nbsp;&nbsp; Joyn",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmk2Y2s4UjR1dWk1UjE5MXJHN0x4el90ODlOaDBkN1N5dl9Bem5QWW5WSUtjMWllMy1ZdXN5ZWlLUjd0a2FRWk51RlF2T2c2STctdHNkemRIZGFCbnc1NkdQREFMV05falNwU0VYbXVMUUt2M24yRWNoWFRJMXJyd0tkRUpabEp0SGFuTFdJSkVjS2ZnejR1aDZmcjhYMGwtRnRQeUliTVZTc0RNY21Z?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-19T07:00:00+00:00",
+    "published_at": "2026-10-20T05:22:44+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Lkw Reifen"
+      "Continental Werk Deutschland Reifen Produktion"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1340,6 +1336,31 @@
     },
     "event_family": "continental|diese|gehoren|gunstigen|marken|mussen",
     "event_id": "455ff1798a99cd43c484517915b43f3b22fcbd4b",
+    "alternate_sources": []
+  },
+  {
+    "title": "109,95 Euro für Reifen und Pogi-Figur: Continentals neue Sammleredition - Rennrad-News",
+    "summary": "109,95 Euro für Reifen und Pogi-Figur: Continentals neue Sammleredition &nbsp;&nbsp; Rennrad-News",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzdTBzSGJFNjZ2S3FwTEVVNE9iYjYzMDVBN2RhaFpsejMtZ1J0em82MXhzWDBHWTBYSHcxVHhxcGNlNHVRMk1HMXdvdU1hcW1LdFBvM29KY2pQY1ptRUktb2dva1FnRzNGZ3l5STgzWXNyY0lnY0E2Zkk5Xy0tcDA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T13:04:37+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|continentals|figur|rennrad|sammleredition",
+    "event_id": "263c4307830186d5c4dc33d978db048c6943801c",
     "alternate_sources": []
   },
   {
@@ -1393,7 +1414,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1445,10 +1465,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-14T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Reifen Innovation",
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1475,8 +1493,7 @@
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1660,7 +1677,6 @@
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen neue Produktion",
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -2131,6 +2147,61 @@
     },
     "event_family": "continental|harke|lauft|standortes|stolzenau|verkauf",
     "event_id": "2b5160bdf052df51949b10f27d6456cdbe31bc76",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental präsentiert Collector’s Edition des Grand Prix 5000 S TR in Zusammenarbeit mit Tadej Pogačar - Continental AG",
+    "summary": "Continental präsentiert Collector’s Edition des Grand Prix 5000 S TR in Zusammenarbeit mit Tadej Pogačar &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNFhUMjV3VW5mR0pUdlp0U0ctZW1lOFVQVlhPQl9HX1h1anEyTFFuUDEwSEF0NWN1UXZOSENmN1NnQUFlbEVlTEY0RDV2R0hwSUdpemR0MGJsaEo4T1ZlWC0wMGVvT3RRMEx6RmtPZFM5cHNXcTlYVVpMZFdtMUJnS09yQzloM1pDT3FWaUtsbTlMU1F6cUNJMQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:01:35+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|collector|edition|grand|pogacar|prasentiert",
+    "event_id": "fe472f49722d0a2e04b2b54e6d46cc9a5313ab00",
+    "alternate_sources": []
+  },
+  {
+    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
+    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:27:22+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
+    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
     "alternate_sources": []
   }
 ]
