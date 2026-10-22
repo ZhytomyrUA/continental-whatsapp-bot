@@ -363,6 +363,7 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -589,8 +590,8 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -622,7 +623,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
@@ -687,9 +687,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
-      "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Korbach Mitarbeiter"
     ],
@@ -886,36 +884,11 @@
     ]
   },
   {
-    "title": "Continental rechnet mit starkem Reifengeschäft - trend.at",
-    "summary": "Continental rechnet mit starkem Reifengeschäft &nbsp;&nbsp; trend.at",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yY1dscEVXb0hlRVZPUGZJMnFoRGNDNmpuQ29sdXNIT2xjRVRBUXRjRzR0dGp4V0xQd0k0WlRVMTdUcmMtSk5kMW80bGdWUjdiTVo3LUJTeDBrV1k0OEJ6Y1JqUjM1UEtqZVg5MWt1NkpHbFVudXowcVBIZi15VVE?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-01T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|rechnet|reifengeschaft|starkem|trend",
-    "event_id": "400084d669c0e0400bb3112c1245e8805700400c",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
     "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; LECTURA Press",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlFPVlVKQXpaa2lwRnJha3F4NnNHRUFkMWJpa2FNbUpmM3I5UjFZQXRnWWdteExWcXUwWmxDc3FyS2M1OXFsZWxCdXpfS09kMHA5Q0JSYVBBcnRMdWhHNlVyS3NoOTJ4VnVCZTVJNm9JMkp1cXdpZ3NGMGFFQXFiZG5WdERJXzlEOHhUSFVTNWRpZVJ6NUljZTZZc2tFVXpvVUtZRl9yQ3lKY3A4d05ya0xlZUozZUZvVmJIYklqQ01KekIyWExn?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-01T08:07:00+00:00",
+    "published_at": "2026-10-01T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
@@ -945,7 +918,7 @@
         "source": "news.google.com",
         "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlFPVlVKQXpaa2lwRnJha3F4NnNHRUFkMWJpa2FNbUpmM3I5UjFZQXRnWWdteExWcXUwWmxDc3FyS2M1OXFsZWxCdXpfS09kMHA5Q0JSYVBBcnRMdWhHNlVyS3NoOTJ4VnVCZTVJNm9JMkp1cXdpZ3NGMGFFQXFiZG5WdERJXzlEOHhUSFVTNWRpZVJ6NUljZTZZc2tFVXpvVUtZRl9yQ3lKY3A4d05ya0xlZUozZUZvVmJIYklqQ01KekIyWExn?oc=5",
-        "published_at": "2026-10-01T08:07:00+00:00"
+        "published_at": "2026-10-01T07:00:00+00:00"
       },
       {
         "source": "news.google.com",
@@ -954,6 +927,31 @@
         "published_at": "2026-09-24T07:00:00+00:00"
       }
     ]
+  },
+  {
+    "title": "Continental rechnet mit starkem Reifengeschäft - trend.at",
+    "summary": "Continental rechnet mit starkem Reifengeschäft &nbsp;&nbsp; trend.at",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yY1dscEVXb0hlRVZPUGZJMnFoRGNDNmpuQ29sdXNIT2xjRVRBUXRjRzR0dGp4V0xQd0k0WlRVMTdUcmMtSk5kMW80bGdWUjdiTVo3LUJTeDBrV1k0OEJ6Y1JqUjM1UEtqZVg5MWt1NkpHbFVudXowcVBIZi15VVE?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-01T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|rechnet|reifengeschaft|starkem|trend",
+    "event_id": "400084d669c0e0400bb3112c1245e8805700400c",
+    "alternate_sources": []
   },
   {
     "title": "UHP-Reifenentwicklung bei Continental - autoflotte.de",
@@ -1109,32 +1107,6 @@
     },
     "event_family": "continental|deutschland|marketscreener|reifenfreigabe|vollelektrischen|volvos",
     "event_id": "2d737c18e99bfa06816c776c05bed8d9f77c87fe",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental, Michelin oder Goodyear: Diese günstigen Reifenmarken gehören zu den großen Konzernen - Joyn",
-    "summary": "Continental, Michelin oder Goodyear: Diese günstigen Reifenmarken gehören zu den großen Konzernen &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQenhZS09oXzVUZGNPVDZ1TnN3a3VETTNobXR1MERqWU93eVZDUE9SNHNpRTktTmtGY3R5SkVETktnb2lnakFXYzdTUHVNbUlUYWI4bHJSeTFkNVFPV0VRXzF6bWtPbWJSVFVheW9qbkF5MTN3YU5GQVNWcEQ4X2hVcUYySFdZelN3bFFOMlJGSlFUYWdJZEtIaVhwVmtsWThtTGc?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-14T15:30:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|diese|gehoren|goodyear|großen|gunstigen",
-    "event_id": "366a50b04addf7ab56786ea4ad81b2d58720bc2b",
     "alternate_sources": []
   },
   {
@@ -1384,7 +1356,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-14T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test"
+      "Continental Reifen Test",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1971,6 +1944,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -2152,8 +2126,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-20T07:27:22+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
+      "Continental Reifen Technologie"
     ],
     "score": 150,
     "category": "COMPANY",
