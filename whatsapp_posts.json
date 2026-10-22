@@ -264,31 +264,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Spatenstich für neues Continental-Warenlager - Reifenpresse.de",
-    "summary": "Spatenstich für neues Continental-Warenlager &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNExTX2pkenJHM1kwVFV0cnFSTVRQME16RFVBZlN4aGd1czRNUENoYzVSNnEzMXdSNU5XRms4Mnp0WS1YaGVjM2pTQ3NMUm9GSENzY3R3UElSeGlCTFdQQUxFVGpDWmsxZmZOVVVlaDNkZ0lNSGpUay1KclpCQ2tIMXhBYkFGcGxC?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-24T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": true,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|neues|reifenpresse|spatenstich|warenlager",
-    "event_id": "a6b0c176d481d5c69dd251de8677139e545cd3fc",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental entwickelt Recyclingreifen für E-Autos - electrive.net",
     "summary": "Continental entwickelt Recyclingreifen für E-Autos &nbsp;&nbsp; electrive.net",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY21iLUlXa3NHWkc2aGFGUFc5cXp6SENVT3MyQ1BzOE81RmM1bEktSTZZWnktZEdrcXhhWUFCZ1JLMW9TMjRYOTduSTMxblRLZ1VVMXMtNHZsMzZmNHh3bmZtM0Q4Ykt0Nl9JZWI1Znp2Zkw5T0NzQ21OQlpodFEzZ3JGd3BNYjFPR29UdWVWaDdGMDg?oc=5",
@@ -388,7 +363,6 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -417,7 +391,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Pkw Reifen",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -485,8 +459,7 @@
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -543,7 +516,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1179,7 +1153,6 @@
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit",
-      "Continental Korbach Werk Produktion",
       "Continental Deutschland Werk Investition"
     ],
     "score": 200,
@@ -1284,36 +1257,11 @@
     "alternate_sources": []
   },
   {
-    "title": "Gute Reifen müssen nicht teuer sein: Diese günstigen Marken gehören zu Continental und Co. - Joyn",
-    "summary": "Gute Reifen müssen nicht teuer sein: Diese günstigen Marken gehören zu Continental und Co. &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmk2Y2s4UjR1dWk1UjE5MXJHN0x4el90ODlOaDBkN1N5dl9Bem5QWW5WSUtjMWllMy1ZdXN5ZWlLUjd0a2FRWk51RlF2T2c2STctdHNkemRIZGFCbnc1NkdQREFMV05falNwU0VYbXVMUUt2M24yRWNoWFRJMXJyd0tkRUpabEp0SGFuTFdJSkVjS2ZnejR1aDZmcjhYMGwtRnRQeUliTVZTc0RNY21Z?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-20T05:22:44+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|diese|gehoren|gunstigen|marken|mussen",
-    "event_id": "455ff1798a99cd43c484517915b43f3b22fcbd4b",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental und Pogačar bringen limitierte Reifen-Edition auf den Markt - sportsbusiness.at",
     "summary": "Continental und Pogačar bringen limitierte Reifen-Edition auf den Markt &nbsp;&nbsp; sportsbusiness.at",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTmtheUg3ZUJ5d2ZmUU11cFVUOHhzUUF6TVlDbkk3S1EzU3pfc2tKRjJpQ0RlZV9aaU5Xc3lpa213YjZRSHF5V012cnJYS1lEcVNzVkpoRkNaeVhPQkhPUERYWERNX0pGTTFhM01NRV92SlM3UGlMeUMyaGl3ZFZfMk9KeFUxS0c2UHhCXzRZU3VMNThObVBOWGNKdVgwdXM?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-21T19:10:35+00:00",
+    "published_at": "2026-10-21T19:15:21+00:00",
     "matched_queries": [
       "Continental Reifen Technologie"
     ],
@@ -1345,6 +1293,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
+      "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
     "score": 280,
@@ -1435,9 +1384,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-14T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test",
-      "Continental Reifen Innovation",
-      "Continental Motorsport Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1530,6 +1477,31 @@
     },
     "event_family": "continental|goodyear|hinter|lasst|michelin|netzwelt",
     "event_id": "0de23758a6d8b724b35500f2931f74a74ec86cfc",
+    "alternate_sources": []
+  },
+  {
+    "title": "12 Ganzjahresreifen im Test: Warum Continental Pirelli und Bridgestone hinter sich lässt - Netzwelt",
+    "summary": "12 Ganzjahresreifen im Test: Warum Continental Pirelli und Bridgestone hinter sich lässt &nbsp;&nbsp; Netzwelt",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmVFOFpKZ0p0YWhZM2YwS0t6MjhrVGpuVVJYVWxUNms0ODVobUk4S3BFY1V2Uktrbl92X19vLVJmVU44d1hqYXFqRmZRMnIybjBreWZCVzZhY0NpUlN2cjQ4LW9BazNFRW43UDNzT1pqQUFsQ3ZJUW1TQ0lQSDZ0dmRvOGRJR1RtMGlveUZRT2hCU0JQYUdKOWJOel91djYtSzRIbkVMaw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-22T04:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 200,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|ganzjahresreifen|bridgestone|hinter|lasst|netzwelt",
+    "event_id": "47af02bd15c195eacfaf61e85fbc26b7ef059437",
     "alternate_sources": []
   },
   {
@@ -1666,8 +1638,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - vision-mobility.de",
-    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; vision-mobility.de",
+    "title": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 - VISION mobility",
+    "summary": "Continental: VW ID. Polo rollt ab Werk auf EcoContact 7 &nbsp;&nbsp; VISION mobility",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNzYzeGwtTGNoTE1RTEZKTllKZTNXVGpuaVZfcG8xaUhaNDI3a3lsTk11LWhTM2xraWNQWFpITlQ2SXpXVS00M3RzRkNtamc5cXlWRjZNbl95X0xWVnZ6UnVoT1h0YXNMTVdyZlgyc0M5X3ZkWVRXOHlKZEJkcjI3SXdxSUxSUWdoRVo5XzFzcnJxNjJLbEpsZDFLR0NiUQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-08-26T07:00:00+00:00",
@@ -1999,7 +1971,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
     "score": 150,
