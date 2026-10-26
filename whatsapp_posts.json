@@ -13,7 +13,6 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -293,6 +292,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -583,6 +583,7 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -645,6 +646,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -716,7 +718,8 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen"
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1008,7 +1011,7 @@
     "summary": "Continental erhält Reifenfreigabe für Volvos vollelektrischen SUV EX60 &nbsp;&nbsp; MarketScreener Deutschland",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV09NaWw5bjRQTWsxRkFQNmdfVWh2ZTY3RWZzaUlmQnFTUUFhVWV2WkpPaEZ4c05meXdWbV9WX2N6WFF1amFBckVKcUpIdC1XNUNwcUdrYTdHbGdJbHlGbXlEM2hJbjAxNG1TNnZsMHgxVVo4bGFkU0hQOEc3RWpLLVBuS3VIcDhHS0VRMUtCdHl5ekN3bUhHMi16eG9KWGVDV1ozem1ZTmNaZW1TZXAzY2dTWXM2U3doVXBpcG9QVVBteGktOGZrZVZfRDU4RnA2ZTlFQw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-14T08:55:23+00:00",
+    "published_at": "2026-10-14T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie"
     ],
@@ -1208,7 +1211,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
@@ -1250,6 +1252,10 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1326,6 +1332,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Test"
     ],
     "score": 200,
@@ -1448,6 +1455,56 @@
     "alternate_sources": []
   },
   {
+    "title": "Bentley Continental GTC S [test] - autorevue.at",
+    "summary": "Bentley Continental GTC S [test] &nbsp;&nbsp; autorevue.at",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZWkJCVTRvU1ctbWN2cldhbzRYcWE1dnJMVThUR3lCX3JueTdYT0dPTmhuSFl4OWRjY1VLOXNDdTVVWlU0aGpCOGgzeHZORlNQT1NOMnoyQlUtZWRwOXpmZGYwOVdEdjNDeG9KTGxR?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-08-28T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|autorevue|bentley",
+    "event_id": "2bf743a3d2b0a831e05272cbebaecb6fab4ebe0c",
+    "alternate_sources": []
+  },
+  {
+    "title": "Video: Bentley Continental Supersports: Tracktest - Autobild.de",
+    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; Autobild.de",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDI4eDYxMHNVTkN3SnlRYjdjYi1pOGpWZ2JtdmViM25xSnJid3BpdDVDVVoyYWRheUwyQzZxU2dVVW9SYTUxb0hyM2FUUndZeXlZbWNuUy1DV3JzdVQyNzZEVV9nX24wMm4zdzAyb25EVDdQZ1p6MFlxR0s5aWZwc2R0SjRseDZiNkhNbjR6VmxjVFIxVUEwb2pDYjdTdFF4?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-01T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|autobild|bentley|supersports|tracktest|video",
+    "event_id": "df76ace3407683bfc6c457e62c6a7c3de3d8a932",
+    "alternate_sources": []
+  },
+  {
     "title": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental - Aachener Zeitung",
     "summary": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental &nbsp;&nbsp; Aachener Zeitung",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVkdnVElhaGVJUVBFTmJUSkpScjNGZE8tRUpOUHVBY0xXMUQzR1FJUkl2N2VsREhJTEdaYzBnTF9iZFEybTNkbXg1QU1hVEFPeTJoQllIZ01BaVo3c1UxOVRoQUlWSm1ZYmNlOV8yRVh5d0R6ZnpISmIwMUg4YXk0eXQtRXlVdjBQc2pITlY1UVA0eUQwM1ZuZXFtUy1PZVlCSEJqNFRzRkM2aEJIUHpEUjhLaHRwcHY0ZjBKZzFfaU10N0tLQ2dvUGM2SlVFNTlaX3BPckZQc1ZlallLOS1fSF9PNW9YallZSjVLUkF2WU9KUQ?oc=5",
@@ -1482,9 +1539,11 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Produktion",
       "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1841,8 +1900,21 @@
       "generic_product": false
     },
     "event_family": "continental|aumovio|brain|cloud|fabrik|german",
-    "event_id": "6a374d81782554a34b7bb610ea162d90d7269c4f",
-    "alternate_sources": []
+    "event_id": "c9f2f76b318003378ab84bdb6f0554ee490b3df6",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PressNetwork.de",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VoSkp4SnpmNkFmTGs2NEc0aWhmOHVEQUxRQWYxVW5kNWZvSUpzeDUyOVBDc0NybWREV2VCRUZyTUpTZVJtUmFXSHFZM3cxTWJSSTZSV1pySHFyQjZvd0xvN0UzSzBySE1mM3VVZVVxa0ROVDB4NGlXMUZZY2k4dHNOb3NpYjNGcGZETGdQX2c2TWpjdXpPU2ZKM1lBUmlGaUx3LWhXcE4tWW1NWkZfbmliQ3plRzlydzJPd2tENU9pM09k?oc=5",
+        "published_at": "2026-10-12T08:57:36+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PresseBox",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZHlOeUlYckVVNDk2RnNYR2lOcENVRl9fQ0hFenBtSjNkdFVaZDRpOVdDTzFybHZZQ0FxMENfMWtWaU9FZkpNdU9FNXlLOVdOaUIyV21VOXJMU2xLQVB4N1poVXBtdm9EWFQxUkVSX1RiR1FtQkY5dFVEVGctbWVETXNCVHBzOGI0ckxXdjhyX1hrWF9iNzE3V0ZXeXNvLUNMbEdfUzRTS2NkSU5PdjlsbnNKeXBkMUI4V0l5VFM0WkU3VHlDaWpHVFlQbWlEX0UxcE94MFlKbnhjN0F0VENBOXpFTy0wcEJhV1VFNG5mbUsxN2hjSm0zZkdwYWs1ZWh5WnltZHJ0VFJVbWdFWkh4bEJoeFA?oc=5",
+        "published_at": "2026-10-12T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot - Automobil Revue",
@@ -1956,7 +2028,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-20T07:27:22+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Test"
     ],
     "score": 150,
