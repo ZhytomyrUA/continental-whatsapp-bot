@@ -13,6 +13,8 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
+      "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -109,7 +111,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Motorsport Reifen"
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -126,18 +128,6 @@
     "event_family": "konzeptreifen|recycling|continental",
     "event_id": "9cc9a3282db5538305045a671c007c7aa11707a0",
     "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autoservicepraxis.de",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemRLWUltTmVPUkNnMm5GWF9VT2w1dEt1NWxUVjB5cHQ2ck1JOWRQQzdUTmtwQU1hMkh4YUowYkZQTmFMWGwwUXRPQzgzRWhHQm1NVTNnaGN6MGpVb281Q2txUGg3SDB6Z25BMWYzSFNsTDdHbmhySmVweExmSzd4bkF1alhWTjR5djh2NUpEUGxaZnJ6RF8yTkhEaDlJdHl1dmpxWDNtUmZZZnRPRUwtY0NqSW9kcmdGbXJEV3dhVG5HT2Noaml3b3BwQVFKdw?oc=5",
-        "published_at": "2026-08-28T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental zeigt Recycling-Konzeptreifen: Über 40 Prozent zirkulär - autohaus.de",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOFBRMkFxUXdlTTV0TnBOX3ZBM2x3a0JHQkYtSUVuN1hGQmp3TEc3eWtabXFkQzFMaFRWSEtsaS1hc1h6ZlNNcjBhdG1hVzA0VlBNWHJZTVRLUzluZFlKTExwRHBWb3doMG1PZjlUQzJZR0RsN016M1VlNVhXc0pidENsaEM0NzlUek5nRGZtNGJ1T244Q2tlalhrLWNGa01OVk95d2VVY3lWd2hRZWZ2YUxxMG9wU25Ud05aZU9Pcw?oc=5",
-        "published_at": "2026-08-27T07:00:00+00:00"
-      },
       {
         "source": "news.google.com",
         "title": "Continental entwickelt Konzeptreifen aus 43 Prozent recycelten Rohstoffen - ecomento.de",
@@ -420,6 +410,7 @@
     "matched_queries": [
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
+      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -436,14 +427,7 @@
     },
     "event_family": "continental|1000ps|contimotion|sport|touring",
     "event_id": "4abbcf49f660de92d4faa531b51a61b495345671",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen - 1000PS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTWRxUVNXYU5LOUlWMThtdm1GVVFVcmN4YUxGenRfMWhrTjNGN2dUUUxIandvV0ozWlVseUZkX3lFelhiMk9UdDNUa3pVeUF6cTZfdjNWVW5pbmszVjkxa3NIdTVXZWk0Z2MwSnl4Wk91YVgzdS1GT0hfSzRQdTRSMGtnRTFvLUF4Y0FxNXNIeldYajlHS3dwcHVhTU5TSkRWc0HSAaoBQVVfeXFMTWNuZVhoMWI5Z0RnT0Z6WjMwWEtvNkVpc1prOWdtU0kwcTBCZDNiMlhTek01YzFDYlpyZ2tGMGlseU9qU2hRaU5EM21NVzdFUVFMT0JSVnBHUnZScktUU2VyU3JxNGNHc2V1OTJwNzNQVVQ4bXEtWDJmMDRHZ2hHRXdrTWtqNFhtdlJGZUdQdzZYVy1MNEYwV01JVERRSTJYU0Zvci1UUUFSQUE?oc=5",
-        "published_at": "2026-09-10T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental ContiMotion EVO - myNETmoto.com/Motorradreifen",
@@ -1203,6 +1187,31 @@
     ]
   },
   {
+    "title": "Continental, Michelin und Co.: Diese unbekannten Reifenmarken gehören zu den großen Konzernen - Joyn",
+    "summary": "Continental, Michelin und Co.: Diese unbekannten Reifenmarken gehören zu den großen Konzernen &nbsp;&nbsp; Joyn",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWFNRHRVMElSWVkxc1pNem1YaXp0eVBORXhocEVwb2REeXdXSUNWWmJ5amtfaGNUWXdVOXBhZl8zR01kV3RRUGVKS1E4M3puMlpoQktVYkdfd3BmdHZpczJ3b3Zwb1IzeEhfV25lLU5aSklEUW1OUHc5NGttWDBHS3ZvcnBhMnlXSUFkcXE5dXRTVTRVMm84QldldWxEWjlFQUM0bUtR?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-22T14:38:56+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|diese|gehoren|großen|konzernen|michelin",
+    "event_id": "f218cae74382919280b2bbff39811615d9078bbd",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport - Continental AG",
     "summary": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMlo3SWNUdGdYeVAwMlF3V21DdUQ4Zno2Q3N3R3V4VzFHQ2EzU2tKdjhBN254aUhLaEFXdG5YUXBoNThjWFNId2VpRjRRX0J4WElPTllKdTNmczlnalpPcThyQXBDQ0dLX1dGWVlqWDhTNUtaVmJ6aExaNXpXRWg1Rg?oc=5",
@@ -1299,31 +1308,6 @@
         "published_at": "2026-10-12T07:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "ams-Ganzjahresreifentest: Continental vor Vredestein und Pirelli - amz.de",
-    "summary": "ams-Ganzjahresreifentest: Continental vor Vredestein und Pirelli &nbsp;&nbsp; amz.de",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWlfRGtFdi16RG1jWkpPb21GbU1JVWNBRTFvUE5kTXFnLXV5R1hIOW1INU9KTEpHYXhzUGtXSHVFNW1yV2VZUGc5aVVWQUdKcVVHY3Nkam5fWGR1WW1iRF9ERm9GdXRWbU92NUxuZ1EtMDQ1V25vOUo2OHBFd19sODFQWmM?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-14T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 200,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|ganzjahresreifen|ganzjahresreifentest|pirelli|vredestein",
-    "event_id": "4ad17f768f0a3c64ff40825cc449f7e394639fff",
-    "alternate_sources": []
   },
   {
     "title": "Continental VanContact 4Season ist Testsieger im Ganzjahresreifentest der promobil - Continental AG",
@@ -1718,6 +1702,31 @@
     },
     "event_family": "continental|grand|sofort|velomotion",
     "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
+    "alternate_sources": []
+  },
+  {
+    "title": "Bentley Continental Supersports trifft auf seinen Urahn Bentley Super Sports - Auto Zeitung",
+    "summary": "Bentley Continental Supersports trifft auf seinen Urahn Bentley Super Sports &nbsp;&nbsp; Auto Zeitung",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOazVIVUozMWY0YS1KVG90NGI5VGYzWUk3cks1TkNDN0I0aVFzRC1OVmtCS21CSDVJUjZCRDZRNnVMS2tMREY4bkdfa1djaXdBaXprTHJ1c3lsMHEwNXlhOWpyNTNHblFIbzRNRkN2ODM0T29KbHVwc0ZWVlludndQS0M1TUJGVkhNM1JjVmZOaHdsNnN3eXU0MUt3bGZGSVd6ZzYxU2Vn?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-26T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bentley|seinen|sports|super|supersports",
+    "event_id": "81f5077256e000ad425de040ddc41b2ca9c0359c",
     "alternate_sources": []
   },
   {
