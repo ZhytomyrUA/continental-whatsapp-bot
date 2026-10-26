@@ -1098,7 +1098,7 @@
     "summary": "Reifenhersteller Continental wird Biathlon-Premiumpartner &nbsp;&nbsp; markenartikel-magazin.de",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTNmS2toZENVRkp6WElkdWxkcm9UMXM4MnhabW43SENzLU9FWWhBUmgxVHN6cGRaV0R3eDM1X3FaT09TVW50eVl5UnVwM3hZaFFfSmxGekg0dVI2a0xTN05NSkROanpmcjh6eF9RSHJiR0d0MzZGWjdtS3h5bVFfR3djUURRXzBRVUpOdVhFRTVSQQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-16T08:34:34+00:00",
+    "published_at": "2026-10-16T07:00:00+00:00",
     "matched_queries": [
       "Continental Hannover Reifenwerk Produktion",
       "Continental Deutschland Reifenwerk Mitarbeiter"
@@ -1220,6 +1220,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
@@ -1677,56 +1678,6 @@
     },
     "event_family": "continental|aumovio|borsengang|geplant|september",
     "event_id": "5686d8ed1421d5e0353d9dc92b48ac590e664e21",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental Grand Prix ab sofort in 32 mm! - Velomotion",
-    "summary": "Continental Grand Prix ab sofort in 32 mm! &nbsp;&nbsp; Velomotion",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UlJOd1BSZXNtcnhSeF9XSkdlSWxuTlpkdHVJWTFscF9nOGtxYnZqOUZrcEM4SktKZURmczFfQnFsclZESzRjaGdsRFdtTDJ0d0pVZlpwR2c5N2F1Unh1eHVDVkVUdHdkYzRJ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-18T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|grand|sofort|velomotion",
-    "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
-    "alternate_sources": []
-  },
-  {
-    "title": "Bentley Continental Supersports trifft auf seinen Urahn Bentley Super Sports - Auto Zeitung",
-    "summary": "Bentley Continental Supersports trifft auf seinen Urahn Bentley Super Sports &nbsp;&nbsp; Auto Zeitung",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOazVIVUozMWY0YS1KVG90NGI5VGYzWUk3cks1TkNDN0I0aVFzRC1OVmtCS21CSDVJUjZCRDZRNnVMS2tMREY4bkdfa1djaXdBaXprTHJ1c3lsMHEwNXlhOWpyNTNHblFIbzRNRkN2ODM0T29KbHVwc0ZWVlludndQS0M1TUJGVkhNM1JjVmZOaHdsNnN3eXU0MUt3bGZGSVd6ZzYxU2Vn?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-26T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|bentley|seinen|sports|super|supersports",
-    "event_id": "81f5077256e000ad425de040ddc41b2ca9c0359c",
     "alternate_sources": []
   },
   {
