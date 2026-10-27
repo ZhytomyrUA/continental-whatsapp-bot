@@ -14,7 +14,6 @@
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -111,7 +110,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Pkw Reifen"
+      "Continental Pkw Reifen",
+      "Continental Motorsport Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -282,7 +282,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -410,7 +409,6 @@
     "matched_queries": [
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -535,7 +533,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
       "Continental Korbach Produktion",
@@ -567,7 +564,6 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -630,7 +626,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -700,6 +695,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -1153,6 +1149,7 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
@@ -1212,6 +1209,65 @@
     "alternate_sources": []
   },
   {
+    "title": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager - Xpert.Digital - Konrad Wolfenstein",
+    "summary": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager &nbsp;&nbsp; Xpert.Digital - Konrad Wolfenstein",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SZDBwT0dHMTFCMUJ0LWZUc2JlN2ROWVNFbEwyc0VScTlZN0s0Nk5wUEczNzNDc2Y4MGJPSjRiLTBWYjVFX003TGhYNlZONmFEZWdPbk1NRG9PTVHSAWNBVV95cUxQZXNWb0FyYjhrZ3pLY3lDeWxoaTBCUGxjQ3Y3RW9OakhyNGp5TGZOS3V3NGtlWnpvSUVIS3p3dHVNSHZlcVJoa0hoOFNPQUM5UUw1T3JYZF9TRHNVYkhESDBIX3c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-26T08:36:24+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Reifen Werk Investition",
+      "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Belegschaft Werk",
+      "Continental Reifen Technologie",
+      "Continental Reifen Innovation",
+      "Continental Pkw Reifen",
+      "Continental Deutschland Werk Investition"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|digital|dollar|konrad|lager|mount",
+    "event_id": "664ccd2d650cd810dd28e48d54ac5b999f90e522",
+    "alternate_sources": []
+  },
+  {
+    "title": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone - Netzwelt",
+    "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-26T11:34:45+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|barum|bridgestone|diese|gehoren|gunstigen",
+    "event_id": "40a0ca20bbb3a40f27d43b92a6739c08b665ef29",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport - Continental AG",
     "summary": "Continental AllSeasonContact 2 gewinnt Ganzjahresreifentest und erhält „E-Auto-Empfehlung“ von auto motor und sport &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMlo3SWNUdGdYeVAwMlF3V21DdUQ4Zno2Q3N3R3V4VzFHQ2EzU2tKdjhBN254aUhLaEFXdG5YUXBoNThjWFNId2VpRjRRX0J4WElPTllKdTNmczlnalpPcThyQXBDQ0dLX1dGWVlqWDhTNUtaVmJ6aExaNXpXRWg1Rg?oc=5",
@@ -1264,7 +1320,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1309,6 +1364,31 @@
         "published_at": "2026-10-12T07:00:00+00:00"
       }
     ]
+  },
+  {
+    "title": "ams-Ganzjahresreifentest: Continental vor Vredestein und Pirelli - amz.de",
+    "summary": "ams-Ganzjahresreifentest: Continental vor Vredestein und Pirelli &nbsp;&nbsp; amz.de",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWlfRGtFdi16RG1jWkpPb21GbU1JVWNBRTFvUE5kTXFnLXV5R1hIOW1INU9KTEpHYXhzUGtXSHVFNW1yV2VZUGc5aVVWQUdKcVVHY3Nkam5fWGR1WW1iRF9ERm9GdXRWbU92NUxuZ1EtMDQ1V25vOUo2OHBFd19sODFQWmM?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-14T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 200,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|ganzjahresreifen|ganzjahresreifentest|pirelli|vredestein",
+    "event_id": "4ad17f768f0a3c64ff40825cc449f7e394639fff",
+    "alternate_sources": []
   },
   {
     "title": "Continental VanContact 4Season ist Testsieger im Ganzjahresreifentest der promobil - Continental AG",
@@ -1414,14 +1494,13 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental-Reifen zum Sparpreis? Warum du diese günstigen Marken kennen solltest - Joyn",
-    "summary": "Continental-Reifen zum Sparpreis? Warum du diese günstigen Marken kennen solltest &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLThiVFhsQ2FlVVJxbjExZ3Eyc0lpajVaNExHMEJKeDlzZEgzS3IxMkNSMmpVUW9NX3NXUzJPcWk2UzJ5VEJDNlpqd0VFdDRNQWd4bFNnNlZMMUFrU3d4ZGVnbU9pOFExLVJhX0E4R1hMYTM2YTVtMExiRWxRLXFBUWpQOUVrd05YYVpBbDZaWHM4NXBvUEpWNHRpNzdVRDRJWXBzN1ppSQ?oc=5",
+    "title": "ADAC kürt Continental zum Testsieger bei Ganzjahresreifen - SuaraGarut.ID",
+    "summary": "ADAC kürt Continental zum Testsieger bei Ganzjahresreifen &nbsp;&nbsp; SuaraGarut.ID",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BQ25wTEU3STJCcHEtYUFrSGx0VkRJU05NcTlrMExDV0dzZ25xYjQxeGZqZFFVWklVemt4YmZVWnBsTTdmSWFCT0piVlFYZC0yamh5dW84NXNWajRkRGN5YTFJaGtaOG8?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-23T07:17:43+00:00",
+    "published_at": "2026-10-26T11:28:29+00:00",
     "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Lkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1435,58 +1514,8 @@
       "title_action": false,
       "generic_product": true
     },
-    "event_family": "continental|diese|gunstigen|kennen|marken|solltest",
-    "event_id": "986de7feb5b673b91604d94635145d78386c8f05",
-    "alternate_sources": []
-  },
-  {
-    "title": "Bentley Continental GTC S [test] - autorevue.at",
-    "summary": "Bentley Continental GTC S [test] &nbsp;&nbsp; autorevue.at",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZWkJCVTRvU1ctbWN2cldhbzRYcWE1dnJMVThUR3lCX3JueTdYT0dPTmhuSFl4OWRjY1VLOXNDdTVVWlU0aGpCOGgzeHZORlNQT1NOMnoyQlUtZWRwOXpmZGYwOVdEdjNDeG9KTGxR?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-28T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|autorevue|bentley",
-    "event_id": "2bf743a3d2b0a831e05272cbebaecb6fab4ebe0c",
-    "alternate_sources": []
-  },
-  {
-    "title": "Video: Bentley Continental Supersports: Tracktest - Autobild.de",
-    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; Autobild.de",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDI4eDYxMHNVTkN3SnlRYjdjYi1pOGpWZ2JtdmViM25xSnJid3BpdDVDVVoyYWRheUwyQzZxU2dVVW9SYTUxb0hyM2FUUndZeXlZbWNuUy1DV3JzdVQyNzZEVV9nX24wMm4zdzAyb25EVDdQZ1p6MFlxR0s5aWZwc2R0SjRseDZiNkhNbjR6VmxjVFIxVUEwb2pDYjdTdFF4?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-01T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|autobild|bentley|supersports|tracktest|video",
-    "event_id": "df76ace3407683bfc6c457e62c6a7c3de3d8a932",
+    "event_family": "continental|ganzjahresreifen|suaragarut|testsieger",
+    "event_id": "146e7e5a4409942639a8f6882295b7e8a8cde52e",
     "alternate_sources": []
   },
   {
@@ -1579,8 +1608,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Pkw Reifen",
-      "Continental Motorsport Reifen"
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1633,7 +1661,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1766,6 +1793,7 @@
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
+      "Continental Deutschland Werk Stellenabbau",
       "Continental Deutschland Werk Schließung"
     ],
     "score": 150,
@@ -1818,6 +1846,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1860,21 +1889,8 @@
       "generic_product": false
     },
     "event_family": "continental|aumovio|brain|cloud|fabrik|german",
-    "event_id": "c9f2f76b318003378ab84bdb6f0554ee490b3df6",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PressNetwork.de",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VoSkp4SnpmNkFmTGs2NEc0aWhmOHVEQUxRQWYxVW5kNWZvSUpzeDUyOVBDc0NybWREV2VCRUZyTUpTZVJtUmFXSHFZM3cxTWJSSTZSV1pySHFyQjZvd0xvN0UzSzBySE1mM3VVZVVxa0ROVDB4NGlXMUZZY2k4dHNOb3NpYjNGcGZETGdQX2c2TWpjdXpPU2ZKM1lBUmlGaUx3LWhXcE4tWW1NWkZfbmliQ3plRzlydzJPd2tENU9pM09k?oc=5",
-        "published_at": "2026-10-12T08:57:36+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PresseBox",
-        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZHlOeUlYckVVNDk2RnNYR2lOcENVRl9fQ0hFenBtSjNkdFVaZDRpOVdDTzFybHZZQ0FxMENfMWtWaU9FZkpNdU9FNXlLOVdOaUIyV21VOXJMU2xLQVB4N1poVXBtdm9EWFQxUkVSX1RiR1FtQkY5dFVEVGctbWVETXNCVHBzOGI0ckxXdjhyX1hrWF9iNzE3V0ZXeXNvLUNMbEdfUzRTS2NkSU5PdjlsbnNKeXBkMUI4V0l5VFM0WkU3VHlDaWpHVFlQbWlEX0UxcE94MFlKbnhjN0F0VENBOXpFTy0wcEJhV1VFNG5mbUsxN2hjSm0zZkdwYWs1ZWh5WnltZHJ0VFJVbWdFWkh4bEJoeFA?oc=5",
-        "published_at": "2026-10-12T07:00:00+00:00"
-      }
-    ]
+    "event_id": "6a374d81782554a34b7bb610ea162d90d7269c4f",
+    "alternate_sources": []
   },
   {
     "title": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot - Automobil Revue",
@@ -1883,8 +1899,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T12:05:22+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk",
-      "Continental Reifen Test"
+      "Continental Mitarbeiter Werk"
     ],
     "score": 150,
     "category": "COMPANY",
