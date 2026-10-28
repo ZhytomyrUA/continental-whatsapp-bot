@@ -308,8 +308,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -404,8 +403,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -466,6 +464,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Pkw Reifen",
@@ -564,7 +563,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Produktion",
@@ -654,6 +652,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -1105,8 +1104,12 @@
     "source": "news.google.com",
     "published_at": "2026-10-22T08:30:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen"
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
+      "Continental Motorsport Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1121,21 +1124,8 @@
       "generic_product": false
     },
     "event_family": "continental|autohaus|goudswaard|jeder|kompromiss|manager",
-    "event_id": "065165a7b08d489498e9a346095f9333e70275cb",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental-Manager Goudswaard: \"Jeder Reifen ist ein Kompromiss\" - autohaus.de",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOdE9QMnc4VnIxWHpBZUNQeW1PNjJyNmJ5SmNQdThRN0xFWG00RUJlalBPMmtLVjIzVHJYVnY1WGhoTXFka21GVWtZZlMzY0l4VF9SMm9BdkxtaUJrNUhLNnMwdHBXQWlheUdCdnhtenh5Q1pRQTRfYmpEVm5KMk5LWTdMbWRzUy1EenNwellxVWM0Y09IUWY0OE1WLU8ydW1PaURuNDZucGJQUFpGYWRSV3NCTFlSZ1k4dDA0QXl5SFR0LVAyWWFQUVhsMlRKX0NVQkdfMVFoRmZwc1QydjRUMjBwVlBlaEh0N0puMUZqMU1EdzZ1VTJhMDVzaVZaOW8?oc=5",
-        "published_at": "2026-10-22T08:30:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental-Manager Goudswaard: \"Jeder Reifen ist ein Kompromiss\" - autoservicepraxis.de",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcno0QVhYRWRrdmw2aEZocklWbng2Y3dhblJUaGtlQTBTU2dGNFY3NnJxd3NIVzNqMWRMYlFEeEs1SEJZaktIRWpmS2Ffa1ZWME1sR0JaSC1rdl8yc2hnSk1tTTY3YWVqSzdrLW9XcFJYemJsMWdsZ3RmUXNOZHMxVUlFMlIyN2JnNFhjVzJGNmhPeHJaS2x6VGhNVGY4ZmF3S3hRXzFuTXhQZ0FjRlVvNlJpS0d5SGVrZjFPUWx4ekt2UmFFVlE?oc=5",
-        "published_at": "2026-10-08T07:00:00+00:00"
-      }
-    ]
+    "event_id": "1d2fcc72733b711ee9170daac5cc95c981d669ce",
+    "alternate_sources": []
   },
   {
     "title": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager - Xpert.Digital - Konrad Wolfenstein",
@@ -1543,31 +1533,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Video: Bentley Continental Supersports: Tracktest - Autobild.de",
-    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; Autobild.de",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDI4eDYxMHNVTkN3SnlRYjdjYi1pOGpWZ2JtdmViM25xSnJid3BpdDVDVVoyYWRheUwyQzZxU2dVVW9SYTUxb0hyM2FUUndZeXlZbWNuUy1DV3JzdVQyNzZEVV9nX24wMm4zdzAyb25EVDdQZ1p6MFlxR0s5aWZwc2R0SjRseDZiNkhNbjR6VmxjVFIxVUEwb2pDYjdTdFF4?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-01T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|autobild|bentley|supersports|tracktest|video",
-    "event_id": "df76ace3407683bfc6c457e62c6a7c3de3d8a932",
-    "alternate_sources": []
-  },
-  {
     "title": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental - Aachener Zeitung",
     "summary": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental &nbsp;&nbsp; Aachener Zeitung",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVkdnVElhaGVJUVBFTmJUSkpScjNGZE8tRUpOUHVBY0xXMUQzR1FJUkl2N2VsREhJTEdaYzBnTF9iZFEybTNkbXg1QU1hVEFPeTJoQllIZ01BaVo3c1UxOVRoQUlWSm1ZYmNlOV8yRVh5d0R6ZnpISmIwMUg4YXk0eXQtRXlVdjBQc2pITlY1UVA0eUQwM1ZuZXFtUy1PZVlCSEJqNFRzRkM2aEJIUHpEUjhLaHRwcHY0ZjBKZzFfaU10N0tLQ2dvUGM2SlVFNTlaX3BPckZQc1ZlallLOS1fSF9PNW9YallZSjVLUkF2WU9KUQ?oc=5",
@@ -1711,7 +1676,8 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1763,7 +1729,9 @@
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen"
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1924,7 +1892,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1968,6 +1935,31 @@
     },
     "event_family": "continental|aumovio|brain|cloud|fabrik|german",
     "event_id": "6a374d81782554a34b7bb610ea162d90d7269c4f",
+    "alternate_sources": []
+  },
+  {
+    "title": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot - Automobil Revue",
+    "summary": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot &nbsp;&nbsp; Automobil Revue",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYWdyeWRfZDdBTlM1TWkzQWR3VGVFQWVQNHlyMTM1V2FSUk1la25Hc3l3MGpQQUd2UDdWWHBjYW5BaGNlc1h3bWh4dUF0REs1Rk9vd1dmMUh1Y0tma2lvWk5PX0tfTFZOeFcyLTYtOEdnVk4tVGJlRFRRU0tZdTNiMlFvUzZNMzJkRU9hdDQwcw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T12:05:22+00:00",
+    "matched_queries": [
+      "Continental Mitarbeiter Werk"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|automobil|bentley|macht|revue|sweet",
+    "event_id": "f6ae2554cd2ef234b9bc599b951465a38d27325e",
     "alternate_sources": []
   },
   {
@@ -2025,11 +2017,9 @@
     "summary": "Continental präsentiert Collector’s Edition des Grand Prix 5000 S TR in Zusammenarbeit mit Tadej Pogačar &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNFhUMjV3VW5mR0pUdlp0U0ctZW1lOFVQVlhPQl9HX1h1anEyTFFuUDEwSEF0NWN1UXZOSENmN1NnQUFlbEVlTEY0RDV2R0hwSUdpemR0MGJsaEo4T1ZlWC0wMGVvT3RRMEx6RmtPZFM5cHNXcTlYVVpMZFdtMUJnS09yQzloM1pDT3FWaUtsbTlMU1F6cUNJMQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-20T07:01:35+00:00",
+    "published_at": "2026-10-20T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit"
     ],
@@ -2047,6 +2037,31 @@
     },
     "event_family": "continental|collector|edition|grand|pogacar|prasentiert",
     "event_id": "fe472f49722d0a2e04b2b54e6d46cc9a5313ab00",
+    "alternate_sources": []
+  },
+  {
+    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
+    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:27:22+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
+    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
     "alternate_sources": []
   },
   {
