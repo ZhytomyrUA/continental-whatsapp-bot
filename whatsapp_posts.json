@@ -13,6 +13,7 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -111,7 +112,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -250,6 +250,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -536,6 +537,7 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -597,6 +599,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -625,6 +628,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -652,14 +656,10 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -748,13 +748,17 @@
     ]
   },
   {
-    "title": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - 24auto.de",
-    "summary": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; 24auto.de",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTnFKcGZXVmwwNUN5aDFmdnJuclRKVUwtX1E2OU5xS0lRenVGajZsMXdkX25nZEtpYlZvTU1ndHM5VjdFLVpJOVFJQjUtbGpxeTZRdnlhTzFxOHRvMS1vdXJ6WGtmVVhqSWtmVGE2dnN6SjY3Y0ZKSlJDWjRqS3N4WENiY18xNUFfcDlqY2E4S1dLQnIyb1ZoZE1lZmdybklFRUdQbmM4dzJveGlFQ0J5Z3NmOFV3VDZVelhfVlEzQ0p5Z3JEUEROMUx4WnQtMV9GOExMUjMwWFA0Y1ZBbVhUa0c3VVhjLUdEa2kxTGRuaEFnQQ?oc=5",
+    "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
+    "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; WELT",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion"
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Innovation",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -768,16 +772,9 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|24auto|edwin|entwicklung|forschung|gesprach",
-    "event_id": "7e197453c4d55ee1e49a54f64f18ab9a9914148f",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
-        "published_at": "2026-09-30T07:00:00+00:00"
-      }
-    ]
+    "event_family": "continental|edwin|entwicklung|forschung|gesprach|goudswaard",
+    "event_id": "82cf43092080f5d939c45e987d774e8d89806003",
+    "alternate_sources": []
   },
   {
     "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
@@ -1110,6 +1107,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-22T08:30:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Lkw Reifen",
@@ -1198,7 +1196,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-26T15:25:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion"
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1287,7 +1286,6 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1389,7 +1387,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-14T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test"
+      "Continental Reifen Test",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1414,7 +1413,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1538,8 +1537,8 @@
     "alternate_sources": []
   },
   {
-    "title": "Video: Bentley Continental Supersports: Tracktest - Autobild.de",
-    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; Autobild.de",
+    "title": "Video: Bentley Continental Supersports: Tracktest - Auto Bild",
+    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; Auto Bild",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDI4eDYxMHNVTkN3SnlRYjdjYi1pOGpWZ2JtdmViM25xSnJid3BpdDVDVVoyYWRheUwyQzZxU2dVVW9SYTUxb0hyM2FUUndZeXlZbWNuUy1DV3JzdVQyNzZEVV9nX24wMm4zdzAyb25EVDdQZ1p6MFlxR0s5aWZwc2R0SjRseDZiNkhNbjR6VmxjVFIxVUEwb2pDYjdTdFF4?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-01T07:00:00+00:00",
@@ -1558,8 +1557,8 @@
       "title_action": false,
       "generic_product": true
     },
-    "event_family": "continental|autobild|bentley|supersports|tracktest|video",
-    "event_id": "df76ace3407683bfc6c457e62c6a7c3de3d8a932",
+    "event_family": "continental|bentley|supersports|tracktest|video",
+    "event_id": "dd5ab33a7af4e1ceb1e0a8da3eafac19c74684f4",
     "alternate_sources": []
   },
   {
@@ -1600,7 +1599,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -1732,6 +1730,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1868,6 +1867,7 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
       "Continental Deutschland Werk Stellenabbau",
       "Continental Deutschland Werk Schließung"
     ],
@@ -2042,6 +2042,32 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental in Stolzenau: So läuft der Verkauf des Standortes - DIE HARKE",
+    "summary": "Continental in Stolzenau: So läuft der Verkauf des Standortes &nbsp;&nbsp; DIE HARKE",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa19TdkpxRXR1U2dnalRNVkJOVHpFOUxmOFZENVlLWC1ZS2FmNGUwLU5SbXh6NFU5b0paSlozdHlqTE9lLVNKdlFGdUZUbVNkb1FjaFpLazRBRWlWYk1ZLTYyOU1ubHdobTlIYTdfWkhTVy1QY2tpcDItRWE0ZUhNYmxoZHhENUE4d0FSbU5WOEhsV2pQU19ObXlBdVJJSWh1Q1Ezb2FwRXJWX1RZek1pNklVTkg2dnZZTkhDUVZ5V0tSYnVLRW91YzRIaDV5VVFRNGJDazJpUHdVME5WUTZ3OG1ETdIB_wFBVV95cUxPT0hJYWl3VTB5czdZdDdDbkZJMEJHZ04xMTVneEVKYkRoTkxQM3VERzdjUjJUei1jWm10dVFiM1hzdmx2aElYZlNpcy1SR0FHUTVXc1h1U3RCOXlyM3J1ZTJLSURJQWxFTUxTTEVGMlgtQ05Zb1hFRWUtdVo2TGpYZHFYWWZrWV9mUldjS0FvcVJ3VVViVnB5cVdpbGcwTHRtQXRySkNBVy14Zkw0ZlZYTVBNN0k1SG84d0x6am9taG9sZzNTU1piT1FaNWsyY2lScjIzT080djd2NDFNQ01JZExGenpuY0YzZHJXdzN0RGlmTXlkUGhxRWkxOXQ1bEk?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-16T16:03:33+00:00",
+    "matched_queries": [
+      "Continental Mitarbeiter Werk",
+      "Continental Korbach Mitarbeiter"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|harke|lauft|standortes|stolzenau|verkauf",
+    "event_id": "2b5160bdf052df51949b10f27d6456cdbe31bc76",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental präsentiert Collector’s Edition des Grand Prix 5000 S TR in Zusammenarbeit mit Tadej Pogačar - Continental AG",
     "summary": "Continental präsentiert Collector’s Edition des Grand Prix 5000 S TR in Zusammenarbeit mit Tadej Pogačar &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNFhUMjV3VW5mR0pUdlp0U0ctZW1lOFVQVlhPQl9HX1h1anEyTFFuUDEwSEF0NWN1UXZOSENmN1NnQUFlbEVlTEY0RDV2R0hwSUdpemR0MGJsaEo4T1ZlWC0wMGVvT3RRMEx6RmtPZFM5cHNXcTlYVVpMZFdtMUJnS09yQzloM1pDT3FWaUtsbTlMU1F6cUNJMQ?oc=5",
@@ -2066,6 +2092,31 @@
     },
     "event_family": "continental|collector|edition|grand|pogacar|prasentiert",
     "event_id": "fe472f49722d0a2e04b2b54e6d46cc9a5313ab00",
+    "alternate_sources": []
+  },
+  {
+    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
+    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:27:22+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
+    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
     "alternate_sources": []
   },
   {
