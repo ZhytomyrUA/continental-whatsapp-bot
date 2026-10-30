@@ -155,6 +155,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-03T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -223,7 +224,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -282,8 +282,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -352,7 +351,6 @@
     "matched_queries": [
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -378,8 +376,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -423,14 +420,7 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
-        "published_at": "2026-09-15T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
@@ -481,6 +471,7 @@
       "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Reifen Technologie",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
       "Continental Korbach Produktion",
@@ -698,7 +689,6 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
     "score": 200,
@@ -1086,7 +1076,7 @@
     "summary": "Continental-Manager Goudswaard: \"Jeder Reifen ist ein Kompromiss\" &nbsp;&nbsp; autohaus.de",
     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOdE9QMnc4VnIxWHpBZUNQeW1PNjJyNmJ5SmNQdThRN0xFWG00RUJlalBPMmtLVjIzVHJYVnY1WGhoTXFka21GVWtZZlMzY0l4VF9SMm9BdkxtaUJrNUhLNnMwdHBXQWlheUdCdnhtenh5Q1pRQTRfYmpEVm5KMk5LWTdMbWRzUy1EenNwellxVWM0Y09IUWY0OE1WLU8ydW1PaURuNDZucGJQUFpGYWRSV3NCTFlSZ1k4dDA0QXl5SFR0LVAyWWFQUVhsMlRKX0NVQkdfMVFoRmZwc1QydjRUMjBwVlBlaEh0N0puMUZqMU1EdzZ1VTJhMDVzaVZaOW8?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-22T08:30:00+00:00",
+    "published_at": "2026-10-22T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
@@ -1118,7 +1108,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-22T14:38:56+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Test"
     ],
     "score": 200,
@@ -1542,59 +1531,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Video: Bentley Continental Supersports: Tracktest - Auto Bild",
-    "summary": "Video: Bentley Continental Supersports: Tracktest &nbsp;&nbsp; Auto Bild",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDI4eDYxMHNVTkN3SnlRYjdjYi1pOGpWZ2JtdmViM25xSnJid3BpdDVDVVoyYWRheUwyQzZxU2dVVW9SYTUxb0hyM2FUUndZeXlZbWNuUy1DV3JzdVQyNzZEVV9nX24wMm4zdzAyb25EVDdQZ1p6MFlxR0s5aWZwc2R0SjRseDZiNkhNbjR6VmxjVFIxVUEwb2pDYjdTdFF4?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-01T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|bentley|supersports|tracktest|video",
-    "event_id": "dd5ab33a7af4e1ceb1e0a8da3eafac19c74684f4",
-    "alternate_sources": []
-  },
-  {
-    "title": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental - Aachener Zeitung",
-    "summary": "Werke schließen, ETC wächst: Jülich gewinnt Fachkräfte von Neapco und Continental &nbsp;&nbsp; Aachener Zeitung",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVkdnVElhaGVJUVBFTmJUSkpScjNGZE8tRUpOUHVBY0xXMUQzR1FJUkl2N2VsREhJTEdaYzBnTF9iZFEybTNkbXg1QU1hVEFPeTJoQllIZ01BaVo3c1UxOVRoQUlWSm1ZYmNlOV8yRVh5d0R6ZnpISmIwMUg4YXk0eXQtRXlVdjBQc2pITlY1UVA0eUQwM1ZuZXFtUy1PZVlCSEJqNFRzRkM2aEJIUHpEUjhLaHRwcHY0ZjBKZzFfaU10N0tLQ2dvUGM2SlVFNTlaX3BPckZQc1ZlallLOS1fSF9PNW9YallZSjVLUkF2WU9KUQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-08-31T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Werk Schließung",
-      "Continental Mitarbeiter Werk",
-      "Continental Belegschaft Werk",
-      "Continental Deutschland Werk Schließung"
-    ],
-    "score": 230,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": true,
-      "action": false,
-      "nearby": false,
-      "title_factory": true,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aachener|fachkrafte|gewinnt|julich|neapco",
-    "event_id": "2279a18fcee62fbdfc690a25c1de2e86dc025f8a",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - Reifenpresse.de",
     "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; Reifenpresse.de",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlVMaXNIeFI0WGdxVTc2aWM2N0NyUVpGSjJIaHhhWHFWUlp5cWJXV2oxUGtzcEhHMTNGdnprX1NyTllJUjdMMGZpamhyZGpoNEIybzVPcGNlQXI3SGtLR1lJWlVlOFlsR1NGeHZJeVVuNDd0NEQ4LTJicHRiR3FvT2xWa3pqZjk4U2kzT0QxS3R2VUZhNkhxNzRHX0trcVVrMmhGVWZPOUhSdFBrRjAzb2JlT0c?oc=5",
@@ -1627,8 +1563,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen neue Produktion",
-      "Continental Mitarbeiter Werk"
+      "Continental Reifen neue Produktion"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1708,7 +1643,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1784,13 +1718,13 @@
     "alternate_sources": []
   },
   {
-    "title": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden - AUTO&Wirtschaft",
-    "summary": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden &nbsp;&nbsp; AUTO&amp;Wirtschaft",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm4za0pVUmVXOUl4anBBWHBjOGE3cTVKS3dXVW1pZDh5SElBeF9GaVpwN1p3Y25HV290TklGSkIxci1yRkIxak5naE1fbXhnMTZPUHpGdWJnRmU0MHFpQzJmZmJudmJCY1pROS0tWUZQT2RITVYxVW5JZmdPcWJNdXJPS2IzNl9xM2hlanJjcklaa3AzdHFtMTNTQURaTUs3WU1vdFgwdVdUUmZSQmgtaVVVcVF0dw?oc=5",
+    "title": "Continental Grand Prix ab sofort in 32 mm! - Velomotion",
+    "summary": "Continental Grand Prix ab sofort in 32 mm! &nbsp;&nbsp; Velomotion",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UlJOd1BSZXNtcnhSeF9XSkdlSWxuTlpkdHVJWTFscF9nOGtxYnZqOUZrcEM4SktKZURmczFfQnFsclZESzRjaGdsRFdtTDJ0d0pVZlpwR2c5N2F1Unh1eHVDVkVUdHdkYzRJ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-28T07:00:00+00:00",
+    "published_at": "2026-09-18T07:00:00+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk"
+      "Continental Reifen Technologie"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1804,8 +1738,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|brabus|lasst|performance|roadtrip|technik",
-    "event_id": "c5fa0c8a850cb23914383c03567452af048a6a0f",
+    "event_family": "continental|grand|sofort|velomotion",
+    "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
     "alternate_sources": []
   },
   {
@@ -1967,6 +1901,31 @@
     },
     "event_family": "continental|automobil|bentley|macht|revue|sweet",
     "event_id": "f6ae2554cd2ef234b9bc599b951465a38d27325e",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental MPT91 für Straße und Gelände - Baublatt.at",
+    "summary": "Continental MPT91 für Straße und Gelände &nbsp;&nbsp; Baublatt.at",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Mc3llM1lDYXpXVjcxOEszVjBsU2NGSlRwZW9VMmt5NlJiYVR0ZHY3OUtRd2RZZVZoc1pmNGctRnduQ3pFWjNfQktxbnVfLVVBdjFLSEIyMFlZWGp0OFFna3c2end3bmVFLVA1bm5YcUFmdw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T17:21:47+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|baublatt|gelande|mpt91|straße",
+    "event_id": "93eaa93bb59cb0454ac29f41cb74d3060542b75b",
     "alternate_sources": []
   },
   {
