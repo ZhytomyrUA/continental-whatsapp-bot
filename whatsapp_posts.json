@@ -104,6 +104,32 @@
     "alternate_sources": []
   },
   {
+    "title": "Continentals Reifenwerk Hefei: Ein neuer Maßstab für intelligente Fertigung und grüne Entwicklung in der chinesisch-deutschen Zusammenarbeit - 国际在线",
+    "summary": "Continentals Reifenwerk Hefei: Ein neuer Maßstab für intelligente Fertigung und grüne Entwicklung in der chinesisch-deutschen Zusammenarbeit &nbsp;&nbsp; 国际在线",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ldDAyMFBETk5vdTJUMU90SGdDaTdPeWZWSUctZmhnM0VQQlRfcEJoRVFBUm5Wa0ctNUpaYkYxZFJENWRZeDdtVks1cnUxaFZVdEptOElkaHRINDQ2akc2TWVFZw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-28T19:52:00+00:00",
+    "matched_queries": [
+      "Continental Mitarbeiter Werk",
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 1700,
+    "category": "FACTORY_PRODUCTION",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": true,
+      "nearby": true,
+      "title_factory": true,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "continental|reifenwerk|chinesisch|continentals|deutschen|entwicklung|grune",
+    "event_id": "a77a8777d429ce40bfbe09a8db0c2bc4f1ff9091",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental entwickelt Konzeptreifen mit über 40 Prozent Recyclinganteil - Elektroauto-News",
     "summary": "Continental entwickelt Konzeptreifen mit über 40 Prozent Recyclinganteil &nbsp;&nbsp; Elektroauto-News",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNTVaT2FsaTVVRVJjcGRhbHVEX1JPdWcwdmt3SWdFU2VSUk13a0tBdm1NME1xOWpvTl9VMV83bmUxc0tLRWhuTDNGWEUtdnFhSWEyeUxZQTF2ek8tdTBudG1abnFySGxFZWpybkdMenFBeTRuNHVqWG53?oc=5",
@@ -224,6 +250,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -420,7 +447,14 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
+        "published_at": "2026-09-15T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
@@ -503,6 +537,7 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -564,6 +599,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -661,6 +697,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -689,6 +726,7 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
     "score": 200,
@@ -757,6 +795,7 @@
     "published_at": "2026-10-01T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Neuheit",
+      "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit"
@@ -1102,65 +1141,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental, Michelin und Co.: Diese unbekannten Reifenmarken gehören zu den großen Konzernen - Joyn",
-    "summary": "Continental, Michelin und Co.: Diese unbekannten Reifenmarken gehören zu den großen Konzernen &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWFNRHRVMElSWVkxc1pNem1YaXp0eVBORXhocEVwb2REeXdXSUNWWmJ5amtfaGNUWXdVOXBhZl8zR01kV3RRUGVKS1E4M3puMlpoQktVYkdfd3BmdHZpczJ3b3Zwb1IzeEhfV25lLU5aSklEUW1OUHc5NGttWDBHS3ZvcnBhMnlXSUFkcXE5dXRTVTRVMm84QldldWxEWjlFQUM0bUtR?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-22T14:38:56+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|diese|gehoren|großen|konzernen|michelin",
-    "event_id": "f218cae74382919280b2bbff39811615d9078bbd",
-    "alternate_sources": []
-  },
-  {
-    "title": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager - Xpert.Digital - Konrad Wolfenstein",
-    "summary": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager &nbsp;&nbsp; Xpert.Digital - Konrad Wolfenstein",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SZDBwT0dHMTFCMUJ0LWZUc2JlN2ROWVNFbEwyc0VScTlZN0s0Nk5wUEczNzNDc2Y4MGJPSjRiLTBWYjVFX003TGhYNlZONmFEZWdPbk1NRG9PTVHSAWNBVV95cUxQZXNWb0FyYjhrZ3pLY3lDeWxoaTBCUGxjQ3Y3RW9OakhyNGp5TGZOS3V3NGtlWnpvSUVIS3p3dHVNSHZlcVJoa0hoOFNPQUM5UUw1T3JYZF9TRHNVYkhESDBIX3c?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-26T08:36:24+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Reifen Werk Investition",
-      "Continental Reifen neue Produktion",
-      "Continental Mitarbeiter Werk",
-      "Continental Belegschaft Werk",
-      "Continental Reifen Technologie",
-      "Continental Reifen Innovation",
-      "Continental Pkw Reifen",
-      "Continental Deutschland Werk Investition"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|digital|dollar|konrad|lager|mount",
-    "event_id": "664ccd2d650cd810dd28e48d54ac5b999f90e522",
-    "alternate_sources": []
-  },
-  {
     "title": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone - Netzwelt",
     "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
@@ -1183,31 +1163,6 @@
     },
     "event_family": "continental|barum|bridgestone|diese|gehoren|gunstigen",
     "event_id": "40a0ca20bbb3a40f27d43b92a6739c08b665ef29",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental, Michelin und Co.: Welche günstigen Reifenmarken zu den großen Konzernen gehören - Joyn",
-    "summary": "Continental, Michelin und Co.: Welche günstigen Reifenmarken zu den großen Konzernen gehören &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeU9fN1dNMkZBZFl2WkFIZkRyN0pSSW9IRVZYNG5uWHN5SUk0Y2ZuWUJxMDhRQXdhQXQ0Ym9DakV5WjNWd185czE1Y1FEU2t6OFNXeVNreTZqTjhLSUsxX01QNlI5WXJyU2xlR1BpNWMzeEdsenpTbEtKSlVQZXVyQ3Q0enljYzBnU1oxY3BtVU0yS193ME11YnlPVEg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-26T15:25:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|gehoren|großen|gunstigen|konzernen|michelin",
-    "event_id": "21f81f4b39b7e71d9de5501d8b52baeca0be6b2c",
     "alternate_sources": []
   },
   {
@@ -1269,6 +1224,31 @@
     },
     "event_family": "continental|brabus|highlight|reifenpresse|sicherlich",
     "event_id": "c1087c360dd526d225e179d35e1d087256ceeeca",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Hersteller - Joyn",
+    "summary": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Hersteller &nbsp;&nbsp; Joyn",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0Z6bENCS1cxbXdSdFJoczNtbHh1V1J4T2lVTHBSOXVNTzBMbGlGN0thZ0F4cGJiZzdPQXZ3RDdWakxSR1lDOTdLR0RvbWZQSE1NMkpIVzRJakd3U1pvT2NmeVozWEJYX09HeFNPSm5KMUQ5bEVLWjk3Z0FheXM4dUJLNVRaRHB1VHdFREZkUzFNakVsOXpESEdudw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-27T15:27:18+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bekannte|diesen|gunstigen|hersteller|hinter",
+    "event_id": "65d67c1b9310d373586803f77655f4c866ba1198",
     "alternate_sources": []
   },
   {
@@ -1408,6 +1388,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1643,6 +1624,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
