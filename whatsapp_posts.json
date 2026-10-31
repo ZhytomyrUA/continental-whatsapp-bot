@@ -250,7 +250,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -428,7 +427,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
@@ -447,14 +445,7 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
-        "published_at": "2026-09-15T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
@@ -537,7 +528,6 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -599,7 +589,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -697,7 +686,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -765,10 +753,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Innovation",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -861,6 +847,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-01T10:41:30+00:00",
     "matched_queries": [
+      "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1207,7 +1194,6 @@
     "published_at": "2026-10-27T13:57:48+00:00",
     "matched_queries": [
       "Continental Lkw Reifen",
-      "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1227,13 +1213,15 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Hersteller - Joyn",
-    "summary": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Hersteller &nbsp;&nbsp; Joyn",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0Z6bENCS1cxbXdSdFJoczNtbHh1V1J4T2lVTHBSOXVNTzBMbGlGN0thZ0F4cGJiZzdPQXZ3RDdWakxSR1lDOTdLR0RvbWZQSE1NMkpIVzRJakd3U1pvT2NmeVozWEJYX09HeFNPSm5KMUQ5bEVLWjk3Z0FheXM4dUJLNVRaRHB1VHdFREZkUzFNakVsOXpESEdudw?oc=5",
+    "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Marken - Joyn",
+    "summary": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Marken &nbsp;&nbsp; Joyn",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0FkX1hhYmkyVFhsRXFjMU53dGhrQm4tQ2UzQXpodjFwUFdWNzliTFFSXzFRcF80aW1fc2l5ZFpUdVNYUzY4WjZnaHpYQzZnSktWNGRtR1NXeFNkQ2ZwcUhnaFEtOG80TVlPMHc4RnZaSlhpT2xFNzYyRmpFSVBJcEg2VlAyZHlPRWlKa09QaVJEMGpVRlhWdmVsaw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-27T15:27:18+00:00",
+    "published_at": "2026-10-30T11:10:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion"
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1247,8 +1235,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|bekannte|diesen|gunstigen|hersteller|hinter",
-    "event_id": "65d67c1b9310d373586803f77655f4c866ba1198",
+    "event_family": "continental|bekannte|diesen|gunstigen|hinter|marken",
+    "event_id": "a8dd67ebaf802fd6dc8b957fd9199aea7aff4123",
     "alternate_sources": []
   },
   {
@@ -1302,8 +1290,6 @@
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1388,6 +1374,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-16T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1465,7 +1453,7 @@
     "summary": "12 Ganzjahresreifen im Test: Warum Continental Pirelli und Bridgestone hinter sich lässt &nbsp;&nbsp; Netzwelt",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmVFOFpKZ0p0YWhZM2YwS0t6MjhrVGpuVVJYVWxUNms0ODVobUk4S3BFY1V2Uktrbl92X19vLVJmVU44d1hqYXFqRmZRMnIybjBreWZCVzZhY0NpUlN2cjQ4LW9BazNFRW43UDNzT1pqQUFsQ3ZJUW1TQ0lQSDZ0dmRvOGRJR1RtMGlveUZRT2hCU0JQYUdKOWJOel91djYtSzRIbkVMaw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-22T04:00:00+00:00",
+    "published_at": "2026-10-22T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Test"
     ],
@@ -1492,8 +1480,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-26T11:28:29+00:00",
     "matched_queries": [
-      "Continental Reifen Test",
-      "Continental Lkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1509,32 +1496,6 @@
     },
     "event_family": "continental|ganzjahresreifen|suaragarut|testsieger",
     "event_id": "146e7e5a4409942639a8f6882295b7e8a8cde52e",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - Reifenpresse.de",
-    "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlVMaXNIeFI0WGdxVTc2aWM2N0NyUVpGSjJIaHhhWHFWUlp5cWJXV2oxUGtzcEhHMTNGdnprX1NyTllJUjdMMGZpamhyZGpoNEIybzVPcGNlQXI3SGtLR1lJWlVlOFlsR1NGeHZJeVVuNDd0NEQ4LTJicHRiR3FvT2xWa3pqZjk4U2kzT0QxS3R2VUZhNkhxNzRHX0trcVVrMmhGVWZPOUhSdFBrRjAzb2JlT0c?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-24T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen neue Produktion",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|australien|geschaft|reifenpresse|retail|zieht",
-    "event_id": "348744114712ef26c1877acc26b0d9989a4f6603",
     "alternate_sources": []
   },
   {
@@ -1560,6 +1521,31 @@
     },
     "event_family": "continental|mycar|verkauft",
     "event_id": "5be69712e841283081e2e1bf89ee9d255c858deb",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - Reifenpresse.de",
+    "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlVMaXNIeFI0WGdxVTc2aWM2N0NyUVpGSjJIaHhhWHFWUlp5cWJXV2oxUGtzcEhHMTNGdnprX1NyTllJUjdMMGZpamhyZGpoNEIybzVPcGNlQXI3SGtLR1lJWlVlOFlsR1NGeHZJeVVuNDd0NEQ4LTJicHRiR3FvT2xWa3pqZjk4U2kzT0QxS3R2VUZhNkhxNzRHX0trcVVrMmhGVWZPOUhSdFBrRjAzb2JlT0c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-24T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|australien|geschaft|reifenpresse|retail|zieht",
+    "event_id": "348744114712ef26c1877acc26b0d9989a4f6603",
     "alternate_sources": []
   },
   {
@@ -1624,7 +1610,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1650,7 +1635,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
@@ -1678,7 +1662,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-18T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Stöcken Werk Produktion"
@@ -1867,7 +1850,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk"
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Test"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1883,31 +1867,6 @@
     },
     "event_family": "continental|automobil|bentley|macht|revue|sweet",
     "event_id": "f6ae2554cd2ef234b9bc599b951465a38d27325e",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental MPT91 für Straße und Gelände - Baublatt.at",
-    "summary": "Continental MPT91 für Straße und Gelände &nbsp;&nbsp; Baublatt.at",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Mc3llM1lDYXpXVjcxOEszVjBsU2NGSlRwZW9VMmt5NlJiYVR0ZHY3OUtRd2RZZVZoc1pmNGctRnduQ3pFWjNfQktxbnVfLVVBdjFLSEIyMFlZWGp0OFFna3c2end3bmVFLVA1bm5YcUFmdw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-12T17:21:47+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|baublatt|gelande|mpt91|straße",
-    "event_id": "93eaa93bb59cb0454ac29f41cb74d3060542b75b",
     "alternate_sources": []
   },
   {
@@ -1933,32 +1892,6 @@
     },
     "event_family": "continental|biathlon|infront|lavita|media|premiumsponsor",
     "event_id": "57b7e11b3f7c831a42c8aec6be998c468fa57ca1",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental in Stolzenau: So läuft der Verkauf des Standortes - DIE HARKE",
-    "summary": "Continental in Stolzenau: So läuft der Verkauf des Standortes &nbsp;&nbsp; DIE HARKE",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa19TdkpxRXR1U2dnalRNVkJOVHpFOUxmOFZENVlLWC1ZS2FmNGUwLU5SbXh6NFU5b0paSlozdHlqTE9lLVNKdlFGdUZUbVNkb1FjaFpLazRBRWlWYk1ZLTYyOU1ubHdobTlIYTdfWkhTVy1QY2tpcDItRWE0ZUhNYmxoZHhENUE4d0FSbU5WOEhsV2pQU19ObXlBdVJJSWh1Q1Ezb2FwRXJWX1RZek1pNklVTkg2dnZZTkhDUVZ5V0tSYnVLRW91YzRIaDV5VVFRNGJDazJpUHdVME5WUTZ3OG1ETdIB_wFBVV95cUxPT0hJYWl3VTB5czdZdDdDbkZJMEJHZ04xMTVneEVKYkRoTkxQM3VERzdjUjJUei1jWm10dVFiM1hzdmx2aElYZlNpcy1SR0FHUTVXc1h1U3RCOXlyM3J1ZTJLSURJQWxFTUxTTEVGMlgtQ05Zb1hFRWUtdVo2TGpYZHFYWWZrWV9mUldjS0FvcVJ3VVViVnB5cVdpbGcwTHRtQXRySkNBVy14Zkw0ZlZYTVBNN0k1SG84d0x6am9taG9sZzNTU1piT1FaNWsyY2lScjIzT080djd2NDFNQ01JZExGenpuY0YzZHJXdzN0RGlmTXlkUGhxRWkxOXQ1bEk?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-16T16:03:33+00:00",
-    "matched_queries": [
-      "Continental Mitarbeiter Werk",
-      "Continental Korbach Mitarbeiter"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|harke|lauft|standortes|stolzenau|verkauf",
-    "event_id": "2b5160bdf052df51949b10f27d6456cdbe31bc76",
     "alternate_sources": []
   },
   {
@@ -2047,11 +1980,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-27T09:53:48+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
-      "Continental Korbach Produktion",
-      "Continental Korbach Mitarbeiter"
+      "Continental Korbach Produktion"
     ],
     "score": 150,
     "category": "COMPANY",
