@@ -137,6 +137,7 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
+      "Continental Reifen neue Produktion",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -218,6 +219,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
+      "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
@@ -306,9 +308,9 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -393,14 +395,7 @@
     },
     "event_family": "continental|1000ps|contimotion|sport|touring",
     "event_id": "4abbcf49f660de92d4faa531b51a61b495345671",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen - 1000PS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTWRxUVNXYU5LOUlWMThtdm1GVVFVcmN4YUxGenRfMWhrTjNGN2dUUUxIandvV0ozWlVseUZkX3lFelhiMk9UdDNUa3pVeUF6cTZfdjNWVW5pbmszVjkxa3NIdTVXZWk0Z2MwSnl4Wk91YVgzdS1GT0hfSzRQdTRSMGtnRTFvLUF4Y0FxNXNIeldYajlHS3dwcHVhTU5TSkRWc0HSAaoBQVVfeXFMTWNuZVhoMWI5Z0RnT0Z6WjMwWEtvNkVpc1prOWdtU0kwcTBCZDNiMlhTek01YzFDYlpyZ2tGMGlseU9qU2hRaU5EM21NVzdFUVFMT0JSVnBHUnZScktUU2VyU3JxNGNHc2V1OTJwNzNQVVQ4bXEtWDJmMDRHZ2hHRXdrTWtqNFhtdlJGZUdQdzZYVy1MNEYwV01JVERRSTJYU0Zvci1UUUFSQUE?oc=5",
-        "published_at": "2026-09-10T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental ContiMotion EVO - myNETmoto.com/Motorradreifen",
@@ -409,8 +404,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -429,15 +423,13 @@
     "alternate_sources": []
   },
   {
-    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
-    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
+    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; LECTURA Press",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -451,9 +443,16 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
-    "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": []
+    "event_family": "continental|durch|erweitert|lectura|reifenfamilie|scandinavia",
+    "event_id": "038736c526248ea88942a509cb8035119a2c3bf8",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
+        "published_at": "2026-09-15T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
@@ -468,7 +467,6 @@
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Reifen Test",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen",
       "Continental Nachhaltigkeit",
@@ -597,9 +595,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -669,6 +665,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -1258,6 +1255,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen neue Produktion",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1514,7 +1512,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk"
+      "Continental Reifen neue Produktion"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1539,6 +1537,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1619,6 +1618,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1644,6 +1644,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
@@ -1665,35 +1666,9 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental: Aumovio-Börsengang für 18. September geplant - HAZ",
-    "summary": "Continental: Aumovio-Börsengang für 18. September geplant &nbsp;&nbsp; HAZ",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONHdUVHRvd0RwUE9SZXdDRHJCNTVKeHFjZU1vdUVFaXhIZk9XQ2tYMmhzTWpqcktmVFg3bWdfQ012UVJqMC1ac24yMWpLLVVNLS1DNThRRU9pWU9JeHdLUDktR0xBcXFoaERMbEtXUlNaOUREUVFoRnU4b3RHb0xVbU1PVGpBYmdleVlQek53M1NpS2VZMXNndmhOc1dfVVFVTl9FOHg4U0xBd1k0V3FaM2FXN205bFFrSktabndTV3NiS19sREpj0gHjAUFVX3lxTE90MVVEa1ZUaE5nQWZIYnQyZW95N0kxczJ3eWYtQjZHa2dEMF9pN0l5STd2ejJiUHJZUml2UkQwM3lWUTQ5bUt4dWJUVkNKUUV4S3JTZXUyRFo4Q1Rtb2xyRWYwbjNNdWVOZ1pnQ1JMQ0VKVlpHazRTZ3NDMnMwNnhrSVpBOUxHY3BBWXl6aE85cFlkNy1BWGNDNWEtVVp1aW5nbHpZSTZVSTJ2RDZoQWs2WjFUZnQ4bzQ3VXkzNHJ3ME5tWEt5dzQ0cGNTWjFBdzZodGZael9UV3RUN0dNRFptOEh3?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-18T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Mitarbeiter Werk"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aumovio|borsengang|geplant|september",
-    "event_id": "5686d8ed1421d5e0353d9dc92b48ac590e664e21",
-    "alternate_sources": []
-  },
-  {
-    "title": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden - AUTO&Wirtschaft",
-    "summary": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden &nbsp;&nbsp; AUTO&amp;Wirtschaft",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm4za0pVUmVXOUl4anBBWHBjOGE3cTVKS3dXVW1pZDh5SElBeF9GaVpwN1p3Y25HV290TklGSkIxci1yRkIxak5naE1fbXhnMTZPUHpGdWJnRmU0MHFpQzJmZmJudmJCY1pROS0tWUZQT2RITVYxVW5JZmdPcWJNdXJPS2IzNl9xM2hlanJjcklaa3AzdHFtMTNTQURaTUs3WU1vdFgwdVdUUmZSQmgtaVVVcVF0dw?oc=5",
+    "title": "Neu Bentley Continental GT Supersports - autorevue.at",
+    "summary": "Neu Bentley Continental GT Supersports &nbsp;&nbsp; autorevue.at",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XQ255akszSUp1U2hNQldPckQ5MkY0VGZnbWJTNkNSMU1OVGFXaENndnBJZzI3TzZzZ1dqeWdGZFBWQ05hNUlxYkxzTlRmUlpaVkROUU5RSi1hbXhTdm44U3MteGlSbnFqcEZWdk1xYmdvOWszeGJ1OA?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
@@ -1711,8 +1686,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|brabus|lasst|performance|roadtrip|technik",
-    "event_id": "c5fa0c8a850cb23914383c03567452af048a6a0f",
+    "event_family": "continental|autorevue|bentley|supersports",
+    "event_id": "9523f04b5c5aa3a0233d875d90cc2f97d3ac051b",
     "alternate_sources": []
   },
   {
@@ -1858,8 +1833,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk",
-      "Continental Reifen Test"
+      "Continental Mitarbeiter Werk"
     ],
     "score": 150,
     "category": "COMPANY",
