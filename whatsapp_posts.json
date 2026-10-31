@@ -137,7 +137,6 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen neue Produktion",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -308,7 +307,8 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit"
+      "Continental Reifen Neuheit",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -393,7 +393,14 @@
     },
     "event_family": "continental|1000ps|contimotion|sport|touring",
     "event_id": "4abbcf49f660de92d4faa531b51a61b495345671",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental ContiMotion EVO: Neuer Sport-Touring-Reifen - 1000PS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTWRxUVNXYU5LOUlWMThtdm1GVVFVcmN4YUxGenRfMWhrTjNGN2dUUUxIandvV0ozWlVseUZkX3lFelhiMk9UdDNUa3pVeUF6cTZfdjNWVW5pbmszVjkxa3NIdTVXZWk0Z2MwSnl4Wk91YVgzdS1GT0hfSzRQdTRSMGtnRTFvLUF4Y0FxNXNIeldYajlHS3dwcHVhTU5TSkRWc0HSAaoBQVVfeXFMTWNuZVhoMWI5Z0RnT0Z6WjMwWEtvNkVpc1prOWdtU0kwcTBCZDNiMlhTek01YzFDYlpyZ2tGMGlseU9qU2hRaU5EM21NVzdFUVFMT0JSVnBHUnZScktUU2VyU3JxNGNHc2V1OTJwNzNQVVQ4bXEtWDJmMDRHZ2hHRXdrTWtqNFhtdlJGZUdQdzZYVy1MNEYwV01JVERRSTJYU0Zvci1UUUFSQUE?oc=5",
+        "published_at": "2026-09-10T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental ContiMotion EVO - myNETmoto.com/Motorradreifen",
@@ -402,7 +409,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -460,6 +468,7 @@
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
+      "Continental Reifen Test",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen",
       "Continental Nachhaltigkeit",
@@ -496,7 +505,6 @@
       "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
       "Continental Korbach Produktion",
@@ -1051,7 +1059,7 @@
     "summary": "Reifenhersteller Continental wird Biathlon-Premiumpartner &nbsp;&nbsp; markenartikel-magazin.de",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTNmS2toZENVRkp6WElkdWxkcm9UMXM4MnhabW43SENzLU9FWWhBUmgxVHN6cGRaV0R3eDM1X3FaT09TVW50eVl5UnVwM3hZaFFfSmxGekg0dVI2a0xTN05NSkROanpmcjh6eF9RSHJiR0d0MzZGWjdtS3h5bVFfR3djUURRXzBRVUpOdVhFRTVSQQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-16T07:00:00+00:00",
+    "published_at": "2026-10-16T08:13:28+00:00",
     "matched_queries": [
       "Continental Hannover Reifenwerk Produktion",
       "Continental Deutschland Reifenwerk Mitarbeiter"
@@ -1107,6 +1115,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
+      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
@@ -1155,9 +1164,9 @@
   {
     "title": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 - 1000PS",
     "summary": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 &nbsp;&nbsp; 1000PS",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWFdqTkZpRGRfVVBGb1BJTjByMzU5WnpTcXMyR1ZtRGMxb0hJaU1kZi1XcEdzMTNBZ2dYQnlUcDZaTXN3OWlkQk9NdjRXX0RjTUJYMEpTN2tteWc3bzNMc002NWI0Sk41YV9CNHVsN0xLNWU2MWpYWVJNTzdvamEzZkdWWUdsZW9NY2tOaUFYWGRzalNJMzNYY3A1cE94dUNPc0dVRWprZUhnU0djdmfSAa4BQVVfeXFMTVhXak5GaURkX1VQRm9QSU4wcjM1OVp6U3FzMkdWbURjMW9ISWlNZGYtV3BHczEzQWdnWEJ5VHA2Wk1zdzlpZEJPTXY0V19EY01CWDBKUzdrbXlnN28zTHNNNjViNEpONWFfQjR1bDdMSzVlNjFqWFlSTU83b2phM2ZHVllHbGVvTWNrTmlBWFhkc2pTSTMzWGNwNXBPeHVDT3NHVUVqa2VIZ1NHY3Zn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFWdU90dlFqWEtJNGtoRVRUaGtyaG83Z0RZNTVjTkhsdGtWbkRuejE4czVEUVUwX3VHUGpCVU5YbzhyV3dITWhvQzBtbTZTb1NvYUd0UWt4anZZMTdmQkptRmZscnZ4eWdLQ1VvRGRCMENfd01kZDJkSUg1MjlRbXlYSFJOdHJ6T0xVUlRSZXIzY0NkQjRfQmpCWTl0MzBDRmF1cXp30gGuAUFVX3lxTE9YWFlUSUR2Ny10dk1ieTEyZ2R4aWNoNk9qUUJ4YVl0NEF3REh3M2dnV3E1OGcxWHpYVDZyWTJtSTdnR3g3UVlVcjZ5blNtelVHU2Fjc1QtLTRCZ3VJN2dXcHgxUHFIMTVFS3hoSnRmTnpCUmtyNG96bWN6WjZLeGpZVUxrcmkxVngwOG5HSnhlVWVUaXJlZ0hoOTBLeGl3bDFyRlowdk5OZnl1X3lSUQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-27T09:30:22+00:00",
+    "published_at": "2026-10-27T09:52:29+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
@@ -1427,7 +1436,7 @@
     "summary": "15 Winterreifen im Test: Warum Pirelli Michelin, Goodyear und Continental hinter sich lässt &nbsp;&nbsp; Netzwelt",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWTRwdFNkN09hWXYzTWJVY3V0UWoyQWNGSVlQYl9aa25QWXZlaHBqeW96QnFsMUZqN1RKQmlpSGktajdyM3JWZU5xRmhjU2FfczFNd0t3UU1DYXltcExzYnhYaURJWDV5bGY2YjBCSVJkNC1ET21QLWtwRUpIRW9ET2VxRmZhZTA4Z01aY2FwdlJ2Z2VqdzhGcy1GNmxURlc1VktYbWpQbDF5UQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-21T03:15:00+00:00",
+    "published_at": "2026-10-21T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Test",
       "Continental Nachhaltigkeit"
@@ -1505,7 +1514,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen neue Produktion"
+      "Continental Mitarbeiter Werk"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1662,9 +1671,8 @@
     "source": "news.google.com",
     "published_at": "2026-09-18T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Werk Schließung",
-      "Continental Mitarbeiter Werk",
-      "Continental Stöcken Werk Produktion"
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Mitarbeiter Werk"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1683,13 +1691,13 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental Grand Prix ab sofort in 32 mm! - Velomotion",
-    "summary": "Continental Grand Prix ab sofort in 32 mm! &nbsp;&nbsp; Velomotion",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UlJOd1BSZXNtcnhSeF9XSkdlSWxuTlpkdHVJWTFscF9nOGtxYnZqOUZrcEM4SktKZURmczFfQnFsclZESzRjaGdsRFdtTDJ0d0pVZlpwR2c5N2F1Unh1eHVDVkVUdHdkYzRJ?oc=5",
+    "title": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden - AUTO&Wirtschaft",
+    "summary": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden &nbsp;&nbsp; AUTO&amp;Wirtschaft",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm4za0pVUmVXOUl4anBBWHBjOGE3cTVKS3dXVW1pZDh5SElBeF9GaVpwN1p3Y25HV290TklGSkIxci1yRkIxak5naE1fbXhnMTZPUHpGdWJnRmU0MHFpQzJmZmJudmJCY1pROS0tWUZQT2RITVYxVW5JZmdPcWJNdXJPS2IzNl9xM2hlanJjcklaa3AzdHFtMTNTQURaTUs3WU1vdFgwdVdUUmZSQmgtaVVVcVF0dw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-18T07:00:00+00:00",
+    "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Mitarbeiter Werk"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1703,8 +1711,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|grand|sofort|velomotion",
-    "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
+    "event_family": "continental|brabus|lasst|performance|roadtrip|technik",
+    "event_id": "c5fa0c8a850cb23914383c03567452af048a6a0f",
     "alternate_sources": []
   },
   {
@@ -1971,31 +1979,6 @@
     },
     "event_family": "continental|contitrailattack|entdeckergeist|gelande|straße",
     "event_id": "0e01f2a1c641797faa7374e4987f56b684ba6830",
-    "alternate_sources": []
-  },
-  {
-    "title": "Der neue Continental ContiTrailAttack 4 - myNETmoto",
-    "summary": "Der neue Continental ContiTrailAttack 4 &nbsp;&nbsp; myNETmoto",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZkVhYWhVQ3dkMkhnN3Y2R3FhVWdMRWEtN196TTdJZDhIaG1uMHFIeFAwNFQ0RVhReXVhRmdqcVpkbHVKanJGN3ZwbUJfeFJfM1hPQm9Jbi1ac3JNVVU0QnpPcWs3a0t0elJaUXpiN1cydm56Y2ZhYS0xbk8zMTNyVDd5dWNhWF95NEc0VGR1Z3RfZ9IBkgFBVV95cUxQZkVhYWhVQ3dkMkhnN3Y2R3FhVWdMRWEtN196TTdJZDhIaG1uMHFIeFAwNFQ0RVhReXVhRmdqcVpkbHVKanJGN3ZwbUJfeFJfM1hPQm9Jbi1ac3JNVVU0QnpPcWs3a0t0elJaUXpiN1cydm56Y2ZhYS0xbk8zMTNyVDd5dWNhWF95NEc0VGR1Z3RfZw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-27T09:53:48+00:00",
-    "matched_queries": [
-      "Continental Korbach Produktion"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|contitrailattack|mynetmoto",
-    "event_id": "b652b6801e39339736e434f3214a03b7f3a996ad",
     "alternate_sources": []
   }
 ]
