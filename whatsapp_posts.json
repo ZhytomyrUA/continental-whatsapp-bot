@@ -61,47 +61,6 @@
     ]
   },
   {
-    "title": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen - OP Online",
-    "summary": "Continental verlagert Industriereifen-Produktion in Region Asien-Pazifik – 140 Mitarbeiter betroffen &nbsp;&nbsp; OP Online",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSjhhMUNCV0pwQ2ZQUWVkbmlHbVdrdHJIdi1GcF9zN0Z3ZmF1VF81WFFaQnJtZE5EVDYtQWpUVl9TaXptQUhxRElSZGhTVmJaWFRHOENVQl9YXzlveHV1Yl9yQTZSMi1uS2lUWGF1RnM4NUN6MTNjRFhLdWlTSE5TNjRIYk5GcnFRel9nYXZhR2F2ZFNaZGJDNTdSTUljTUpZSV9PVU9FQk42UjU2bXQzajFKalBicFhfZUNlNFRQX2RKSDBUazk1dk1PZnIxTVVWTkprWkFpOWR3Wnhz?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-03T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
-      "Continental Korbach Reifenwerk",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Reifen Werk Schließung",
-      "Continental Reifen Werk Verlagerung",
-      "Continental Reifen neue Produktion",
-      "Continental Mitarbeiter Werk",
-      "Continental Pkw Reifen",
-      "Continental Korbach Werk Produktion",
-      "Continental Korbach Reifenwerk Windpark",
-      "Continental Korbach Produktion",
-      "Continental Korbach Mitarbeiter",
-      "Continental Korbach Standort",
-      "Continental Deutschland Reifenwerk Mitarbeiter",
-      "Continental Deutschland Werk Verlagerung"
-    ],
-    "score": 1700,
-    "category": "FACTORY_PRODUCTION",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": true,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|produktion|asien|betroffen|industriereifen|mitarbeiter|online",
-    "event_id": "89a0a7e1d690ce1aadf8eb9b8ce48d44c92d17c5",
-    "alternate_sources": []
-  },
-  {
     "title": "Continentals Reifenwerk Hefei: Ein neuer Maßstab für intelligente Fertigung und grüne Entwicklung in der chinesisch-deutschen Zusammenarbeit - 国际在线",
     "summary": "Continentals Reifenwerk Hefei: Ein neuer Maßstab für intelligente Fertigung und grüne Entwicklung in der chinesisch-deutschen Zusammenarbeit &nbsp;&nbsp; 国际在线",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ldDAyMFBETk5vdTJUMU90SGdDaTdPeWZWSUctZmhnM0VQQlRfcEJoRVFBUm5Wa0ctNUpaYkYxZFJENWRZeDdtVks1cnUxaFZVdEptOElkaHRINDQ2akc2TWVFZw?oc=5",
@@ -171,32 +130,6 @@
         "published_at": "2026-09-25T07:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "Daniel Abt ist jetzt Performance-Botschafter von Continental - Reifenpresse.de",
-    "summary": "Daniel Abt ist jetzt Performance-Botschafter von Continental &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3dwR1pBcF96WFNSWlFkY21fb1JGdjF0SUg2VGc2WGZZMG43OGF2eFRFVV9JdXA4UGF1YlpkRGFYMnRpc3dsd3RSRUVNZjd3UVJGa3lpbC16RWtyYzVyUUNOUnpWeThnazB3YkU3VjBlblY1QjB6UFpBS2dSdUZOc2JaLXpGMUR3VW9BUWg0UEdaNnFHdUFqYW5RTkQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-03T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Pkw Reifen",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|botschafter|daniel|performance|reifenpresse",
-    "event_id": "3b37f37a24990b1d4442c10d4ae454c99d67bcb6",
-    "alternate_sources": []
   },
   {
     "title": "Für jede Jahreszeit gerüstet: Der neue Audi Q3 rollt ab Werk auf Continental-Reifen - Continental AG",
@@ -524,6 +457,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Nachhaltigkeit",
@@ -556,7 +490,6 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -680,6 +613,34 @@
     },
     "event_family": "continental|machen|nutzfahrzeuge|straßenverkehr|unterschied|veroffentlicht",
     "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Reifen Innovation",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
+    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
     "alternate_sources": []
   },
   {
@@ -1084,7 +1045,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
-      "Continental Reifen Test",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
@@ -1293,7 +1253,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1351,8 +1310,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-14T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test",
-      "Continental Lkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1379,7 +1337,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1714,6 +1671,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental Grand Prix ab sofort in 32 mm! - Velomotion",
+    "summary": "Continental Grand Prix ab sofort in 32 mm! &nbsp;&nbsp; Velomotion",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UlJOd1BSZXNtcnhSeF9XSkdlSWxuTlpkdHVJWTFscF9nOGtxYnZqOUZrcEM4SktKZURmczFfQnFsclZESzRjaGdsRFdtTDJ0d0pVZlpwR2c5N2F1Unh1eHVDVkVUdHdkYzRJ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-18T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|grand|sofort|velomotion",
+    "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
+    "alternate_sources": []
+  },
+  {
     "title": "Neu Bentley Continental GT Supersports - autorevue.at",
     "summary": "Neu Bentley Continental GT Supersports &nbsp;&nbsp; autorevue.at",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XQ255akszSUp1U2hNQldPckQ5MkY0VGZnbWJTNkNSMU1OVGFXaENndnBJZzI3TzZzZ1dqeWdGZFBWQ05hNUlxYkxzTlRmUlpaVkROUU5RSi1hbXhTdm44U3MteGlSbnFqcEZWdk1xYmdvOWszeGJ1OA?oc=5",
@@ -1855,8 +1837,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Mitarbeiter Werk"
+      "Continental Reifen Fabrik Deutschland"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1872,7 +1853,14 @@
     },
     "event_family": "continental|aumovio|brain|cloud|fabrik|german",
     "event_id": "6a374d81782554a34b7bb610ea162d90d7269c4f",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Vom Continental-Werk zur KI-Fabrik: German Edge Cloud entwickelt mit AUMOVIO das „Overall Factory Brain“ - PresseBox",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZHlOeUlYckVVNDk2RnNYR2lOcENVRl9fQ0hFenBtSjNkdFVaZDRpOVdDTzFybHZZQ0FxMENfMWtWaU9FZkpNdU9FNXlLOVdOaUIyV21VOXJMU2xLQVB4N1poVXBtdm9EWFQxUkVSX1RiR1FtQkY5dFVEVGctbWVETXNCVHBzOGI0ckxXdjhyX1hrWF9iNzE3V0ZXeXNvLUNMbEdfUzRTS2NkSU5PdjlsbnNKeXBkMUI4V0l5VFM0WkU3VHlDaWpHVFlQbWlEX0UxcE94MFlKbnhjN0F0VENBOXpFTy0wcEJhV1VFNG5mbUsxN2hjSm0zZkdwYWs1ZWh5WnltZHJ0VFJVbWdFWkh4bEJoeFA?oc=5",
+        "published_at": "2026-10-12T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot - Automobil Revue",
@@ -1881,7 +1869,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-12T07:00:00+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk"
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Test"
     ],
     "score": 150,
     "category": "COMPANY",
