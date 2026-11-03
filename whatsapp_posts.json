@@ -143,6 +143,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
@@ -319,15 +320,14 @@
     "alternate_sources": []
   },
   {
-    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
-    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
+    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; LECTURA Press",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
+      "Continental Reifen Technologie",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -341,9 +341,16 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
-    "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": []
+    "event_family": "continental|durch|erweitert|lectura|reifenfamilie|scandinavia",
+    "event_id": "038736c526248ea88942a509cb8035119a2c3bf8",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
+        "published_at": "2026-09-15T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental WinterContact TS 870 P - Winterreifen für PKW und SUV mit 71 dB Rollgeräusch - ad-hoc-news.de",
@@ -507,6 +514,34 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - Continental AG",
+    "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakthUXZtVWRyQVFhbU5yMVJGN1pMa0pDNGM3X2FscXlFbXhZd1pkYkM3MmNZNFZNYWw1QzR0aFBXcEVwRFNRTjF4Rkt4Y01iNFNQWkZJdEJTV2JHS0FxRE45Sk8tQU1yMzRxVjZHSVFpS0otT1FMcTNUUC0wRV92UU1YM0xSVVBF?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-24T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Neuheit",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
+      "Continental Nachhaltigkeit"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "ecogeneration5|trailerreifen|continental",
+    "event_id": "8d174464d85577cdc2a1532649c8159caaef5281",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung - TRANSPORT - die Zeitung für den Güterverkehr",
     "summary": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVkxWcmJNMnhVOVpFMTNlSzl4dXZDRFIyVWhoRlVqdTV6X2tCektQcHVNTlpSUDlValhHbFJCaE10NmM5WEotdFFLRWN5cHNrMzc5dmtVNlA2ZDNGbUNwWlBPdEVScUtkTHU4V2ExdnhDVGFkZWdOYXo0X2MyelVncDQwRVNvaFVnM0tnN1gxbVFJbzdFZTExZUNDRUFIV2lSUzhMM0RSaVVjN1JoMWkyQ04zOEN5NThTRUpfdjR3?oc=5",
@@ -651,14 +686,13 @@
     ]
   },
   {
-    "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
-    "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; WELT",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
+    "title": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - 24auto.de",
+    "summary": "„Jeder Reifen ist ein Kompromiss“ – Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; 24auto.de",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTnFKcGZXVmwwNUN5aDFmdnJuclRKVUwtX1E2OU5xS0lRenVGajZsMXdkX25nZEtpYlZvTU1ndHM5VjdFLVpJOVFJQjUtbGpxeTZRdnlhTzFxOHRvMS1vdXJ6WGtmVVhqSWtmVGE2dnN6SjY3Y0ZKSlJDWjRqS3N4WENiY18xNUFfcDlqY2E4S1dLQnIyb1ZoZE1lZmdybklFRUdQbmM4dzJveGlFQ0J5Z3NmOFV3VDZVelhfVlEzQ0p5Z3JEUEROMUx4WnQtMV9GOExMUjMwWFA0Y1ZBbVhUa0c3VVhjLUdEa2kxTGRuaEFnQQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Innovation",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
@@ -674,48 +708,14 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|edwin|entwicklung|forschung|gesprach|goudswaard",
-    "event_id": "82cf43092080f5d939c45e987d774e8d89806003",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
-    "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; LECTURA Press",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlFPVlVKQXpaa2lwRnJha3F4NnNHRUFkMWJpa2FNbUpmM3I5UjFZQXRnWWdteExWcXUwWmxDc3FyS2M1OXFsZWxCdXpfS09kMHA5Q0JSYVBBcnRMdWhHNlVyS3NoOTJ4VnVCZTVJNm9JMkp1cXdpZ3NGMGFFQXFiZG5WdERJXzlEOHhUSFVTNWRpZVJ6NUljZTZZc2tFVXpvVUtZRl9yQ3lKY3A4d05ya0xlZUozZUZvVmJIYklqQ01KekIyWExn?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-01T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "ecogeneration5|trailerreifen|continental",
-    "event_id": "8d174464d85577cdc2a1532649c8159caaef5281",
+    "event_family": "continental|24auto|edwin|entwicklung|forschung|gesprach",
+    "event_id": "7e197453c4d55ee1e49a54f64f18ab9a9914148f",
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - LECTURA Press",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlFPVlVKQXpaa2lwRnJha3F4NnNHRUFkMWJpa2FNbUpmM3I5UjFZQXRnWWdteExWcXUwWmxDc3FyS2M1OXFsZWxCdXpfS09kMHA5Q0JSYVBBcnRMdWhHNlVyS3NoOTJ4VnVCZTVJNm9JMkp1cXdpZ3NGMGFFQXFiZG5WdERJXzlEOHhUSFVTNWRpZVJ6NUljZTZZc2tFVXpvVUtZRl9yQ3lKY3A4d05ya0xlZUozZUZvVmJIYklqQ01KekIyWExn?oc=5",
-        "published_at": "2026-10-01T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakthUXZtVWRyQVFhbU5yMVJGN1pMa0pDNGM3X2FscXlFbXhZd1pkYkM3MmNZNFZNYWw1QzR0aFBXcEVwRFNRTjF4Rkt4Y01iNFNQWkZJdEJTV2JHS0FxRE45Sk8tQU1yMzRxVjZHSVFpS0otT1FMcTNUUC0wRV92UU1YM0xSVVBF?oc=5",
-        "published_at": "2026-09-24T07:00:00+00:00"
+        "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
+        "published_at": "2026-09-30T07:00:00+00:00"
       }
     ]
   },
@@ -793,31 +793,6 @@
     },
     "event_family": "continental|autohaus|reifenentwicklung",
     "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
-    "alternate_sources": []
-  },
-  {
-    "title": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet - Investing.com Deutsch",
-    "summary": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet &nbsp;&nbsp; Investing.com Deutsch",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOUd5Mko1aU4yS1VTWjQ5Z0ZSZWVfNWQ2S1Frd0pYUkVmeURMWXNhNWdDUmhsNmFJWEF4Y0pjNlBtMUE4TnMteW15NElFV3J0bTQ5T0pkbHZ6d25peGQtaG1KN2w1ai1mcFlpUHE2WlZ6ZG5zamlBd0dCYWlkRExzT0FLSUJ5Unh1VnB4SUhqbXdVS3kwb1dONWEzakRCbk9oM1BqX0JkZnF6VVNrMUt4TXk3b0tUTy1iRWxZcWtEdzkzdnVkeDBzczlOOGU1dTVxbDAtUWc3ZUItQ00wQXdYaVZDeXM2WGs?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-05T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aktionarsrenditen|deutsch|erwartet|investing|morgan",
-    "event_id": "677d217741368326515b9a5129ca511ca138e76a",
     "alternate_sources": []
   },
   {
@@ -1489,7 +1464,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen neue Produktion",
-      "Continental Mitarbeiter Werk",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -1561,31 +1535,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Finanzierungen: Continental, Deutsche Börse, Traton - Finance Magazin",
-    "summary": "Finanzierungen: Continental, Deutsche Börse, Traton &nbsp;&nbsp; Finance Magazin",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnlYdlZXS1VsT01Fb2RZTUxHUE10VDU5MGxRcEVpbEZ4SnZZb29Qekx6NVh1Wk16cHpyakcyMGlKQVdjZ1NyQjg0bzBzSXZjZjdmajBSQXBYQ2xKWDNGMk1Cb09QWkpYc0dKRENWUlBSeTZzczFmM2Z4QVVYOWM2X2phd3pjOE1NeVR4MjladWRZdlJfWk5qaklHd2Y1OVJBTC0tZ01WOWtSRi1RdXM4ZWt5Vm5la090dU1zUUYtaTJJb1VKdHg0?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-07T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|borse|deutsche|finance|finanzierungen|magazin",
-    "event_id": "552680edae4021de93354c5bbfdbb010ef9b5906",
-    "alternate_sources": []
-  },
-  {
     "title": "Der neue Continental ContiMotion EVO - Tourenfahrer",
     "summary": "Der neue Continental ContiMotion EVO &nbsp;&nbsp; Tourenfahrer",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkpDN2VvNHJ2dVRKR0dSVG4wd2RadWZIRVJNMVNrYUVqVDhkdmtKeU5fSklIRHZfWjJGbGFzUEM3dklRSEljQVQyWmlBODd1Um1jakN2anMwcHlEMWlwMFNyMloxTGxyQkp4N2M4cTJtNzNrSUI5WkpYVHN2RmFvRjV5Qk1samMxbzVSclRn?oc=5",
@@ -1621,6 +1570,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1664,6 +1614,31 @@
     },
     "event_family": "continental|erweitert|gummibereifung|portfolio|scandinavia",
     "event_id": "ea9e5554244b9e4a828466148d05ec6de8e62593",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental Grand Prix ab sofort in 32 mm! - Velomotion",
+    "summary": "Continental Grand Prix ab sofort in 32 mm! &nbsp;&nbsp; Velomotion",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UlJOd1BSZXNtcnhSeF9XSkdlSWxuTlpkdHVJWTFscF9nOGtxYnZqOUZrcEM4SktKZURmczFfQnFsclZESzRjaGdsRFdtTDJ0d0pVZlpwR2c5N2F1Unh1eHVDVkVUdHdkYzRJ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-18T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|grand|sofort|velomotion",
+    "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
     "alternate_sources": []
   },
   {
