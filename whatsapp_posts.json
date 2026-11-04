@@ -143,7 +143,6 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
@@ -161,35 +160,6 @@
     },
     "event_family": "continental|gerustet|jahreszeit|rollt",
     "event_id": "e32a303361420dcaeae0410b9b103e1c41e865c8",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus - Reifenpresse.de",
-    "summary": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGtFbEVmZkFyUW41LWhib3hJOVEtN2RsRzdLMENxM0gzSzFvMzBLUmt2N1BwVV9BeXIzSWluRDZTSjFyQ1dzblpNeGJjR2xYZEh4THBlY0xNaFVmZG5EZHBKZkJkSUtnelRidUtuZ0t3S0VxNjV4THRJUEFOV2M4ZThHcUR0MThOeWt6cDdhaXdlNmpFamdPbkYtRUxsSExoTS1kMlhrTQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-08T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Mitarbeiter Werk",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": true,
-      "action": false,
-      "nearby": false,
-      "title_factory": true,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|kompakt|reifenpresse|rustet",
-    "event_id": "e923dc2e29654a063fbdb4d33ccd5a8de429469f",
     "alternate_sources": []
   },
   {
@@ -222,6 +192,35 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus - Reifenpresse.de",
+    "summary": "Continental rüstet neuen Kompakt-SUV Audi Q3 ab Werk mit Reifen aus &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGtFbEVmZkFyUW41LWhib3hJOVEtN2RsRzdLMENxM0gzSzFvMzBLUmt2N1BwVV9BeXIzSWluRDZTSjFyQ1dzblpNeGJjR2xYZEh4THBlY0xNaFVmZG5EZHBKZkJkSUtnelRidUtuZ0t3S0VxNjV4THRJUEFOV2M4ZThHcUR0MThOeWt6cDdhaXdlNmpFamdPbkYtRUxsSExoTS1kMlhrTQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-08T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|kompakt|reifenpresse|rustet",
+    "event_id": "e923dc2e29654a063fbdb4d33ccd5a8de429469f",
+    "alternate_sources": []
+  },
+  {
     "title": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor - Continental AG",
     "summary": "ContiMotion EVO: Continental stellt neuen Sport-Touring-Reifen als Nachfolger des ContiMotion vor &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTi05ZVE1bTczbFhxRUdHMzlWaXEzYy16SU5USUlMOVFuMVBYZThQTmliQklLQ21CYnluX2VZeFVhLTdwTWltbDRsVlc3cHdqT0QxdWttc2ZPaXhNNWtNdGUySVNKWUpIUWJmSzV0eWFJQXc1UnlHMlQ1ZVFMdTBQU1lhY0tBN3Bfcnc?oc=5",
@@ -231,7 +230,8 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit"
+      "Continental Reifen Neuheit",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -320,14 +320,14 @@
     "alternate_sources": []
   },
   {
-    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
-    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; LECTURA Press",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
+    "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
+    "summary": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Lkw Reifen"
+      "Continental Nutzfahrzeugreifen",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -341,13 +341,13 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|durch|erweitert|lectura|reifenfamilie|scandinavia",
-    "event_id": "038736c526248ea88942a509cb8035119a2c3bf8",
+    "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
+    "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
     "alternate_sources": [
       {
         "source": "news.google.com",
-        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS2xCZUZlN2Q1TWxHTDcyTkY3VHRPMXpuZ0cwUVJaYUkxRW1WdWVZVGRRMkVEcHg2VDhXb1QwenpqOW9xVndDWHlpTEZuQ0lTNFRxanYzNEZmN3hqbVZmcWlhTmdGV1UtSVk5STBjclRvaDJycXYyTUlpYlo5dw?oc=5",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
         "published_at": "2026-09-15T07:00:00+00:00"
       }
     ]
@@ -390,6 +390,7 @@
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
+      "Continental Reifen Test",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen",
       "Continental Nachhaltigkeit",
@@ -427,6 +428,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Test",
       "Continental Reifen Innovation",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
@@ -460,7 +462,6 @@
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
     ],
@@ -549,7 +550,6 @@
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -622,7 +622,6 @@
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -693,7 +692,6 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -793,6 +791,31 @@
     },
     "event_family": "continental|autohaus|reifenentwicklung",
     "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
+    "alternate_sources": []
+  },
+  {
+    "title": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet - Investing.com Deutsch",
+    "summary": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet &nbsp;&nbsp; Investing.com Deutsch",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOUd5Mko1aU4yS1VTWjQ5Z0ZSZWVfNWQ2S1Frd0pYUkVmeURMWXNhNWdDUmhsNmFJWEF4Y0pjNlBtMUE4TnMteW15NElFV3J0bTQ5T0pkbHZ6d25peGQtaG1KN2w1ai1mcFlpUHE2WlZ6ZG5zamlBd0dCYWlkRExzT0FLSUJ5Unh1VnB4SUhqbXdVS3kwb1dONWEzakRCbk9oM1BqX0JkZnF6VVNrMUt4TXk3b0tUTy1iRWxZcWtEdzkzdnVkeDBzczlOOGU1dTVxbDAtUWc3ZUItQ00wQXdYaVZDeXM2WGs?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-05T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|aktionarsrenditen|deutsch|erwartet|investing|morgan",
+    "event_id": "677d217741368326515b9a5129ca511ca138e76a",
     "alternate_sources": []
   },
   {
@@ -1072,7 +1095,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-27T13:57:48+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -1099,8 +1121,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-30T11:10:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Test"
+      "Continental Werk Deutschland Reifen Produktion"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1115,8 +1136,21 @@
       "generic_product": false
     },
     "event_family": "continental|bekannte|diesen|gunstigen|hinter|marken",
-    "event_id": "a8dd67ebaf802fd6dc8b957fd9199aea7aff4123",
-    "alternate_sources": []
+    "event_id": "65d67c1b9310d373586803f77655f4c866ba1198",
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Marken - Joyn",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0FkX1hhYmkyVFhsRXFjMU53dGhrQm4tQ2UzQXpodjFwUFdWNzliTFFSXzFRcF80aW1fc2l5ZFpUdVNYUzY4WjZnaHpYQzZnSktWNGRtR1NXeFNkQ2ZwcUhnaFEtOG80TVlPMHc4RnZaSlhpT2xFNzYyRmpFSVBJcEg2VlAyZHlPRWlKa09QaVJEMGpVRlhWdmVsaw?oc=5",
+        "published_at": "2026-10-30T11:10:00+00:00"
+      },
+      {
+        "source": "news.google.com",
+        "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Hersteller - Joyn",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0Z6bENCS1cxbXdSdFJoczNtbHh1V1J4T2lVTHBSOXVNTzBMbGlGN0thZ0F4cGJiZzdPQXZ3RDdWakxSR1lDOTdLR0RvbWZQSE1NMkpIVzRJakd3U1pvT2NmeVozWEJYX09HeFNPSm5KMUQ5bEVLWjk3Z0FheXM4dUJLNVRaRHB1VHdFREZkUzFNakVsOXpESEdudw?oc=5",
+        "published_at": "2026-10-27T15:27:18+00:00"
+      }
+    ]
   },
   {
     "title": "Continental ContiTrailAttack 4: Neuer Adventure-Reifen für Straße und Schotter - Tuningblog",
@@ -1222,7 +1256,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1308,7 +1341,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Neuheit",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1464,6 +1497,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -1535,6 +1569,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Finanzierungen: Continental, Deutsche Börse, Traton - Finance Magazin",
+    "summary": "Finanzierungen: Continental, Deutsche Börse, Traton &nbsp;&nbsp; Finance Magazin",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnlYdlZXS1VsT01Fb2RZTUxHUE10VDU5MGxRcEVpbEZ4SnZZb29Qekx6NVh1Wk16cHpyakcyMGlKQVdjZ1NyQjg0bzBzSXZjZjdmajBSQXBYQ2xKWDNGMk1Cb09QWkpYc0dKRENWUlBSeTZzczFmM2Z4QVVYOWM2X2phd3pjOE1NeVR4MjladWRZdlJfWk5qaklHd2Y1OVJBTC0tZ01WOWtSRi1RdXM4ZWt5Vm5la090dU1zUUYtaTJJb1VKdHg0?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-07T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|borse|deutsche|finance|finanzierungen|magazin",
+    "event_id": "552680edae4021de93354c5bbfdbb010ef9b5906",
+    "alternate_sources": []
+  },
+  {
     "title": "Der neue Continental ContiMotion EVO - Tourenfahrer",
     "summary": "Der neue Continental ContiMotion EVO &nbsp;&nbsp; Tourenfahrer",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkpDN2VvNHJ2dVRKR0dSVG4wd2RadWZIRVJNMVNrYUVqVDhkdmtKeU5fSklIRHZfWjJGbGFzUEM3dklRSEljQVQyWmlBODd1Um1jakN2anMwcHlEMWlwMFNyMloxTGxyQkp4N2M4cTJtNzNrSUI5WkpYVHN2RmFvRjV5Qk1samMxbzVSclRn?oc=5",
@@ -1570,7 +1629,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1614,31 +1672,6 @@
     },
     "event_family": "continental|erweitert|gummibereifung|portfolio|scandinavia",
     "event_id": "ea9e5554244b9e4a828466148d05ec6de8e62593",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental Grand Prix ab sofort in 32 mm! - Velomotion",
-    "summary": "Continental Grand Prix ab sofort in 32 mm! &nbsp;&nbsp; Velomotion",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UlJOd1BSZXNtcnhSeF9XSkdlSWxuTlpkdHVJWTFscF9nOGtxYnZqOUZrcEM4SktKZURmczFfQnFsclZESzRjaGdsRFdtTDJ0d0pVZlpwR2c5N2F1Unh1eHVDVkVUdHdkYzRJ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-18T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|grand|sofort|velomotion",
-    "event_id": "6999f16eb8ca3b0817dbb8c4eafed49c907ee87d",
     "alternate_sources": []
   },
   {
@@ -1849,6 +1882,32 @@
     },
     "event_family": "continental|aumovio|brain|cloud|fabrik|german",
     "event_id": "c9f2f76b318003378ab84bdb6f0554ee490b3df6",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental verkauft ContiTech - Industrieanzeiger",
+    "summary": "Continental verkauft ContiTech &nbsp;&nbsp; Industrieanzeiger",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjlKVVJqTjR3akFzdjRhOFdRV2pBTHNjQlBBamQybU5taUFVcTdXY2h3OUt1cWpNdnFUUm1ENFlxUkxudGtNVVk1UVFOREdGcl82MFhWZFpFdWVDSkdicGFVZVVuOVRnQWJvZnIzNVFPQmF1SFVqVUxHLUlRR3hKRg?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen neue Produktion",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|contitech|industrieanzeiger|verkauft",
+    "event_id": "af31a3dce939e69cda89bfee553eb001942e080b",
     "alternate_sources": []
   },
   {
