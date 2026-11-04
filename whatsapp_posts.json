@@ -124,7 +124,6 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
@@ -174,6 +173,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
     ],
     "score": 200,
@@ -482,6 +482,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
@@ -542,7 +543,9 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Nachhaltigkeit"
@@ -570,8 +573,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -713,7 +714,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Innovation"
     ],
     "score": 200,
@@ -812,31 +812,6 @@
     },
     "event_family": "continental|autohaus|reifenentwicklung",
     "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
-    "alternate_sources": []
-  },
-  {
-    "title": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet - Investing.com Deutsch",
-    "summary": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet &nbsp;&nbsp; Investing.com Deutsch",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOUd5Mko1aU4yS1VTWjQ5Z0ZSZWVfNWQ2S1Frd0pYUkVmeURMWXNhNWdDUmhsNmFJWEF4Y0pjNlBtMUE4TnMteW15NElFV3J0bTQ5T0pkbHZ6d25peGQtaG1KN2w1ai1mcFlpUHE2WlZ6ZG5zamlBd0dCYWlkRExzT0FLSUJ5Unh1VnB4SUhqbXdVS3kwb1dONWEzakRCbk9oM1BqX0JkZnF6VVNrMUt4TXk3b0tUTy1iRWxZcWtEdzkzdnVkeDBzczlOOGU1dTVxbDAtUWc3ZUItQ00wQXdYaVZDeXM2WGs?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-05T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aktionarsrenditen|deutsch|erwartet|investing|morgan",
-    "event_id": "677d217741368326515b9a5129ca511ca138e76a",
     "alternate_sources": []
   },
   {
@@ -974,7 +949,7 @@
     "summary": "Reifenhersteller Continental wird Biathlon-Premiumpartner &nbsp;&nbsp; markenartikel-magazin.de",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTNmS2toZENVRkp6WElkdWxkcm9UMXM4MnhabW43SENzLU9FWWhBUmgxVHN6cGRaV0R3eDM1X3FaT09TVW50eVl5UnVwM3hZaFFfSmxGekg0dVI2a0xTN05NSkROanpmcjh6eF9RSHJiR0d0MzZGWjdtS3h5bVFfR3djUURRXzBRVUpOdVhFRTVSQQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-16T08:13:28+00:00",
+    "published_at": "2026-10-16T07:00:00+00:00",
     "matched_queries": [
       "Continental Hannover Reifenwerk Produktion",
       "Continental Deutschland Reifenwerk Mitarbeiter"
@@ -1055,7 +1030,7 @@
     "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-26T11:34:45+00:00",
+    "published_at": "2026-10-26T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Test"
     ],
@@ -1110,7 +1085,8 @@
     "published_at": "2026-10-30T11:10:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1125,21 +1101,8 @@
       "generic_product": false
     },
     "event_family": "continental|bekannte|diesen|gunstigen|hinter|marken",
-    "event_id": "65d67c1b9310d373586803f77655f4c866ba1198",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Marken - Joyn",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0FkX1hhYmkyVFhsRXFjMU53dGhrQm4tQ2UzQXpodjFwUFdWNzliTFFSXzFRcF80aW1fc2l5ZFpUdVNYUzY4WjZnaHpYQzZnSktWNGRtR1NXeFNkQ2ZwcUhnaFEtOG80TVlPMHc4RnZaSlhpT2xFNzYyRmpFSVBJcEg2VlAyZHlPRWlKa09QaVJEMGpVRlhWdmVsaw?oc=5",
-        "published_at": "2026-10-30T11:10:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Continental, Michelin und Co.: Hinter diesen günstigen Winterreifen stecken bekannte Hersteller - Joyn",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0Z6bENCS1cxbXdSdFJoczNtbHh1V1J4T2lVTHBSOXVNTzBMbGlGN0thZ0F4cGJiZzdPQXZ3RDdWakxSR1lDOTdLR0RvbWZQSE1NMkpIVzRJakd3U1pvT2NmeVozWEJYX09HeFNPSm5KMUQ5bEVLWjk3Z0FheXM4dUJLNVRaRHB1VHdFREZkUzFNakVsOXpESEdudw?oc=5",
-        "published_at": "2026-10-27T15:27:18+00:00"
-      }
-    ]
+    "event_id": "a8dd67ebaf802fd6dc8b957fd9199aea7aff4123",
+    "alternate_sources": []
   },
   {
     "title": "Continental ContiTrailAttack 4: Neuer Adventure-Reifen für Straße und Schotter - Tuningblog",
@@ -1294,7 +1257,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
