@@ -443,6 +443,7 @@
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
       "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -459,14 +460,7 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
-        "published_at": "2026-09-15T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental baut Portfolio mit großen und leistungsstarken Reifen aus - Continental AG",
@@ -1190,6 +1184,7 @@
     "published_at": "2026-11-04T11:46:46+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1343,7 +1338,6 @@
     "published_at": "2026-09-14T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Test",
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1672,6 +1666,31 @@
     },
     "event_family": "continental|contimotion|tourenfahrer",
     "event_id": "a35224ff81bd29d4ecc4979228a1676f874280fe",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental zum sechsten Mal in Folge als „Beste PROFI Werkstatt-Marke“ ausgezeichnet - Continental AG",
+    "summary": "Continental zum sechsten Mal in Folge als „Beste PROFI Werkstatt-Marke“ ausgezeichnet &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzBEb3U4UmtEcDNiNVgyQjdfVlRGWmNoUmNlOE1ENUhfa2tybWx2S0dua1Y5ODhlZGlaTGRHdU5JM2FNRXYybmRRTUF3eFlzcGlmZUVVWGdiOTJvVzhFMDEyRTRKQTI2cUt3WDEwamMzU2VIZ01qaU1qVXhGZ2xZaWNEQzZMQWRLOElCal9BSTA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-10T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": false,
+      "nearby": false,
+      "title_factory": true,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|ausgezeichnet|beste|folge|marke|profi",
+    "event_id": "338038f8f9fd7a2081947b960cbfff77f432d7de",
     "alternate_sources": []
   },
   {
@@ -2095,6 +2114,7 @@
     "published_at": "2026-11-04T06:47:44+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion"
     ],
     "score": 150,
