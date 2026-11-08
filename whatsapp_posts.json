@@ -13,8 +13,6 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -228,8 +226,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-10T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Neuheit"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -325,8 +322,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen"
+      "Continental Nutzfahrzeugreifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -342,7 +338,14 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": []
+    "alternate_sources": [
+      {
+        "source": "news.google.com",
+        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
+        "published_at": "2026-09-15T07:00:00+00:00"
+      }
+    ]
   },
   {
     "title": "Continental und andere erneut als beste Profi-Werkstatt-Marke ausgezeichnet - Reifenpresse.de",
@@ -351,6 +354,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-15T12:20:11+00:00",
     "matched_queries": [
+      "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
@@ -621,6 +625,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
@@ -692,6 +697,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
@@ -745,31 +751,6 @@
     "alternate_sources": []
   },
   {
-    "title": "UHP-Reifenentwicklung bei Continental - autoflotte.de",
-    "summary": "UHP-Reifenentwicklung bei Continental &nbsp;&nbsp; autoflotte.de",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Td2xRYnN2aHQtaFVQcTExZkdkUjUtdnEtNFd4ZnhESk1oY2UxQVUyTml1dGxLeFdyb3k1cnRmTHd4RFdLY1lyNzctS0NJeWNVTUtFWGZFTERDa3dlWHpnaGU5SVJlOTA?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-01T10:41:30+00:00",
-    "matched_queries": [
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|autoflotte|reifenentwicklung",
-    "event_id": "b79ba70cee872b08b86aa80e6a7ed73c8ee3b353",
-    "alternate_sources": []
-  },
-  {
     "title": "UHP-Reifenentwicklung bei Continental - autohaus.de",
     "summary": "UHP-Reifenentwicklung bei Continental &nbsp;&nbsp; autohaus.de",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Gd3lVZXdpa215TVE5SnZCRjRwMFZQbm9XSXd6VG9neEU0RFJXWV9PT1E3b2dadVp6R1pVNEYxeDR3Y0dsWEQzZmxZMXZOX3lUbVRTTEJBMlpIbkZuQ19IZHRlVlA?oc=5",
@@ -792,6 +773,31 @@
     },
     "event_family": "continental|autohaus|reifenentwicklung",
     "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental erhält Reifenfreigabe für Volvos vollelektrischen SUV EX60 - MarketScreener Deutschland",
+    "summary": "Continental erhält Reifenfreigabe für Volvos vollelektrischen SUV EX60 &nbsp;&nbsp; MarketScreener Deutschland",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV09NaWw5bjRQTWsxRkFQNmdfVWh2ZTY3RWZzaUlmQnFTUUFhVWV2WkpPaEZ4c05meXdWbV9WX2N6WFF1amFBckVKcUpIdC1XNUNwcUdrYTdHbGdJbHlGbXlEM2hJbjAxNG1TNnZsMHgxVVo4bGFkU0hQOEc3RWpLLVBuS3VIcDhHS0VRMUtCdHl5ekN3bUhHMi16eG9KWGVDV1ozem1ZTmNaZW1TZXAzY2dTWXM2U3doVXBpcG9QVVBteGktOGZrZVZfRDU4RnA2ZTlFQw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-14T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|deutschland|marketscreener|reifenfreigabe|vollelektrischen|volvos",
+    "event_id": "2d737c18e99bfa06816c776c05bed8d9f77c87fe",
     "alternate_sources": []
   },
   {
@@ -1445,7 +1451,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-26T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Test"
     ],
     "score": 200,
@@ -1526,6 +1531,7 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -1622,31 +1628,6 @@
     },
     "event_family": "continental|contimotion|tourenfahrer",
     "event_id": "a35224ff81bd29d4ecc4979228a1676f874280fe",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental zum sechsten Mal in Folge als „Beste PROFI Werkstatt-Marke“ ausgezeichnet - Continental AG",
-    "summary": "Continental zum sechsten Mal in Folge als „Beste PROFI Werkstatt-Marke“ ausgezeichnet &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzBEb3U4UmtEcDNiNVgyQjdfVlRGWmNoUmNlOE1ENUhfa2tybWx2S0dua1Y5ODhlZGlaTGRHdU5JM2FNRXYybmRRTUF3eFlzcGlmZUVVWGdiOTJvVzhFMDEyRTRKQTI2cUt3WDEwamMzU2VIZ01qaU1qVXhGZ2xZaWNEQzZMQWRLOElCal9BSTA?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-10T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": true,
-      "action": false,
-      "nearby": false,
-      "title_factory": true,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|ausgezeichnet|beste|folge|marke|profi",
-    "event_id": "338038f8f9fd7a2081947b960cbfff77f432d7de",
     "alternate_sources": []
   },
   {
@@ -2073,7 +2054,6 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T15:06:00+00:00",
     "matched_queries": [
-      "Continental Lkw Reifen",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
     "score": 150,
