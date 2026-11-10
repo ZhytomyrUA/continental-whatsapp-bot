@@ -533,7 +533,6 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
@@ -1080,6 +1079,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-22T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1098,18 +1098,6 @@
     "event_family": "wintercontact-ts870|adac|test|continental",
     "event_id": "009fd6d2e27c1cb77851917b52d7e434fcdfb782",
     "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental WinterContact TS 870 gewinnt ADAC Winterreifentest 2026 - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNmdjX0QydUFxNUtxNmxlamNKNmhCN25hVDRnODhBSG1LVWhDdW5uMnpHSXZmdVg0Z2lvbExMVEJpMTBDbWZTSkhIZzNaUE9GU0FkVUxPOGJaYnJKc1lQX0JCd1pjUVRPNUlPMnhDVXhYLUVUYVNlc1BJZWhOaFI3ZUlKa19vZUdpSmUyRDdFMlNHdw?oc=5",
-        "published_at": "2026-09-22T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "„Überragend“ bewertet: WinterContact TS 870 P gewinnt aktuellen Winterreifentest der sport auto - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVJ2UFVINDF2b0J2dEd1dVJ2OHp0WGVHZ3ljY21leEJBXzVQOU9xY3VRM3I0NkNvd1RMRzNuaGlmOVdfWHVCcURyOHlwRWFydUpmZUdFY1dWTkFSWmpmeGJHblZOZnVfZU5nd1lVN3AwanpNVEpidGlEdjVzdHdpUnozcjhsZ2RuVlBVUDJ3?oc=5",
-        "published_at": "2026-09-11T07:00:00+00:00"
-      },
       {
         "source": "news.google.com",
         "title": "Continental WinterContact TS 870 überzeugt im ADAC Winterreifentest 2026 - Continental AG",
@@ -1350,6 +1338,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Sorana Cîrstea (awJk1vJzAf) - Unisba Media",
+    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Sorana Cîrstea (awJk1vJzAf) &nbsp;&nbsp; Unisba Media",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZFFWZkJZaDlZUVc4cE9aQjRydWNVZWJqdnBpSGNfWEJpRGY5bWZPQzJPZ3R5a2dCdWFBUlg1X3ZMY2RET05TeWh5ZXlfR0hzT2ZfdlN3MGQxR08yVFpuTmw5dmJMSDNyRnI3Zks4WjVUOVhjOWkzSE1PWmZKT3JNRGR3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T12:22:34+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "TIRE_TEST",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": true
+    },
+    "event_family": "continental|awjk1vjzaf|bentley|cirstea|heckantrieb|laguna",
+    "event_id": "b68813a6b65b34e53b72ee84aa6885e253d9e7bd",
+    "alternate_sources": []
+  },
+  {
     "title": "Nach starkem Quartal: Continental hebt Gewinnprognose an - autohaus.de",
     "summary": "Nach starkem Quartal: Continental hebt Gewinnprognose an &nbsp;&nbsp; autohaus.de",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2VZWkxtYTlhNGMySzB3UlBZNm5zQ3JhMjhJcXpJRVMwRDNBSHdmdlBKT05jRkxxTXZ1ZGZKeXE5LWl6eTM4Mjl2NnhtOTRKZUpOYmc3bFd6V3hqVFpQaHRPSnczUWtGOTJnTXRPbVFYNnJmd2Nnd2dkQ2xDcWhoUld2dlBqbFNxUHVtVDVfY0pXSnQ5RFo3cE01bmtoU3VhSnRrSmJTaURYZHA0U3Mta2sxRE8?oc=5",
@@ -1357,7 +1370,6 @@
     "published_at": "2026-11-04T09:20:00+00:00",
     "matched_queries": [
       "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
@@ -1378,6 +1390,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Nach starkem Quartal: Continental hebt Gewinnprognose an - autoservicepraxis.de",
+    "summary": "Nach starkem Quartal: Continental hebt Gewinnprognose an &nbsp;&nbsp; autoservicepraxis.de",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN1hwZXRfczRIU0Y3OS1JOTd3aWszblJacGpTXzlRR2EtSzU0N3VYdlFpVHlFemNBd0EyYUtoQjd3VjlsUWliNnE1MUFuRjNkejJHYmdjUnpsLUZ6TXVaQ1lqREdkSGp1UC1oOW9PRGMtR0w3TFpNaWFudzhHVU9ZQmpfYnRNVmdybkd3c19tS1RkLUNta21PeWExbG45UXRpNklabU9lOFpGWU1NRXhUX1ZMeTdXVWFFYnNsXw?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T09:20:00+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen"
+    ],
+    "score": 230,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|autoservicepraxis|gewinnprognose|quartal|starkem",
+    "event_id": "2d274dba5a8b603bffd6f61ebe0afb599b9655cf",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental verkauft mycar Tyre & Auto an Tuhu - Continental AG",
     "summary": "Continental verkauft mycar Tyre & Auto an Tuhu &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xUlJ0c01RdlVDMU42WXRaZWtUWktiT2hHcEpWVTlmaFc3YmFnclBOZUZyWkJvNE9yOHBKLTN1ZWhma1ZRVndtMW9xSGk4ekNsSDMwamFxa2tCbW1fU1U0bVVxQXF2Y3dPX1BfU0NLSTRtQQ?oc=5",
@@ -1385,7 +1422,6 @@
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
       "Continental Korbach Mitarbeiter"
     ],
@@ -1438,6 +1474,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
