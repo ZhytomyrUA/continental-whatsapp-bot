@@ -446,7 +446,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -836,39 +835,6 @@
     "event_family": "continental|barum|bridgestone|diese|gehoren|gunstigen",
     "event_id": "40a0ca20bbb3a40f27d43b92a6739c08b665ef29",
     "alternate_sources": []
-  },
-  {
-    "title": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 - 1000PS",
-    "summary": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 &nbsp;&nbsp; 1000PS",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFWdU90dlFqWEtJNGtoRVRUaGtyaG83Z0RZNTVjTkhsdGtWbkRuejE4czVEUVUwX3VHUGpCVU5YbzhyV3dITWhvQzBtbTZTb1NvYUd0UWt4anZZMTdmQkptRmZscnZ4eWdLQ1VvRGRCMENfd01kZDJkSUg1MjlRbXlYSFJOdHJ6T0xVUlRSZXIzY0NkQjRfQmpCWTl0MzBDRmF1cXp30gGuAUFVX3lxTE9YWFlUSUR2Ny10dk1ieTEyZ2R4aWNoNk9qUUJ4YVl0NEF3REh3M2dnV3E1OGcxWHpYVDZyWTJtSTdnR3g3UVlVcjZ5blNtelVHU2Fjc1QtLTRCZ3VJN2dXcHgxUHFIMTVFS3hoSnRmTnpCUmtyNG96bWN6WjZLeGpZVUxrcmkxVngwOG5HSnhlVWVUaXJlZ0hoOTBLeGl3bDFyRlowdk5OZnl1X3lSUQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-27T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|1000ps|contitrailattack",
-    "event_id": "3d06ade09c083ac407ed6b2f7a9065f2b14cb6e9",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Bilder: Continental ContiTrailAttack 4 2027 vorgestellt - 1000PS",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWS16bFVWNkZ0M0NMVFRhSWdacThid0tibkNhV1g4aXA0NEE0dXUyUk0ybTUzNXJDb0tBT200MWhPdWFBOGZVWFhFRmUwUmJneTNwV1VHWDdzY1NFM21RTVRvLTkwaDZ1eHZBQWU4TGtvNVg2WU9JSGN6a1o3WHN5REdsOVloTDVQU0NfNWQteXNhaHJlVGtNeC1YZkFrNjQ?oc=5",
-        "published_at": "2026-10-27T09:52:50+00:00"
-      }
-    ]
   },
   {
     "title": "Continental: EMS-Highlight wird „sicherlich der Brabus Bodo“ - Reifenpresse.de",
@@ -1469,6 +1435,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental hebt nach starkem Quartal Gewinnprognose an - SAT.1 Regional",
+    "summary": "Continental hebt nach starkem Quartal Gewinnprognose an &nbsp;&nbsp; SAT.1 Regional",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVdlOVdFT0FBWHYzM0dDcl9GUDl1WjVRajhZVnI4OExuemJWdGUzTFFTYWZVb1BtQnQ1QjIzbFZ1REU2Zk9iTEtvRDJxVS1yNW9iMFBrVThPRlp4dXBxVENwekRHemdYN3FkWVIxb05HbnRQUm5CYWhQY3FfZ3JOVmxLeFFrUF9oZ3dETENyRUJXX3VkV2c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T11:01:50+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion"
+    ],
+    "score": 230,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|gewinnprognose|quartal|regional|starkem",
+    "event_id": "bcb7d83517647970ecc6fc54b12efd510b7272f9",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental verkauft mycar Tyre & Auto an Tuhu - Continental AG",
     "summary": "Continental verkauft mycar Tyre & Auto an Tuhu &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xUlJ0c01RdlVDMU42WXRaZWtUWktiT2hHcEpWVTlmaFc3YmFnclBOZUZyWkJvNE9yOHBKLTN1ZWhma1ZRVndtMW9xSGk4ekNsSDMwamFxa2tCbW1fU1U0bVVxQXF2Y3dPX1BfU0NLSTRtQQ?oc=5",
@@ -1783,32 +1774,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental verkauft ContiTech - Industrieanzeiger",
-    "summary": "Continental verkauft ContiTech &nbsp;&nbsp; Industrieanzeiger",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjlKVVJqTjR3akFzdjRhOFdRV2pBTHNjQlBBamQybU5taUFVcTdXY2h3OUt1cWpNdnFUUm1ENFlxUkxudGtNVVk1UVFOREdGcl82MFhWZFpFdWVDSkdicGFVZVVuOVRnQWJvZnIzNVFPQmF1SFVqVUxHLUlRR3hKRg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-12T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen neue Produktion",
-      "Continental Pkw Reifen"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|contitech|industrieanzeiger|verkauft",
-    "event_id": "af31a3dce939e69cda89bfee553eb001942e080b",
-    "alternate_sources": []
-  },
-  {
     "title": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot - Automobil Revue",
     "summary": "Bentley Continental GTC S: Das macht ihn zum Sweet Spot &nbsp;&nbsp; Automobil Revue",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYWdyeWRfZDdBTlM1TWkzQWR3VGVFQWVQNHlyMTM1V2FSUk1la25Hc3l3MGpQQUd2UDdWWHBjYW5BaGNlc1h3bWh4dUF0REs1Rk9vd1dmMUh1Y0tma2lvWk5PX0tfTFZOeFcyLTYtOEdnVk4tVGJlRFRRU0tZdTNiMlFvUzZNMzJkRU9hdDQwcw?oc=5",
@@ -1913,6 +1878,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
+    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Neuheit"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
+    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
+    "alternate_sources": []
+  },
+  {
     "title": "Der neue Continental ContiTrailAttack 4 - myNETmoto",
     "summary": "Der neue Continental ContiTrailAttack 4 &nbsp;&nbsp; myNETmoto",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZF9lZ1Z3UFl3TzczbG5MT0tQdlIzYVBwX08xcERIelJZTlBPY1RleDhiSlZYMWZ0VmIzeXV3MUdUSlhVdHhNLXR4bGlFUzZ0a0xTQV9iR3QtbXhjQzZhTXM0TXdOdWk0cnhzbklsNy01NmN6YmJSUFRzdTdNZVNyaC1mU0pMeHNScHfSAZIBQVVfeXFMUGZFYWFoVUN3ZDJIZzd2NkdxYVVnTEVhLTdfek03SWQ4SGhtbjBxSHhQMDRUNEVYUXl1YUZnanFaZGx1SmpyRjd2cG1CX3hSXzNYT0JvSW4tWnNyTVVVNEJ6T3FrN2tLdHpSWlF6YjdXMnZuemNmYWEtMW5PMzEzclQ3eXVjYVhfeTRHNFRkdWd0X2c?oc=5",
@@ -1970,15 +1960,13 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental erhöht Ausblick nach gutem dritten Quartal - Continental AG",
-    "summary": "Continental erhöht Ausblick nach gutem dritten Quartal &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTWtmWVZrQU5oUnpnNjRZa19HU01vSVpXdFdUR2hYeFJzd1paQTU4Z05CTjMyQm9pSlkwVmFIbzBseDd2RGNLNU50RVRMOWpIcUxRVFJHM3R0RWFaNm4ycm0zMWIzYjZ4RnBSVjFtdVhGelFETWQxeVFLZUJScWRMN2ExOERUdkRNY3c?oc=5",
+    "title": "Bilder: Continental ContiTrailAttack 4 2027 vorgestellt - 1000PS",
+    "summary": "Bilder: Continental ContiTrailAttack 4 2027 vorgestellt &nbsp;&nbsp; 1000PS",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWS16bFVWNkZ0M0NMVFRhSWdacThid0tibkNhV1g4aXA0NEE0dXUyUk0ybTUzNXJDb0tBT200MWhPdWFBOGZVWFhFRmUwUmJneTNwV1VHWDdzY1NFM21RTVRvLTkwaDZ1eHZBQWU4TGtvNVg2WU9JSGN6a1o3WHN5REdsOVloTDVQU0NfNWQteXNhaHJlVGtNeC1YZkFrNjQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-04T06:47:44+00:00",
+    "published_at": "2026-10-27T09:52:50+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen neue Produktion"
+      "Continental Reifen Neuheit"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1992,17 +1980,21 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|ausblick|dritten|erhoht|gutem|quartal",
-    "event_id": "cb4b950b4d708af12f0a45a5021249d4964f5120",
+    "event_family": "continental|1000ps|bilder|contitrailattack|vorgestellt",
+    "event_id": "306ca174b84c6db731b53e665838c8d38734d3ec",
     "alternate_sources": []
   },
   {
-    "title": "Earnings Call: Continental AG übertrifft EPS-Prognose für Q3 2026 und hebt Ausblick an - Investing.com Deutsch",
-    "summary": "Earnings Call: Continental AG übertrifft EPS-Prognose für Q3 2026 und hebt Ausblick an &nbsp;&nbsp; Investing.com Deutsch",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWERIclRMV05lMEFvRTZSWWtyZnNFZnhwNmluTnI1X3ZFa2hYV2ZXQ1lScmRDYTAyN0RoWlFzUkZKM3REM0VGSWZwZ1dEQ1c3M2FSem9SSF9YLTA5dldPVzN6SXFmZ09wX3NGV0lYc1Q4NkV6SnZTdUZ1NERUaTY3ZWVIMWpKcFM2WFVMaEtwYjJHdmdZUUVUMWpQRUx0Z0Z3WGtzTUxRTGtEZ2pUWEVSbFczMVYzYXVuVXRWOHpjY0xoUHhiMVEwTlhOcGsyaFJBLVB6ZDBB?oc=5",
+    "title": "Continental erhöht Ausblick nach gutem dritten Quartal - Continental AG",
+    "summary": "Continental erhöht Ausblick nach gutem dritten Quartal &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTWtmWVZrQU5oUnpnNjRZa19HU01vSVpXdFdUR2hYeFJzd1paQTU4Z05CTjMyQm9pSlkwVmFIbzBseDd2RGNLNU50RVRMOWpIcUxRVFJHM3R0RWFaNm4ycm0zMWIzYjZ4RnBSVjFtdVhGelFETWQxeVFLZUJScWRMN2ExOERUdkRNY3c?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-04T12:43:00+00:00",
+    "published_at": "2026-11-04T06:47:44+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen neue Produktion",
+      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
     ],
@@ -2018,8 +2010,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|ausblick|deutsch|earnings|investing|prognose",
-    "event_id": "12212440b9e36b892708c9b0e18e7f9d3b003e5d",
+    "event_family": "continental|ausblick|dritten|erhoht|gutem|quartal",
+    "event_id": "cb4b950b4d708af12f0a45a5021249d4964f5120",
     "alternate_sources": []
   },
   {
