@@ -446,6 +446,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -504,7 +505,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
@@ -896,7 +896,6 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T07:25:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Fabrik Deutschland"
     ],
     "score": 200,
@@ -913,31 +912,6 @@
     },
     "event_family": "continental|automobilwoche|prognose|reifenkonzern|reinen|umbau",
     "event_id": "9ba1f8c9fd954056c8d8967330f4e7846d95cc42",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental hebt Ziele für 2026 an: Reifen-Marge steigt auf 14,9 % - Investing.com Deutsch",
-    "summary": "Continental hebt Ziele für 2026 an: Reifen-Marge steigt auf 14,9 % &nbsp;&nbsp; Investing.com Deutsch",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQVAwLU00aWVnUm14VDFKYThSZUQ5UUktMXJTbGpOdTBBMlpINW4zRy1lVkNmRXVENkprUktNREZpa24tX05KTWdlSnc1ZDI0MVVaODU4V2phVlByMVR5RkE0eDBNRklNc05Ud1FMOTVxLVI4alV6TW9kMmNrOC1tMHh3SGx4QlNHVjZqM0VZT3QxYWlBNGFPWmF4bThUNWZhb000UXFYT3pnRWJYX3ZLQkdPYlViOTg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T07:31:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|deutsch|investing|marge|steigt|ziele",
-    "event_id": "7c61a13ae2b2dda2d0ac39442c7e2d6e244688ad",
     "alternate_sources": []
   },
   {
@@ -1432,31 +1406,6 @@
     },
     "event_family": "continental|autoservicepraxis|gewinnprognose|quartal|starkem",
     "event_id": "2d274dba5a8b603bffd6f61ebe0afb599b9655cf",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental hebt nach starkem Quartal Gewinnprognose an - SAT.1 Regional",
-    "summary": "Continental hebt nach starkem Quartal Gewinnprognose an &nbsp;&nbsp; SAT.1 Regional",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVdlOVdFT0FBWHYzM0dDcl9GUDl1WjVRajhZVnI4OExuemJWdGUzTFFTYWZVb1BtQnQ1QjIzbFZ1REU2Zk9iTEtvRDJxVS1yNW9iMFBrVThPRlp4dXBxVENwekRHemdYN3FkWVIxb05HbnRQUm5CYWhQY3FfZ3JOVmxLeFFrUF9oZ3dETENyRUJXX3VkV2c?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T11:01:50+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion"
-    ],
-    "score": 230,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|gewinnprognose|quartal|regional|starkem",
-    "event_id": "bcb7d83517647970ecc6fc54b12efd510b7272f9",
     "alternate_sources": []
   },
   {
@@ -1991,6 +1940,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T06:47:44+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
