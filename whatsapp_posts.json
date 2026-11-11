@@ -14,7 +14,6 @@
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -70,6 +69,7 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Hannover Reifenwerk Produktion"
     ],
@@ -167,6 +167,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Nachhaltigkeit"
     ],
@@ -445,6 +446,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
@@ -624,6 +626,31 @@
     },
     "event_family": "continental|autohaus|reifenentwicklung",
     "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
+    "alternate_sources": []
+  },
+  {
+    "title": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet - Investing.com Deutsch",
+    "summary": "Morgan Stanley stuft Continental hoch: Steigende Reifenmargen und hohe Aktionärsrenditen erwartet &nbsp;&nbsp; Investing.com Deutsch",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOUd5Mko1aU4yS1VTWjQ5Z0ZSZWVfNWQ2S1Frd0pYUkVmeURMWXNhNWdDUmhsNmFJWEF4Y0pjNlBtMUE4TnMteW15NElFV3J0bTQ5T0pkbHZ6d25peGQtaG1KN2w1ai1mcFlpUHE2WlZ6ZG5zamlBd0dCYWlkRExzT0FLSUJ5Unh1VnB4SUhqbXdVS3kwb1dONWEzakRCbk9oM1BqX0JkZnF6VVNrMUt4TXk3b0tUTy1iRWxZcWtEdzkzdnVkeDBzczlOOGU1dTVxbDAtUWc3ZUItQ00wQXdYaVZDeXM2WGs?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-05T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|aktionarsrenditen|deutsch|erwartet|investing|morgan",
+    "event_id": "677d217741368326515b9a5129ca511ca138e76a",
     "alternate_sources": []
   },
   {
@@ -817,7 +844,6 @@
     "source": "news.google.com",
     "published_at": "2026-10-27T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Motorsport Reifen"
     ],
@@ -984,6 +1010,7 @@
     "published_at": "2026-11-04T11:46:46+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1000,6 +1027,32 @@
     },
     "event_family": "continental|ertragsfundament|region|reifengeschafts|reifenpresse",
     "event_id": "6e24aac54e4c94a3d19d36d59877404f628ca6b4",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental gegen Umwelthilfe: Reifenhersteller aus Hannover knickt nach Klage ein - HAZ",
+    "summary": "Continental gegen Umwelthilfe: Reifenhersteller aus Hannover knickt nach Klage ein &nbsp;&nbsp; HAZ",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaVhCVmxMUlB4aW5GR1l1UUFYOU1Zd1BFdjB6eEVROHZHcG92R1dveVVRMGY4MzdwYmJaNkphRWlxZVp1SHppSmhRRDN5STBHc1d5S0IyVUV0VXoxUkgwQV9vZjR6QXp5OElmMnlidnFlMHU3TkVSLXJBdHgxZ3I5dTJYM0p5bkstZ19ERlNKUERkQTA3Y1N2cGUydk1SaGRQdTVheC1KX3FCdUFURnVYRG5YNXNsTjhJWG9JVWZpTkZpQUFlUEpnNDJVeTN2eVRUcFYyUktOMVVyaFNXOVdnWVln0gH-AUFVX3lxTE54WnlWNDhVX0F3UjlfMEpPa1FvdndLTlVfV3g2UmRZRGZQMXZNYlZJN29scFZvWDYyQlIyNF9aUUFhUW1DS3EzelRPUHNvZXBOWWU0N1pSV1JKSlVXOURBb1JoZFhCUENRNGtXWm1LQ0lPdkdtSmY5WHo4bzQxMEU1cHlqRlVXTWV5SWVnR0xLNU40YThXb1ItNENFT0YxV3lIRmoyaGkySzFLZzc5TmozT05CZ0FuZ3l1ZEs1VDJ0Smw2Y2h3bDBZd0lnRHdtNGthSEhEWEFXTlFWWmk2Tlk5bHRTQXM2RFRFVGgtYWp5Vy1Bb2MyMmhiVzlnUUxn?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-05T14:18:15+00:00",
+    "matched_queries": [
+      "Continental Hannover Reifenwerk Produktion",
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|gegen|hannover|klage|knickt|reifenhersteller",
+    "event_id": "f69e7eccf11957bc6e3625e87759012940bd6aca",
     "alternate_sources": []
   },
   {
@@ -1370,6 +1423,7 @@
     "published_at": "2026-11-04T09:20:00+00:00",
     "matched_queries": [
       "Continental Reifen neue Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
@@ -1859,31 +1913,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
-    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-20T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
-    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
-    "alternate_sources": []
-  },
-  {
     "title": "Der neue Continental ContiTrailAttack 4 - myNETmoto",
     "summary": "Der neue Continental ContiTrailAttack 4 &nbsp;&nbsp; myNETmoto",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZF9lZ1Z3UFl3TzczbG5MT0tQdlIzYVBwX08xcERIelJZTlBPY1RleDhiSlZYMWZ0VmIzeXV3MUdUSlhVdHhNLXR4bGlFUzZ0a0xTQV9iR3QtbXhjQzZhTXM0TXdOdWk0cnhzbklsNy01NmN6YmJSUFRzdTdNZVNyaC1mU0pMeHNScHfSAZIBQVVfeXFMUGZFYWFoVUN3ZDJIZzd2NkdxYVVnTEVhLTdfek03SWQ4SGhtbjBxSHhQMDRUNEVYUXl1YUZnanFaZGx1SmpyRjd2cG1CX3hSXzNYT0JvSW4tWnNyTVVVNEJ6T3FrN2tLdHpSWlF6YjdXMnZuemNmYWEtMW5PMzEzclQ3eXVjYVhfeTRHNFRkdWd0X2c?oc=5",
@@ -1948,6 +1977,7 @@
     "published_at": "2026-11-04T06:47:44+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion"
     ],
     "score": 150,
@@ -1964,6 +1994,32 @@
     },
     "event_family": "continental|ausblick|dritten|erhoht|gutem|quartal",
     "event_id": "cb4b950b4d708af12f0a45a5021249d4964f5120",
+    "alternate_sources": []
+  },
+  {
+    "title": "Earnings Call: Continental AG übertrifft EPS-Prognose für Q3 2026 und hebt Ausblick an - Investing.com Deutsch",
+    "summary": "Earnings Call: Continental AG übertrifft EPS-Prognose für Q3 2026 und hebt Ausblick an &nbsp;&nbsp; Investing.com Deutsch",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWERIclRMV05lMEFvRTZSWWtyZnNFZnhwNmluTnI1X3ZFa2hYV2ZXQ1lScmRDYTAyN0RoWlFzUkZKM3REM0VGSWZwZ1dEQ1c3M2FSem9SSF9YLTA5dldPVzN6SXFmZ09wX3NGV0lYc1Q4NkV6SnZTdUZ1NERUaTY3ZWVIMWpKcFM2WFVMaEtwYjJHdmdZUUVUMWpQRUx0Z0Z3WGtzTUxRTGtEZ2pUWEVSbFczMVYzYXVuVXRWOHpjY0xoUHhiMVEwTlhOcGsyaFJBLVB6ZDBB?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T12:43:00+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|ausblick|deutsch|earnings|investing|prognose",
+    "event_id": "12212440b9e36b892708c9b0e18e7f9d3b003e5d",
     "alternate_sources": []
   },
   {
