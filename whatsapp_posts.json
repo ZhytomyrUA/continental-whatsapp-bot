@@ -68,7 +68,6 @@
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Hannover Reifenwerk Produktion"
@@ -211,14 +210,7 @@
     },
     "event_family": "continental|gewinnprognose|mitteldeutsche|quartal|reifenhersteller|starkem",
     "event_id": "c93233e55c8571e29a1264c156242d58ca63ea95",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental hebt nach starkem Quartal Gewinnprognose an - noz.de",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNODRwTmo2Q0U1dGZNaF9jbmtDeEVxdnYwMEh6UHVWVU1DaGhWLWhwUG9Cek5kVWlQM2JJZjhaMF9WU2ZsUzBhNGxQQTdacEcxYjNkcXZ3YTJaTEQ3Y3hiWUZyclROWmU2U19CZ01RTkl3Y29xN3FrZVQ3YlJjOTZZTVptdVNEcTNWb1dxeFplV3NPTUl0THNnWlluVHVDeHUtaGhRTkNCd0VyMDF1Um0tSHRfVW9zdWd5X29wWkpEbw?oc=5",
-        "published_at": "2026-11-04T08:18:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Reifenhersteller: Continental hebt nach starkem Quartal Gewinnprognose an - STERN.de",
@@ -881,13 +873,13 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus - Automobilwoche",
-    "summary": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus &nbsp;&nbsp; Automobilwoche",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDIxVVZ5XzJ5WVV5WmQtY3NERWlwTUtHM1dfOTM3eTczS19idHBGOERTeEo4eFNSdDZWU2ZyeE9RaE9KRHZwcHZWbHBPSnBJbDc4dW9oaFQ1Zi1NYWptcGF5enM0bDgwSm5feE8wbWRwOGNRaXFuX0Y3dHd4cFVzOExrZVM0WnNVWTBudkpGUkN0NVp4aWpnX19HSVJ0a2ZSdGVacWFXTGFQSnNzOUlpc0VfdEM5cnVKVVJ5NklqbDJPVUQtMmJWNVNSbjhFTEhWb0V1NFVOR1Y?oc=5",
+    "title": "Continental wird Partner der Internationalen Biathlon Union - Reifenpresse.de",
+    "summary": "Continental wird Partner der Internationalen Biathlon Union &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbm9IWHFDYXZJamxvVUduVkxlbndJWC1EUmthOE9tVEI2SGFHODM4SVV2SFNBMWxSRWE2QlZYaGdEUUpya0w5MkJDSVk0RWlYS0doOU9WdjNsckh0RjdnY01tbXJtcDBaSTlqc3doZVVGaHl4YlowZFlnWFQwQzdPSGVrcUttem9pRXlOcUxEOFk0SFlSU3N2Q24zbw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-04T07:25:00+00:00",
+    "published_at": "2026-11-02T08:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Fabrik Deutschland"
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -901,8 +893,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|automobilwoche|prognose|reifenkonzern|reinen|umbau",
-    "event_id": "9ba1f8c9fd954056c8d8967330f4e7846d95cc42",
+    "event_family": "continental|biathlon|internationalen|partner|reifenpresse|union",
+    "event_id": "5d12d46121cac7d262c761689a0e49a68a5d5aea",
     "alternate_sources": []
   },
   {
