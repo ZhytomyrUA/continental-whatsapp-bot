@@ -253,7 +253,8 @@
     "published_at": "2026-09-15T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Nutzfahrzeugreifen"
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -269,14 +270,7 @@
     },
     "event_family": "continental|durch|erweitert|reifenfamilie|scandinavia|schnee",
     "event_id": "cb9ebb34f18e2a93505f0ca32d0d8d519355b46b",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Sicher durch Eis und Schnee: Continental erweitert Winterreifenportfolio der Scandinavia-Reifenfamilie - LECTURA Press",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON090LUxKdUROc0IyRW44RE1jdDEtaUEwQ2ZYaFlfOXB4OEdVTDJJOEQxVGtweU9VdHJGYkdheUlKNS1kVkJORjJlMUdiYlhrZE53UUpvSTIwT19sLXBkNWxsbmE5cHNiNl9hZnVjY2xaRHZXVFRDN0Y2R0pzRXRQU1U1Y1p4RTNxV1JUTHJFakdDc3hnZGdsWndmQ2x0bGVicEV3NklvaUpzZVJKbl9mR01XN1FwZFdCUVlXT1hua19RSm9Yc1FWV1I4cks0aV9jNS1hQi03NkhfY1k?oc=5",
-        "published_at": "2026-09-15T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental und andere erneut als beste Profi-Werkstatt-Marke ausgezeichnet - Reifenpresse.de",
@@ -353,9 +347,7 @@
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
-      "Continental Nachhaltigkeit",
       "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
       "Continental Korbach Standort",
@@ -444,7 +436,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
@@ -1364,7 +1355,6 @@
     "matched_queries": [
       "Continental Reifen neue Produktion",
       "Continental Reifen Technologie",
-      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 230,
@@ -1381,31 +1371,6 @@
     },
     "event_family": "continental|autohaus|gewinnprognose|quartal|starkem",
     "event_id": "a1946413166889470437f425b1a7387e497f7bd7",
-    "alternate_sources": []
-  },
-  {
-    "title": "Nach starkem Quartal: Continental hebt Gewinnprognose an - autoservicepraxis.de",
-    "summary": "Nach starkem Quartal: Continental hebt Gewinnprognose an &nbsp;&nbsp; autoservicepraxis.de",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN1hwZXRfczRIU0Y3OS1JOTd3aWszblJacGpTXzlRR2EtSzU0N3VYdlFpVHlFemNBd0EyYUtoQjd3VjlsUWliNnE1MUFuRjNkejJHYmdjUnpsLUZ6TXVaQ1lqREdkSGp1UC1oOW9PRGMtR0w3TFpNaWFudzhHVU9ZQmpfYnRNVmdybkd3c19tS1RkLUNta21PeWExbG45UXRpNklabU9lOFpGWU1NRXhUX1ZMeTdXVWFFYnNsXw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T09:20:00+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen"
-    ],
-    "score": 230,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|autoservicepraxis|gewinnprognose|quartal|starkem",
-    "event_id": "2d274dba5a8b603bffd6f61ebe0afb599b9655cf",
     "alternate_sources": []
   },
   {
@@ -1755,7 +1720,6 @@
     "published_at": "2026-10-12T07:00:00+00:00",
     "matched_queries": [
       "Continental Reifen Technologie",
-      "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
     "score": 150,
@@ -1940,7 +1904,6 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T06:47:44+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
