@@ -13,6 +13,7 @@
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
@@ -165,7 +166,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-17T07:00:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Nachhaltigkeit"
     ],
@@ -917,33 +917,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts - Reifenpresse.de",
-    "summary": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTFBMWWotZG1DY3Y1bUhxenc5QTc5VmZPTGJGV2pQb3kzOW9FTl9vUzlSaS1Dc28td0toRW9RaGZMejFDSHZjVFN2aW5Wb1NOZ1pEdGpfYTVmX3lGWng3R1JDMDZxUWFjZkJQbXY0OEVUTWt0VGo1M3J5Wl96N2VmUUExSkR4MFNveTZWLU9heS0tWUlUZldRZDU5NExWWkFJNnF1ZVd2LVg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Lkw Reifen",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|ertragsfundament|region|reifengeschafts|reifenpresse",
-    "event_id": "6e24aac54e4c94a3d19d36d59877404f628ca6b4",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus - Automobilwoche",
     "summary": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus &nbsp;&nbsp; Automobilwoche",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDIxVVZ5XzJ5WVV5WmQtY3NERWlwTUtHM1dfOTM3eTczS19idHBGOERTeEo4eFNSdDZWU2ZyeE9RaE9KRHZwcHZWbHBPSnBJbDc4dW9oaFQ1Zi1NYWptcGF5enM0bDgwSm5feE8wbWRwOGNRaXFuX0Y3dHd4cFVzOExrZVM0WnNVWTBudkpGUkN0NVp4aWpnX19HSVJ0a2ZSdGVacWFXTGFQSnNzOUlpc0VfdEM5cnVKVVJ5NklqbDJPVUQtMmJWNVNSbjhFTEhWb0V1NFVOR1Y?oc=5",
@@ -993,6 +966,33 @@
     },
     "event_family": "continental|jahresprognose|profi|reifengeschaft|starkem|werkstatt",
     "event_id": "771a459ed1243451306e398529a23cc23a1030a1",
+    "alternate_sources": []
+  },
+  {
+    "title": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts - Reifenpresse.de",
+    "summary": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTFBMWWotZG1DY3Y1bUhxenc5QTc5VmZPTGJGV2pQb3kzOW9FTl9vUzlSaS1Dc28td0toRW9RaGZMejFDSHZjVFN2aW5Wb1NOZ1pEdGpfYTVmX3lGWng3R1JDMDZxUWFjZkJQbXY0OEVUTWt0VGo1M3J5Wl96N2VmUUExSkR4MFNveTZWLU9heS0tWUlUZldRZDU5NExWWkFJNnF1ZVd2LVg?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T11:46:46+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|ertragsfundament|region|reifengeschafts|reifenpresse",
+    "event_id": "6e24aac54e4c94a3d19d36d59877404f628ca6b4",
     "alternate_sources": []
   },
   {
@@ -1264,7 +1264,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-22T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test"
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -1330,31 +1331,6 @@
     },
     "event_family": "continental|bentley|britischer|luxus|motor|sport",
     "event_id": "f7305b2edcc80bf7af48723fe36173c82d5a2d32",
-    "alternate_sources": []
-  },
-  {
-    "title": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Sorana Cîrstea (awJk1vJzAf) - Unisba Media",
-    "summary": "Bentley Continental Supersports (2026): Heckantrieb & Leichtbau Im Laguna-Seca-Test! Sorana Cîrstea (awJk1vJzAf) &nbsp;&nbsp; Unisba Media",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZFFWZkJZaDlZUVc4cE9aQjRydWNVZWJqdnBpSGNfWEJpRGY5bWZPQzJPZ3R5a2dCdWFBUlg1X3ZMY2RET05TeWh5ZXlfR0hzT2ZfdlN3MGQxR08yVFpuTmw5dmJMSDNyRnI3Zks4WjVUOVhjOWkzSE1PWmZKT3JNRGR3?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T12:22:34+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|awjk1vjzaf|bentley|cirstea|heckantrieb|laguna",
-    "event_id": "b68813a6b65b34e53b72ee84aa6885e253d9e7bd",
     "alternate_sources": []
   },
   {
@@ -1623,6 +1599,7 @@
     "published_at": "2026-10-03T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
