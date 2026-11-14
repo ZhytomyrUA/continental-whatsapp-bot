@@ -68,7 +68,6 @@
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Hannover Reifenwerk Produktion"
     ],
@@ -283,7 +282,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
@@ -367,6 +365,35 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental: Spedition Vendel nutzt Reifen für Frischelogistik - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Spedition Vendel nutzt Reifen für Frischelogistik &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWpJVTh4alpvcURlRkdudURZR0FDTmMyOEhrRzVmUm1sRm5IYkhEWGUyblk2MXpiOERMYzh4d3ZyeHg3OE1kTVhnUHVFQ1hrSlNSYkxLQkZ4UUE5Q0doTFN5YTZSOURjN1U4UGZtRm9ubFhfdWpfV3BZMzlra2RlVVZfOTNRcVJPckUtOVZzQ3VZMmppQ25yblpaTHZOTXl6OWMwemJqSTFvQUk?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-18T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Korbach Reifen Produktion",
+      "Continental Reifen Innovation",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
+      "Continental Korbach Mitarbeiter"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|frischelogistik|guterverkehr|nutzt|spedition|transport",
+    "event_id": "3f32a06c101cd7c9276d9c887378f85335a32836",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen - Continental AG",
     "summary": "Continental vervollständigt Conti Eco Generation 5 Portfolio mit neuem Trailer-Reifen &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakthUXZtVWRyQVFhbU5yMVJGN1pMa0pDNGM3X2FscXlFbXhZd1pkYkM3MmNZNFZNYWw1QzR0aFBXcEVwRFNRTjF4Rkt4Y01iNFNQWkZJdEJTV2JHS0FxRE45Sk8tQU1yMzRxVjZHSVFpS0otT1FMcTNUUC0wRV92UU1YM0xSVVBF?oc=5",
@@ -392,6 +419,34 @@
     },
     "event_family": "ecogeneration5|trailerreifen|continental",
     "event_id": "8d174464d85577cdc2a1532649c8159caaef5281",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Trailer-Reifen mit weniger Rollwiderstand und hoher Laufleistung &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVkxWcmJNMnhVOVpFMTNlSzl4dXZDRFIyVWhoRlVqdTV6X2tCektQcHVNTlpSUDlValhHbFJCaE10NmM5WEotdFFLRWN5cHNrMzc5dmtVNlA2ZDNGbUNwWlBPdEVScUtkTHU4V2ExdnhDVGFkZWdOYXo0X2MyelVncDQwRVNvaFVnM0tnN1gxbVFJbzdFZTExZUNDRUFIV2lSUzhMM0RSaVVjN1JoMWkyQ04zOEN5NThTRUpfdjR3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-25T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Reifen Innovation",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|guterverkehr|hoher|laufleistung|rollwiderstand|trailer",
+    "event_id": "2ec8a97e6ee9fb6906959b8c30acff83a53d8872",
     "alternate_sources": []
   },
   {
@@ -759,6 +814,33 @@
     "alternate_sources": []
   },
   {
+    "title": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager - Xpert.Digital - Konrad Wolfenstein",
+    "summary": "500.000 Reifen auf Lager: Continental baut seinen US-Standort Mount Vernon aus – 76 Millionen Dollar in ein neues Reifenlager &nbsp;&nbsp; Xpert.Digital - Konrad Wolfenstein",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SZDBwT0dHMTFCMUJ0LWZUc2JlN2ROWVNFbEwyc0VScTlZN0s0Nk5wUEczNzNDc2Y4MGJPSjRiLTBWYjVFX003TGhYNlZONmFEZWdPbk1NRG9PTVHSAWNBVV95cUxQZXNWb0FyYjhrZ3pLY3lDeWxoaTBCUGxjQ3Y3RW9OakhyNGp5TGZOS3V3NGtlWnpvSUVIS3p3dHVNSHZlcVJoa0hoOFNPQUM5UUw1T3JYZF9TRHNVYkhESDBIX3c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-26T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Belegschaft Werk",
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|digital|dollar|konrad|lager|mount",
+    "event_id": "664ccd2d650cd810dd28e48d54ac5b999f90e522",
+    "alternate_sources": []
+  },
+  {
     "title": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone - Netzwelt",
     "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
@@ -817,7 +899,8 @@
     "source": "news.google.com",
     "published_at": "2026-11-01T20:39:32+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Motorsport Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -843,7 +926,6 @@
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Lkw Reifen",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1287,9 +1369,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen neue Produktion",
-      "Continental Korbach Mitarbeiter"
+      "Continental Reifen neue Produktion"
     ],
     "score": 200,
     "category": "COMPANY",
@@ -1305,6 +1385,31 @@
     },
     "event_family": "continental|mycar|verkauft",
     "event_id": "5be69712e841283081e2e1bf89ee9d255c858deb",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück - Reifenpresse.de",
+    "summary": "Continental zieht sich auch in Australien aus dem Retail-Geschäft zurück &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlVMaXNIeFI0WGdxVTc2aWM2N0NyUVpGSjJIaHhhWHFWUlp5cWJXV2oxUGtzcEhHMTNGdnprX1NyTllJUjdMMGZpamhyZGpoNEIybzVPcGNlQXI3SGtLR1lJWlVlOFlsR1NGeHZJeVVuNDd0NEQ4LTJicHRiR3FvT2xWa3pqZjk4U2kzT0QxS3R2VUZhNkhxNzRHX0trcVVrMmhGVWZPOUhSdFBrRjAzb2JlT0c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-24T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|australien|geschaft|reifenpresse|retail|zieht",
+    "event_id": "348744114712ef26c1877acc26b0d9989a4f6603",
     "alternate_sources": []
   },
   {
@@ -1470,7 +1575,6 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
       "Continental Deutschland Werk Stellenabbau",
       "Continental Deutschland Werk Schließung"
     ],
@@ -1756,6 +1860,31 @@
     },
     "event_family": "continental|borsen|contitech|verkauf|zeitung|zielgeraden",
     "event_id": "d11931607756cc4d04c2cdde0c75be09668a88a6",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental: Höhere Rendite nach starkem Quartal - trend.at",
+    "summary": "Continental: Höhere Rendite nach starkem Quartal &nbsp;&nbsp; trend.at",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnFlamZJTXVfdjJpZ2pQZlVVdDg0VDBOSVlFRjRiS20tcU90V19vUklGeWVyUElBSURjcUExUGpJSTRnZEgtcWc3bkxINmxFMjdMTU5zMm41MGNxSkw3cEJZTHpFbmhQMTYwUjltTWIzZkJYWmJHNGNVM08tdDl4MDhoUGI3ZnM?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Fabrik Deutschland"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|hohere|quartal|rendite|starkem|trend",
+    "event_id": "e6a6fc63c39f922a7c1d6bc880d9c7dedb5f3997",
     "alternate_sources": []
   },
   {
