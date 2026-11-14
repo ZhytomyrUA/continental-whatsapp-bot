@@ -510,7 +510,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
@@ -892,13 +891,15 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental wird Partner der Internationalen Biathlon Union - Reifenpresse.de",
-    "summary": "Continental wird Partner der Internationalen Biathlon Union &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbm9IWHFDYXZJamxvVUduVkxlbndJWC1EUmthOE9tVEI2SGFHODM4SVV2SFNBMWxSRWE2QlZYaGdEUUpya0w5MkJDSVk0RWlYS0doOU9WdjNsckh0RjdnY01tbXJtcDBaSTlqc3doZVVGaHl4YlowZFlnWFQwQzdPSGVrcUttem9pRXlOcUxEOFk0SFlSU3N2Q24zbw?oc=5",
+    "title": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts - Reifenpresse.de",
+    "summary": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTFBMWWotZG1DY3Y1bUhxenc5QTc5VmZPTGJGV2pQb3kzOW9FTl9vUzlSaS1Dc28td0toRW9RaGZMejFDSHZjVFN2aW5Wb1NOZ1pEdGpfYTVmX3lGWng3R1JDMDZxUWFjZkJQbXY0OEVUTWt0VGo1M3J5Wl96N2VmUUExSkR4MFNveTZWLU9heS0tWUlUZldRZDU5NExWWkFJNnF1ZVd2LVg?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-02T08:00:00+00:00",
+    "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
-      "Continental Lkw Reifen"
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -912,8 +913,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|biathlon|internationalen|partner|reifenpresse|union",
-    "event_id": "5d12d46121cac7d262c761689a0e49a68a5d5aea",
+    "event_family": "continental|ertragsfundament|region|reifengeschafts|reifenpresse",
+    "event_id": "6e24aac54e4c94a3d19d36d59877404f628ca6b4",
     "alternate_sources": []
   },
   {
@@ -969,33 +970,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts - Reifenpresse.de",
-    "summary": "Region EMEA ist das Ertragsfundament des Continental-Reifengeschäfts &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTFBMWWotZG1DY3Y1bUhxenc5QTc5VmZPTGJGV2pQb3kzOW9FTl9vUzlSaS1Dc28td0toRW9RaGZMejFDSHZjVFN2aW5Wb1NOZ1pEdGpfYTVmX3lGWng3R1JDMDZxUWFjZkJQbXY0OEVUTWt0VGo1M3J5Wl96N2VmUUExSkR4MFNveTZWLU9heS0tWUlUZldRZDU5NExWWkFJNnF1ZVd2LVg?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T11:46:46+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Lkw Reifen",
-      "Continental Motorsport Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|ertragsfundament|region|reifengeschafts|reifenpresse",
-    "event_id": "6e24aac54e4c94a3d19d36d59877404f628ca6b4",
-    "alternate_sources": []
-  },
-  {
     "title": "Volkswagen ID. Cross fährt auf Continental-Reifen - Gummibereifung",
     "summary": "Volkswagen ID. Cross fährt auf Continental-Reifen &nbsp;&nbsp; Gummibereifung",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZmx1MDBtVEQ2cTIxdmdrUWpSa1M1ZFhyaXlyai1NNzFHTGdZMWh4YWJIREY3RWhwbVIzaXdQZ00wYld1TGQxRTNzOGxTN2tSWWlmX2w2aDZkbmY0MzJ1c3VhT0JOR3hQTEVTck1ma04xcTV4MkFCQ2JJX0ZYQ005ZQ?oc=5",
@@ -1034,7 +1008,7 @@
         "source": "news.google.com",
         "title": "Volkswagen setzt beim neuen ID. Cross auf Reifen von Continental - Continental AG",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNXdaajB2QmpQSkhYSG5va0k0S1RRTTBzalFsQW5vUkZLdVRnN0lKMUE2bnNpQzl2WjJod0lRLXNMU3JlOUR3T2lNZjMxeDRQS2JuOEFHSTVELTU4ZmtZOHV4c3FLUkpKakNWTE93MG16eF9PejJmYWU5VnlSM0p6VVE2NA?oc=5",
-        "published_at": "2026-11-05T07:40:08+00:00"
+        "published_at": "2026-11-05T08:00:00+00:00"
       }
     ]
   },
@@ -1047,7 +1021,8 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie"
+      "Continental Reifen Technologie",
+      "Continental Reifen Innovation"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -1172,7 +1147,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-23T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1421,7 +1395,6 @@
     "source": "news.google.com",
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -1472,8 +1445,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-18T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Motorsport Reifen"
+      "Continental Reifen Technologie"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1514,31 +1486,6 @@
     },
     "event_family": "continental|autorevue|bentley|supersports",
     "event_id": "9523f04b5c5aa3a0233d875d90cc2f97d3ac051b",
-    "alternate_sources": []
-  },
-  {
-    "title": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden - AUTO&Wirtschaft",
-    "summary": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden &nbsp;&nbsp; AUTO&amp;Wirtschaft",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm4za0pVUmVXOUl4anBBWHBjOGE3cTVKS3dXVW1pZDh5SElBeF9GaVpwN1p3Y25HV290TklGSkIxci1yRkIxak5naE1fbXhnMTZPUHpGdWJnRmU0MHFpQzJmZmJudmJCY1pROS0tWUZQT2RITVYxVW5JZmdPcWJNdXJPS2IzNl9xM2hlanJjcklaa3AzdHFtMTNTQURaTUs3WU1vdFgwdVdUUmZSQmgtaVVVcVF0dw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T09:36:35+00:00",
-    "matched_queries": [
-      "Continental Mitarbeiter Werk"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|brabus|lasst|performance|roadtrip|technik",
-    "event_id": "c5fa0c8a850cb23914383c03567452af048a6a0f",
     "alternate_sources": []
   },
   {
@@ -1599,11 +1546,11 @@
     "published_at": "2026-10-03T07:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Fabrik Deutschland",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
       "Continental Deutschland Werk Stellenabbau",
       "Continental Deutschland Werk Schließung"
     ],
@@ -1862,6 +1809,33 @@
     },
     "event_family": "continental|ausblick|dritten|erhoht|gutem|quartal",
     "event_id": "cb4b950b4d708af12f0a45a5021249d4964f5120",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental ist mit Contitech-Verkauf auf der Zielgeraden - Börsen-Zeitung",
+    "summary": "Continental ist mit Contitech-Verkauf auf der Zielgeraden &nbsp;&nbsp; Börsen-Zeitung",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM3F1M09nVmJ5MElQR1d4UVJtWmYzUzVUdU8yZXZxOWthLXhjT3VTNnBVZVhfMTczbmVjam9ERVA2UXVXRkVzWldOaTVjODZYRUN2WnQzV2J0VEhEMUlUVXhxY3dGSXpWeE9jV0tKelZ3Q09JNkJJckJSd1A4RVZaWVJPcWhPdXFMX1JHWHZsc2V4ZkwwZHMzcVp0Si03U3NtZGhzbVBNdjJrd1hVa3c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Lkw Reifen",
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|borsen|contitech|verkauf|zeitung|zielgeraden",
+    "event_id": "d11931607756cc4d04c2cdde0c75be09668a88a6",
     "alternate_sources": []
   },
   {
