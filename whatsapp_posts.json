@@ -134,6 +134,35 @@
     ]
   },
   {
+    "title": "Continental-Konzeptreifen unterstützt Effizienzrekord von VW - Gummibereifung",
+    "summary": "Continental-Konzeptreifen unterstützt Effizienzrekord von VW &nbsp;&nbsp; Gummibereifung",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcHNiTDlhS2lEdGpTRDRqbW1aZl9rV3RuMG1pTU9EQmxhbXZrUVoyOFVFa3JEWWRvbjdPV0hla1paLUZwa1lxVHV1SmN4cnE0R1pYcWFjMkgwVGVVTDFsNmQ4MjdNWVlOTVdHT2FCWXg1YWNSekplNUp5eDFKSGUzbVNtLTBuUGF5SE1BSzN6c0I?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Lkw Reifen",
+      "Continental Pkw Reifen",
+      "Continental Motorsport Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TECHNOLOGY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|konzeptreifen|effizienzrekord|gummibereifung|unterstutzt",
+    "event_id": "5b89c59051827110f81b81b84be3cfbd6e359207",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental: Neuer Vorstandschef Kötz will Reifengeschäft durch Zukäufe und Asien-Expansion ausbauen - Mittelstand Nachrichten",
     "summary": "Continental: Neuer Vorstandschef Kötz will Reifengeschäft durch Zukäufe und Asien-Expansion ausbauen &nbsp;&nbsp; Mittelstand Nachrichten",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQWpZWXdtTE50WThIc3ZJbHBkS2lzSEdxVmM2WTM2V3F1RF9JWTM5ZHVKUUJocU8zUHc0NkRUNzZ5cU5tVUE2UFhDNmplaEd5akRwRk85ZHRnbGI3OEVMeXBCUTRxSUZrdmsxNjdCeWhNZHA1VkVWRGhaaVhBamZNVTV4X1hCLVFtNzhZZUVKaHRCbmJudkZ4NjA2d3VGb0VwNDhQVmFtblZfWWU1WElvbkNXT1o0ekI4bmhyd3RfNlUxdG5zbmxHX3lWVnRxdEExSHNUT3Nqd2V6eXdCR1NtRGZtLTdKeVNnYnk1T0JlWjVHaVQtYkMybA?oc=5",
@@ -969,6 +998,7 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -1702,6 +1732,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental ist mit Contitech-Verkauf auf der Zielgeraden - Börsen-Zeitung",
+    "summary": "Continental ist mit Contitech-Verkauf auf der Zielgeraden &nbsp;&nbsp; Börsen-Zeitung",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM3F1M09nVmJ5MElQR1d4UVJtWmYzUzVUdU8yZXZxOWthLXhjT3VTNnBVZVhfMTczbmVjam9ERVA2UXVXRkVzWldOaTVjODZYRUN2WnQzV2J0VEhEMUlUVXhxY3dGSXpWeE9jV0tKelZ3Q09JNkJJckJSd1A4RVZaWVJPcWhPdXFMX1JHWHZsc2V4ZkwwZHMzcVp0Si03U3NtZGhzbVBNdjJrd1hVa3c?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Lkw Reifen",
+      "Continental Deutschland Reifenwerk Mitarbeiter"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|borsen|contitech|verkauf|zeitung|zielgeraden",
+    "event_id": "d11931607756cc4d04c2cdde0c75be09668a88a6",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental: Höhere Rendite nach starkem Quartal - trend.at",
     "summary": "Continental: Höhere Rendite nach starkem Quartal &nbsp;&nbsp; trend.at",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnFlamZJTXVfdjJpZ2pQZlVVdDg0VDBOSVlFRjRiS20tcU90V19vUklGeWVyUElBSURjcUExUGpJSTRnZEgtcWc3bkxINmxFMjdMTU5zMm41MGNxSkw3cEJZTHpFbmhQMTYwUjltTWIzZkJYWmJHNGNVM08tdDl4MDhoUGI3ZnM?oc=5",
@@ -1724,32 +1781,6 @@
     },
     "event_family": "continental|hohere|quartal|rendite|starkem|trend",
     "event_id": "e6a6fc63c39f922a7c1d6bc880d9c7dedb5f3997",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental ist mit Contitech-Verkauf auf der Zielgeraden - Börsen-Zeitung",
-    "summary": "Continental ist mit Contitech-Verkauf auf der Zielgeraden &nbsp;&nbsp; Börsen-Zeitung",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM3F1M09nVmJ5MElQR1d4UVJtWmYzUzVUdU8yZXZxOWthLXhjT3VTNnBVZVhfMTczbmVjam9ERVA2UXVXRkVzWldOaTVjODZYRUN2WnQzV2J0VEhEMUlUVXhxY3dGSXpWeE9jV0tKelZ3Q09JNkJJckJSd1A4RVZaWVJPcWhPdXFMX1JHWHZsc2V4ZkwwZHMzcVp0Si03U3NtZGhzbVBNdjJrd1hVa3c?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Lkw Reifen",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|borsen|contitech|verkauf|zeitung|zielgeraden",
-    "event_id": "d11931607756cc4d04c2cdde0c75be09668a88a6",
     "alternate_sources": []
   },
   {
