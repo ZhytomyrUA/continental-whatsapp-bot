@@ -97,6 +97,7 @@
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
+      "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Hannover Reifenwerk Produktion"
     ],
@@ -308,6 +309,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen"
@@ -383,6 +385,33 @@
     },
     "event_family": "continental|machen|nutzfahrzeuge|straßenverkehr|unterschied|veroffentlicht",
     "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
+    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Innovation",
+      "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
+    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
     "alternate_sources": []
   },
   {
@@ -809,6 +838,32 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus - Automobilwoche",
+    "summary": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus &nbsp;&nbsp; Automobilwoche",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDIxVVZ5XzJ5WVV5WmQtY3NERWlwTUtHM1dfOTM3eTczS19idHBGOERTeEo4eFNSdDZWU2ZyeE9RaE9KRHZwcHZWbHBPSnBJbDc4dW9oaFQ1Zi1NYWptcGF5enM0bDgwSm5feE8wbWRwOGNRaXFuX0Y3dHd4cFVzOExrZVM0WnNVWTBudkpGUkN0NVp4aWpnX19HSVJ0a2ZSdGVacWFXTGFQSnNzOUlpc0VfdEM5cnVKVVJ5NklqbDJPVUQtMmJWNVNSbjhFTEhWb0V1NFVOR1Y?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Fabrik Deutschland",
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|automobilwoche|prognose|reifenkonzern|reinen|umbau",
+    "event_id": "9ba1f8c9fd954056c8d8967330f4e7846d95cc42",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental hebt Ziele für 2026 an: Reifen-Marge steigt auf 14,9 % - Investing.com Deutsch",
     "summary": "Continental hebt Ziele für 2026 an: Reifen-Marge steigt auf 14,9 % &nbsp;&nbsp; Investing.com Deutsch",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQVAwLU00aWVnUm14VDFKYThSZUQ5UUktMXJTbGpOdTBBMlpINW4zRy1lVkNmRXVENkprUktNREZpa24tX05KTWdlSnc1ZDI0MVVaODU4V2phVlByMVR5RkE0eDBNRklNc05Ud1FMOTVxLVI4alV6TW9kMmNrOC1tMHh3SGx4QlNHVjZqM0VZT3QxYWlBNGFPWmF4bThUNWZhb000UXFYT3pnRWJYX3ZLQkdPYlViOTg?oc=5",
@@ -934,10 +989,11 @@
   {
     "title": "Continental liefert Reifen für den neuen VW ID. Cross | - aboutFLEET",
     "summary": "Continental liefert Reifen für den neuen VW ID. Cross | &nbsp;&nbsp; aboutFLEET",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQczlxSmZ5anZVNUVXcktReEVNR2xlSkZVUjRHYjBOVkpuZy1ZVzNrWXNMWlI0LUNHNkdWR2tvbU5jMzNkakJKc2s5RmduSEdRNGc0eUN5UTkyMW83VmU3Z3g0Tkg2cUIxMWk2RHJ2T2ZBVGktRTVWX09RSzhjbHJ6YUthMDhGamZMTFEw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXdHb3FlS2lSYnRNajhIcDBZSmxLSUZGZkZoRWI3MF9IRUo5azJ5R1R3LV92ME01Sk5KaUl3NGpnRHg5R1V0ZHA3QlZHZ0lEdDZZcjZablpGY3ZzYnZGd21GUnhlTUM2WmhmREQwVFVwZm1RTkczTUNTLXROOVdtOHRFYnJVZw?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-09T07:51:17+00:00",
+    "published_at": "2026-11-09T06:34:23+00:00",
     "matched_queries": [
+      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie"
     ],
     "score": 200,
@@ -964,7 +1020,6 @@
     "published_at": "2026-11-09T08:00:00+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation"
     ],
     "score": 200,
@@ -1188,7 +1243,6 @@
     "published_at": "2026-10-27T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1255,6 +1309,7 @@
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
+      "Continental Reifen neue Produktion",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -1431,33 +1486,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
-    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-12T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
-    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental MPT91 für Straße und Gelände - Baublatt.at",
     "summary": "Continental MPT91 für Straße und Gelände &nbsp;&nbsp; Baublatt.at",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Mc3llM1lDYXpXVjcxOEszVjBsU2NGSlRwZW9VMmt5NlJiYVR0ZHY3OUtRd2RZZVZoc1pmNGctRnduQ3pFWjNfQktxbnVfLVVBdjFLSEIyMFlZWGp0OFFna3c2end3bmVFLVA1bm5YcUFmdw?oc=5",
@@ -1480,6 +1508,32 @@
     },
     "event_family": "continental|baublatt|gelande|mpt91|straße",
     "event_id": "93eaa93bb59cb0454ac29f41cb74d3060542b75b",
+    "alternate_sources": []
+  },
+  {
+    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
+    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
+    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
     "alternate_sources": []
   },
   {
@@ -1573,31 +1627,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten - 1000PS",
-    "summary": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten &nbsp;&nbsp; 1000PS",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQXZpRkFJaDJzdkFFRkFVNUdxWkRkc1NaNTY5ektQTlRoQVNuODNENG1LTXdoaTR1QkJSb3dWR21JOFlZWnVmZVBjT0xfbFh4S2huTkIwMDVOMXljUFpBYUJzaG5sX0Z5eDR1ajd4dFA1Vy1aT2txaldIUUdiMlpOWkptN0tGaF9XTzQtejMwNVZhRjBIa0kwMDNlNU1JTTlzSjBqU9IBrAFBVV95cUxQeUtndFktSlR4d1loUmJoc1kzMnAyRl9tMG12cGVKcHdIeTZvRE9WRDRpbENrUW9WSEVGT3ZmVVIyV1NFN3Y2emhLekxZNlB1b095a3Vlc1dDU3M1ejgtLUo5cGR3Y09WUEFZNmhiUnRaNzI2aDlpNUtja2VGU0NzcEd6NXJTQ05xZ3FWZzRQRHZybnlQNUZOTEhZLXBUUWlyaE9MQUg3SC1fdzVE?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-03T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|1000ps|enfield|royal|varianten",
-    "event_id": "c20a522a0e78ec01a30d1e9ad95ad4d00e766f0c",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental erhöht Ausblick nach gutem dritten Quartal - Continental AG",
     "summary": "Continental erhöht Ausblick nach gutem dritten Quartal &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTWtmWVZrQU5oUnpnNjRZa19HU01vSVpXdFdUR2hYeFJzd1paQTU4Z05CTjMyQm9pSlkwVmFIbzBseDd2RGNLNU50RVRMOWpIcUxRVFJHM3R0RWFaNm4ycm0zMWIzYjZ4RnBSVjFtdVhGelFETWQxeVFLZUJScWRMN2ExOERUdkRNY3c?oc=5",
@@ -1675,31 +1704,6 @@
     },
     "event_family": "continental|adventure|bikes|contitrailattack|eicma2026|fruhjahr",
     "event_id": "e4fa363b1275b1dd67083cc2c9b391a2264ac2a3",
-    "alternate_sources": []
-  },
-  {
-    "title": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH - Handelsblatt Live",
-    "summary": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH &nbsp;&nbsp; Handelsblatt Live",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1V5R1YySUZyRXp2bUp2STlIazZkS2s1b2VrbEh5ZVF0bUdRckM1VVctNjhOdUVwRFhxbV8xZEsyYnFITzdDRGFERlVBNmNXNVk1S1ZUaVE0UmtIRmd3V3IwaDNIcWluR2FMOEhRQXd2cGVIZWZHRlhId3NLUm83MUE1MzdoeFNSQlpEMWV6bk1mYWZGOHVhc21jaVRoZWxNVGVtRnp0ekR1VktRTmp5VzNvb2tLb1lPN3BIeE9tX0NTSkVsR0dJT0NXeDRvSU1LWnBIaA?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-09T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|business|director|europe|fragen|germany",
-    "event_id": "5eebb5e52d5cba98b0a6b3dfbd35b31775d37ae8",
     "alternate_sources": []
   },
   {
