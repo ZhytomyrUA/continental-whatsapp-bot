@@ -252,7 +252,9 @@
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
+      "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
@@ -308,7 +310,6 @@
     "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
-      "Continental Reifen neue Produktion",
       "Continental Reifen Neuheit",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
@@ -394,9 +395,7 @@
     "source": "news.google.com",
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Innovation",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen"
+      "Continental Reifen Neuheit"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -422,6 +421,7 @@
     "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
@@ -1242,7 +1242,8 @@
     "source": "news.google.com",
     "published_at": "2026-10-27T07:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Produktion",
+      "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1308,8 +1309,12 @@
     "source": "news.google.com",
     "published_at": "2026-09-24T07:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Korbach Mitarbeiter"
     ],
     "score": 200,
@@ -1627,6 +1632,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten - 1000PS",
+    "summary": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten &nbsp;&nbsp; 1000PS",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQXZpRkFJaDJzdkFFRkFVNUdxWkRkc1NaNTY5ektQTlRoQVNuODNENG1LTXdoaTR1QkJSb3dWR21JOFlZWnVmZVBjT0xfbFh4S2huTkIwMDVOMXljUFpBYUJzaG5sX0Z5eDR1ajd4dFA1Vy1aT2txaldIUUdiMlpOWkptN0tGaF9XTzQtejMwNVZhRjBIa0kwMDNlNU1JTTlzSjBqU9IBrAFBVV95cUxQeUtndFktSlR4d1loUmJoc1kzMnAyRl9tMG12cGVKcHdIeTZvRE9WRDRpbENrUW9WSEVGT3ZmVVIyV1NFN3Y2emhLekxZNlB1b095a3Vlc1dDU3M1ejgtLUo5cGR3Y09WUEFZNmhiUnRaNzI2aDlpNUtja2VGU0NzcEd6NXJTQ05xZ3FWZzRQRHZybnlQNUZOTEhZLXBUUWlyaE9MQUg3SC1fdzVE?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-03T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Neuheit"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|1000ps|enfield|royal|varianten",
+    "event_id": "c20a522a0e78ec01a30d1e9ad95ad4d00e766f0c",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental erhöht Ausblick nach gutem dritten Quartal - Continental AG",
     "summary": "Continental erhöht Ausblick nach gutem dritten Quartal &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTWtmWVZrQU5oUnpnNjRZa19HU01vSVpXdFdUR2hYeFJzd1paQTU4Z05CTjMyQm9pSlkwVmFIbzBseDd2RGNLNU50RVRMOWpIcUxRVFJHM3R0RWFaNm4ycm0zMWIzYjZ4RnBSVjFtdVhGelFETWQxeVFLZUJScWRMN2ExOERUdkRNY3c?oc=5",
@@ -1704,6 +1734,31 @@
     },
     "event_family": "continental|adventure|bikes|contitrailattack|eicma2026|fruhjahr",
     "event_id": "e4fa363b1275b1dd67083cc2c9b391a2264ac2a3",
+    "alternate_sources": []
+  },
+  {
+    "title": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH - Handelsblatt Live",
+    "summary": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH &nbsp;&nbsp; Handelsblatt Live",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1V5R1YySUZyRXp2bUp2STlIazZkS2s1b2VrbEh5ZVF0bUdRckM1VVctNjhOdUVwRFhxbV8xZEsyYnFITzdDRGFERlVBNmNXNVk1S1ZUaVE0UmtIRmd3V3IwaDNIcWluR2FMOEhRQXd2cGVIZWZHRlhId3NLUm83MUE1MzdoeFNSQlpEMWV6bk1mYWZGOHVhc21jaVRoZWxNVGVtRnp0ekR1VktRTmp5VzNvb2tLb1lPN3BIeE9tX0NTSkVsR0dJT0NXeDRvSU1LWnBIaA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-09T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|business|director|europe|fragen|germany",
+    "event_id": "5eebb5e52d5cba98b0a6b3dfbd35b31775d37ae8",
     "alternate_sources": []
   },
   {
