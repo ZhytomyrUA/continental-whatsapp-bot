@@ -1,91 +1,41 @@
 [
   {
-    "title": "Für Reifen-Werk: Continental baut eigenen Windpark in Korbach - hessenschau.de",
-    "summary": "Für Reifen-Werk: Continental baut eigenen Windpark in Korbach &nbsp;&nbsp; hessenschau.de",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbzllRk1HVFo0VkxXT0hpVU9fY0VVRkdnX3BDNllod0lvem5yNDY4emJxNjFxT1J3amhoOWIwU0ZXUldZWUdpM004TU9fTllxd0RxZXZ3T0RqNzJBa29yQUZhYlU0OGNBSVIwU20tR1huNHN0czdSSDEzQzg1SDdmWWs1aUJuM3NxZUhSQmxkT28yQnpPWXlnTnN1ZFBYLW5CS1BHYVMyTE1GWElZY2tYYThWQzMwbWtwVEdsLWwxRUQ5Tnlt?oc=5",
+    "title": "„Weltweit einmalig“: Continental startet Bau eines firmeneigenen Windparks in Nordhessen - HNA",
+    "summary": "„Weltweit einmalig“: Continental startet Bau eines firmeneigenen Windparks in Nordhessen &nbsp;&nbsp; HNA",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNV3VrNGJva1U1N0ZiTXI4NXd1bWdIUGVjajZCUmY2NTdQdHNKZHFYR0xpN2l5VDFEZENiNVdjNzFEdXhFWG5LQmdPRGYzaG9hY0p4cDBZRXdWSnVORTV5LVkxVUFtSnNGU0NsTE5wRjJza0pXRDFwbDYtRFd3eFBKTTdZRmgwX3VDc3RFVVZVRTN1bV9DTzVsNWZkX1ZzTE9tX2hqM0VxeWNsM2FJLVhBbUxvLV9Vbzh2ZndpbkgxNGpNYnZvUG9NWVpFMW9aaFBBOGVpeFV0S0pTZzVRMEtUOA?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-09-23T07:00:00+00:00",
+    "published_at": "2026-09-25T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Korbach Reifenwerk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Fabrik Deutschland",
-      "Continental Reifen Werk Schließung",
+      "Continental Reifen Werk Verlagerung",
+      "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie",
-      "Continental Lkw Reifen",
+      "Continental Nachhaltigkeit",
       "Continental Korbach Werk Produktion",
       "Continental Korbach Reifenwerk Windpark",
       "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
       "Continental Korbach Standort",
-      "Continental Korbach Investition",
       "Continental Korbach Energie",
-      "Continental Hannover Reifenwerk Produktion",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
-    "score": 2900,
+    "score": 2850,
     "category": "KORBACH_FACTORY",
     "korbach_priority": true,
     "factory_evidence": {
-      "location": true,
-      "factory_noun": true,
+      "location": false,
+      "factory_noun": false,
       "action": true,
-      "nearby": true,
-      "title_factory": true,
+      "nearby": false,
+      "title_factory": false,
       "title_action": true,
       "generic_product": false
     },
     "event_family": "windpark|korbach|continental",
     "event_id": "fb4483b51430fc4ad07119aad0196e1685e620d0",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Windpark für Continental: Reifenwerk in Korbach setzt auf eigenen Strom - hessenschau.de",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcWUzM2Vic1hpNTZ2blhzMzBhbEhteUVDY0VYUFJLLXpJZkkwZHdIQ0dQb2NuaHdPYzlBVGxfaVo2cXFMMTIyVEdXUjRQNlA3R2pIWUY2UUdJYThJOTBTYlJ4UjRuTWJTbVZuaUE3aWJ6NWhOSDVwNW1DUlp6clBLa18tVHR4M3lscGxjRTBQZFd5VS1KeVhLQ0RtYzROQk93MGMySTFMaVYzVEFiQmpZcGQ2YnFTdGVYTHRXNE9KQUF6UGRfVDJoNDRELVVYVFJfZEZ2OQ?oc=5",
-        "published_at": "2026-09-23T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Spatenstich in Twistetal Bau von Continental-Windpark gestartet - Hit Radio FFH",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTBzU01haW1PRTVLTjBkb3NUWkJLV0U3SjRCR1hZMlNUTEd4alc1YmszRXV5OUxCRklkLVNOZmZxM21VTVhIX21BTTNEam9DQ3g4aHctOS1yYVFUdGZGSWljWHQ3RXRyU1dvSEtjYjFUS2FJd1lfR0V3NmZ2dm9LcVV1WFN5VHpiRTdqa3R2Z01McXRuQzV2SFJRQmdqZEc0QWZSclkwc3plQQ?oc=5",
-        "published_at": "2026-09-23T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "„Weltweit einmalig“: Continental startet Bau eines firmeneigenen Windparks in Nordhessen - HNA",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNV3VrNGJva1U1N0ZiTXI4NXd1bWdIUGVjajZCUmY2NTdQdHNKZHFYR0xpN2l5VDFEZENiNVdjNzFEdXhFWG5LQmdPRGYzaG9hY0p4cDBZRXdWSnVORTV5LVkxVUFtSnNGU0NsTE5wRjJza0pXRDFwbDYtRFd3eFBKTTdZRmgwX3VDc3RFVVZVRTN1bV9DTzVsNWZkX1ZzTE9tX2hqM0VxeWNsM2FJLVhBbUxvLV9Vbzh2ZndpbkgxNGpNYnZvUG9NWVpFMW9aaFBBOGVpeFV0S0pTZzVRMEtUOA?oc=5",
-        "published_at": "2026-09-25T07:00:00+00:00"
-      }
-    ]
-  },
-  {
-    "title": "Continental AG erwägt Schließung von Reifenwerk in Südafrika; 950 Beschäftigte betroffen - MarketScreener Deutschland",
-    "summary": "Continental AG erwägt Schließung von Reifenwerk in Südafrika; 950 Beschäftigte betroffen &nbsp;&nbsp; MarketScreener Deutschland",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRzlOd2JNWEM3bEtsb3FPV2pfb2FyeU9TMC1OX3hXYnBKOHNfdWVCX3lkeVhiWk9jcHZqOFFvRno1MmhRTjNqdTJGVUtsRTFhRmJvUzBkQ1YyUXdfSTliSWg2dTdLNW5hWVZaQXc5V3Rud1BaOUJUQ1Q4Y2NtZHZjSEg4SEZLX1RqUUI4OG5xUDRyQnNRWUVuWHlYNnNZaTc3Ym5qWXRxZjlyLXZGRHZYUnF3SEpaWlhvaTl2UjUzemN6YUExaURaQV9OQVFFT0NqYnozcWFxSVEzbkdKNFBKWDI1TjNqRjMyMnYwbFBR?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-20T14:25:20+00:00",
-    "matched_queries": [
-      "Continental Reifen Werk Investition",
-      "Continental Reifen Werk Schließung",
-      "Continental Reifen Technologie",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 1780,
-    "category": "FACTORY_PRODUCTION",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": true,
-      "action": true,
-      "nearby": true,
-      "title_factory": true,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|schließung|reifenwerk|beschaftigte|betroffen|deutschland|erwagt|marketscreener",
-    "event_id": "b2cdef8e768de39d4c8693066eedfbef22307533",
     "alternate_sources": []
   },
   {
@@ -254,7 +204,6 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nutzfahrzeugreifen",
@@ -386,31 +335,6 @@
     },
     "event_family": "continental|machen|nutzfahrzeuge|straßenverkehr|unterschied|veroffentlicht",
     "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
-    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
-    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
     "alternate_sources": []
   },
   {
@@ -724,31 +648,6 @@
     },
     "event_family": "continental|digital|dollar|konrad|lager|mount",
     "event_id": "664ccd2d650cd810dd28e48d54ac5b999f90e522",
-    "alternate_sources": []
-  },
-  {
-    "title": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone - Netzwelt",
-    "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-26T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|barum|bridgestone|diese|gehoren|gunstigen",
-    "event_id": "40a0ca20bbb3a40f27d43b92a6739c08b665ef29",
     "alternate_sources": []
   },
   {
@@ -1106,34 +1005,6 @@
     ]
   },
   {
-    "title": "AllSeasonContact 2 erhält „sehr empfehlenswert“ im Ganzjahresreifentest der Auto Zeitung - Continental AG",
-    "summary": "AllSeasonContact 2 erhält „sehr empfehlenswert“ im Ganzjahresreifentest der Auto Zeitung &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTjBhZDZmU3hoMWlVOGp0LVUwaUctX3VrQ1BBN2oybzRnTXNyOXNFRk0xNGRYTlVfZXMxNGZlbU5WZHR4Qk9JYXdOOHJFREU4NnplQ2U3N0R4SUxOa2RMeXVpdHdBQ3Z3U0ZxOG1QLU9CaTBzY3JWVFdRQnFpN25NRkNCREN3M3oyYm0w?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-23T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
-    ],
-    "score": 200,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "allseasoncontact2|test|continental",
-    "event_id": "de68777234e5ddb7c2154e0024d679ddbe531123",
-    "alternate_sources": []
-  },
-  {
     "title": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear - heise online",
     "summary": "Ganzjahresreifen 225/45 R17 im Test: Pirelli vor Continental und Goodyear &nbsp;&nbsp; heise online",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObC16elNFM1F4RHVkRkFpbE5ENGxFMWt2QkFrWDFfTmR3aUNnTU5CU1FlY1FrLWx5X2R3a0pNVzYxcExSbWh2Ui1oQXBFUHlNNDRhZW5FYTFwSmRuVFBUMk1XbmV4Qnd3alIxcndjSXJuTnpjbmQ2bXdwLWtfQ0Fod1Vpb3NyVk0zX2gyMk4tbWdoLWk4XzJveE1IOERGM296SUY3dHU5R2RuM1ExTzhabHZIRXBFZGc?oc=5",
@@ -1244,6 +1115,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1313,7 +1185,6 @@
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
-      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Korbach Mitarbeiter"
     ],
@@ -1491,6 +1362,33 @@
     "alternate_sources": []
   },
   {
+    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
+    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-12T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie",
+      "Continental Reifen Test",
+      "Continental Pkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
+    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental MPT91 für Straße und Gelände - Baublatt.at",
     "summary": "Continental MPT91 für Straße und Gelände &nbsp;&nbsp; Baublatt.at",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Mc3llM1lDYXpXVjcxOEszVjBsU2NGSlRwZW9VMmt5NlJiYVR0ZHY3OUtRd2RZZVZoc1pmNGctRnduQ3pFWjNfQktxbnVfLVVBdjFLSEIyMFlZWGp0OFFna3c2end3bmVFLVA1bm5YcUFmdw?oc=5",
@@ -1513,32 +1411,6 @@
     },
     "event_family": "continental|baublatt|gelande|mpt91|straße",
     "event_id": "93eaa93bb59cb0454ac29f41cb74d3060542b75b",
-    "alternate_sources": []
-  },
-  {
-    "title": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad - Continental AG",
-    "summary": "Ausgewogen durch alle Jahreszeiten: AllSeasonContact 2 erhält Urteil „vorbildlich“ von AUTO BILD Allrad &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRWeUhTYmJGUEEwNDA5eFFvQjF3ZjdQVDVyRnlqVUlQZ1RDcmR5SWlvS2daU1ZibDV5UWN5VTFaRDB2NDZtVTRMVnlidi1vUUFRSUlJWUV3YlJZZ3RfSTFDeURUZDBtN3NxR1Z5eThuTTVpNmM1N1pyMXlSR0JELUk0eDR6SjVa?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-12T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test",
-      "Continental Pkw Reifen"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|allseasoncontact-2|allseasoncontact|allrad|ausgewogen|durch|jahreszeiten",
-    "event_id": "81722b2be6a0dbe3916c1900ed33d66339a51372",
     "alternate_sources": []
   },
   {
@@ -1634,7 +1506,7 @@
   {
     "title": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten - 1000PS",
     "summary": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten &nbsp;&nbsp; 1000PS",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQXZpRkFJaDJzdkFFRkFVNUdxWkRkc1NaNTY5ektQTlRoQVNuODNENG1LTXdoaTR1QkJSb3dWR21JOFlZWnVmZVBjT0xfbFh4S2huTkIwMDVOMXljUFpBYUJzaG5sX0Z5eDR1ajd4dFA1Vy1aT2txaldIUUdiMlpOWkptN0tGaF9XTzQtejMwNVZhRjBIa0kwMDNlNU1JTTlzSjBqU9IBrAFBVV95cUxQeUtndFktSlR4d1loUmJoc1kzMnAyRl9tMG12cGVKcHdIeTZvRE9WRDRpbENrUW9WSEVGT3ZmVVIyV1NFN3Y2emhLekxZNlB1b095a3Vlc1dDU3M1ejgtLUo5cGR3Y09WUEFZNmhiUnRaNzI2aDlpNUtja2VGU0NzcEd6NXJTQ05xZ3FWZzRQRHZybnlQNUZOTEhZLXBUUWlyaE9MQUg3SC1fdzVE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMHdvYTJJa21HdUZLUDN1ODNlZW5JcWF3UF9wd3M1bDYxYlduMDA2aTZpTzdoc2dZVXJxMzhsMW0tVTJvbEhEX2l2dFBVTzVtRzZlMGw2SW9LQ1c1R05CUmZUd2k2bDlkbG5VaG4wRDRwN1NvSjBST2stSS11RVk0UDJwWTc4bnotMmtyR3JCR2g5WWVNMEhSMjJwdTQ4OUN3Wmg5NdIBrAFBVV95cUxNR1QyNVI0R0NvT2VhREJFSFZqVm9DM2VWQWFuZzg1dnNnSlAwT3hmTDVlWVZnYXN4RHRRcEVJLTg5eGlEVGdwbmZQUUhXRzNybkc5SUJReWg2cDZaUFVNSnZHT0R2eDlYV1F2UVotNTRNTlVJSFkyN0I2OFRDcUpjcF9IYVhZN1g2Z3dhS3Q1cXk0NWlGQTdlS2JpenAtd2FnX2xvMXZsQkU4RTZJ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-11-03T08:00:00+00:00",
     "matched_queries": [
