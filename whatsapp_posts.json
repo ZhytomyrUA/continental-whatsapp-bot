@@ -35,7 +35,6 @@
     "matched_queries": [
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
-      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Hannover Reifenwerk Produktion"
@@ -63,6 +62,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-23T14:30:02+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Investition",
       "Continental Reifen Werk Schließung",
       "Continental Mitarbeiter Werk",
@@ -99,6 +99,7 @@
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen",
       "Continental Nachhaltigkeit",
+      "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
       "Continental Korbach Standort",
       "Continental Deutschland Reifenwerk Mitarbeiter"
@@ -127,6 +128,7 @@
     "published_at": "2026-11-23T07:33:15+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Pkw Reifen"
     ],
@@ -192,6 +194,7 @@
     "published_at": "2026-09-28T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Nutzfahrzeugreifen",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
@@ -250,7 +253,6 @@
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Nachhaltigkeit"
@@ -448,6 +450,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-20T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Test"
     ],
     "score": 200,
@@ -500,6 +503,7 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen",
       "Continental Motorsport Reifen"
@@ -533,6 +537,7 @@
       "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Belegschaft Werk",
+      "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
       "Continental Deutschland Werk Investition"
@@ -885,7 +890,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-24T14:29:55+00:00",
     "matched_queries": [
-      "Continental Mitarbeiter Werk",
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Lkw Reifen",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
@@ -1024,6 +1029,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1083,8 +1089,8 @@
     "alternate_sources": []
   },
   {
-    "title": "15 Winterreifen-Test: Dieser No-Name bremst auf Schnee besser als Pirelli, Continental und Goodyear - Netzwelt",
-    "summary": "15 Winterreifen-Test: Dieser No-Name bremst auf Schnee besser als Pirelli, Continental und Goodyear &nbsp;&nbsp; Netzwelt",
+    "title": "15 Winterreifen im Test: Dieses No-Name-Modell bremst auf Schnee besser als Pirelli, Continental und Goodyear - Netzwelt",
+    "summary": "15 Winterreifen im Test: Dieses No-Name-Modell bremst auf Schnee besser als Pirelli, Continental und Goodyear &nbsp;&nbsp; Netzwelt",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVUxzSjdmNmJMdUlrY3Zjb0xMX3ZNTkN4ampnZlZ0QVJEWVpjRHdfRlQ4b2NzLWdFOGpDUjgtN0JYclJwMlJqcHI0ODFSNkd5SzNZbnZrOTNrTkxBb3ZnLVlkSDlPNS1KSEg4UkpfSEltaDhwT0RneXdPSHlmNmdIaXFYNm9raHYxRzNtMGp1dnlidm5iU0VYVmhfSTlCSm1ZYzcxNVhjTkRuODBhZmJBS29JS2w2eFRDVEpZ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-11-26T03:45:00+00:00",
@@ -1103,8 +1109,8 @@
       "title_action": false,
       "generic_product": true
     },
-    "event_family": "continental|besser|bremst|dieser|goodyear|netzwelt",
-    "event_id": "991690b3d3e752d21db854e8c6fa67069e3e5570",
+    "event_family": "continental|besser|bremst|dieses|goodyear|modell",
+    "event_id": "1b016daf90305c8404c39eda09d6567ed6101c5a",
     "alternate_sources": []
   },
   {
@@ -1130,31 +1136,6 @@
     },
     "event_family": "continental|bentley|britischer|luxus|motor|sport",
     "event_id": "f7305b2edcc80bf7af48723fe36173c82d5a2d32",
-    "alternate_sources": []
-  },
-  {
-    "title": "TotalEnergies SE unterzeichnet neue Vereinbarung mit Continental Resources Inc. zur Erschließung der Gasproduktion - MarketScreener Schweiz",
-    "summary": "TotalEnergies SE unterzeichnet neue Vereinbarung mit Continental Resources Inc. zur Erschließung der Gasproduktion &nbsp;&nbsp; MarketScreener Schweiz",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTExUNms5WjlwVTZIcU1zeGpkcU9VZkozcnAtMWhHTTBKbkdmQVJJblg5a2xnWmlxZzI4Y2dRME9vb1FTZXBzZE5UVld3YnFXUWVFakFLYkotaGNqX015amNoOGZpUkNLMjBweXdHUEFQWmU0MjdrQmZPQVVQX0xmeWFRRXJON2FKbEQ4eFF6aHV5eEFVVkF3N3Fwelh2VWdXcTQ1bGZFbDhQSXRjTXdpV29CVVFEY0sxQXZFQjN3OUs1eUIwR2RjZjZfR0wxMDFUcWZlMm93VXU2eFpVX1AtNHBUcnJDbEpmLVZHcmR3XzNHOUlFd0FnQUxR?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-23T08:05:28+00:00",
-    "matched_queries": [
-      "Continental Reifen neue Produktion"
-    ],
-    "score": 230,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": true,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": true,
-      "generic_product": false
-    },
-    "event_family": "continental|schließung|produktion|erschließung|gasproduktion|marketscreener|resources|schweiz",
-    "event_id": "ded6f044fafe8822e2979eadab214a745292cffb",
     "alternate_sources": []
   },
   {
@@ -1219,7 +1200,8 @@
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
-      "Continental Deutschland Werk Stellenabbau"
+      "Continental Deutschland Werk Stellenabbau",
+      "Continental Deutschland Werk Schließung"
     ],
     "score": 150,
     "category": "COMPANY",
@@ -1246,6 +1228,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1486,7 +1469,6 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
-      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
@@ -1517,6 +1499,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Fabrik Deutschland",
       "Continental Lkw Reifen",
       "Continental Deutschland Reifenwerk Mitarbeiter"
     ],
@@ -1534,31 +1517,6 @@
     },
     "event_family": "continental|borsen|contitech|verkauf|zeitung|zielgeraden",
     "event_id": "d11931607756cc4d04c2cdde0c75be09668a88a6",
-    "alternate_sources": []
-  },
-  {
-    "title": "[EICMA2026] Start im nächsten Frühjahr! Continental kündigt den \"ContiTrailAttack 4\" für Adventure-Bikes an - Webike Japan",
-    "summary": "[EICMA2026] Start im nächsten Frühjahr! Continental kündigt den \"ContiTrailAttack 4\" für Adventure-Bikes an &nbsp;&nbsp; Webike Japan",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOXzJPYlVDQnFJU1ZnOHFnYUVpWWxLbHo4M0ZlUjFKeXliU3Y2SExXMVE0QUJ5a3lxQmh3b3FRNDJjaUNSa2ItTXNvbkR6NGZLSjUwNkc0djhYYUZ3Zm9jWW5BbHplcUE2MHU0d1d1a25FRWZRcWF2OW5XendyZkhyZENsV20wU0d6aU5IUzR6OTZOM2ZxVDViXy1rNjBSVTlvelVCT0JWdjBGdHFYM24tY3R3UC16dmM3YmNSTG92QVNJblkydDQ0ckRGcw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-05T01:45:32+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|adventure|bikes|contitrailattack|eicma2026|fruhjahr",
-    "event_id": "e4fa363b1275b1dd67083cc2c9b391a2264ac2a3",
     "alternate_sources": []
   },
   {
