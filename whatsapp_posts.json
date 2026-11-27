@@ -27,6 +27,38 @@
     "alternate_sources": []
   },
   {
+    "title": "Continental plant Schließung seines Reifenwerkes in Südafrika – Deutliche Unterauslastung - Reifenpresse.de",
+    "summary": "Continental plant Schließung seines Reifenwerkes in Südafrika – Deutliche Unterauslastung &nbsp;&nbsp; Reifenpresse.de",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWmVVc3VXbGFaMGQwWEpBdXRwN1BENzFFd1FqeWt3M3ZpdTNISjJ4dEJuemY5UDlTZ0RNRFFVeFRUZ0ZsUkd3eDU2NlozMG45Z2lYWTRyS09GdDl1RUhETERJbE54bzc3M2UxNTlKdi12SjZHQmgtcHdWZjc3X1FFdkhyUlg0NDUwLUdPbzlub1A4RnJreWhlNk93Q0NFMkI1eUUtM0dnUk1JV2EtUVBCSUttMHFpS2JWeTQ1MjJnRU9oTTA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-23T11:49:40+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Werk Schließung",
+      "Continental Mitarbeiter Werk",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen",
+      "Continental Hannover Reifenwerk Produktion",
+      "Continental Deutschland Reifenwerk Mitarbeiter",
+      "Continental Deutschland Werk Schließung"
+    ],
+    "score": 1780,
+    "category": "FACTORY_PRODUCTION",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": true,
+      "action": true,
+      "nearby": true,
+      "title_factory": true,
+      "title_action": true,
+      "generic_product": false
+    },
+    "event_family": "continental|schließung|reifenwerk|deutliche|reifenpresse|reifenwerkes|seines",
+    "event_id": "8be9032a70464c2fe8e0f1dba5b9a5e54b04cf33",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental steigert Gewinn trotz Umsatzrückgang - Produktion Online",
     "summary": "Continental steigert Gewinn trotz Umsatzrückgang &nbsp;&nbsp; Produktion Online",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMm9yc2Jmb2FVcV9OTjFqZGpUNmtrR1ZFcFBTSzIxZWRWT2FSbllLREExcndfYlUyWlVuQ05SdEY3X0F4SVNqaTZaWWhDZ1VlRU5JemtiWXJBTkZHYm8tQnFKSElIWjVWX1ZrUzJKb3FEMFdIRDV5MUpWVjN5QlR3TDVlX0Q0MW8xbGltTzFYVHdtcXpvMU9VS0tB?oc=5",
@@ -187,63 +219,6 @@
         "published_at": "2026-11-04T08:00:00+00:00"
       }
     ]
-  },
-  {
-    "title": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ - Continental AG",
-    "summary": "Continental veröffentlicht Whitepaper „Nutzfahrzeuge im Straßenverkehr – Reifen machen den Unterschied“ &nbsp;&nbsp; Continental AG",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWhOdVFmZmdXN3RvaFk0VGcwNV9pb2NRN3pzemZULXJfSUJNWGpGNUotZ3pEWWNTekVtRjJMYUJQbkxUTTQtNUxUNXRibnZCRDJTdzdoSVRkMGU1U25XUUhGNXY0ZjB2VGdJTmFDZ2JpOG4tM1QxenFoVElibnJIcHF0elhjRXZK?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen",
-      "Continental Pkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|machen|nutzfahrzeuge|straßenverkehr|unterschied|veroffentlicht",
-    "event_id": "d1cfaa416dcc630f97576c2f187ce53ab491964e",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu - TRANSPORT - die Zeitung für den Güterverkehr",
-    "summary": "Continental: Reifenmängel bei schweren Nutzfahrzeugen nehmen zu &nbsp;&nbsp; TRANSPORT - die Zeitung für den Güterverkehr",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa053RDBrZXhTMWNxOEpjWkNMajkwUXlLUE9mS0tJYnU1Znk2b1kzanJKaXVHWjlaS0N0VFdsaEFsVW5pQmNYc2JISDNmSmV1MFNKSWk1OVNMUERSUzd3LVdiNXpXQlNWd0xYSEdVbUtxOW50ekdwYTVXa2NVVWg1aklPeHpXR1hBZnRaWk9QbTRoYzh5YW9Lenh0S0p6dHJnTzBtYkN1ZmFLRTdB?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit",
-      "Continental Reifen Innovation",
-      "Continental Nutzfahrzeugreifen",
-      "Continental Lkw Reifen"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|guterverkehr|nehmen|nutzfahrzeugen|reifenmangel|schweren",
-    "event_id": "3cf1e23cc9ef961786df4019644ebe567ea3753f",
-    "alternate_sources": []
   },
   {
     "title": "Porsche setzt auf Reifen von Continental - Gummibereifung",
@@ -452,7 +427,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-20T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -538,7 +513,6 @@
       "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Belegschaft Werk",
-      "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
       "Continental Deutschland Werk Investition"
@@ -560,6 +534,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone - Netzwelt",
+    "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-26T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|barum|bridgestone|diese|gehoren|gunstigen",
+    "event_id": "40a0ca20bbb3a40f27d43b92a6739c08b665ef29",
+    "alternate_sources": []
+  },
+  {
     "title": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 - 1000PS",
     "summary": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 &nbsp;&nbsp; 1000PS",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFWdU90dlFqWEtJNGtoRVRUaGtyaG83Z0RZNTVjTkhsdGtWbkRuejE4czVEUVUwX3VHUGpCVU5YbzhyV3dITWhvQzBtbTZTb1NvYUd0UWt4anZZMTdmQkptRmZscnZ4eWdLQ1VvRGRCMENfd01kZDJkSUg1MjlRbXlYSFJOdHJ6T0xVUlRSZXIzY0NkQjRfQmpCWTl0MzBDRmF1cXp30gGuAUFVX3lxTE9YWFlUSUR2Ny10dk1ieTEyZ2R4aWNoNk9qUUJ4YVl0NEF3REh3M2dnV3E1OGcxWHpYVDZyWTJtSTdnR3g3UVlVcjZ5blNtelVHU2Fjc1QtLTRCZ3VJN2dXcHgxUHFIMTVFS3hoSnRmTnpCUmtyNG96bWN6WjZLeGpZVUxrcmkxVngwOG5HSnhlVWVUaXJlZ0hoOTBLeGl3bDFyRlowdk5OZnl1X3lSUQ?oc=5",
@@ -568,6 +567,7 @@
     "matched_queries": [
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
+      "Continental Reifen Test",
       "Continental Motorsport Reifen"
     ],
     "score": 200,
@@ -610,32 +610,6 @@
     },
     "event_family": "continental|brabus|highlight|reifenpresse|sicherlich",
     "event_id": "c1087c360dd526d225e179d35e1d087256ceeeca",
-    "alternate_sources": []
-  },
-  {
-    "title": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus - Automobilwoche",
-    "summary": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus &nbsp;&nbsp; Automobilwoche",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDIxVVZ5XzJ5WVV5WmQtY3NERWlwTUtHM1dfOTM3eTczS19idHBGOERTeEo4eFNSdDZWU2ZyeE9RaE9KRHZwcHZWbHBPSnBJbDc4dW9oaFQ1Zi1NYWptcGF5enM0bDgwSm5feE8wbWRwOGNRaXFuX0Y3dHd4cFVzOExrZVM0WnNVWTBudkpGUkN0NVp4aWpnX19HSVJ0a2ZSdGVacWFXTGFQSnNzOUlpc0VfdEM5cnVKVVJ5NklqbDJPVUQtMmJWNVNSbjhFTEhWb0V1NFVOR1Y?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-04T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Fabrik Deutschland"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|automobilwoche|prognose|reifenkonzern|reinen|umbau",
-    "event_id": "9ba1f8c9fd954056c8d8967330f4e7846d95cc42",
     "alternate_sources": []
   },
   {
@@ -792,7 +766,7 @@
     "summary": "Ab Werk auf Continental-Reifen: der neue Mercedes-AMG CLA &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81cnBESFhPdThWbjV1UTFmU1hMMVh6UWo2aEtsbGtuUUJGOFI1cFQxcW81eEJ2TzRuM2RtNDJRcEV5YVpVMldsZm9HTG9RNDd0M1dWQjdBQmR4MWZVN2ZDWWF1REpTalg1WGY3V1o2NXdORVdIOGE5eQ?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-19T07:43:17+00:00",
+    "published_at": "2026-11-19T08:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
@@ -965,7 +939,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1075,31 +1048,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden - AUTO&Wirtschaft",
-    "summary": "Roadtrip zu Brabus: Continental lässt Träume aus Performance und Technik wahr werden &nbsp;&nbsp; AUTO&amp;Wirtschaft",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcm4za0pVUmVXOUl4anBBWHBjOGE3cTVKS3dXVW1pZDh5SElBeF9GaVpwN1p3Y25HV290TklGSkIxci1yRkIxak5naE1fbXhnMTZPUHpGdWJnRmU0MHFpQzJmZmJudmJCY1pROS0tWUZQT2RITVYxVW5JZmdPcWJNdXJPS2IzNl9xM2hlanJjcklaa3AzdHFtMTNTQURaTUs3WU1vdFgwdVdUUmZSQmgtaVVVcVF0dw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-28T09:36:35+00:00",
-    "matched_queries": [
-      "Continental Mitarbeiter Werk"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|brabus|lasst|performance|roadtrip|technik",
-    "event_id": "c5fa0c8a850cb23914383c03567452af048a6a0f",
-    "alternate_sources": []
-  },
-  {
     "title": "Erst Continental, dann Aumovio, dann RHB: RHB-Robotics übernimmt AMR-Geschäft in Rheinböllen - Logistra.de",
     "summary": "Erst Continental, dann Aumovio, dann RHB: RHB-Robotics übernimmt AMR-Geschäft in Rheinböllen &nbsp;&nbsp; Logistra.de",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRjlmU1lndFBUUjNRVFlGeTFXNVAtOGxIVkViZWM0SG8tWkNHNV9NZTlFVWhoRTJ5SnJRRTk1OGt1WU5fUDRGeU5tcGcwaHE1M0t3dFlrVF9nUXBvTjRsZm9KOXZzc2EzeDN4WUhGcHg2RDdERDk0R1I0b1ZGSmlFbFJJbUZpMHVhMTRVS0V4ZDB5SWdsb29OU1N5enVPYVVoZHNfLTd2QmdQTmllZVVYWUxObHRsY2ZGQ3hFdGNJZUh5dVBR?oc=5",
@@ -1166,7 +1114,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1292,6 +1239,31 @@
     "alternate_sources": []
   },
   {
+    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
+    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-10-20T07:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Test"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
+    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
+    "alternate_sources": []
+  },
+  {
     "title": "Der neue ContiTrailAttack 4: 90 % Straße. 10 % Gelände. 100 % Entdeckergeist. - Continental AG",
     "summary": "Der neue ContiTrailAttack 4: 90 % Straße. 10 % Gelände. 100 % Entdeckergeist. &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS3lkbkp2Vktlazdob1diZzBUQk5YV3BSRFd2UHNqWXhqZUFYMkdTY2J4QWNDN3RXcG43dnVnM2xoTll2a2IwUFgyZkozQTFjSU1OS3VUalVQejNRMTFxdFlQbEhtMVEwZUpWM2pQaVU4MVloWjg1NHVqb0xEUnZMNXl0eFdqYThUVW90QmF3?oc=5",
@@ -1299,7 +1271,6 @@
     "published_at": "2026-10-27T07:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Motorsport Reifen"
@@ -1351,31 +1322,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten - 1000PS",
-    "summary": "Royal Enfield Continental GT 750: Neuer Twin, zwei Varianten &nbsp;&nbsp; 1000PS",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMHdvYTJJa21HdUZLUDN1ODNlZW5JcWF3UF9wd3M1bDYxYlduMDA2aTZpTzdoc2dZVXJxMzhsMW0tVTJvbEhEX2l2dFBVTzVtRzZlMGw2SW9LQ1c1R05CUmZUd2k2bDlkbG5VaG4wRDRwN1NvSjBST2stSS11RVk0UDJwWTc4bnotMmtyR3JCR2g5WWVNMEhSMjJwdTQ4OUN3Wmg5NdIBrAFBVV95cUxNR1QyNVI0R0NvT2VhREJFSFZqVm9DM2VWQWFuZzg1dnNnSlAwT3hmTDVlWVZnYXN4RHRRcEVJLTg5eGlEVGdwbmZQUUhXRzNybkc5SUJReWg2cDZaUFVNSnZHT0R2eDlYV1F2UVotNTRNTlVJSFkyN0I2OFRDcUpjcF9IYVhZN1g2Z3dhS3Q1cXk0NWlGQTdlS2JpenAtd2FnX2xvMXZsQkU4RTZJ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-03T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Neuheit"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|1000ps|enfield|royal|varianten",
-    "event_id": "c20a522a0e78ec01a30d1e9ad95ad4d00e766f0c",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental erhöht Ausblick nach gutem dritten Quartal - Continental AG",
     "summary": "Continental erhöht Ausblick nach gutem dritten Quartal &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTWtmWVZrQU5oUnpnNjRZa19HU01vSVpXdFdUR2hYeFJzd1paQTU4Z05CTjMyQm9pSlkwVmFIbzBseDd2RGNLNU50RVRMOWpIcUxRVFJHM3R0RWFaNm4ycm0zMWIzYjZ4RnBSVjFtdVhGelFETWQxeVFLZUJScWRMN2ExOERUdkRNY3c?oc=5",
@@ -1413,6 +1359,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Fabrik Deutschland",
       "Continental Lkw Reifen",
       "Continental Deutschland Reifenwerk Mitarbeiter"
@@ -1431,6 +1378,31 @@
     },
     "event_family": "continental|borsen|contitech|verkauf|zeitung|zielgeraden",
     "event_id": "d11931607756cc4d04c2cdde0c75be09668a88a6",
+    "alternate_sources": []
+  },
+  {
+    "title": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH - Handelsblatt Live",
+    "summary": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH &nbsp;&nbsp; Handelsblatt Live",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1V5R1YySUZyRXp2bUp2STlIazZkS2s1b2VrbEh5ZVF0bUdRckM1VVctNjhOdUVwRFhxbV8xZEsyYnFITzdDRGFERlVBNmNXNVk1S1ZUaVE0UmtIRmd3V3IwaDNIcWluR2FMOEhRQXd2cGVIZWZHRlhId3NLUm83MUE1MzdoeFNSQlpEMWV6bk1mYWZGOHVhc21jaVRoZWxNVGVtRnp0ekR1VktRTmp5VzNvb2tLb1lPN3BIeE9tX0NTSkVsR0dJT0NXeDRvSU1LWnBIaA?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-09T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|business|director|europe|fragen|germany",
+    "event_id": "5eebb5e52d5cba98b0a6b3dfbd35b31775d37ae8",
     "alternate_sources": []
   },
   {
@@ -1469,6 +1441,7 @@
     "published_at": "2026-11-24T07:35:07+00:00",
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie",
       "Continental Pkw Reifen",
       "Continental Korbach Mitarbeiter"
@@ -1487,6 +1460,31 @@
     },
     "event_family": "continental|hannover|projekte|region|soziale|spendet",
     "event_id": "5da6dddd5fe21a7981cf5bbe3fbe33134de59132",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental richtet die Subregion Alps neu aus - TIR transNews",
+    "summary": "Continental richtet die Subregion Alps neu aus &nbsp;&nbsp; TIR transNews",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbFZRdDB3MGVVWWMtcUk3M3FudWlreVk4OVNCamUzOFZvZ25XWVlnOUM2TnlqbVJQN0lWSk5leW5xaGhMQ1p4bGE2bnFYN2lvdWdlVWVRZ0NLOURPcmdabFhzQldFNXg0d2tVOFNoV09zRzlVcEVaZ3ZLeWo3NzFoWi1IV3lzQ3RRT3MtTQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-27T04:57:42+00:00",
+    "matched_queries": [
+      "Continental Lkw Reifen"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|richtet|subregion|transnews",
+    "event_id": "e9505bb47b8349a25e55f7fc0a7ab7ebfe8e2d22",
     "alternate_sources": []
   }
 ]
