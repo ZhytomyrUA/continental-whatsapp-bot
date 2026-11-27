@@ -33,6 +33,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Fabrik Deutschland",
       "Continental Reifen neue Produktion",
       "Continental Lkw Reifen",
@@ -130,6 +131,7 @@
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
+      "Continental Reifen Neuheit",
       "Continental Pkw Reifen"
     ],
     "score": 200,
@@ -450,8 +452,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-20T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Technologie",
-      "Continental Reifen Test"
+      "Continental Reifen Technologie"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -559,31 +560,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone - Netzwelt",
-    "summary": "Barum, Kleber und Co.: Diese günstigen Reifenmarken gehören zu Continental, Michelin und Bridgestone &nbsp;&nbsp; Netzwelt",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzJpTzVXaklHRDFPZVhGazJuaDlCM0U2R1A4NjhUX3daNnUxcTJpV21ZNDljUk5PNWptMDFBaVFVVEpZOWhnaXZXeFlzUnJMVFlIcXNxcFZOMDlldnRLQlZySzE5d3hRSFk5a1hWakJ4R1k2aGJEbHJYaDJBcUF6RkxXb3lPbW1zTVk5WUhmOWpQV1A0QVJpMFAxNnhMR1oxMEtoYTM1ZDc5dU13WjM3T2cxM3dFUlE0UWs3eGpHRQ?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-26T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|barum|bridgestone|diese|gehoren|gunstigen",
-    "event_id": "40a0ca20bbb3a40f27d43b92a6739c08b665ef29",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 - 1000PS",
     "summary": "Continental ContiTrailAttack 4: Neuer 90/10-Reifen ab 2027 &nbsp;&nbsp; 1000PS",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFWdU90dlFqWEtJNGtoRVRUaGtyaG83Z0RZNTVjTkhsdGtWbkRuejE4czVEUVUwX3VHUGpCVU5YbzhyV3dITWhvQzBtbTZTb1NvYUd0UWt4anZZMTdmQkptRmZscnZ4eWdLQ1VvRGRCMENfd01kZDJkSUg1MjlRbXlYSFJOdHJ6T0xVUlRSZXIzY0NkQjRfQmpCWTl0MzBDRmF1cXp30gGuAUFVX3lxTE9YWFlUSUR2Ny10dk1ieTEyZ2R4aWNoNk9qUUJ4YVl0NEF3REh3M2dnV3E1OGcxWHpYVDZyWTJtSTdnR3g3UVlVcjZ5blNtelVHU2Fjc1QtLTRCZ3VJN2dXcHgxUHFIMTVFS3hoSnRmTnpCUmtyNG96bWN6WjZLeGpZVUxrcmkxVngwOG5HSnhlVWVUaXJlZ0hoOTBLeGl3bDFyRlowdk5OZnl1X3lSUQ?oc=5",
@@ -608,14 +584,7 @@
     },
     "event_family": "continental|1000ps|contitrailattack",
     "event_id": "3d06ade09c083ac407ed6b2f7a9065f2b14cb6e9",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Bilder: Continental ContiTrailAttack 4 2027 vorgestellt - 1000PS",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWS16bFVWNkZ0M0NMVFRhSWdacThid0tibkNhV1g4aXA0NEE0dXUyUk0ybTUzNXJDb0tBT200MWhPdWFBOGZVWFhFRmUwUmJneTNwV1VHWDdzY1NFM21RTVRvLTkwaDZ1eHZBQWU4TGtvNVg2WU9JSGN6a1o3WHN5REdsOVloTDVQU0NfNWQteXNhaHJlVGtNeC1YZkFrNjQ?oc=5",
-        "published_at": "2026-10-27T07:00:00+00:00"
-      }
-    ]
+    "alternate_sources": []
   },
   {
     "title": "Continental: EMS-Highlight wird „sicherlich der Brabus Bodo“ - Reifenpresse.de",
@@ -644,13 +613,14 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental wird Partner der Internationalen Biathlon Union - Reifenpresse.de",
-    "summary": "Continental wird Partner der Internationalen Biathlon Union &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbm9IWHFDYXZJamxvVUduVkxlbndJWC1EUmthOE9tVEI2SGFHODM4SVV2SFNBMWxSRWE2QlZYaGdEUUpya0w5MkJDSVk0RWlYS0doOU9WdjNsckh0RjdnY01tbXJtcDBaSTlqc3doZVVGaHl4YlowZFlnWFQwQzdPSGVrcUttem9pRXlOcUxEOFk0SFlSU3N2Q24zbw?oc=5",
+    "title": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus - Automobilwoche",
+    "summary": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus &nbsp;&nbsp; Automobilwoche",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDIxVVZ5XzJ5WVV5WmQtY3NERWlwTUtHM1dfOTM3eTczS19idHBGOERTeEo4eFNSdDZWU2ZyeE9RaE9KRHZwcHZWbHBPSnBJbDc4dW9oaFQ1Zi1NYWptcGF5enM0bDgwSm5feE8wbWRwOGNRaXFuX0Y3dHd4cFVzOExrZVM0WnNVWTBudkpGUkN0NVp4aWpnX19HSVJ0a2ZSdGVacWFXTGFQSnNzOUlpc0VfdEM5cnVKVVJ5NklqbDJPVUQtMmJWNVNSbjhFTEhWb0V1NFVOR1Y?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-02T08:00:00+00:00",
+    "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
-      "Continental Lkw Reifen"
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Fabrik Deutschland"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -664,8 +634,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|biathlon|internationalen|partner|reifenpresse|union",
-    "event_id": "5d12d46121cac7d262c761689a0e49a68a5d5aea",
+    "event_family": "continental|automobilwoche|prognose|reifenkonzern|reinen|umbau",
+    "event_id": "9ba1f8c9fd954056c8d8967330f4e7846d95cc42",
     "alternate_sources": []
   },
   {
@@ -772,6 +742,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-09T06:34:23+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Technologie"
     ],
@@ -798,7 +769,6 @@
     "source": "news.google.com",
     "published_at": "2026-11-09T08:00:00+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Innovation"
     ],
     "score": 200,
@@ -882,40 +852,6 @@
     "event_family": "continental|ntg24|richtigen",
     "event_id": "ba719e697d05553819f81902f72223acf9d3e3e4",
     "alternate_sources": []
-  },
-  {
-    "title": "Continental spendet 10.000 Euro für soziale Projekte in der Region Hannover - Reifenpresse.de",
-    "summary": "Continental spendet 10.000 Euro für soziale Projekte in der Region Hannover &nbsp;&nbsp; Reifenpresse.de",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZEczVkdUSGhFN25PQlU3RXlNYTBCam04S2lKT3RJRGNXWXh1SDV4bUtRblgtQ0ZBeGJHRWh2V09ZOWtHem9IUmxKdGRVUzV1a1pkWmp3X3Q1MVRWRXlRaEFtLVRJS2Q1OU43dTctRk1GbERsTGRCMWNiajJpOGk5a0RCZnpROFNiWlNKMTYzb0RSRm51V2d4Y196U0I5UFc1c3pHeUpLcThKa0MzUklHUlVn?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-24T14:29:55+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Lkw Reifen",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|hannover|projekte|region|reifenpresse|soziale",
-    "event_id": "e63c28584a2e0c0728201debcf13568bbbf46b52",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Continental spendet 10.000 Euro für soziale Projekte in der Region Hannover - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtN1NHOVZXcGtJTlE4Vmx5UllBc2tIbm9TOTdkX2M3WjVnTFVwZWZ5VUxmVEozYmdYb2VxVjgzTk9XZlA3dnV4Nm5vci0tTWEzdzNSb2tfTzA0cExmZWF1MF9CRFNfWDR5WDZONmdFSVktYllQcWNrdVNPQlUzUQ?oc=5",
-        "published_at": "2026-11-24T07:35:07+00:00"
-      }
-    ]
   },
   {
     "title": "Continental: Kriegt der Reifenhersteller die Kurve? - Investor-Verlag",
@@ -1197,9 +1133,11 @@
     "matched_queries": [
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
+      "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Reifen Innovation",
       "Continental Nutzfahrzeugreifen",
+      "Continental Lkw Reifen",
       "Continental Deutschland Werk Stellenabbau",
       "Continental Deutschland Werk Schließung"
     ],
@@ -1354,31 +1292,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat - BikeX",
-    "summary": "Was es mit Continental, Tadej Pogačar und einer exklusiven Figur auf sich hat &nbsp;&nbsp; BikeX",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjB0Z2thSGNHZlVnaHZxNV83dTAxYVhiSkczdmlBTEFqd1lmNXRzVWJCbHJ3ejRHc0NPNTZtdldVVnlIVmllM1BaT20tZmt6Ym5ha1VKUTctRmRCeC1zS0pnUE9DM2hoaEdRQk9nWWZVNW5kZ0Q1VWQ5VXh1d0hYLWVlREgzb01xUmJ1RnFKNl9aZllxbEdiaU5KZkQwYy00RzB0UHZYSVdMbjJLMkVpTUt3?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-20T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|bikex|exklusiven|figur|pogacar|tadej",
-    "event_id": "e53438c1c826d16b7299073ad0316de00eae7bdd",
-    "alternate_sources": []
-  },
-  {
     "title": "Der neue ContiTrailAttack 4: 90 % Straße. 10 % Gelände. 100 % Entdeckergeist. - Continental AG",
     "summary": "Der neue ContiTrailAttack 4: 90 % Straße. 10 % Gelände. 100 % Entdeckergeist. &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS3lkbkp2Vktlazdob1diZzBUQk5YV3BSRFd2UHNqWXhqZUFYMkdTY2J4QWNDN3RXcG43dnVnM2xoTll2a2IwUFgyZkozQTFjSU1OS3VUalVQejNRMTFxdFlQbEhtMVEwZUpWM2pQaVU4MVloWjg1NHVqb0xEUnZMNXl0eFdqYThUVW90QmF3?oc=5",
@@ -1469,6 +1382,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
+      "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
       "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen neue Produktion",
@@ -1520,31 +1434,6 @@
     "alternate_sources": []
   },
   {
-    "title": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH - Handelsblatt Live",
-    "summary": "Drei Fragen an Oliver Wibbe, Managing Director, Business Process Services Continental Europe – SPS Germany GmbH &nbsp;&nbsp; Handelsblatt Live",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1V5R1YySUZyRXp2bUp2STlIazZkS2s1b2VrbEh5ZVF0bUdRckM1VVctNjhOdUVwRFhxbV8xZEsyYnFITzdDRGFERlVBNmNXNVk1S1ZUaVE0UmtIRmd3V3IwaDNIcWluR2FMOEhRQXd2cGVIZWZHRlhId3NLUm83MUE1MzdoeFNSQlpEMWV6bk1mYWZGOHVhc21jaVRoZWxNVGVtRnp0ekR1VktRTmp5VzNvb2tLb1lPN3BIeE9tX0NTSkVsR0dJT0NXeDRvSU1LWnBIaA?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-09T08:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Technologie"
-    ],
-    "score": 150,
-    "category": "COMPANY",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|business|director|europe|fragen|germany",
-    "event_id": "5eebb5e52d5cba98b0a6b3dfbd35b31775d37ae8",
-    "alternate_sources": []
-  },
-  {
     "title": "Best Brands 2026: Continental feiert Doppelsieg bei sport auto-Leserwahl - Continental AG",
     "summary": "Best Brands 2026: Continental feiert Doppelsieg bei sport auto-Leserwahl &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkxXcF94dk1wWl9LUmMyTnk0cWNJRnBDTUdFYTFUQjRHTW02andXUTY0VEVUSEpHdmVjUjhCVFR0ZzUzMHFPdEZpU1pWb09CbnBLWkRaNndyelFjMjhFOUV0RWF4ZTNDMTltS2d1NTJDRjhWR3o2T1Npam1oVmhaRUtGWDMzdGt1X1hV?oc=5",
@@ -1570,6 +1459,34 @@
     },
     "event_family": "continental|brands|doppelsieg|feiert|leserwahl|sport",
     "event_id": "68d2ea1f227496ccd8f9eb213698b7e91be58240",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental spendet 10.000 Euro für soziale Projekte in der Region Hannover - Continental AG",
+    "summary": "Continental spendet 10.000 Euro für soziale Projekte in der Region Hannover &nbsp;&nbsp; Continental AG",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtN1NHOVZXcGtJTlE4Vmx5UllBc2tIbm9TOTdkX2M3WjVnTFVwZWZ5VUxmVEozYmdYb2VxVjgzTk9XZlA3dnV4Nm5vci0tTWEzdzNSb2tfTzA0cExmZWF1MF9CRFNfWDR5WDZONmdFSVktYllQcWNrdVNPQlUzUQ?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-24T07:35:07+00:00",
+    "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
+      "Continental Pkw Reifen",
+      "Continental Korbach Mitarbeiter"
+    ],
+    "score": 150,
+    "category": "COMPANY",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|hannover|projekte|region|soziale|spendet",
+    "event_id": "5da6dddd5fe21a7981cf5bbe3fbe33134de59132",
     "alternate_sources": []
   }
 ]
