@@ -132,8 +132,7 @@
       "Continental Nachhaltigkeit",
       "Continental Korbach Produktion",
       "Continental Korbach Mitarbeiter",
-      "Continental Korbach Standort",
-      "Continental Deutschland Reifenwerk Mitarbeiter"
+      "Continental Korbach Standort"
     ],
     "score": 200,
     "category": "CONTINENTAL_TECHNOLOGY",
@@ -219,49 +218,6 @@
     ]
   },
   {
-    "title": "Porsche setzt auf Reifen von Continental - Gummibereifung",
-    "summary": "Porsche setzt auf Reifen von Continental &nbsp;&nbsp; Gummibereifung",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SY0MtbExDRmgyU2VkQ0ZFZUpheWVHWDExMzItTlZIVGJmenpLQkV4WXF1Uk45eHRTS3k2Uzl3QmtEa095VEF3YTQ0SzVQMEE0bUNVSlNFdHBuVTY0NzhDNHhDaXVqV2VpZlRJT1R6X2kwNFg0?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-09-30T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Korbach Reifen Werk",
-      "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Reifen Technologie",
-      "Continental Reifen Neuheit",
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|gummibereifung|porsche",
-    "event_id": "a247bc63b7acbdbf76a077e202a4fa7b31520e41",
-    "alternate_sources": [
-      {
-        "source": "news.google.com",
-        "title": "Porsche setzt auf Reifen von Continental - Gummibereifung",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SY0MtbExDRmgyU2VkQ0ZFZUpheWVHWDExMzItTlZIVGJmenpLQkV4WXF1Uk45eHRTS3k2Uzl3QmtEa095VEF3YTQ0SzVQMEE0bUNVSlNFdHBuVTY0NzhDNHhDaXVqV2VpZlRJT1R6X2kwNFg0?oc=5",
-        "published_at": "2026-09-30T07:00:00+00:00"
-      },
-      {
-        "source": "news.google.com",
-        "title": "Porsche setzt auf Reifen von Continental - Continental AG",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2el9RSkVVcDBUVHZFUVJNMUI2Ul9PRG5VUjNnSE0xSWVpeXpQZDVuUVNCZVJ3ekRHdjRIcWdUWmNsblV0VGpYV0RmRlJUMU9QcUoyZXpPVEtGLVRhRC01dGpCc0lOZTJnLWNmc3p3aUxWLUJuVWE0?oc=5",
-        "published_at": "2026-09-29T07:00:00+00:00"
-      }
-    ]
-  },
-  {
     "title": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires - WELT",
     "summary": "Im Gespräch: Edwin Goudswaard, Leiter Forschung und Entwicklung bei Continental Tires &nbsp;&nbsp; WELT",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUklwS01qeW5IWWpYeTNJeERHcTdyYUZ0cEwtTzY5OWYwR1V4QlJvNS1penp1dGxMMVp4SS1GUjB4M283b2RKOWNtRlJQMGZ0UVRBU01JdnhNcS1QMWVvYlFRYVNWbV9mSW8wbVFjck1Wc2dLWV9JaThkOWtNcUxnNHVxd0RmRnJRVEZMREt1TUJRVnVCNXBXbDFMUDdaRlNfUnp0bUo3NXVGamZiemVFemRhUGpxcklvdG1sUzZRUF9ERC1iRGVyS1lmM1ltNURfU1RzNjQyU29vZkwwNDB3M0Z2cWZPT2s?oc=5",
@@ -291,13 +247,18 @@
     "alternate_sources": []
   },
   {
-    "title": "Continental erfindet sich als Reifenhersteller neu - NTG24",
-    "summary": "Continental erfindet sich als Reifenhersteller neu &nbsp;&nbsp; NTG24",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdllwMGxoVnIzelhZUEVqSGFWaXktVDVLdFhnYkVZb3JwNlJaaHdQUTF4eWNFQ2RGR1BGSDlseHJQMjAwTzFSLUk1NmdKRzRzUldfeHJOOVN3SDMwbzdhcnY3Z2xqaTFaZlRUdGxhTlNoMlBXWFpJLVhjSEE2U0djOV91UVI3c1VwUXZXUFBHR0U5bTBxQnJWUW1mTQ?oc=5",
+    "title": "Porsche setzt auf Reifen von Continental - Gummibereifung",
+    "summary": "Porsche setzt auf Reifen von Continental &nbsp;&nbsp; Gummibereifung",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SY0MtbExDRmgyU2VkQ0ZFZUpheWVHWDExMzItTlZIVGJmenpLQkV4WXF1Uk45eHRTS3k2Uzl3QmtEa095VEF3YTQ0SzVQMEE0bUNVSlNFdHBuVTY0NzhDNHhDaXVqV2VpZlRJT1R6X2kwNFg0?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-10-13T07:00:00+00:00",
+    "published_at": "2026-09-30T07:00:00+00:00",
     "matched_queries": [
-      "Continental Deutschland Reifenwerk Mitarbeiter"
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Werk Schließung",
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Neuheit",
+      "Continental Lkw Reifen",
+      "Continental Motorsport Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -311,8 +272,8 @@
       "title_action": false,
       "generic_product": false
     },
-    "event_family": "continental|erfindet|ntg24|reifenhersteller",
-    "event_id": "f9c842c5e1701940ffea0df87f48140c4a3daef8",
+    "event_family": "continental|gummibereifung|porsche",
+    "event_id": "f3660633b051c640264ade9b687672c11198e45b",
     "alternate_sources": []
   },
   {
@@ -489,8 +450,7 @@
       "Continental Belegschaft Werk",
       "Continental Reifen Technologie",
       "Continental Reifen Innovation",
-      "Continental Pkw Reifen",
-      "Continental Deutschland Werk Investition"
+      "Continental Pkw Reifen"
     ],
     "score": 200,
     "category": "CONTINENTAL_TIRE",
@@ -594,6 +554,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-04T08:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Lkw Reifen",
       "Continental Pkw Reifen"
@@ -612,6 +573,31 @@
     },
     "event_family": "continental|jahresprognose|profi|reifengeschaft|starkem|werkstatt",
     "event_id": "771a459ed1243451306e398529a23cc23a1030a1",
+    "alternate_sources": []
+  },
+  {
+    "title": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus - Automobilwoche",
+    "summary": "Continental hebt Prognose an: Umbau zum reinen Reifenkonzern zahlt sich aus &nbsp;&nbsp; Automobilwoche",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDIxVVZ5XzJ5WVV5WmQtY3NERWlwTUtHM1dfOTM3eTczS19idHBGOERTeEo4eFNSdDZWU2ZyeE9RaE9KRHZwcHZWbHBPSnBJbDc4dW9oaFQ1Zi1NYWptcGF5enM0bDgwSm5feE8wbWRwOGNRaXFuX0Y3dHd4cFVzOExrZVM0WnNVWTBudkpGUkN0NVp4aWpnX19HSVJ0a2ZSdGVacWFXTGFQSnNzOUlpc0VfdEM5cnVKVVJ5NklqbDJPVUQtMmJWNVNSbjhFTEhWb0V1NFVOR1Y?oc=5",
+    "source": "news.google.com",
+    "published_at": "2026-11-04T08:00:00+00:00",
+    "matched_queries": [
+      "Continental Reifen Technologie"
+    ],
+    "score": 200,
+    "category": "CONTINENTAL_TIRE",
+    "korbach_priority": false,
+    "factory_evidence": {
+      "location": false,
+      "factory_noun": false,
+      "action": false,
+      "nearby": false,
+      "title_factory": false,
+      "title_action": false,
+      "generic_product": false
+    },
+    "event_family": "continental|automobilwoche|prognose|reifenkonzern|reinen|umbau",
+    "event_id": "9ba1f8c9fd954056c8d8967330f4e7846d95cc42",
     "alternate_sources": []
   },
   {
@@ -685,39 +671,15 @@
     ]
   },
   {
-    "title": "Continental liefert Reifen für den neuen VW ID. Cross | - aboutFLEET",
-    "summary": "Continental liefert Reifen für den neuen VW ID. Cross | &nbsp;&nbsp; aboutFLEET",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXdHb3FlS2lSYnRNajhIcDBZSmxLSUZGZkZoRWI3MF9IRUo5azJ5R1R3LV92ME01Sk5KaUl3NGpnRHg5R1V0ZHA3QlZHZ0lEdDZZcjZablpGY3ZzYnZGd21GUnhlTUM2WmhmREQwVFVwZm1RTkczTUNTLXROOVdtOHRFYnJVZw?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-11-09T06:34:23+00:00",
-    "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
-      "Continental Mitarbeiter Werk",
-      "Continental Reifen Technologie"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|aboutfleet|cross|liefert",
-    "event_id": "fcabef77cce145cd1114c18ffb10107e6bd70458",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental liefert Reifen für den neuen VW ID. Cross - AUTO&Wirtschaft",
     "summary": "Continental liefert Reifen für den neuen VW ID. Cross &nbsp;&nbsp; AUTO&amp;Wirtschaft",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMUNpT2c3eXNlLXFuWFk0TFp5QlAyM2dpXzk1QnBoZzdNTW5ubklkQWczU0pZMnNVLXloanhZV3ROQUtHUEhKMWo3T3hMSTIydV9YZ3pZd0wwRkpyNHNDT0REeU1MWW1uaVBBMXdpYm9VYU1QamZWQXQxVXZDZXI0d3c1cjVhOG9TWGx0SEdrUQ?oc=5",
     "source": "news.google.com",
     "published_at": "2026-11-09T08:00:00+00:00",
     "matched_queries": [
+      "Continental Werk Deutschland Reifen Produktion",
+      "Continental Mitarbeiter Werk",
+      "Continental Reifen Technologie",
       "Continental Reifen Innovation"
     ],
     "score": 200,
@@ -877,31 +839,6 @@
     },
     "event_family": "continental|ganzjahresreifen|bridgestone|hinter|lasst|netzwelt",
     "event_id": "47af02bd15c195eacfaf61e85fbc26b7ef059437",
-    "alternate_sources": []
-  },
-  {
-    "title": "ADAC kürt Continental zum Testsieger bei Ganzjahresreifen - SuaraGarut.ID",
-    "summary": "ADAC kürt Continental zum Testsieger bei Ganzjahresreifen &nbsp;&nbsp; SuaraGarut.ID",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BQ25wTEU3STJCcHEtYUFrSGx0VkRJU05NcTlrMExDV0dzZ25xYjQxeGZqZFFVWklVemt4YmZVWnBsTTdmSWFCT0piVlFYZC0yamh5dW84NXNWajRkRGN5YTFJaGtaOG8?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-26T07:00:00+00:00",
-    "matched_queries": [
-      "Continental Reifen Test"
-    ],
-    "score": 200,
-    "category": "TIRE_TEST",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": true
-    },
-    "event_family": "continental|ganzjahresreifen|suaragarut|testsieger",
-    "event_id": "146e7e5a4409942639a8f6882295b7e8a8cde52e",
     "alternate_sources": []
   },
   {
@@ -1194,7 +1131,6 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Korbach Reifen Produktion",
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Technologie",
       "Continental Reifen Neuheit"
     ],
