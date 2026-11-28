@@ -33,9 +33,7 @@
     "source": "news.google.com",
     "published_at": "2026-11-23T11:49:40+00:00",
     "matched_queries": [
-      "Continental Werk Deutschland Reifen Produktion",
       "Continental Reifen Werk Schließung",
-      "Continental Mitarbeiter Werk",
       "Continental Lkw Reifen",
       "Continental Motorsport Reifen",
       "Continental Hannover Reifenwerk Produktion",
@@ -293,31 +291,6 @@
     "alternate_sources": []
   },
   {
-    "title": "UHP-Reifenentwicklung bei Continental - autohaus.de",
-    "summary": "UHP-Reifenentwicklung bei Continental &nbsp;&nbsp; autohaus.de",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Gd3lVZXdpa215TVE5SnZCRjRwMFZQbm9XSXd6VG9neEU0RFJXWV9PT1E3b2dadVp6R1pVNEYxeDR3Y0dsWEQzZmxZMXZOX3lUbVRTTEJBMlpIbkZuQ19IZHRlVlA?oc=5",
-    "source": "news.google.com",
-    "published_at": "2026-10-01T11:16:21+00:00",
-    "matched_queries": [
-      "Continental Nachhaltigkeit"
-    ],
-    "score": 200,
-    "category": "CONTINENTAL_TIRE",
-    "korbach_priority": false,
-    "factory_evidence": {
-      "location": false,
-      "factory_noun": false,
-      "action": false,
-      "nearby": false,
-      "title_factory": false,
-      "title_action": false,
-      "generic_product": false
-    },
-    "event_family": "continental|autohaus|reifenentwicklung",
-    "event_id": "4247cac9ae82075620a76df9d512ee30c92ad9bf",
-    "alternate_sources": []
-  },
-  {
     "title": "Continental erfindet sich als Reifenhersteller neu - NTG24",
     "summary": "Continental erfindet sich als Reifenhersteller neu &nbsp;&nbsp; NTG24",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdllwMGxoVnIzelhZUEVqSGFWaXktVDVLdFhnYkVZb3JwNlJaaHdQUTF4eWNFQ2RGR1BGSDlseHJQMjAwTzFSLUk1NmdKRzRzUldfeHJOOVN3SDMwbzdhcnY3Z2xqaTFaZlRUdGxhTlNoMlBXWFpJLVhjSEE2U0djOV91UVI3c1VwUXZXUFBHR0U5bTBxQnJWUW1mTQ?oc=5",
@@ -427,6 +400,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-20T07:00:00+00:00",
     "matched_queries": [
+      "Continental Reifen Technologie",
       "Continental Reifen Test"
     ],
     "score": 200,
@@ -513,6 +487,7 @@
       "Continental Reifen neue Produktion",
       "Continental Mitarbeiter Werk",
       "Continental Belegschaft Werk",
+      "Continental Reifen Technologie",
       "Continental Reifen Innovation",
       "Continental Pkw Reifen",
       "Continental Deutschland Werk Investition"
@@ -911,8 +886,7 @@
     "source": "news.google.com",
     "published_at": "2026-10-26T07:00:00+00:00",
     "matched_queries": [
-      "Continental Reifen Test",
-      "Continental Lkw Reifen"
+      "Continental Reifen Test"
     ],
     "score": 200,
     "category": "TIRE_TEST",
@@ -939,6 +913,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Neuheit",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
@@ -1114,6 +1089,7 @@
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
+      "Continental Reifen Technologie",
       "Continental Reifen Test",
       "Continental Pkw Reifen"
     ],
@@ -1410,7 +1386,7 @@
     "summary": "Best Brands 2026: Continental feiert Doppelsieg bei sport auto-Leserwahl &nbsp;&nbsp; Continental AG",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkxXcF94dk1wWl9LUmMyTnk0cWNJRnBDTUdFYTFUQjRHTW02andXUTY0VEVUSEpHdmVjUjhCVFR0ZzUzMHFPdEZpU1pWb09CbnBLWkRaNndyelFjMjhFOUV0RWF4ZTNDMTltS2d1NTJDRjhWR3o2T1Npam1oVmhaRUtGWDMzdGt1X1hV?oc=5",
     "source": "news.google.com",
-    "published_at": "2026-11-16T08:51:53+00:00",
+    "published_at": "2026-11-16T08:00:00+00:00",
     "matched_queries": [
       "Continental Korbach Reifen Werk",
       "Continental Werk Deutschland Reifen Produktion",
